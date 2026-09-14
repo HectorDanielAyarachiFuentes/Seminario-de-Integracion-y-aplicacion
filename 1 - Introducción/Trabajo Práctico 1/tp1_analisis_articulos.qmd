@@ -1,0 +1,244 @@
+---
+lang: es
+filters:
+  - ../../.agents/filtros/linebreak_filter.lua
+format:
+  docx:
+    toc: false
+    number-sections: true
+    highlight-style: github
+  typst:
+    paper: a4
+    toc: false
+    margin:
+      top: 2.5cm
+      bottom: 2.5cm
+      left: 2.5cm
+      right: 2.5cm
+    mainfont: "Arial"
+    fontsize: 12pt
+    include-before-body:
+      - text: |
+          #set par(justify: true, leading: 0.75em)
+          #show heading.where(level: 1): it => block(spacing: 14pt)[
+            #set align(center)
+            #text(weight: "bold", size: 12pt)[#it.body]
+          ]
+          #show heading.where(level: 2): it => block(spacing: 12pt)[
+            #set align(left)
+            #text(weight: "bold", size: 12pt)[#it.body]
+          ]
+          #show heading.where(level: 3): it => block(spacing: 10pt)[
+            #set align(left)
+            #text(weight: "bold", style: "italic", size: 12pt)[#it.body]
+          ]
+          #set table(
+            stroke: (x, y) => if y == 0 { (top: 1pt + black, bottom: 0.5pt + black) } else if y == 12 { (bottom: 1pt + black) } else { none },
+            inset: 6pt
+          )
+          #show table: set text(size: 10pt)
+          #show table.cell: set par(first-line-indent: 0pt, leading: 0.55em)
+          #show table.cell.where(y: 0): set text(weight: "bold")
+---
+
+::: {.content-visible when-format="typst"}
+```{=typst}
+#set page(numbering: none)
+#align(center)[
+  #image("../../assets/img/CURZAS.png", width: 105pt)
+
+  #v(1em)
+
+  #text(weight: "bold", size: 12pt)[Universidad Nacional del Comahue] \
+  #text(weight: "bold", size: 11pt)[Complejo Universitario Regional Zona Atlántica y Sur] \
+  #text(weight: "bold", size: 11pt)[Departamento de Administración Pública] \
+  #text(weight: "bold", size: 11pt)[Licenciatura en Gestión de Recursos Humanos]
+
+  #v(1.8em)
+
+  #text(weight: "bold", size: 13pt)[TRABAJO PRÁCTICO N° 1] \
+  #v(0.3em)
+  #text(weight: "bold", size: 12pt)[Análisis Metodológico Comparativo de Artículos Científicos] \
+  #v(0.2em)
+  #text(style: "italic", size: 10.5pt)[Línea de TFG: Inteligencia Artificial y Gestión Estratégica del Factor Humano en las Organizaciones]
+]
+
+#v(1.8em)
+
+#block(inset: (left: 0.8cm))[
+  #set par(justify: false, first-line-indent: 0pt, leading: 0.75em)
+  #text(size: 11pt)[
+    *Materia:* Seminario de Integración y Aplicación \
+    *Profesores:* Dra. Deborah Noguera \
+    #h(6.2em) Esp. Federico Abeiro \
+    #h(6.2em) Esp. María Cecilia Aguirre \
+    \
+    *Estudiante:* Tec. Sup. en RRHH Héctor Daniel Ayarachi Fuentes \
+    *DNI y LEGAJO:* DNI N° 35.492.138 — Legajo N° 8252 \
+    *Email:* hectordanielayarachifuentes\@gmail.com
+  ]
+]
+
+#v(2.2em)
+
+#align(center)[
+  #text(weight: "bold", size: 11pt)[Año Académico 2026] \
+  #text(size: 10.5pt)[Viedma, Río Negro — República Argentina]
+]
+```
+:::
+
+::: {.content-visible when-format="docx"}
+::: {align="center"}
+![](../../assets/img/CURZAS.png){width=115px}
+
+**Universidad Nacional del Comahue**  
+**Complejo Universitario Regional Zona Atlántica y Sur**  
+**Departamento de Administración Pública**  
+**Licenciatura en Gestión de Recursos Humanos**
+
+**TRABAJO PRÁCTICO N° 1**  
+**Análisis Metodológico Comparativo de Artículos Científicos**  
+*Línea de TFG: Inteligencia Artificial y Gestión Estratégica del Factor Humano en las Organizaciones*
+:::
+
+Materia: Seminario de Integración y Aplicación  
+Profesores: Dra. Deborah Noguera  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esp. Federico Abeiro  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esp. María Cecilia Aguirre  
+Estudiante: Tec. Sup. en RRHH Héctor Daniel Ayarachi Fuentes  
+DNI y LEGAJO: DNI N° 35.492.138 — Legajo N° 8252  
+Email: hectordanielayarachifuentes@gmail.com  
+
+::: {align="center"}
+**Año Académico 2026**  
+Viedma, Río Negro — República Argentina
+:::
+:::
+
+{{< pagebreak >}}
+
+```{=typst}
+#set page(numbering: none)
+#outline(title: [Índice de Contenidos], indent: auto)
+```
+
+::: {.content-visible when-format="docx"}
+# Índice de Contenidos {.unnumbered}
+
+```{=openxml}
+<w:p>
+  <w:r>
+    <w:fldChar w:fldCharType="begin"/>
+    <w:instrText xml:space="preserve"> TOC \o "1-3" \h \z \u </w:instrText>
+    <w:fldChar w:fldCharType="separate"/>
+    <w:fldChar w:fldCharType="end"/>
+  </w:r>
+</w:p>
+```
+:::
+
+{{< pagebreak >}}
+
+```{=typst}
+#counter(page).update(1)
+#set page(numbering: "1")
+#set par(first-line-indent: 1.27cm)
+```
+
+# Introducción y Objetivos de la Actividad
+
+El presente Trabajo Práctico tiene por finalidad ejercitar la identificación analítica y crítica de la estructura metodológica que compone un artículo de investigación científica en el campo de las ciencias de la administración, la gestión pública y los recursos humanos.
+
+Siguiendo las pautas pedagógicas de la cátedra del **Seminario de Integración y Aplicación (SIA)**, se abordan dos (2) publicaciones científicas indexadas vinculadas a la temática proyectada para el Trabajo Final de Graduación: *el impacto de la Inteligencia Artificial en los procesos de reclutamiento, selección y gestión del talento humano*. Se analizan los estudios de **Gonzabay Quirumbay y Pacheco Barzallo (2024)** —investigación empírica cuantitativa mediante estudio de caso en una empresa de outsourcing de talento humano— y de **Naranjo Gaibor (2025)** —investigación cualitativa documental y revisión sistemática sobre IA en recursos humanos—.
+
+## Objetivos
+1. **Comprender** la construcción de un diseño de investigación desde su composición estructural global, como herramienta metodológica orientada a la resolución de problemas.
+2. **Identificar** y descomponer los componentes esenciales de su estructura metodológica (problema, objetivos, marco teórico, diseño muestral y hallazgos empíricos).
+3. **Contrastar** ambos estudios para nutrir el diseño del propio Proyecto de TFG bajo normas APA 7ma edición y la Resolución CD-CURZAS N° 266/23.
+
+{{< pagebreak >}}
+
+# Matriz Metodológica: Artículo Científico N° 1
+
+**DATOS DEL ARTÍCULO CIENTÍFICO**
+
+| Título: | Componentes identificados en el artículo científico |
+| :--- | :--- |
+| **Título del artículo y Referencia APA 7** | **El rol de la Inteligencia Artificial en los procesos de reclutamiento y selección en la Gestión del Talento Humano**<br><br>*Referencia APA 7:* Gonzabay Quirumbay, I. A., & Pacheco Barzallo, S. K. (2024). *Reincisol: Revista Interdisciplinaria de Ciencias Sociales y del Derecho*, 3(6), 3880–3902. https://www.reincisol.com/ojs/index.php/reincisol/article/view/396 |
+| **Tipo de estudio** | Empírico descriptivo con enfoque cuantitativo y diseño no experimental de corte transversal (estudio de caso único representativo). |
+| **Tema de Investigación** | El rol y las aplicaciones prácticas de la Inteligencia Artificial en los procesos de reclutamiento y selección de personal dentro de la Gestión del Talento Humano en una empresa de outsourcing en Ecuador. |
+| **Problema de Investigación** | ¿De qué manera la implementación de herramientas de Inteligencia Artificial optimiza los procesos de reclutamiento y selección de personal y transforma el perfil organizacional en el contexto ecuatoriano, caracterizado por la informalidad laboral y la falta de alineación entre competencias y demandas del mercado? |
+| **Objetivo general**<br>**Objetivos específicos** | **Objetivo general:** Identificar el rol de la Inteligencia Artificial en la Gestión del Talento Humano, así como las innovaciones introducidas en los procesos de reclutamiento, selección y desarrollo profesional.<br><br>**Objetivos específicos:**<br>1. Sistematizar los roles y aplicaciones prácticas asumidas por la IA en la gestión del talento humano.<br>2. Evaluar la eficacia percibida y la precisión en la selección de candidatos mediante herramientas algorítmicas (análisis de CVs, entrevistas por video y pruebas psicométricas).<br>3. Analizar el impacto organizacional y los principales desafíos de adopción tecnológica (resistencia al cambio y necesidades de capacitación continua) en la empresa de outsourcing estudiada. |
+| **Fundamentación (breve)** | La necesidad de superar las limitaciones de lentitud, costos elevados y sesgos subjetivos en los métodos tradicionales de selección frente a un mercado dinámico, aportando evidencia empírica directa de cómo la IA optimiza la precisión operativa y la productividad sin prescindir de la mediación humana. |
+| **Antecedentes (sólo autores y títulos de antecedentes)** | - Upadhyay, A. K., & Khandelwal, K. (2018): *Applying artificial intelligence: implications for recruitment*.<br>- Black, J. S., & van Esch, P. (2020): *AI-enabled recruiting: What is it and how should a manager use it?*<br>- Nawaz, N., & Gomes, A. M. (2019): *Artificial intelligence chatbots in human resource management*.<br>- Tambe, P., Cappelli, P., & Yakubovich, V. (2019): *Artificial intelligence in human resource management: Challenges and a path forward*. |
+| **Marco teórico (solo autores principales)** | - Teoría del Diseño de Estudios de Caso y Construcción Teórica (Eisenhardt, 1989; Siggelkow, 2007; Corley & Gioia, 2011).<br>- Modelos de Adopción Tecnológica e Inteligencia Artificial en Recursos Humanos (Russell & Norvig, 2016; Black & van Esch, 2020; Vrontis et al., 2022).<br>- Transformación Digital de la Gestión del Talento y Automatización de Procesos (Chiavenato, 2020; Upadhyay & Khandelwal, 2018). |
+| **Tipo de Metodología** | Cuantitativa descriptiva basada en estudio de caso único, con análisis estadístico descriptivo y triangulación de datos multinivel. |
+| **Técnicas de recolección de datos** | Cuestionario estructurado presencial de 20 preguntas (escala Likert de 1 a 5 y preguntas abiertas), complementado con observación no participativa de procesos de selección asistidos por IA y recopilación de datos secundarios corporativos. |
+| **Población, Muestra, Unidad de Análisis** | **Población:** Empresa de outsourcing de talento humano en Ecuador (con 50 empresas cliente y 22 empleados en el área técnica de reclutamiento y desarrollo de IA).<br>**Muestra:** Censo muestral de 22 trabajadores del área (reclutadores, desarrolladores de IA y gerencia).<br>**Unidad de Análisis:** El trabajador profesional y los procesos de reclutamiento/selección mediados por IA. |
+| **Resultados (brevemente comentar a qué resultados se llegó)** | Se constató que el 85% de los colaboradores utiliza herramientas de IA (análisis automatizado de currículums y videoentrevistas con IA); el 72,72% considera que las herramientas son eficaces y el 90,91% percibe una alta precisión en la selección de candidatos; como principal barrera se identificó la resistencia al cambio organizacional y la demanda urgente de formación continua en tecnologías de IA. |
+
+{{< pagebreak >}}
+
+# Matriz Metodológica: Artículo Científico N° 2
+
+**DATOS DEL ARTÍCULO CIENTÍFICO**
+
+| Título: | Componentes identificados en el artículo científico |
+| :--- | :--- |
+| **Título del artículo y Referencia APA 7** | **Inteligencia artificial y el proceso de reclutamiento y selección de recursos humanos**<br><br>*Referencia APA 7:* Naranjo Gaibor, J. (2025). *Journal of Science and Research*, 10(1), 110–123. https://revistas.utb.edu.ec/index.php/sr/article/view/3319 |
+| **Tipo de estudio** | Cualitativo descriptivo y documental-bibliográfico, con diseño no experimental retrospectivo y método inductivo. |
+| **Tema de Investigación** | La incidencia y transformación generada por la Inteligencia Artificial en los procesos de reclutamiento y selección de personal a partir de una revisión sistemática de literatura científica multidisciplinar. |
+| **Problema de Investigación** | ¿Cómo influye la incorporación de tecnologías de inteligencia artificial en las distintas etapas del reclutamiento y selección de recursos humanos y cuáles son las repercusiones organizacionales, limitaciones éticas y transformaciones del rol profesional asociadas? |
+| **Objetivo general**<br>**Objetivos específicos** | **Objetivo general:** Analizar la inteligencia artificial y el proceso de reclutamiento y selección de recursos humanos desde un proceso de revisión de literatura científica actualizada para formular generalizaciones teóricas sobre su impacto.<br><br>**Objetivos específicos:**<br>1. Identificar las herramientas y mecanismos de IA mayormente empleados en la atracción y selección de talento (machine learning, centros de pruebas virtuales, análisis visual del estrés).<br>2. Examinar los beneficios organizacionales en términos de reducción de costos operativos, rapidez y productividad.<br>3. Evaluar las limitaciones éticas, dificultades para medir competencias blandas/intangibles y el impacto de la IA en la reconfiguración y eventual supresión de tareas administrativas repetitivas. |
+| **Fundamentación (breve)** | Frente a la premisa de que el éxito y competitividad organizacional dependen de la calidad de su capital humano, la IA emerge como un vector de eficiencia; sin embargo, se requiere sintetizar la producción científica reciente para discernir entre la complementariedad humano-máquina y los riesgos de desplazamiento laboral. |
+| **Antecedentes (sólo autores y títulos de antecedentes)** | - Soriano, J. E. (2022): *El uso de la inteligencia artificial en la selección y gestión del personal de las administraciones públicas*.<br>- Carrasco, J. (2021): *El uso de herramientas de inteligencia artificial dentro de los recursos humanos: un análisis para el proceso de reclutamiento en Cautela S.A. y Sensority (2015-2020)*.<br>- García, C. (2023): *La inteligencia artificial aplicada a los procesos de reclutamiento de personal de las empresas de servicios de Guayaquil*.<br>- Vargas, M. (2023): *Inteligencia artificial aplicada al proceso de selección de personal*.<br>- González, L. (2023): *Impacto de la inteligencia artificial en la toma de decisiones de selección de personal: Una revisión integrativa*. |
+| **Marco teórico (solo autores principales)** | - Teoría del Capital Humano y Productividad Organizacional (Becker, Schultz, Carrasco, 2021).<br>- Modelos de Selección Científica de Personal y Eficiencia en Recursos Humanos (Nizam, 2020; Chiavenato, 2020; Audia, 2021).<br>- Epistemología y Metodología de la Investigación Documental e Inductiva (Palella & Martins, 2012; Arias & Covinos, 2021; Corona, 2016). |
+| **Tipo de Metodología** | Cualitativa de diseño documental, orientada por el método inductivo para generar generalizaciones teóricas mediante análisis de contenido de fuentes secundarias. |
+| **Técnicas de recolección de datos** | Técnica de observación documental y fichaje bibliográfico; búsqueda estructurada en Google Académico, SciELO, Dialnet y repositorios universitarios con criterios rigurosos de inclusión (últimos 5 años, texto completo en español) y exclusión. |
+| **Población, Muestra, Unidad de Análisis** | **Población:** 20 documentos académicos (artículos, libros y tesis) registrados sobre IA y gestión humana.<br>**Muestra:** 5 investigaciones seleccionadas bajo muestreo cualitativo intencional por pertinencia temática directa.<br>**Unidad de Análisis:** Los textos científicos, postulados teóricos y hallazgos empíricos reportados en la literatura seleccionada. |
+| **Resultados (brevemente comentar a qué resultados se llegó)** | Se evidenció que la IA agiliza la captación y preselección de postulantes mediante filtros automatizados y pruebas neurofisiológicas; no obstante, enfrenta limitaciones críticas para interpretar habilidades blandas, adolece de problemas de opacidad (*caja negra* en deep learning) y puede suprimir empleos administrativos rutinarios, concluyendo que el nuevo rol de Recursos Humanos debe orientarse a la supervisión estratégica y al desarrollo de ventajas competitivas aumentadas por tecnología. |
+
+{{< pagebreak >}}
+
+# Síntesis Comparativa y Aportes al Proyecto de TFG
+
+El cotejo sistemático de ambas investigaciones científicas permite identificar convergencias sustantivas y matices metodológicos de alto valor para el Trabajo Final de Graduación:
+
+1. **Puntos en Común y Núcleo Temático:** Ambos estudios abordan directamente el impacto de la Inteligencia Artificial en los subsistemas de reclutamiento y selección de recursos humanos, coincidiendo en que la tecnología aporta ventajas decisivas en rapidez, reducción de costos y precisión del filtrado frente a métodos tradicionales. De igual forma, ambos autores coinciden en que la IA no puede operar de forma aislada sin la supervisión ética de profesionales humanos (*human-in-the-loop*), advirtiendo desafíos como la resistencia cultural al cambio y la necesidad de capacitar al personal.
+2. **Matices Metodológicos y Complementariedad:**
+   - **Enfoque Empírico-Cuantitativo (Gonzabay & Pacheco, 2024):** Aporta evidencia de campo directa desde una empresa de outsourcing (estudio de caso único con 22 operadores encuestados bajo escala Likert), demostrando que el 85% aplica IA y el 90,91% valida su alta precisión operativa.
+   - **Enfoque Cualitativo-Documental (Naranjo Gaibor, 2025):** Ofrece una perspectiva inductiva e integradora a partir de la literatura científica multidisciplinar, profundizando en dilemas éticos, la opacidad algorítmica (*caja negra*), la incapacidad técnica para evaluar habilidades blandas o intangibles, y el riesgo de reemplazo de tareas administrativas repetitivas.
+3. **Aportes Metodológicos al Proyecto de TFG:**
+   - **Fundamentación de un Enfoque Mixto (Triangulación):** La complementariedad de ambos artículos valida la conveniencia de articular técnicas cuantitativas (encuestas estructuradas de percepción y eficacia) con técnicas cualitativas (análisis documental y entrevistas en profundidad a actores clave).
+   - **Delimitación Temática y de Variables:** Proporciona un conjunto consolidado de variables de análisis (herramientas algorítmicas, precisión percibida, resistencia al cambio, supervisión humana y gobernanza ética) plenamente transferibles a la investigación del factor humano según las directrices de la *Resolución CD-CURZAS N° 266/23*.
+
+{{< pagebreak >}}
+
+```{=typst}
+#set par(hanging-indent: 1.5em, first-line-indent: 0pt, justify: false)
+```
+
+# Referencias Bibliográficas {.unnumbered}
+
+Arias, F., & Covinos, M. (2021). *Diseño y metodología de la investigación*. Enfoques Consulting.
+
+Black, J. S., & van Esch, P. (2020). AI-enabled recruiting: What is it and how should a manager use it? *Business Horizons*, 63(2), 215–226. https://doi.org/10.1016/j.bushor.2019.12.001
+
+Carrasco, J. (2021). *El uso de herramientas de inteligencia artificial dentro de los recursos humanos: un análisis para el proceso de reclutamiento en Cautela S.A. y Sensority (2015-2020)* [Tesis de licenciatura, Universidad Politécnica Salesiana]. Repositorio Institucional UPS.
+
+Chiavenato, I. (2020). *Gestión del talento humano: El nuevo papel de los recursos humanos en las organizaciones* (5.ª ed.). McGraw-Hill Interamericana.
+
+Eisenhardt, K. M. (1989). Building theories from case study research. *Academy of Management Review*, 14(4), 532–550. https://doi.org/10.5465/amr.1989.4308385
+
+Gonzabay Quirumbay, I. A., & Pacheco Barzallo, S. K. (2024). El rol de la Inteligencia Artificial en los procesos de reclutamiento y selección en la Gestión del Talento Humano. *Reincisol: Revista Interdisciplinaria de Ciencias Sociales y del Derecho*, 3(6), 3880–3902. https://www.reincisol.com/ojs/index.php/reincisol/article/view/396
+
+Naranjo Gaibor, J. (2025). Inteligencia artificial y el proceso de reclutamiento y selección de recursos humanos. *Journal of Science and Research*, 10(1), 110–123. https://revistas.utb.edu.ec/index.php/sr/article/view/3319
+
+Palella, S., & Martins, F. (2012). *Metodología de la investigación cuantitativa* (3.ª ed.). FEDUPEL.
+
+Soriano, J. E. (2022). El uso de la inteligencia artificial en la selección y gestión del personal de las administraciones públicas. *Revista Española de Derecho Administrativo*, (218), 125–158.
+
+Tambe, P., Cappelli, P., & Yakubovich, V. (2019). Artificial intelligence in human resource management: Challenges and a path forward. *California Management Review*, 61(4), 15–42. https://doi.org/10.1177/0008125619867910
+
+Upadhyay, A. K., & Khandelwal, K. (2018). Applying artificial intelligence: Implications for recruitment. *Strategic HR Review*, 17(5), 255–258. https://doi.org/10.1108/SHR-07-2018-0051

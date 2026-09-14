@@ -1,0 +1,611 @@
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+110 
+Inteligencia artificial y el proceso de reclutamiento y 
+selección de recursos humanos 
+Artificial intelligence and the human resources recruitment and selection 
+process 
+  https://doi.org/10.5281/zenodo.14612811   
+  
+AUTORES:  Jefferson Naranjo Gaibor1* 
+DIRECCIÓN PARA CORRESPONDENCIA: jnaranjo@ueb.edu.ec  
+Fecha de recepción: 09 / 10 / 2024 
+Fecha de aceptación: 06 / 12 / 2024 
+ 
+RESUMEN 
+El objetivo de este artículo es analizar la inteligencia artificial y el proceso de reclutamiento 
+y selección de recursos humanos desde un proceso de revisión de la literatura actualizada, 
+con lo cual se puede realizar generalizaciones en cuanto a esta temática que resulta actual y 
+pertinente en estos momentos de avances científicos En un solo párrafo y entre 200-250 
+palabras, indicar lo que se hizo y los principales hallazgos. La metodología se desarrolló de 
+tipo documental, con enfoque cualitativo y de carácter descriptivo, el método inductivo; la 
+población 20 documentos, la muestra fueron 05 documentos seleccionados bajo criterios. 
+Los resultados señalan que la IA ha influido en la adquisición de talento, desde la búsqueda 
+de futuros candidatos hasta la selección automática de perfiles en función de un conjunto de 
+atributos evaluados por centros de pruebas virtuales; la IA puede llevar a la eliminación de 
+ciertos puestos de trabajo, especialmente aquellos que implican tareas administrativas y 
+repetitivas. Se concluye el nuevo rol de Recursos Humanos será construir una ventaja 
+competitiva al adquirir IA y utilizarla para aumentar las capacidades de las empresas en 
+aspectos como la velocidad y la capacidad de respuesta. Para lograr estos objetivos, los 
+                                                 
+1* Universidad Estatal de Bolívar,  jnaranjo@ueb.edu.ec  
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+111 
+equipos de recursos humanos también deberán desarrollar sus habilidades para adaptarse a 
+este nuevo rol dentro del marco de una organización en evolución. 
+Palabras clave: Inteligencia Artificial, recursos humanos, reclutamiento, selección, 
+tecnologías 
+ 
+ABSTRACT 
+The objective of this article is to analyze artificial intelligence and the recruitment and 
+selection process of human resources from a review process of updated literature, with 
+which generalizations can be made regarding this topic that is current and relevant at this 
+time. of scientific advances in a single paragraph and between 200-250 words, indicate 
+what was done and the main findings. The methodology was developed as a documentary 
+type, with a qualitative and descriptive approach, the inductive method; the population 20 
+documents, the sample was 05 documents selected under criteria. The results indicate that 
+AI has influenced talent acquisition, from the search for future candidates to the automatic 
+selection of profiles based on a set of attributes evaluated by virtual testing centers; AI can 
+lead to the elimination of certain jobs, especially those that involve administrative and 
+repetitive tasks. It is concluded The new role of Human Resources will be to build a 
+competitive advantage by acquiring AI and using it to increase the capabilities of 
+companies in aspects such as speed and responsiveness. To achieve these goals, HR teams 
+will also need to develop their skills to adapt to this new role within the framework of an 
+evolving organization. 
+Keywords: Artificial Intelligence, human resources, recruitment, selection, technologies 
+ 
+INTRODUCCIÓN 
+La contratación de personal en una organización se considera un elemento clave en la 
+gestión de Recursos Humanos (RRHH) y es el método principal para avalar la organización 
+laboral (Rodney, 2019). El objetivo principal del proceso de Reclutamiento es conquistar 
+un número suficiente de candidatos que cumplan con los requisitos para un puesto de 
+trabajo. El reclutamiento hace referencia a la búsqueda, seguimiento, identificación y 
+atracción de candidatos potenciales de los cuales se puede elegir a quien tenga las 
+capacidades correspondientes. Así, el éxito y la supervivencia de una organización 
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+112 
+dependen de la calidad de los Recursos Humanos, por lo tanto, es primordial centrarse en 
+identificar y atraer a los candidatos más competitivos; lo cual se logra mediante un 
+reclutamiento eficiente (Nizam, 2020) 
+Ahora bien, en el ámbito organizacional, el interés por hacer más eficientes los procesos, 
+tales como los llevados a cabo por el departamento de recursos humanos se ha ido 
+avanzando, en tal sentido, en los últimos años, se ha producido una gran transformación en 
+la esfera empresarial debido precisamente, a la transformación digital. Y es, en este avance 
+dónde la inteligencia artificial junto con el análisis de datos encuentra su camino. A nivel 
+organizacional, la utilización de esta tecnología se encuentra en sectores como el transporte, 
+industria, sanidad, educación, legal, agricultura y marketing (Pisa, 2019).  
+En tal sentido, en las organizaciones, el Departamento de Recursos Humanos y 
+particularmente de Reclutamiento y selección, durante el proceso debe tener en cuenta tanto 
+las necesidades de la persona que ocupará el puesto, así como las necesidades de la 
+empresa. Seguidamente, el reclutamiento apunta a atraer al mejor capital humano para 
+desarrollar una actividad específica en una organización, y esto se logra si los candidatos 
+tienen valores, actitudes y personalidades que se ajustan a las demandas laborales y a la 
+cultura organizacional existente en dicha organización. Uno de los mecanismos que en la 
+actualidad se llevan a cabo es a través de la utilización de medios informáticos, tal como es 
+el caso de la IA, que faciliten los procesos llevados a cabo para identificar el personal que 
+cubre las expectativas de la organización.  
+Un claro ejemplo para evidenciar la utilidad de la inteligencia artificial puede ubicarse en 
+todos los sectores que cualquier proceso empresarial necesita. Desde “procesos de 
+supervisión, diseño, diagnóstico y planificación, hasta las etapas de asesoramiento y 
+formación”. En otras palabras, la empresa se configura para un trabajo inteligente, dirigido 
+a regular e imitar el comportamiento humano, mejorando tiempo y eficiencia (Granados, 
+2022) 
+Se comprende que las aplicaciones de inteligencia artificial(IA) en el mundo empresarial 
+van en aumento, tanto es así, que según el informe elaborado por (Valverde, 2019) sobre el 
+estado actual de inteligencia artificial 2020: “el 50% de las empresas integran la 
+inteligencia artificial al menos en una función de sus organizaciones”. Además,” el 60% de 
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+113 
+las empresas de alto rendimiento han aumentado este año la inversión en Inteligencia 
+Artificial en todas las áreas en respuesta a la situación derivada de la crisis del COVID-19.”  
+Por su parte, (Audia, 2021, pág. 63) indica que las organizaciones cuentan con muchas 
+plataformas que generan una gran cantidad de datos y que el área de recursos o talento 
+humano puede aprovechar para propiciar valor dentro de la compañía. (…) la función de 
+recursos humanos de la organización se facilita mediante el uso de herramientas 
+tecnológicas de acuerdo con las necesidades de la organización, incluidos portales, sistemas 
+de información de recursos humanos (HRIS) basados en bases de datos computarizados, 
+planificación de recursos empresariales (ERP), un sistema de recursos humanos en la nube 
+que transforma las funciones de recursos humanos en una "plataforma inteligente".  
+En la línea de las ideas anteriores, en las organizaciones, cualesquiera que estas ameriten el 
+reclutamiento y la selección del personal, el departamento de Recursos Humanos, al utilizar 
+la inteligencia artificial, puede mejorar en la captación de personal y los costos asociados a 
+este proceso, “El uso de herramientas basadas en IA permite a los candidatos presentar su 
+solicitud en línea y realizar una evaluación de inmediato. Se mejora la eficiencia, se 
+identifican candidatos más calificados y diversos” (Mitchell, 2022). Del mismo modo otros 
+autores como (Fuertes, 2022) señalan que en el ámbito de la selección de personal pueden 
+utilizarse con el objetivo de automatizar total o parcialmente dichos procedimientos. Por 
+ejemplo, estos sistemas pueden ser empleados para hacer un cribado inicial de las personas 
+aspirantes a ocupar un puesto de trabajo. Así, en el ámbito de la selección de personal 
+empleado público puede fácilmente automatizarse la determinación de las personas. 
+Es crucial notar que varias empresas lo hacen sin métodos precisos, lo que podría resultar 
+en empleados no adecuados. Al respecto, (LLERENA, 2021) señala que hallar individuos 
+con la formación adecuada para cargos directivos resulta difícil debido a diversos 
+elementos, como el prejuicio en las elecciones del reclutador, la falta de habilidad para 
+reconocer las capacidades apropiadas en los aspirantes y la escasa adopción de tecnología 
+por parte de la mayoría de las compañías para optimizar los procedimientos de contratación 
+Además del proceso de disminución de recurso y tiempo, la IA permite la identificación del 
+candidato adecuado, partiendo del hecho que, durante el proceso de entrevista, los 
+reclutadores casi siempre se preguntan acerca de la credibilidad de los candidatos y como 
+identificarlos, por esto, las herramientas de Inteligencia Artificial serán eficaces para 
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+114 
+detectar si un candidato es abierto y honesto. Gracias a este desarrollo que se basa en la 
+cognición humana, se establecerá el patrón de comportamiento individual del candidato, 
+esto combinado con algoritmos de aprendizaje automático hará que el trabajo para los 
+gerentes de recursos humanos sea más fácil de lo que era antes 
+Actualmente, el término inteligencia artificial (IA) se utiliza para referirse a una amplia 
+gama de tecnologías digitales de última generación (UNESCO, 2019) Sin embargo, la IA 
+no es nueva; es un área de las ciencias de la computación, que ha acompañado casi desde 
+sus inicios a mediados del siglo pasado el desarrollo de lo que hoy se conoce como 
+tecnología de la información y las comunicaciones (TIC). Lo que ha caracterizado a esta 
+área de investigación y desarrollo es su ambición de crear máquinas inteligentes que 
+simulen el razonamiento y comportamiento humanos (Luckin, Holmes, Griffiths, & 
+Forcier, 2016) 
+La inteligencia artificial (IA) se ha convertido en sinónimo de nuevas promesas, pero 
+también de los riesgos que conlleva la masificación de las tecnologías digitales en las 
+diferentes esferas de la vida económica y social del siglo XXI. Particularmente en la 
+gestión de recursos humanos (GRH) en función de sus objetivos, es su deber preocuparse 
+por su personal, tanto desde el punto de vista personal, como a nivel profesional, la 
+búsqueda del empoderamiento, la motivación y el impulso en las mejoras en el desempeño 
+en el lugar de trabajo (Nijjer & Raj, 2021) 
+Algunas investigaciones han señalado que los sistemas algorítmicos pueden contribuir a 
+detectar problemas y sugerir las soluciones más adecuadas para abordar aquéllos de forma 
+mucho más rápida y precisa que cualquier persona humana. Ahora bien, esta progresiva 
+automatización debe realizarse siempre siendo conscientes de los riesgos que la inteligencia 
+artificial genera e incorporando las necesarias cautelas y salvaguardias para asegurar que 
+las Administraciones respeten los derechos e intereses de la ciudadanía, así como aquellos 
+principios y valores que están llamadas a proteger. Otro de los aspectos a tener en cuenta es 
+que, hasta el momento la Inteligencia Artificial tiene básicamente una orientación empírica 
+y de ingeniería con un creciente cuerpo de técnicas computacionales. (Rodney, 2019) 
+Del mismo modo, (Cantero, 2021)Las tecnologías de inteligencia artificial, no solo agilizan 
+y optimizan las tareas más rutinarias de los procesos de selección, sino que también afectan 
+de forma positiva a: Los equipos de trabajo de Recursos humanos permite no solo ser 
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+115 
+mucho más eficientes y productivos, sino que brinda la oportunidad a sus integrantes de 
+realizar tareas que verdaderamente aportan valor a la organización, como estar más en 
+contacto con los candidatos durante todo el proceso, crear estrategias para retener y atraer 
+talento, capacidad de persuasión y negociación para el trato con los trabajadores, la mejora 
+de la marca empleadora, desarrollo del capital humano , entre otros.  
+Por último, (Iturbide, 2022) la Inteligencia Artificial ha encontrado una amplia aplicación 
+en la creación de sistemas que respaldan el proceso de Selección de Personal. Se han 
+desarrollado sistemas para la extracción de datos de personal en compañías de alta 
+tecnología, así como para la evaluación de currículos con el fin de identificar a los 
+candidatos más adecuados para una posición. Otros sistemas buscan establecer modelos que 
+permitan comparar a los candidatos y elegir al más adecuado. La mayoría de los sistemas 
+basados en Inteligencia Artificial se enfocan en recolectar y categorizar los currículos de 
+los candidatos según las especificaciones de los empleadores. 
+Partiendo de lo anterior se tiene que el objetivo de este artículo es analizar la inteligencia 
+artificial y el proceso de reclutamiento y selección de recursos humanos desde un proceso 
+de revisión de la literatura actualizada, con lo cual se puede realizar generalizaciones en 
+cuanto a esta temática que resulta actual y pertinente en estos momentos de avances 
+científicos 
+ 
+METODOLOGÍA 
+Este artículo se enmarcó en una investigación documental, con enfoque cualitativo y de 
+carácter descriptivo. Según (Hernández & Mendoza, 2018) “un diseño de carácter 
+descriptivo” (p.193). Asimismo, los citados autores señalan que un estudio es cualitativo 
+porque busca comprender un fenómeno social complejo y, más allá de medir las variables 
+involucradas, se busca entenderlo  
+Por otro lado, una investigación documental, en estimaciones de (Arias & Covinos, 2021) 
+“es la que se realiza con base en revisión de documentos, manuales, revistas, periódicos, 
+actas científicas, conclusiones y seminarios y /o cualquier tipo de publicación considerado 
+como fuente de información” (p.130), lo antes señalado, permitirá establecer analizar la 
+inteligencia artificial en el proceso de reclutamiento y selección de personal. 
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+116 
+El método empleado es el inductivo, pues permite hacer generalizaciones con miras a 
+acrecentar el conocimiento sobre la materia de interés de esta indagación (Palella, 2012) 
+Por su parte, la búsqueda de la información se llevó a cabo vía online en Google 
+Académico, en la base de datos de Scielo, Dialnet, entre otras, repositorios digitales de 
+instituciones de educación superior nacionales e internacionales, bases electrónicas de 
+organismos nacionales e internacionales relacionados con la temática. Los criterios de 
+selección de estudios incluyeron: trabajos de maestría, libros sobe la variable en estudio, 
+tesis doctorales, artículos de investigación, presentadas en manuscrito completo y en 
+idioma español. 
+De este modo, la población quedó conformada por 20 documentos registrados bajo el 
+formato de tesis/artículos/libros consultados para obtener la información relevante para este 
+estudio. En este sentido, (Arias & Covinos, 2021), señalan que “la población en una 
+investigación es el conjunto de unidades de las que se desea obtener información y sobre 
+las que se van a generar conclusiones” (p. 105). Es así que, los resultados oscilaron entre 05 
+artículos de investigación. 
+Los criterios de inclusión: artículos relacionados con materia de educación y derechos 
+humanos publicados en los últimos 05 años, idioma español y que estén disponibles en 
+texto completo. Criterios de exclusión: artículos duplicados, otro idioma distinto al español, 
+más de 10 años de publicación Con relación a las técnicas e instrumentos de recolección de 
+datos, para la presente investigación fueron, la técnica de la observación documental o 
+bibliográfica. Adicionalmente, se empleó el análisis documental y análisis de contenido, 
+debido a que forman parte integral de toda investigación, a objeto de facilitar el desarrollo y 
+comprensión del tema. De este modo, (Rebollo & Ábalos, 2022), la matriz de análisis 
+documental es una técnica de investigación para la descripción objetiva sistemática y 
+cuantitativa del contenido de las publicaciones, con el fin de interpretarlas. 
+ 
+RESULTADOS 
+Autor 
+Título del artículo/tesis 
+Principales conclusiones o hallazgos 
+(Soriano, 
+2022) 
+El uso de la inteligencia artificial 
+en la selección y gestión del 
+personal de las administraciones 
+públicas. 
+Se comprende a la inteligencia artificial como un programa 
+contenido en un ordenador que sea capaz de procesar datos 
+de manera masiva, autónoma y similar a como lo haría la 
+mente humana, llegando a conclusiones que se caracterizan 
+por ser generalmente más precisas que aquellas que 
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+117 
+podrían ser alcanzadas por cualquier persona. Si bien es 
+cierto que las Administraciones públicas todavía no han 
+alcanzado al sector privado en la utilización de 
+herramientas que agilicen y aumenten la eficiencia de los 
+procesos de selección y gestión del personal empleado 
+público, también lo es que estos sistemas están, sin duda, 
+llamados a utilizarse en un futuro no demasiado lejano. 
+(Carrasco, 
+2021) 
+El uso de herramientas de 
+inteligencia artificial dentro de 
+los recursos humanos: un análisis 
+para el proceso de reclutamiento 
+en cautela S.A. y Sensority 
+(2015-2020) 
+La Inteligencia Artificial hace referencia a una amplia 
+gama de tecnologías que permiten a las máquinas 
+completar tareas que típicamente involucran la cognición 
+humana y la toma de decisiones adaptativas, y puede 
+utilizarse en diferentes áreas como la seguridad, los 
+interrogatorios y el reclutamiento de recursos humanos. 
+Con el uso de herramientas de Inteligencia Artificial tales 
+como el aprendizaje automático, el uso de algoritmos, las 
+instrucciones inteligentes asistidas por computadora, el 
+razonamiento artificial y los mecanismos de programación 
+automática; el desempeño del proceso de selección resulta 
+en la mejora de la productividad de las empresas. En este 
+sentido, la aplicación de un software llamado Análisis 
+Visual del Estrés (VSA) desarrollado por la empresa 
+SENSORITY e introducido en el Ecuador por CAUTELA 
+S.A. mejora dichos procesos en el departamento de 
+Recursos Humanos. Toda la investigación se basa en la 
+Teoría del Capital Humano que se centra en el vínculo 
+entre educación, habilidades y experiencia para mejorar la 
+productividad de una persona. Este estudio concluye que la 
+utilización de la Inteligencia Artificial tal como el software 
+VSA podría influir en los procesos de selección de 
+Recursos Humanos puesto que esta tecnología permite 
+seleccionar al mejor talento humano para una empresa 
+mediante análisis neurofisiológicos 
+(García C, 
+2023) 
+La inteligencia artificial aplicada 
+a los procesos de reclutamiento 
+de personal de las empresas de 
+servicios de Guayaquil” 
+Los resultados obtenidos indican que la mayoría de las 
+empresas de servicios han adoptado la IA en el 
+reclutamiento, aunque hay preocupaciones sobre su 
+capacidad para evaluar habilidades intangibles, a pesar de 
+esto, la mayoría de los reclutadores cree que la IA es vista 
+de manera positiva por los candidatos. En última instancia, 
+se reconoce la importancia creciente de la IA en el 
+reclutamiento, pero se subraya la necesidad de abordar sus 
+limitaciones y considerar las preferencias individuales de 
+los candidatos en el proceso 
+(Vargas, 
+2023) 
+Inteligencia artificial aplicada al 
+proceso de selección de personal 
+Actualmente es necesario fomentar en las empresas un 
+entorno 
+dinámico 
+cónsonos 
+con 
+cambios 
+en 
+las 
+organizaciones para que sean eficientes y evolucionen 
+acertadamente, el uso de la tecnología e informática 
+alcanzaron un gran auge con la automatización de tareas 
+operativas que en tiempos pasados no superaban algunos 
+problemas difíciles de modelar, este conocimiento y 
+experiencia solo se alcanzan cuando existe un ambiente que 
+desarrolle el aprendizaje organizacional y el número de 
+expertos. Los programas de software basados en reglas 
+explícitas son fáciles de rastrear y comprender, no se puede 
+decir lo mismo de los algoritmos de aprendizaje profundo, 
+gracias a su complejidad son difíciles de interpretar y 
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+118 
+comunicar por humanos. Estas limitaciones son uno de los 
+grandes desafíos en la inteligencia artificial, (requiere 
+claridad en lo solicitado por parte del humano), hay mucha 
+investigación activa en estas direcciones. Se aplicó una 
+metodología descriptiva, con un enfoque documental, es 
+decir, revisar fuentes disponibles en la red, con contenido 
+oportuno y relevante para dar respuesta a lo tratado en el 
+presente artículo. 
+(Gonzalez, 
+2023) 
+impacto de la inteligencia 
+artificial en la toma de decisiones 
+de selección de personal: Una 
+revisión integrativa. 
+En conclusión y respondiendo a los objetivos inicialmente 
+formulados, se puede considerar que el impacto de la IA 
+está siendo positivo y está empezando a tener cierto peso 
+en algunas empresas dentro del proceso de selección, 
+mejorando su precisión y agilizando el tiempo invertido de 
+los reclutadores respecto a los enfoques más tradicionales, 
+por su parte, en cuanto a la creación y destrucción hay 
+diversidad de opiniones, por un lado se dice que no hay 
+miedo de que se eliminen puestos de trabajo y que será más 
+bien un complemento humano-maquina, por otro lado, la 
+automatización y la implementación de la IA en la gestión 
+de recursos humanos pueden llevar a la eliminación de 
+ciertos puestos de trabajo, especialmente aquellos que 
+implican tareas administrativas y repetitivas 
+Tabla 1. Matriz de fuentes documentales 
+Fuente: Proceso de recolección de datos 
+ 
+Al analizar los resultados se tiene que para (Soriano, 2022) las administraciones públicas 
+todavía no han alcanzado al sector privado en la utilización de herramientas que agilicen y 
+aumenten la eficiencia de los procesos de selección y gestión del personal empleado 
+público, también lo es que estos sistemas están, sin duda, llamados a utilizarse en un futuro 
+no demasiado lejano. Incluso cuando se consideran los procesos tradicionales de recursos 
+humanos, la IA participa en el rol humano. Para (Reyes, Gómez, & Ramos, 2021) la IA ha 
+influido en la adquisición de talento, desde la búsqueda de futuros candidatos hasta la 
+selección automática de perfiles en función de un conjunto de atributos evaluados por 
+centros de pruebas virtuales, además la utilización de Inteligencia Artificial en la gestión 
+del talento humano genera beneficios en las organizaciones, como la reducción de costos y 
+el aumento de la productividad. 
+Se señala además en otras investigaciones que  existen mecanismos basados en la 
+inteligencia artificial que se emplean con frecuencia en el proceso de reclutamiento y la 
+selección de personal como: Aplicaciones (App), redes sociales, plataformas virtuales, 
+interfaz de bases de datos para atraer y retener a los mejores talentos (Stanley & Aggarwal, 
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+119 
+2019) , coincidiendo con lo señalado por (Carrasco, 2021) donde menciona  como 
+mecanismos relacionados a la IA aspectos como a el aprendizaje automático, el uso de 
+algoritmos, las instrucciones inteligentes asistidas por computadora, el razonamiento 
+artificial y los mecanismos de programación automática; el desempeño del proceso de 
+selección resulta en la mejora de la productividad de las empresas.   
+ 
+DISCUSIÓN 
+Dentro de las principales limitaciones se encuentran hay preocupaciones sobre su capacidad 
+para evaluar habilidades intangibles (García C, 2023), por otra parte, para (Vargas, 2023) 
+los algoritmos de aprendizaje profundo, gracias a su complejidad son difíciles de interpretar 
+y comunicar por humanos. Estas limitaciones son uno de los grandes desafíos en la 
+inteligencia artificial, (requiere claridad en lo solicitado por parte del humano); por último, 
+la automatización y la implementación de la IA en la gestión de recursos humanos pueden 
+llevar a la eliminación de ciertos puestos de trabajo, especialmente aquellos que implican 
+tareas administrativas y repetitivas (Gonzalez, 2023); la inteligencia artificial puede 
+también conducir a la injusticia en la forma en que las personas se benefician de las 
+soluciones asistidas por IA, o peor aún, cuando las decisiones informadas o tomadas por 
+algoritmos de IA conducen a una discriminación obvia o errores que no pueden 
+identificarse fácilmente incluso cuando se requieren segundas opiniones para corregirlos. 
+Este tema es clave en muchos sectores comerciales, incluida la gestión de recursos 
+humanos, donde las decisiones automatizadas tomadas por algoritmos pueden tener 
+consecuencias dramáticas en la carrera profesional de alguien (Delecraz, y otros, 2022) 
+Algunos desafíos pendientes están asociados con la disponibilidad de personal competente 
+y experto en el sector; sin embargo, estos desafíos se pueden superar con una buena gestión 
+y un equipo de preguntas de talento calificado capaz de realizar una búsqueda adecuada (Li, 
+Bastone, Mohamad, & Schiavone, 2023)También existe el problema de la necesidad de 
+grandes cantidades de datos para el aprendizaje automático y la eliminación del sesgo 
+humano, junto con el desarrollo de modelos de negocio para aprovechar al máximo la 
+tecnología de inteligencia artificial (Vedapradha, Hariharan, & Shivakami, 2019). Bajos 
+resultados en la aplicación de IA en RRHH durante la primera década (2000-2010) y la 
+falta de consolidación de las líneas de investigación desalentó el desarrollo de nuevas 
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+120 
+investigaciones, habrían provocado desinterés y/o discontinuidad en la investigación   
+Frente a esta realidad, como aporte teórico, este estudio avanza en la investigación sobre el 
+impacto de la Inteligencia Artificial en el proceso de selección en el dpto. de Recursos 
+Humanos (Jatobá, y otros, 2019) El nuevo rol de Recursos Humanos será construir una 
+ventaja competitiva al adquirir IA y utilizarla para aumentar las capacidades de las 
+empresas en aspectos como la velocidad y la capacidad de respuesta. Para lograr estos 
+objetivos, los equipos de recursos humanos también deberán desarrollar sus habilidades 
+para adaptarse a este nuevo rol dentro del marco de una organización en evolución 
+ 
+CONCLUSIONES 
+En la era de la digitalización es común pensar que la mayoría de los procesos ejecutados 
+por empresas serán desarrollados de esa forma. Las técnicas de selección y reclutamiento 
+de personal no escapan de la vanguardia. La inclusión de la inteligencia artificial a esta área 
+busca hacer estos procesos más expeditos y eficientes para todos los involucrados. El uso 
+de algoritmo y redes neuronales ha hecho posible avanzar rápidamente en este campo 
+Las nuevas técnicas tanto de reclutamiento como de la selección de personal, otorgan unas 
+ventajas empresariales de mayor peso a las desventajas, es innecesario externalizar este 
+proceso con todo lo que ello conlleva, por tanto, emplear alguna de las técnicas que han 
+sido estudiadas y solo recurriría a la técnica del outsourcing cuando las circunstancias lo 
+impidieran hacerlo internamente. Los programas de software basados en reglas explícitas 
+son fáciles de rastrear y comprender, no se puede decir lo mismo de los algoritmos de 
+aprendizaje profundo, gracias a su complejidad son difíciles de interpretar y comunicar por 
+humanos. Estas limitaciones son uno de los grandes desafíos en la inteligencia artificial 
+En cuanto a aspectos éticos sobre la inteligencia artificial se señala que la IA puede 
+presentar desafíos y perjuicios potenciales, como sesgos y discriminación, falta de 
+transparencia, pérdida de empleos y preocupaciones sobre la privacidad y la seguridad de 
+los datos, ya que, si los algoritmos utilizados en la IA se basan en datos históricos que 
+reflejan sesgos y discriminación, la IA puede perpetuar estos prejuicios en la toma de 
+decisiones, sin olvidar que la privacidad y la seguridad de los datos de los solicitantes de 
+empleo pueden verse comprometidas si no se manejan adecuadamente 
+ 
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+121 
+REFERENCIAS BIBLIOGRÁFICAS 
+Arias, J., & Covinos, M. (2021). Diseño y metodología de la investigación. . Consejo 
+Nacional 
+de 
+Ciencia, 
+Tecnología 
+e 
+Innovación 
+Tecnológica, 
+.https://doi.org/http://hdl.handle.net/20.500.12390/2260. 
+Audia, J. (2021). The Creative Hub: HR Strategic Function in The Digital Age. , . Atlantis 
+Press B.V., 176, 229- 235. https://doi.org/https://doi.org/10.2991/aer.k.210121.03. 
+Cantero, G. (2021). La inteligencia artificial en los procesos de selección. uvadoc, 
+https://uvadoc.uva.es/bitstream/handle/10324/48201/TFG-N.1601.pdf?sequence. 
+Carrasco, J. (2021). El uso de herramientas de inteligencia artificial dentro de los recursos 
+humanos: un análisis para el proceso de reclutamiento en cautela SA y Sensority 
+(2015-2020). PUCE, https://repositorio.puce.edu.ec/handle/123456789/23798. 
+Delecraz, S., Eltarr, L., Becuwe, M., Bouxin, H., Boutin, N., & Oullier, O. (2022). 
+Responsible Artificial Intelligence in Human Resources Technology: An innovative 
+inclusive and fair by design matching algorithm for job recruitment purposes. Journal 
+of Technology,, 11, 100041. 
+Fuertes, M. (2022). Reflexiones ante la acelerada automatización de actuaciones 
+administrativas. 
+Revista 
+Jurídica 
+de 
+Asturias,, 
+45, 
+105-124. 
+https://reunido.uniovi.es/index.php/RJA/article/view/18989. 
+García C. (2023). La inteligencia artificial aplicada a los procesos de reclutamiento de 
+personal de las empresas de servicios de Guayaquil (Bachelor's thesis). 
+UNIVERSIDAD 
+POLITÉCNICA 
+SALESIANA 
+, 
+https://dspace.ups.edu.ec/bitstream/123456789/26474/1/UPS-GT004840.pdf. 
+Gonzalez, C. (2023). impacto de la inteligencia artificial en la toma de decisiones de 
+selección de personal: Una revisión integrativa. CHILE: MARHTO . 
+Granados, J. (2022). Análisis de la inteligencia artificial en las relaciones laborales. . 
+Revista CES, 13(1). doi:https://doi.org/10.21615/cesder.6395. 
+Hernández, S., & Mendoza, T. (2018). Metodología de la investigación. Las rutas 
+cuantitativa, cualitativa y mixta. Ciudad de México:: Mc Graw Hill Education. 
+Iturbide, S. (2022). La Inteligencia Artificial en lo Procesos de Seleccion. Valencia, 
+España. . riunet, https://riunet.upv.es/bitstream/handle/10251/185552/Iturbide%20-
+%20La%20Inteligencia%20Artificial%20en%20los%20Proces. 
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+122 
+Jatobá, M., Santos, J., Gutierriz, I., Moscon, D., Fernandes, P., & Teixeira, J. (2019). 
+Evolution of artificial intelligence research in human resources. Procedia Computer 
+Science, , . 164, 137-142. 
+Li, P., Bastone, A., Mohamad, T., & Schiavone, F. (2023). How does artificial intelligence 
+impact human resources performance. evidence from a healthcare institution in the 
+United Arab Emirates.,. Journal of Innovation & Knowledge, 8(2), 100340. 
+LLERENA, J. (2021). EL USO DE HERRAMIENTAS DE INTELIGENCIA 
+ARTIFICIAL DENTRO DE LOS RECURSOS HUMANOS: UN ANÁLISIS PARA 
+EL PROCESO DE RECLUTAMIENTO EN CAUTELA S.A. Y SENSORITY 
+(2015-2020). uce.e, http://repositorio.puce.edu.ec/bitstream/hand. 
+Luckin, R., Holmes, M., Griffiths, L., & Forcier, B. ( 2016). Intelligence Unleashed: An 
+argument for AI in Education. Pearson Education.  
+Mitchell, B. &. (2022). The Big Book of HR. . Career Press. , https://doi.org/978-1-63265-
+089-4. 
+Nijjer, S., & Raj, S. (2021). PREDICTIVE ANALYTICS IN HUMAN RESOURCE 
+MANAGEMENT. Routledge , https://doi.org/978-0-367-90321-3. 
+Nizam, I. (2020). Impact of artificial intelligence on human capital management in 
+Malaysia. . Research Gate. 
+Palella, M. (2012). Metodología de la Investigación Cuantitativa. Caracas, Venezuela:: 
+ePISTEME. 
+Pisa, J. ,. (2019). Análisis de un caso: La influencia de las nuevas tecnologías en el proceso 
+de selección. Colegio Universitario de estudios financieros. 
+Rebollo, P., & Ábalos, E. (2022). Metodología de la Investigación/Recopilación. . 
+Argentina : Editorial Autores de Argentina. 
+Reyes, M., Gómez, A., & Ramos, E. (2021). Desafíos de la gestión del talento humano en 
+tiempos de pandemia COVID . Revista Universidad y Sociedad, , 19.13(6), 232-236. 
+Rodney, H. (2019). The Artificial Intelligence Recruitment Process: How Technological 
+Advancements Have Reshaped Job Application and Selection Practices . . Addleton 
+Academic Publishers.  
+
+JOURNAL OF SCIENCE AND RESEARCH  
+       
+                     E-ISSN: 2528-8083  
+ Vol. 10, N°. 1, ENERO – MARZO 2025 
+ 
+123 
+Soriano, A. (2022). El uso de la inteligencia artificial en la selección y gestión del personal 
+de las administraciones públicas. Documentación Administrativa., . Nueva época, 9, 
+11-25. https://doi.org/10.24965/da.11148. 
+Stanley, D., & Aggarwal, V. (2019). Impact of disruptive technology on human resource. 
+International Journal of Business Continuity and Risk Management,, 9(4), 350-361. 
+UNESCO. (2019). UN Educational, Scientific and Cultural OrganizationArtificial 
+Intelligence 
+in 
+Education: 
+Challenges 
+and 
+Opportunities 
+for 
+Sustainable 
+Development. Working Papers on Education Policy, 7. 
+Valverde, S. (2019). Aplicaciones de la inteligencia artificial en la empresa. Universidad de 
+Cantabria. 
+Vargas, J. (2023). Inteligencia artificial aplicada al proceso de selección de persona. Polo 
+del 
+Conocimiento: 
+Revista 
+científico-profesional,, 
+l. 
+8(9), 
+726-740. 
+https://dialnet.unirioja.es/servlet/articulo?codigo=9152551. 
+Vedapradha, R., Hariharan, R., & Shivakami, R. (2019). Artificial intelligence: A 
+technological prototype in recruitment. . Journal of Service Science and 
+Management,, 12(3), 382-390. 
+ 

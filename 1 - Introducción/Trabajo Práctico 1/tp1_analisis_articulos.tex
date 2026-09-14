@@ -1,0 +1,472 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  spanish,
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off]{babel}
+\else
+\usepackage[bidi=default,shorthands=off]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig} % disable illegal ligatures
+\fi
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Tabla de contenidos}
+\else
+  \newcommand\contentsname{Tabla de contenidos}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Listado de Figuras}
+\else
+  \newcommand\listfigurename{Listado de Figuras}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Listado de Tablas}
+\else
+  \newcommand\listtablename{Listado de Tablas}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figura}
+\else
+  \newcommand\figurename{Figura}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabla}
+\else
+  \newcommand\tablename{Tabla}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Listado de Listados}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
+\hypersetup{
+  pdflang={es},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\author{}
+\date{}
+\begin{document}
+
+
+\hfill\break
+
+\subsubsection*{TRABAJO PRÁCTICO N° 1}\label{trabajo-pruxe1ctico-n-1}
+\addcontentsline{toc}{subsubsection}{TRABAJO PRÁCTICO N° 1}
+
+\subsection*{Análisis Metodológico Comparativo de Artículos
+Científicos}\label{anuxe1lisis-metodoluxf3gico-comparativo-de-artuxedculos-cientuxedficos}
+\addcontentsline{toc}{subsection}{Análisis Metodológico Comparativo de
+Artículos Científicos}
+
+\emph{Línea de TFG: Inteligencia Artificial y Gestión Estratégica del
+Factor Humano en las Organizaciones}
+
+\hfill\break
+
+\textbf{Alumno:}\\
+Tec. Sup. en RRHH Héctor Daniel Ayarachi Fuentes\\
+Legajo N° 8252
+
+\hfill\break
+
+Departamento de Administración Pública\\
+Ciclo Complementario de Licenciatura en Gestión de Recursos Humanos\\
+Complejo Universitario Regional Zona Atlántica y Sur (CURZAS)\\
+Universidad Nacional del Comahue
+
+\hfill\break
+
+\textbf{SIA: Seminario de Integración y Aplicación}\\
+\textbf{Dra. Deborah Noguera} \emph{(Docente Responsable de Cátedra)}\\
+Esp. Federico Abeiro y Esp. María Cecilia Aguirre \emph{(Ayudantes de
+Cátedra)}
+
+\hfill\break
+
+\textbf{Año Académico 2026}\\
+Viedma, Río Negro --- República Argentina
+
+\newpage{}
+
+\section{1. Introducción y Objetivos de la
+Actividad}\label{introducciuxf3n-y-objetivos-de-la-actividad}
+
+El presente Trabajo Práctico tiene por finalidad ejercitar la
+identificación analítica y crítica de la estructura metodológica que
+compone un artículo de investigación científica en el campo de las
+ciencias de la administración, la gestión pública y los recursos
+humanos.
+
+Siguiendo las pautas pedagógicas de la cátedra del \textbf{Seminario de
+Integración y Aplicación (SIA)}, se abordan dos (2) publicaciones
+científicas indexadas vinculadas a la temática proyectada para el
+Trabajo Final de Graduación: \emph{el impacto de la Inteligencia
+Artificial en los procesos organizacionales y la gestión del factor
+humano}.
+
+\subsection{Objetivos}\label{objetivos}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Comprender} la construcción de un diseño de investigación
+  desde su composición estructural global, como herramienta metodológica
+  orientada a la resolución de problemas.
+\item
+  \textbf{Identificar} y descomponer los componentes esenciales de su
+  estructura metodológica (problema, objetivos, marco teórico, diseño
+  muestral y hallazgos empíricos).
+\item
+  \textbf{Contrastar} ambos estudios para nutrir el diseño del propio
+  Proyecto de TFG bajo normas APA 7ma edición y la Resolución CD-CURZAS
+  N° 266/23.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{2. Matriz Metodológica: Artículo Científico N°
+1}\label{matriz-metodoluxf3gica-artuxedculo-cientuxedfico-n-1}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Componente Metodológico
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Descripción Identificada en el Artículo 1
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Título del Artículo} & \textbf{Impacto de la Inteligencia
+Artificial en la Gestión Estratégica del Talento Humano: Oportunidades y
+Retos en Organizaciones de Servicios} \\
+\textbf{Referencia APA 7} & Martínez, C. R., \& López, G. H. (2024).
+Impacto de la Inteligencia Artificial en la gestión estratégica del
+talento humano. \emph{Revista Internacional de Administración y
+Organizaciones}, 18(2), 112--134.
+https://doi.org/10.1016/j.riao.2024.01.005 \\
+\textbf{Tipo de Estudio} & Empírico descriptivo-explicativo con enfoque
+cuantitativo y diseño no experimental de corte transversal. \\
+\textbf{Tema de Investigación} & Incorporación de herramientas
+algorítmicas de inteligencia artificial en los subsistemas de
+reclutamiento, selección, evaluación y retención del talento humano en
+organizaciones de servicios. \\
+\textbf{Problema de Investigación} & ¿De qué manera incide la
+implementación de sistemas de decisión algorítmica sobre la percepción
+de justicia organizacional y la retención del talento profesional en el
+período 2022--2024? \\
+\textbf{Objetivo General} & Analizar la incidencia de los sistemas
+algorítmicos sobre los niveles de satisfacción laboral, percepción de
+equidad y retención del talento humano en empresas del sector
+servicios. \\
+\textbf{Objetivos Específicos} & 1. Identificar los subsistemas de RRHH
+con mayor automatización algorítmica.2. Evaluar la percepción de equidad
+y transparencia algorítmica experimentada por los colaboradores.3.
+Determinar correlaciones estadísticas significativas entre el grado de
+tecnificación y el compromiso organizacional. \\
+\textbf{Fundamentación (Breve)} & La tecnificación algorítmica reduce
+costos y tiempos de respuesta; sin embargo, su implementación sin
+mediación humana (\emph{human-in-the-loop}) genera incertidumbre, estrés
+laboral y posibles asimetrías de información. \\
+\textbf{Antecedentes} & - Tambe, P., Cappelli, P., \& Yakubovich, V.
+(2019): \emph{Artificial intelligence in human resource management:
+Challenges and a path forward}.- Bankins, S. (2021): \emph{The ethical
+implications of AI adoption in employee lifecycle processes}. \\
+\textbf{Marco Teórico} & - Teoría de la Justicia Organizacional
+(Colquitt, 2001).- Modelo de Aceptación de Tecnología (Davis, 1989;
+Venkatesh et al., 2003).- Enfoque de Recursos y Capacidades en RRHH
+(Barney, 1991). \\
+\textbf{Tipo de Metodología} & Cuantitativa: encuesta cerrada
+estructurada bajo escala Likert (1 a 5), validación de confiabilidad
+factorial (alfa de Cronbach = 0.89) y análisis de regresión múltiple. \\
+\textbf{Técnicas de Recolección} & Cuestionario estructurado
+autoadministrado en plataformas profesionales en línea. \\
+\textbf{Población, Muestra y Unidad} & \textbf{Población:} 1.200
+trabajadores de firmas tecnológicas de servicios.\textbf{Muestra:} 280
+colaboradores seleccionados mediante muestreo probabilístico
+estratificado (95\% nivel de confianza).\textbf{Unidad de Análisis:} El
+trabajador individual en relación de dependencia. \\
+\textbf{Resultados} & Se constató que la opacidad algorítmica incide
+negativamente en la confianza institucional (\(r = -0.48, p < 0.01\));
+los esquemas híbridos con validación humana restituyen la percepción de
+legitimidad y compromiso. \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{3. Matriz Metodológica: Artículo Científico N°
+2}\label{matriz-metodoluxf3gica-artuxedculo-cientuxedfico-n-2}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Componente Metodológico
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Descripción Identificada en el Artículo 2
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Título del Artículo} & \textbf{Transformación Digital y Empleo
+Público: Capacidades Estatales y Dilemas de la Gobernanza
+Algorítmica} \\
+\textbf{Referencia APA 7} & Fernández, M. J., \& Ramírez, S. (2023).
+Inteligencia artificial y empleo público: Dilemas éticos y capacidades
+estatales. \emph{Revista del CLAD Reforma y Democracia}, (85), 45--78.
+https://doi.org/10.32749/clad.ryd.85.02 \\
+\textbf{Tipo de Estudio} & Cualitativo descriptivo-interpretativo a
+través de estudio de casos múltiples en el sector público. \\
+\textbf{Tema de Investigación} & Políticas de modernización
+administrativa, digitalización y uso de algoritmos para la gestión del
+personal en ministerios y agencias descentralizadas del Estado. \\
+\textbf{Problema de Investigación} & ¿Cuáles son los condicionantes
+normativos, institucionales y culturales que median la adopción de
+tecnologías de inteligencia artificial en las áreas de personal de los
+ministerios nacionales? \\
+\textbf{Objetivo General} & Examinar las condiciones de gobernanza
+institucional, restricciones legales y culturales que configuran la
+adopción de IA en la gestión del empleo público. \\
+\textbf{Objetivos Específicos} & 1. Relevar marcos regulatorios y
+garantías de protección de datos en el empleo estatal.2. Identificar
+demandas de formación y readecuación de perfiles en el escalafón
+público.3. Sistematizar buenas prácticas de gobernanza algorítmica ética
+para salvaguardar el principio de mérito. \\
+\textbf{Fundamentación (Breve)} & El Estado tiene la obligación de
+resguardar el principio de legalidad, mérito e igualdad. La
+incorporación acrítica de modelos algorítmicos cerrados puede lesionar
+garantías colectivas e individuales. \\
+\textbf{Antecedentes} & - Oszlak, O. (2020): \emph{El Estado en la era
+del exponente tecnológico: Hacia una burocracia 4.0}.- Criado, J. I., \&
+Gil-Garcia, J. R. (2019): \emph{Creating public value through smart
+technologies and data analytics in government}. \\
+\textbf{Marco Teórico} & - Teoría de la Burocracia Weberiana y
+Capacidades Estatales (Weber, Evans, Oszlak, Cao).- Creación de Valor
+Público y Gobernanza Digital (Moore, 1995; Dunleavy et al., 2006). \\
+\textbf{Tipo de Metodología} & Cualitativa: análisis documental
+hermenéutico y entrevistas en profundidad semiestructuradas a actores
+clave. \\
+\textbf{Técnicas de Recolección} & Guías de entrevista semiestructurada
+aplicadas a funcionarios jerárquicos y delegados de personal; análisis
+de expedientes administrativos y resoluciones. \\
+\textbf{Población, Muestra y Unidad} & \textbf{Población:} Organismos
+centralizados del poder ejecutivo.\textbf{Muestra:} 15 directores de
+recursos humanos y 6 representantes sindicales.\textbf{Unidad de
+Análisis:} Las políticas y prácticas de recursos humanos estatales. \\
+\textbf{Resultados} & Se comprobó que la barrera principal no es
+tecnológica, sino la brecha de competencias digitales y la ausencia de
+protocolos de auditoría algorítmica concertados colectivamente en los
+convenios. \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{4. Síntesis Comparativa y Aportes al Proyecto de
+TFG}\label{suxedntesis-comparativa-y-aportes-al-proyecto-de-tfg}
+
+El cotejo de ambas investigaciones aporta directrices metodológicas
+directas para nuestro proyecto de tesis: 1. \textbf{Triangulación
+Metodológica:} Articular la medición cuantitativa de clima y
+satisfacción con el análisis cualitativo normativo de la organización
+seleccionada en la región. 2. \textbf{Centralidad del Factor Humano:}
+Toda innovación tecnológica en recursos humanos requiere esquemas de
+gobernanza ética con supervisión humana activa
+(\emph{human-in-the-loop}). 3. \textbf{Delimitación Contextual:}
+Asegurar una descripción pormenorizada del contexto institucional
+conforme a la \emph{Resolución CD-CURZAS N° 266/23}.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{5. Referencias Bibliográficas (Normas APA 7ma
+Edición)}\label{referencias-bibliogruxe1ficas-normas-apa-7ma-ediciuxf3n}
+
+Bankins, S. (2021). The ethical implications of AI adoption in employee
+lifecycle processes: A systematic review. \emph{Journal of Business
+Ethics}, 178(3), 735--752. https://doi.org/10.1007/s10551-021-04896-x
+
+Barney, J. (1991). Firm resources and sustained competitive advantage.
+\emph{Journal of Management}, 17(1), 99--120.
+https://doi.org/10.1177/014920639101700108
+
+Colquitt, J. A. (2001). On the dimensionality of organizational justice:
+A construct validation of a measure. \emph{Journal of Applied
+Psychology}, 86(3), 386--400. https://doi.org/10.1037/0021-9010.86.3.386
+
+Criado, J. I., \& Gil-Garcia, J. R. (2019). Creating public value
+through smart technologies and data analytics in government.
+\emph{Information Polity}, 24(3), 245--250.
+https://doi.org/10.3233/IP-190180
+
+Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and
+user acceptance of information technology. \emph{MIS Quarterly}, 13(3),
+319--340. https://doi.org/10.2307/249008
+
+Evans, P. (1996). El Estado como problema y como solución.
+\emph{Desarrollo Económico}, 35(140), 529--562.
+
+Fernández, M. J., \& Ramírez, S. (2023). Inteligencia artificial y
+empleo público: Dilemas éticos y capacidades estatales. \emph{Revista
+del CLAD Reforma y Democracia}, (85), 45--78.
+https://doi.org/10.32749/clad.ryd.85.02
+
+Martínez, C. R., \& López, G. H. (2024). Impacto de la Inteligencia
+Artificial en la gestión estratégica del talento humano: Oportunidades y
+retos en organizaciones de servicios. \emph{Revista Internacional de
+Administración y Organizaciones}, 18(2), 112--134.
+https://doi.org/10.1016/j.riao.2024.01.005
+
+Oszlak, O. (2020). \emph{El Estado en la era del exponente tecnológico:
+Hacia una burocracia 4.0}. Instituto Nacional de la Administración
+Pública (INAP).
+
+Tambe, P., Cappelli, P., \& Yakubovich, V. (2019). Artificial
+intelligence in human resource management: Challenges and a path
+forward. \emph{California Management Review}, 61(4), 15--42.
+https://doi.org/10.1177/0008125619867910
+
+
+
+
+\end{document}

@@ -1,0 +1,810 @@
+  
+ 
+3880 
+ 
+ 
+El rol de la Inteligencia Artificial en los procesos de 
+reclutamiento y selección en la Gestión del Talento 
+Humano 
+ 
+The role of artificial intelligence in the recruitment and selection 
+processes in Human Talent Management 
+ 
+Para citar este trabajo: 
+Gonzabay, I., y Pacheco, S., (2024). El rol de la Inteligencia Artificial en los procesos de reclutamiento y 
+selección 
+en 
+la 
+Gestión 
+del 
+Talento 
+Humano. Reincisol, 3(6), 
+pp. 
+3880-3902. 
+https://doi.org/10.59282/reincisol.V3(6)3880-3902  
+                                           
+Autores:  
+ 
+Israel Alexis Gonzabay Quiñónez 
+Universidad Estatal de Bolívar 
+Ciudad: Guaranda, País: Ecuador 
+Correo Institucional: Israel.gonzabay@ueb.edu.ec 
+Orcid: https://orcid.org/0009-0004-5060-4272 
+ 
+Silvia Rosa Pacheco Mendoza  
+Universidad Estatal de Bolívar 
+Ciudad: Guaranda, País: Ecuador 
+Correo Institucional: spacheco@ueb.edu.ec 
+Orcid: https://orcid.org/0000-0003-4945-1489 
+ 
+ 
+ 
+ 
+RECIBIDO: 13 agosto 2024       ACEPTADO: 21 septiembre 2024     PUBLICADO 28 octubre 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+3881 
+ 
+Resumen 
+El problema abordado en este estudio es la necesidad de optimizar los procesos de 
+reclutamiento y selección de personal en las empresas, particularmente en el 
+contexto ecuatoriano, donde la alta tasa de informalidad y la falta de alineación 
+entre las habilidades de los trabajadores y las demandas del mercado laboral son 
+desafíos clave. La investigación se centra en explorar el papel de la Inteligencia 
+Artificial en la transformación de la Gestión del Talento Humano, y cómo estas 
+tecnologías avanzadas pueden contribuir a mejorar el perfil organizacional de las 
+empresas a través de una selección más eficiente. El objetivo principal es identificar 
+el rol de la Inteligencia Artificial en la Gestión del Talento Humano, así como las 
+innovaciones en los procesos de reclutamiento y desarrollo profesional. La 
+metodología utilizada es un estudio de caso cuantitativo, centrado en una empresa 
+de outsourcing de talento humano que aplica Inteligencia Artificial en sus procesos 
+de selección. Se recolectaron datos mediante encuestas. Los principales resultados 
+indican que el uso de Inteligencia Artificial (IA) ha tenido un impacto positivo en 
+los procesos de reclutamiento y selección en la empresa estudiada. El 85% de los 
+trabajadores utilizan herramientas de IA como el análisis automatizado de 
+currículums y las entrevistas por video con IA. Además, el 72.72% considera que 
+estas herramientas son eficaces y el 90.91% percibe una alta precisión en la 
+selección de candidatos. Las conclusiones revelan que la Inteligencia Artificial está 
+teniendo un impacto positivo en los procesos de reclutamiento, mejorando la 
+eficiencia y la precisión en la selección de candidatos. No obstante, se identifican 
+desafíos como la resistencia al cambio y la necesidad de mayor formación sobre 
+Inteligencia Artificial. Estos hallazgos subrayan la importancia de combinar la 
+implementación tecnológica con estrategias de gestión del cambio y educación 
+continua para maximizar los beneficios de la Inteligencia Artificial en la gestión del 
+talento.    
+ 
+Palabras claves: Inteligencia Artificial; Talento Humano; Reclutamiento; Selección.   
+ 
+ 
+ 
+
+  
+ 
+3882 
+ 
+Abstract  
+The study addresses a critical issue in the Ecuadorian business context: the need 
+to optimize recruitment and selection processes, particularly in an environment 
+where labor informality is high and there is a significant mismatch between 
+workers’ skills and labor market demands. The research focuses on analyzing how 
+Artificial Intelligence (AI) can transform Human Talent Management, providing 
+more efficient personnel selection and improving the organizational profile of 
+companies. The main objective of the research is to explore the role of AI in Human 
+Talent Management, as well as to identify the innovations these technologies can 
+introduce in recruitment and professional development processes. To achieve these 
+objectives, a quantitative case study was conducted in a human talent outsourcing 
+company that employs AI in its selection processes. Data collection was carried out 
+through surveys directed at participants involved in these processes. The main 
+results indicate that the use of Artificial Intelligence (AI) has had a positive impact 
+on the recruitment and selection processes in the company studied. Eighty-five 
+percent of workers use AI tools such as automated resume analysis and AI video 
+interviews. In addition, 72.72% of respondents consider these tools to be effective 
+and 90.91% perceive high accuracy in candidate selection. The study’s conclusions 
+are revealing: the implementation of AI is having a positive impact, increasing 
+efficiency and accuracy in candidate selection. However, some challenges were also 
+identified, such as organizational resistance to change and the need to improve 
+training on the use of AI. These findings highlight the importance of complementing 
+technological implementation with effective change management strategies and 
+continuous education programs, in order to maximize the benefits that AI can offer 
+in human talent management.   
+ 
+Keywords: Artificial Intelligence, Human Talent, Human Resources, Recruitment, 
+Selection, Recruiting   
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+3883 
+ 
+INTRODUCCIÓN 
+En la era digital actual, la Gestión del Talento Humano se enfrenta a desafíos sin 
+precedentes. La creciente complejidad del mercado laboral, la velocidad de los 
+cambios tecnológicos y la necesidad de identificar y atraer talento altamente 
+especializado han llevado a las organizaciones a buscar soluciones innovadoras 
+para optimizar sus procesos de reclutamiento y selección. En este contexto, la 
+Inteligencia Artificial (IA) emerge como una herramienta potencialmente 
+transformadora, prometiendo revolucionar la forma en que las empresas 
+identifican, evalúan y seleccionan a sus futuros empleados. La implementación de 
+la IA en los procesos de reclutamiento y selección plantea una serie de 
+interrogantes fundamentales sobre su efectividad, impacto e implicaciones éticas. 
+Por un lado, la IA ofrece la posibilidad de procesar grandes volúmenes de datos de 
+candidatos con una velocidad y precisión inigualables por los métodos 
+tradicionales.  
+Como señalan Hmoud y Laszlo (2019), para descubrir patrones y correlaciones que 
+los reclutadores humanos podrían pasar desapercibidos, la IA puede analizar en 
+cuestión de segundos miles de currículos. Esta capacidad promete no solo acelerar 
+el proceso de selección, sino también reducir los sesgos inconscientes que pueden 
+influir en las decisiones de contratación. Sin embargo, la adopción de la IA en estos 
+procesos no está exenta de desafíos y preocupaciones. Existe un debate creciente 
+sobre la posibilidad de que los algoritmos de IA perpetúen o incluso amplifiquen 
+los sesgos existentes si no se diseñan y entrenan adecuadamente. Además, surgen 
+cuestionamientos sobre la capacidad de la IA para evaluar aspectos intangibles 
+pero cruciales del talento humano, como la inteligencia emocional, la creatividad o 
+el potencial de liderazgo. Como argumenta Tambe et al. (2019), "mientras que la IA 
+excede en la identificación de patrones basados en datos históricos, puede tener 
+limitaciones significativas en la predicción de éxito futuro en roles que requieren 
+adaptabilidad y habilidades interpersonales complejas" (p. 78). 
+Otro aspecto crítico a considerar es el impacto de la IA en la experiencia del 
+candidato y en la percepción pública de las organizaciones que la implementan. La 
+interacción con sistemas automatizados durante el proceso de reclutamiento puede 
+resultar impersonal o frustrante para algunos candidatos, potencialmente 
+afectando la imagen de la empresa y su capacidad para atraer talento de alto nivel. 
+
+  
+ 
+3884 
+ 
+Por otro lado, la transparencia en el uso de la IA y la capacidad de explicar las 
+decisiones tomadas por estos sistemas se vuelven cruciales para mantener la 
+confianza y cumplir con las regulaciones emergentes en materia de protección de 
+datos y no discriminación. La integración efectiva de la IA en los procesos de 
+reclutamiento y selección requiere un enfoque equilibrado que aproveche las 
+fortalezas de la tecnología mientras reconoce sus limitaciones. Como sugiere 
+Upadhyay y Khandelwal (2018), el objetivo del futuro del reclutamiento no es 
+reemplazar a los humanos con máquinas, sino encontrar la combinación ideal 
+entre la inteligencia humana y artificial para que se tomen decisiones más justas 
+y informadas. 
+La IA desempeña un papel fundamental en la revolución de la gestión del talento 
+humano al mejorar varias funciones de RR.HH. La IA facilita los procesos 
+automatizados de búsqueda y contratación de candidatos, el aprendizaje y 
+desarrollo profesional y la contratación de trabajadores a corto plazo (Vanisree y 
+Viajya, 2024). Optimiza las estrategias de adquisición, desarrollo y retención de 
+talento a través de información basada en datos y automatización, mejorando la 
+toma de decisiones y la eficiencia en las organizaciones (Ashutosh, 2024). El 
+reclutamiento impulsado por IA, el análisis predictivo para la adquisición de 
+talento, las iniciativas de aprendizaje y desarrollo personalizadas y los sistemas de 
+gestión del rendimiento mejorados por IA son estrategias clave para la optimización 
+de la gestión del talento, fomentando una fuerza laboral inclusiva y ágil 
+(Sundarapandiyan , et. al, 2024). Además, la integración de IA en la gestión de 
+RR.HH. enfatiza la importancia de las consideraciones éticas, la transparencia y 
+los enfoques centrados en el ser humano para garantizar una gobernanza 
+responsable de la IA y prácticas de RR.HH. impactantes (Gupta, 2024). El potencial 
+transformador de la IA en los recursos humanos es evidente en la simplificación 
+del reclutamiento, la mejora del compromiso de los empleados y la mitigación de 
+sesgos para un entorno más basado en datos e inclusivo (Gordiya, 2024). 
+"La IA ha demostrado reducir el tiempo de contratación en un 23% en promedio" 
+(Johnson et al., 2020), este estudio reveló que el 55% de las empresas Fortune 500 
+utilizan IA para filtrar candidatos inicialmente. "Es crucial auditar y ajustar 
+continuamente los sistemas de IA para garantizar procesos de selección 
+equitativos" (Zhang & Lee, 2021), esta investigación reciente ha identificado sesgos 
+
+  
+ 
+3885 
+ 
+de género y raza en algoritmos de IA utilizados en reclutamiento. Un estudio de 
+2022 mostró que la IA puede evaluar habilidades blandas con una precisión del 
+85% mediante análisis de video y lenguaje, "La IA ofrece una evaluación más 
+objetiva de las habilidades interpersonales que los métodos tradicionales" (Garcia 
+et al., 2022). 
+Una encuesta de 2023 reveló que el 78% de los candidatos valoran positivamente 
+la interacción con chatbots de IA durante el proceso de reclutamiento. "Los 
+chatbots mejoran la experiencia del candidato al proporcionar respuestas 
+inmediatas y personalizadas" (Smith & Brown, 2023). Un estudio longitudinal de 3 
+años demostró que las empresas que utilizan IA en sus procesos de selección tienen 
+una tasa de retención un 15% mayor. "La IA mejora el ajuste entre candidato y 
+puesto, lo que se traduce en mayor satisfacción y retención" (Patel et al., 2024). La 
+IA está transformando significativamente los procesos de reclutamiento y selección, 
+ofreciendo eficiencia y objetividad. Sin embargo, persisten desafíos como los sesgos 
+algorítmicos. La investigación actual se centra en perfeccionar estas herramientas 
+para lograr un equilibrio entre eficiencia, equidad y experiencia del candidato en la 
+gestión del talento humano. 
+Por otro lado, la adopción de IA en la gestión del talento humano en Ecuador 
+enfrenta desafíos importantes. Morales (2022) argumenta que la incertidumbre 
+ética y legal, en particular en cuanto a la protección de los datos personales y la no 
+discriminación, surge debido a la falta de regulación específica sobre el uso de IA 
+en los procesos de selección en Ecuador. Esta situación plantea la necesidad de 
+desarrollar marcos regulatorios adecuados que garanticen un uso responsable y 
+equitativo de estas tecnologías. Además, existe la preocupación de que la IA pueda 
+exacerbar las desigualdades existentes en el mercado laboral ecuatoriano. Un 
+estudio reciente de Vásquez et al. (2023) encontró que "el 62% de las empresas 
+ecuatorianas que han implementado sistemas de IA en sus procesos de 
+reclutamiento reportaron una mejora en la eficiencia, pero el 40% admitió 
+preocupaciones sobre posibles sesgos en la selección de candidatos" (p. 112). Esto 
+subraya la importancia de desarrollar y aplicar algoritmos de IA que sean sensibles 
+a las particularidades culturales y socioeconómicas del país. 
+En Ecuador, como en muchos países en desarrollo, el sector empresarial se 
+enfrenta a desafíos significativos en la gestión del talento humano, particularmente 
+
+  
+ 
+3886 
+ 
+en los procesos de reclutamiento y selección. La necesidad de optimizar estos 
+procesos, reducir costos y mejorar la calidad de las contrataciones ha llevado a 
+considerar la implementación de tecnologías avanzadas como la Inteligencia 
+Artificial (IA). Sin embargo, la adopción de estas herramientas en el contexto 
+ecuatoriano presenta una serie de complejidades e interrogantes que merecen un 
+análisis profundo. El mercado laboral ecuatoriano se caracteriza por una alta tasa 
+de informalidad y un desajuste entre las habilidades demandadas por las empresas 
+y las ofrecidas por los trabajadores.  
+Según datos del Instituto Nacional de Estadística y Censos (INEC), en 2023 la tasa 
+de empleo inadecuado superó el 55% de la población económicamente activa. En 
+este escenario, la introducción de la IA en los procesos de reclutamiento y selección 
+podría ofrecer soluciones innovadoras, pero también plantea interrogantes sobre 
+su efectividad y adaptabilidad al contexto local. La IA tiene el potencial de 
+revolucionar la forma en que las empresas ecuatorianas identifican, evalúan y 
+seleccionan talento. Como señalan Rodríguez y Pérez (2020), los algoritmos de IA 
+en el reclutamiento pueden mejorar la coincidencia entre los candidatos y los 
+puestos de trabajo y disminuir significativamente el tiempo de selección, lo que 
+aumenta la eficiencia del proceso en hasta un 30%. No obstante, es crucial 
+considerar las implicaciones éticas y prácticas de esta tecnología en un país donde 
+la brecha digital aún es considerable. 
+Gestión del Talento Humano 
+La gestión del talento humano ha evolucionado con el tiempo, pasando de un 
+enfoque meramente administrativo a una función estratégica dentro de las 
+organizaciones. Según Chiavenato (2011), la gestión del talento humano no solo 
+implica la contratación de personal, sino también la creación de un ambiente de 
+trabajo adecuado para que los empleados se desarrollen y contribuyan al 
+cumplimiento de los objetivos organizacionales. En este sentido, los procesos de 
+reclutamiento y selección son fundamentales, ya que el éxito de una organización 
+depende en gran medida de contar con el personal adecuado en los roles 
+apropiados. 
+Reclutamiento y Selección en la Era Digital 
+El proceso de reclutamiento y selección ha sido tradicionalmente un desafío para 
+las organizaciones, ya que involucra la identificación, evaluación y selección de 
+
+  
+ 
+3887 
+ 
+candidatos que se ajusten a las necesidades de la empresa. Con la digitalización, 
+estas actividades se han transformado significativamente. En la actualidad, el uso 
+de plataformas digitales y algoritmos ha mejorado la capacidad de las 
+organizaciones para identificar talento en un mercado laboral cada vez más 
+competitivo (Hernández y Hermoso, 2020). El reclutamiento digital permite a las 
+organizaciones acceder a una mayor cantidad de candidatos de manera más 
+eficiente. 
+Además, Velásquez (2022) sostiene que la digitalización ha generado una 
+revolución en los métodos de selección, ya que la automatización de procesos 
+permite analizar grandes volúmenes de datos en tiempo real, eliminando muchas 
+de las barreras que los reclutadores enfrentaban anteriormente. La Inteligencia 
+Artificial, en particular, ha permitido acelerar estos procesos y mejorar la toma de 
+decisiones en la selección de personal. 
+Inteligencia Artificial en Recursos Humanos 
+La inteligencia artificial ha tenido un impacto profundo en muchas áreas del 
+conocimiento y su aplicación en los recursos humanos no es la excepción. Como lo 
+indica García et al. (2022), la IA se define como la capacidad de las máquinas para 
+realizar tareas que normalmente requieren inteligencia humana, como la toma de 
+decisiones, el aprendizaje y la resolución de problemas. En el contexto de la gestión 
+del talento humano, la IA se ha utilizado principalmente para mejorar los procesos 
+de reclutamiento y selección mediante la automatización de tareas, el análisis 
+predictivo y la evaluación de candidatos. 
+Torres et al. (2014) señalan que la IA ha mejorado la precisión y la eficiencia en la 
+selección de personal, lo que permite a las organizaciones identificar candidatos 
+con habilidades específicas y predecir su rendimiento futuro.  
+Algoritmos de IA en la Selección de Personal 
+Los algoritmos de IA en los procesos de reclutamiento permiten analizar grandes 
+volúmenes de datos sobre candidatos en cuestión de segundos, identificando 
+patrones y correlaciones que los reclutadores humanos podrían no detectar 
+(Velásquez, 2022). Este análisis incluye la revisión de currículums, la evaluación 
+de habilidades mediante pruebas psicométricas, y la preselección de candidatos 
+basada en criterios previamente establecidos. 
+
+  
+ 
+3888 
+ 
+Sin embargo, Hernández y Hermoso (2020) advierten sobre los posibles sesgos 
+algorítmicos. Si los algoritmos no son diseñados adecuadamente, pueden 
+perpetuar o incluso amplificar los sesgos presentes en los datos históricos 
+utilizados para entrenarlos. Por ejemplo, un algoritmo entrenado con datos que 
+reflejan discriminación de género o raza podría continuar replicando esos patrones 
+en el proceso de selección. 
+Ventajas de la Inteligencia Artificial en el Reclutamiento 
+La implementación de IA en los procesos de selección ofrece numerosas ventajas. 
+Primero, mejora la eficiencia al automatizar tareas repetitivas, como la revisión de 
+currículums, lo que permite que los reclutadores se centren en aspectos más 
+estratégicos del proceso de selección (Aquiles, 2022). Además, la IA permite realizar 
+análisis predictivos sobre el desempeño de los candidatos, lo que mejora la calidad 
+de las contrataciones y contribuye a una mayor retención de empleados (García, 
+2023). 
+En un estudio longitudinal, García et al. (2023) demostró que las empresas que 
+utilizan IA en sus procesos de selección tienen una tasa de retención de empleados 
+un 15% mayor que aquellas que no lo hacen. Esto se debe, en parte, a la mayor 
+precisión en la selección de candidatos que se ajustan no solo a las habilidades 
+técnicas requeridas, sino también a la cultura organizacional. 
+Desafíos y Limitaciones del Uso de IA en Recursos Humanos 
+A pesar de sus beneficios, la implementación de IA en los procesos de reclutamiento 
+enfrenta varios desafíos. Uno de los más destacados es la resistencia al cambio, 
+tanto por parte de los empleados como de los gerentes. Morales (2022) señala que 
+la adopción de tecnologías avanzadas, como la IA, requiere un cambio cultural en 
+las organizaciones, lo cual puede ser difícil de lograr, especialmente en países 
+donde la tecnología aún no está plenamente integrada en las prácticas de gestión 
+de talento humano. 
+Otro desafío es la preocupación ética y legal en torno al uso de IA en la selección 
+de personal. Según Vásquez et al. (2023), un 40% de las empresas que han 
+implementado IA en sus procesos de selección expresan preocupaciones sobre los 
+sesgos que estos sistemas pueden generar. La IA, aunque potente, no es infalible y 
+su uso en la selección de personal puede llevar a decisiones discriminatorias si no 
+se diseñan y supervisan adecuadamente los algoritmos. 
+
+  
+ 
+3889 
+ 
+Además, la falta de regulación en muchos países en desarrollo, como Ecuador, en 
+cuanto a la protección de datos y la no discriminación en el uso de IA, representa 
+un obstáculo significativo (Morales, 2022). La creación de marcos regulatorios 
+específicos que aborden estos problemas es crucial para garantizar el uso 
+responsable de estas tecnologías. 
+Impacto de la IA en la Cultura Organizacional 
+El uso de IA no solo mejora la eficiencia en los procesos de selección, sino que 
+también tiene un impacto positivo en la cultura organizacional.  Pérez y Rojas 
+(2019) sostienen que la IA puede ayudar a mejorar la alineación entre los 
+candidatos seleccionados y la cultura de la empresa, lo que a su vez aumenta la 
+satisfacción y la retención de los empleados. Los sistemas de IA permiten identificar 
+candidatos que no solo cumplen con los requisitos técnicos del puesto, sino que 
+también se ajustan a los valores y principios de la organización. 
+Sin embargo, la implementación de IA en los procesos de reclutamiento también 
+puede tener efectos negativos en la percepción de la organización. Según Aquiles 
+(2022), la interacción con sistemas automatizados durante el proceso de selección 
+puede percibirse como impersonal por parte de los candidatos, lo que podría afectar 
+la imagen de la empresa y su capacidad para atraer talento de alto nivel. 
+Perspectivas Futuras del Uso de IA en la Gestión del Talento Humano 
+A medida que la tecnología continúa evolucionando, se espera que la IA desempeñe 
+un papel aún más importante en la gestión del talento humano. Según Túñez et al. 
+(2021) el futuro de la IA en la gestión de talento se centrará en la integración de 
+herramientas más avanzadas, como los sistemas de IA que evalúan habilidades 
+blandas y la inteligencia emocional de los candidatos, áreas que tradicionalmente 
+han sido difíciles de medir mediante métodos automatizados. 
+En el futuro, las organizaciones que logren combinar de manera efectiva la 
+inteligencia humana con la artificial estarán mejor posicionadas para tomar 
+decisiones más informadas y justas (Pérez y Rojas, 2019). Para lograr esto, será 
+fundamental seguir investigando y desarrollando marcos éticos y regulatorios que 
+garanticen que la IA se utilice de manera justa y equitativa en los procesos de 
+selección. 
+Ante lo descrito se planteó como objetivo identificar el rol de la Inteligencia Artificial 
+en la Gestión del Talento Humano así como las innovaciones en reclutamiento y 
+
+  
+ 
+3890 
+ 
+desarrollo profesional, para ello se determinaron las principales Inteligencias 
+Artificiales aplicadas en la Gestión del Talento Humano, se sistematizaron los roles 
+asumidos por la Inteligencia Artificial en la Gestión del Talento Humano y 
+finalmente se describieron las innovaciones en Reclutamiento y desarrollo 
+profesional a partir del uso de la Inteligencia Artificial en la Gestión del Talento 
+Humano empleadas en una empresa outsouring de talento humano. 
+ 
+MATERIALES Y METODOS 
+Considerando el fenómeno relativamente reciente de la función de las aplicaciones 
+basadas en IA en los procesos de reclutamiento y selección dentro de la Gestión de 
+Talento Humano, se anticipa que el diseño de un estudio de caso cuantitativo, 
+inusualmente representativo y revelador, ofrecerá datos contextualmente ricos y 
+detallados (Eisenhardt, 1989). Esto está alineado con los esfuerzos de construcción 
+teórica para desarrollar nuevos modelos y contribuciones teóricas (Corley y Gioia, 
+2011; Malik et al., 2019; Thomas et al., 2011; Whetten, 1989). Un diseño de estudio 
+de caso único y singular posee varios beneficios, particularmente cuando se tiene 
+la oportunidad de realizar un análisis detallado que demuestra la relación empírica 
+de los constructos utilizados en los argumentos conceptuales (Siggelkow, 2007). 
+Los estudios de caso único permiten obtener datos abundantes sobre el fenómeno 
+de interés, especialmente si el diseño incorpora múltiples fuentes y niveles de 
+recopilación de datos (Eisenhardt, 1989), y puede presentar una historia rica y 
+entrelazada con la teoría (Eisenhardt y Graebner, 2007). 
+En esta investigación, se ha seleccionado una empresa de outsourcing de talento 
+humano que se especializa en el diseño y desarrollo de procesos de reclutamiento 
+y selección utilizando aplicaciones innovadoras respaldadas por IA en la gestión 
+global de clientes, así como en otras áreas funcionales como la atención al cliente, 
+marketing, finanzas, investigación y desarrollo. La organización tiene 50 clientes a 
+los que les lleva procesos de reclutamiento y selección a través de las IA y en el 
+área laboran 22 personas entre reclutadores, especialistas en desarrollo de IA y la 
+Gerencia. 
+La presente investigación emplea un enfoque cuantitativo, basado en un estudio 
+de caso único en una empresa de outsourcing de talento humano que ha 
+implementado Inteligencia Artificial (IA) en sus procesos de reclutamiento y 
+
+  
+ 
+3891 
+ 
+selección. El diseño metodológico se centró en el análisis de datos recopilados 
+mediante encuestas aplicadas a los empleados de dicha empresa, con el objetivo 
+de evaluar el impacto de la IA en la eficiencia y precisión de los procesos de 
+selección. 
+La investigación se llevó a cabo en una empresa que cuenta con 50 clientes y 22 
+empleados en el área de reclutamiento y desarrollo de IA. Todos los trabajadores 
+involucrados en el uso de herramientas de IA para el reclutamiento fueron 
+seleccionados como participantes, lo que constituye una muestra de 22 personas. 
+Se utilizó una encuesta estructurada como principal instrumento de recolección de 
+datos. La encuesta contenía un total de 20 preguntas, diseñadas para obtener 
+información detallada sobre varios aspectos relacionados con el uso de la IA en los 
+procesos de reclutamiento y selección. Las preguntas estaban divididas en las 
+siguientes categorías: datos sociodemográficos como edad, género y años de 
+experiencia en la empresa; uso de IA, donde se consultaba sobre las herramientas 
+específicas utilizadas, como el análisis automatizado de currículums, entrevistas 
+con IA y evaluaciones psicométricas; eficacia percibida de la IA, en la que los 
+encuestados evaluaron la precisión y efectividad de la IA en la selección de 
+candidatos; impacto organizacional, con preguntas sobre cómo la implementación 
+de IA ha influido en el perfil organizacional de los clientes; y finalmente, desafíos y 
+mejoras, con preguntas abiertas sobre las dificultades encontradas al utilizar IA y 
+las recomendaciones para mejorar los sistemas. Cada pregunta fue diseñada para 
+ser respondida utilizando una escala tipo Likert de cinco puntos (1 = 
+completamente en desacuerdo, 5 = completamente de acuerdo), además de 
+preguntas abiertas para recoger percepciones cualitativas sobre los beneficios y 
+desafíos de la IA. 
+Se optó por la encuesta estructurada para facilitar la recolección de datos 
+cuantitativos y permitir el análisis estadístico posterior. Las encuestas fueron 
+aplicadas de manera presencial en las instalaciones de la empresa, garantizando 
+el anonimato y la confidencialidad de los participantes. Adicionalmente, se 
+realizaron observaciones no participativas durante el proceso de reclutamiento 
+asistido por IA, con el fin de complementar los datos obtenidos de las encuestas. 
+Por lo tanto, para comprender el impacto de las aplicaciones de IA en los resultados 
+obtenidos en el proceso de selección y reclutamiento en las empresas, la elección 
+
+  
+ 
+3892 
+ 
+de un caso revelador y crítico es no solo adecuada sino también esencial. Como 
+sugiere Eisenhardt (1989), el diseño del caso permite múltiples fuentes y niveles de 
+recopilación de datos mediante encuestas, las cuales serán realizadas a los 
+trabajadores del outsourcing, observación de un proceso de reclutamiento y 
+selección realizado durante el período de la investigación, y datos secundarios de 
+varias fuentes donde se encuentren las estadísticas sobre la tasa de retención del 
+personal contratado por las empresas, tasa de satisfacción de los clientes, entre 
+otros. Este acceso a datos es único y esclarecedor convirtiendo a este caso en un 
+ejemplo destacado. Así, teniendo en cuenta el tamaño, la escala de operación de la 
+empresa y la diversidad de datos multinivel, se reducen las limitaciones de una 
+muestra pequeña. En aras de la confidencialidad, se usarán seudónimos para 
+varios BOTS y plataformas digitales. 
+Basándose en Eisenhardt (1989), se creó una especificación preliminar de temas a 
+partir de una completa revisión de la literatura sobre los procesos de reclutamiento 
+y selección que utilizan tecnología de IA y sus efectos en los resultados de los 
+empleados. Esta especificación ayudó a definir el diseño inicial de la investigación, 
+con el objetivo de mejorar la validez externa y proporcionar una base empírica o 
+teórica emergente. A partir de estos temas, se formularon las preguntas para la 
+encuesta que se presentan en la siguiente sección. 
+ 
+RESULTADOS 
+La investigación fue aprobada por la Gerencia General de la organización, misma 
+que solicitó privacidad en la revelación de sus datos, y se contactó con el personal 
+en el lugar de trabajo a continuación, dependiendo del alcance de los múltiples 
+niveles de acceso que la organización del caso estaba dispuesta a proporcionar, se 
+aplicó la encuesta, obteniendo los siguientes resultados. 
+Figura 1. 
+Datos Sociodemográficos. 
+
+  
+ 
+3893 
+ 
+ 
+Nota: datos tomados de las encuestas realizadas en la organización. 
+La edad promedio de los trabajadores de la empresa oscila entre los 26 y 35 años, 
+lo que refleja una plantilla joven y con ideas innovadoras. Predomina el personal 
+femenino, representando el 59,09%, frente al 40,91% de hombres. La mayoría de 
+los encuestados son reclutadores (77,27%) que implementan la inteligencia 
+artificial desarrollada por la organización. Además, los empleados tienen en 
+promedio entre 4 y 6 años trabajando en la empresa. 
+Figura 2. 
+Uso de la Inteligencia Artificial en el Reclutamiento y Selección 
+ 
+Nota: datos tomados de las encuestas realizadas en la organización. 
+En cuanto a la dimensión "Uso de la Inteligencia Artificial en el Reclutamiento y 
+Selección", el 85% de los encuestados indicaron que trabajan directamente con 
+alguna herramienta de IA en estos procesos. Las herramientas más comunes 
+incluyen el análisis automatizado de currículums y las entrevistas por video con 
+IA, mientras que en menor medida se utilizan las evaluaciones psicométricas 
+
+  
+ 
+3894 
+ 
+basadas en IA y la búsqueda de candidatos a través de redes sociales mediante IA. 
+Al ser consultados sobre la preferencia de los clientes respecto al uso de 
+herramientas de IA en el reclutamiento y selección, los encuestados señalaron que 
+estas son solicitadas.  
+En la dimensión “Percepción y Eficacia de la Inteligencia Artificial”, el 72,72% de 
+los encuestados considera que esta es eficaz en el proceso de reclutamiento y 
+selección. Además, el 90,91% percibe que tiene una alta precisión para seleccionar 
+a los candidatos adecuados. Esto se refleja en un nivel de satisfacción del 86,36% 
+por parte de los clientes ante el uso de las herramientas de IA.  
+Figura 3. 
+Impacto en el perfil organizacional 
+ 
+Nota: datos tomados de las encuestas realizadas en la organización 
+Otra dimensión evaluada fue el “Impacto en el perfil organizacional de las empresas 
+clientes”. A la pregunta de si la implementación de IA ha mejorado el perfil 
+organizacional de las empresas a través de los empleados seleccionados, el 68,18% 
+de los encuestados respondió afirmativamente. Asimismo, al ser consultados sobre 
+el grado de impacto, el 86,36% señaló que la IA ha mejorado significativamente el 
+perfil organizacional de estas empresas.  
+Figura 4. 
+Innovaciones y mejoras futuras 
+
+  
+ 
+3895 
+ 
+ 
+Nota: datos tomados de las encuestas realizadas en la organización 
+En cuanto a la dimensión “Innovaciones y mejoras futuras”, el 54,54% de los 
+encuestados manifestó que les gustaría mayor precisión en la selección de 
+candidatos, el 31,82% sugirió la integración con los sistemas actuales, y un 8% 
+indicó que sería beneficioso incorporar más transparencia en el proceso. Al 
+preguntar sobre los desafíos que han enfrentado las empresas en la 
+implementación de IA en el reclutamiento y selección el 80,12% indicó que la 
+resistencia al cambio constituye el mayor desafío, seguido de las preocupaciones 
+éticas (8,02%) y los costos elevados (5,03%). Entre las recomendaciones que haría 
+para mejorar la implementación de IA en el reclutamiento y selección, los 
+encuestados respondieron en promedio que se debe mejorar en la capacitación al 
+personal (59,09%) y realizar evaluaciones periódicas al sistema (39,42%). 
+Finalmente se realizaron preguntas sobre las razones para no utilizar la IA en los 
+procesos de reclutamiento y selección; al indagar sobre las razones principales por 
+las que las empresas clientes no utilizan herramientas de IA en el proceso de 
+reclutamiento y selección, los encuestados indican en promedio la mayor razón es 
+que los clientes tienen falta de conocimiento sobre las herramientas de IA 
+disponibles (46,70%), a otros les preocupa la precisión y fiabilidad de la IA (23,45%) 
+y, por último, existe la resistencia al cambio (18,90).  Se les preguntó a los 
+encuestados sobre los beneficios potenciales que cree podría ofrecer la IA en el 
+proceso de reclutamiento y selección en las empresas clientes, en este sentido, 
+41,9% indica que aumenta la eficiencia en la selección de candidatos, mientras que 
+
+  
+ 
+3896 
+ 
+el 29,8% indica que mejora la calidad de las contrataciones, en menor medida se 
+indica que existe un ahorro de tiempo y recursos. La ultima pregunta solicitaba 
+información sobre los factores o condiciones que cambiarían la decisión de las 
+empresas clientes para considerar la solicitud de uso de las herramientas IA en el 
+futuro, al respecto el 68,70% en promedio, indica que un mayor conocimiento y 
+formación sobre IA sería necesario para este cambio. 
+ 
+DISCUSIÓN 
+Los resultados de este estudio proporcionan una visión valiosa sobre la 
+implementación y percepción de la Inteligencia Artificial (IA) en los procesos de 
+reclutamiento y selección en el contexto empresarial actual. En primer lugar, es 
+notable que el 85% de los encuestados trabajan directamente con herramientas de 
+IA en estos procesos, lo que indica una adopción significativa de esta tecnología en 
+el campo de los recursos humanos. Las herramientas más utilizadas son el análisis 
+automatizado de currículos y las entrevistas por video con IA, lo que sugiere una 
+tendencia hacia la automatización de las etapas iniciales del proceso de selección. 
+Esto está en línea con las tendencias globales de digitalización en RR.HH. (Tambe 
+et al., 2019). 
+La percepción general sobre la eficacia y precisión de la IA es altamente positiva, 
+con un 72,72% de los encuestados considerándola eficaz y un 90,91% percibiendo 
+una alta precisión en la selección de candidatos. Esta percepción positiva se refleja 
+en la satisfacción de los clientes, con un 86,36% expresando satisfacción con el 
+uso de herramientas de IA. Estos hallazgos respaldan la idea de que la IA está 
+cumpliendo su promesa de mejorar la eficiencia y precisión en los procesos de 
+selección. De manera similar, Hmoud y Laszlo (2019) encontraron que la 
+implementación de IA en el reclutamiento y selección condujo a una mejora 
+significativa en la eficiencia del proceso y la calidad de las contrataciones en un 
+estudio de caso de una gran empresa tecnológica. 
+En cuanto al impacto en el perfil organizacional, el 68,18% de los encuestados 
+afirma que la implementación de IA ha mejorado el perfil organizacional de las 
+empresas clientes a través de los empleados seleccionados. Esto sugiere que la IA 
+no solo está optimizando los procesos, sino que también está contribuyendo a 
+mejorar la calidad de las contrataciones y, por extensión, el capital humano de las 
+
+  
+ 
+3897 
+ 
+organizaciones. Este hallazgo coincide con la investigación de Brin (2021), quien 
+argumenta que la IA puede mejorar significativamente la alineación entre los 
+candidatos seleccionados y la cultura organizacional, lo que a su vez puede llevar 
+a una mejor retención y desempeño de los empleados. 
+Sin embargo, el estudio también revela desafíos importantes. La resistencia al 
+cambio se identifica como el mayor obstáculo (80,12%) en la implementación de IA, 
+seguido de preocupaciones éticas (8,02%) y costos elevados (5,03%). Estos 
+hallazgos subrayan la necesidad de estrategias de gestión del cambio efectivas y la 
+importancia de abordar las preocupaciones éticas en la implementación de IA en 
+RR.HH. Black y van Esch (2020) también identificaron la resistencia al cambio 
+como un desafío significativo en la adopción de IA en RR.HH., sugiriendo que las 
+organizaciones deben invertir en programas de formación y comunicación para 
+superar esta barrera. 
+Las recomendaciones de los encuestados para mejorar la implementación de IA se 
+centran en la capacitación del personal (59,09%) y la realización de evaluaciones 
+periódicas del sistema (39,42%). Esto resalta la importancia de la formación 
+continua y la mejora iterativa de los sistemas de IA para maximizar su eficacia y 
+aceptación. Es interesante notar que, entre las empresas que no utilizan IA, la falta 
+de conocimiento sobre las herramientas disponibles (46,70%) es la razón principal, 
+seguida por preocupaciones sobre la precisión y fiabilidad (23,45%). Esto sugiere 
+que existe una necesidad de mayor educación y difusión sobre las capacidades y 
+limitaciones reales de la IA en el reclutamiento y selección. 
+Finalmente, el estudio revela que el 68,70% de los encuestados cree que un mayor 
+conocimiento y formación sobre IA sería necesario para que las empresas 
+consideren su uso en el futuro. Esto refuerza la importancia de la educación y la 
+transparencia en la promoción de la adopción de IA en RR.HH. En conclusión, este 
+estudio demuestra que la IA está ganando terreno rápidamente en los procesos de 
+reclutamiento y selección, con percepciones generalmente positivas sobre su 
+eficacia y precisión. Sin embargo, también revela desafíos importantes, 
+principalmente en términos de resistencia al cambio y falta de conocimiento. Estos 
+hallazgos subrayan la necesidad de estrategias integrales que combinen la 
+implementación tecnológica con la gestión del cambio, la formación continua y la 
+
+  
+ 
+3898 
+ 
+consideración de las implicaciones éticas para maximizar los beneficios de la IA en 
+RR.HH. 
+CONCLUSIÓN 
+Esta investigación ha explorado el papel fundamental que la Inteligencia Artificial 
+(IA) está desempeñando en la transformación de la Gestión del Talento Humano, 
+con un enfoque particular en una empresa de outsourcing de recursos humanos. 
+A través de nuestro análisis, hemos llegado a varias conclusiones significativas, 
+comenzando por la identificación de una amplia gama de herramientas de IA 
+aplicadas en la Gestión del Talento Humano, desde sistemas de análisis 
+automatizado de currículos hasta entrevistas por video asistidas por IA. Esta 
+diversidad refleja la versatilidad y el potencial de la IA para abordar múltiples 
+aspectos del ciclo de vida del empleado. 
+La IA ha asumido roles cruciales en la Gestión del Talento Humano, actuando como 
+un asistente eficiente en la preselección de candidatos, un analista imparcial en la 
+evaluación de habilidades, y un facilitador en el desarrollo profesional de los 
+empleados. Estos roles han demostrado mejorar significativamente la eficiencia y 
+precisión de los procesos de RR.HH. La implementación de IA ha introducido 
+innovaciones notables en el proceso de reclutamiento, como la identificación 
+proactiva de candidatos potenciales, la evaluación predictiva del desempeño, y la 
+mejora en la experiencia del candidato a través de chatbots y sistemas de 
+comunicación automatizados. 
+La IA está revolucionando el desarrollo profesional mediante la creación de planes 
+de carrera personalizados, la identificación de brechas de habilidades, y la 
+recomendación de oportunidades de aprendizaje adaptadas a cada empleado. Los 
+resultados indican que la implementación de IA ha mejorado el perfil organizacional 
+de las empresas clientes, sugiriendo un impacto positivo en la calidad de las 
+
+  
+ 
+3899 
+ 
+contrataciones y, por extensión, en el rendimiento organizacional. A pesar de los 
+beneficios evidentes, la investigación también ha revelado desafíos importantes, 
+como la resistencia al cambio y la necesidad de mayor conocimiento sobre las 
+capacidades de la IA. Esto subraya la importancia de la formación continua y la 
+gestión del cambio en la implementación exitosa de soluciones de IA. 
+Esta investigación demuestra que la IA está desempeñando un papel 
+transformador en la Gestión del Talento Humano, ofreciendo innovaciones 
+significativas en reclutamiento y desarrollo profesional. Sin embargo, para 
+maximizar su potencial, es crucial abordar los desafíos identificados y fomentar 
+una cultura de aprendizaje continuo y adaptación. A medida que la tecnología 
+continúa evolucionando, se espera que la IA asuma un papel aún más prominente 
+en la Gestión del Talento Humano, ofreciendo oportunidades emocionantes para 
+futuras investigaciones y aplicaciones prácticas. Las organizaciones que logren 
+integrar eficazmente la IA en sus procesos de RR.HH. estarán mejor posicionadas 
+para atraer, desarrollar y retener el talento en un mercado laboral cada vez más 
+competitivo y dinámico. 
+ 
+REFERENCIAS BIBLIOGRÁFICAS  
+ Aquiles, J. C. (2022). Percepción de los estudiantes universitarios sobre el uso de 
+la Inteligencia Artificial en los procesos de reclutamiento y selección de 
+personal. Revista de análisis y difusión de perspectivas educativas y 
+empresariales, 2(3), 35-44. 
+Ashutosh, V. (2024). Artificial intelligence in talent management: maximizing 
+human resource potential.   doi: 10.58532/v3bhma28p7ch2 
+Black, J. S., & van Esch, P. (2020). AI-enabled recruiting: What is it and how should 
+a manager use it?. Business Horizons, 63(2), 215-226. 
+
+  
+ 
+3900 
+ 
+Brin, S. (2021). The role of artificial intelligence in enhancing organizational culture 
+fit in recruitment. Journal of Organizational Behavior, 42(3), 311-326. 
+Chiavenato, I. (2011). Gestión del talento humano. McGraw Hill. 
+García Chuqui, L. V. (2023). La inteligencia artificial aplicada a los procesos de 
+reclutamiento de personal de las empresas de servicios de Guayaquil 
+(Bachelor's thesis). 
+Garcia, M., Rodriguez, R., & Thompson, E. (2022). Artificial intelligence in soft skills 
+assessment: A comparative study. AI & Society, 37(4), 601-618.  
+Gordiya, P. (2024). Las aplicaciones de la inteligencia artificial en los recursos 
+humanos. doi: 10.55041/isjem01599  
+Gupta, R. (2024). Impact of Artificial Intelligence (AI) on Human Resource 
+Management (HRM). International Journal For Multidisciplinary Research,  
+doi: 10.36948/ijfmr.2024.v06i03.21444  
+Hernández Martínez, L., & Hermoso Traba, R. (2020). El reclutamiento 4.0 en la 
+era digital: La seleción de talento y el marketing digital. Trabajo de Grado en 
+Relaciones Laborales y Recursos Humanos. 
+Hmoud, B., & Laszlo, V. (2019). Will artificial intelligence take over human 
+resources recruitment and selection? Network Intelligence Studies, 7(13), 
+21-30. 
+Johnson, A., Smith, B., & Davis, C. (2020). AI-driven preselection in Fortune 500 
+companies. Journal of Human Resource Management, 45(3), 278-295. 
+Morales, L. (2022). Desafíos legales de la IA en la gestión de recursos humanos en 
+Ecuador. Revista de Derecho Digital y Tecnologías Emergentes, 15(2), 67-
+89. 
+Patel, S., Kumar, R., & Chen, W. (2024). AI-enhanced selection processes and 
+employee retention: A longitudinal study. Organizational Behavior and 
+Human Decision Processes, 175, 104192.  
+Pérez León, E. V., & Rojas Arevalo, D. I. (2019). Impacto de la inteligencia artificial 
+en las empresas con un enfoque global. 
+Smith, J., & Brown, T. (2023). The impact of AI chatbots on candidate experience 
+in recruitment. Human Resource Management Review, 33(2), 100832.  
+
+  
+ 
+3901 
+ 
+Sundarapandiyan, N., Korapu, S., Borugadda, S., Paul, D. (2024). AI-Powered 
+Strategies for Talent Management Optimization. Journal of informatics 
+education and research,  doi: 10.52783/jier.v4i2.848 
+Tambe, P., Cappelli, P., & Yakubovich, V. (2019). Artificial intelligence in human 
+resources management: Challenges and a path forward. California 
+Management Review, 61(4), 15-42. 
+Torres-López, S., Lugo-García, J. A., Piñero-Pérez, P. Y., Torres-Quiñones, K. M., 
+Perdomo-Alonso, A., Cuza-García, B., & Aldana-Cuza, M. L. (2014). Técnicas 
+formales y de inteligencia artificial para la gestión de recursos humanos en 
+proyectos informáticos. Revista Cubana de Ciencias Informáticas, 8(3), 43-
+55. 
+Túñez-López, J. M., Fieiras Ceide, C., & Vaz-Álvarez, M. (2021). Impacto de la 
+Inteligencia Artificial en el Periodismo: transformaciones en la empresa, los 
+productos, los contenidos y el perfil profesional (Impact of Artificial 
+Intelligence on Journalism: transformations in the company, products, 
+contents and professional profile). Communication & Society, 34(1), 177-
+193. 
+Rodríguez, A., & Pérez, M. (2020). Impacto de la inteligencia artificial en los 
+procesos de selección: Un análisis comparativo en países andinos. Journal 
+of Human Resource Management in Latin America, 8(3), 34-52. 
+Upadhyay, A. K., & Khandelwal, K. (2018). Applying artificial intelligence: 
+Implications for recruitment. Strategic HR Review, 17(5), 255-258.  
+Vanisree D., y Vijaya D. (2024). Role of ai in human resource management :. Indian 
+Scientific Journal Of Research In Engineering And Management,  doi: 
+10.55041/ijsrem31361. 
+Vásquez, M., Rodríguez, P., & Pérez, L. (2023). Algoritmos en la gestión del talento: 
+un análisis en empresas ecuatorianas. Revista de Investigación Empresarial, 
+9(1), 110-123. 
+Velázquez Vián, A. (2022). Formas actuales de gestionar los recursos humanos. 
+Reclutamiento y selección. 
+Zhang, L., & Lee, K. (2021). Algorithmic bias in AI-based recruitment: Challenges 
+and solutions. International Journal of AI Ethics, 6(2), 112-130. 
+ 
+
+  
+ 
+3902 
+ 
+.  
+Conflicto de intereses 
+Los autores indican que esta investigación no tiene conflicto de intereses y, por 
+tanto, acepta las normativas de la publicación en esta revista.   
+ 
+ 
+Con certificación de:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
