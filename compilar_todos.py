@@ -191,15 +191,130 @@ def compilar_quarto_word(doc):
                     except Exception:
                         pass
 
-                for h_name in ['Heading 1', 'Heading 2', 'Heading 3']:
-                    try:
-                        h_st = doc_word.styles[h_name]
-                        h_st.font.name = 'Arial'
-                        h_st.font.size = Pt(12)
-                        h_st.font.bold = True
-                        h_st.paragraph_format.line_spacing = 1.5
-                    except Exception:
-                        pass
+                # Heading 1 (# ...): 14pt negrita con espacio antes/después
+                try:
+                    h1 = doc_word.styles['Heading 1']
+                    h1.font.name = 'Arial'
+                    h1.font.size = Pt(14)
+                    h1.font.bold = True
+                    h1.paragraph_format.space_before = Pt(20)
+                    h1.paragraph_format.space_after = Pt(10)
+                    h1.paragraph_format.line_spacing = 1.2
+                    h1.paragraph_format.keep_with_next = True
+                except Exception:
+                    pass
+
+                # Heading 2 (## ...): 12pt negrita con espacio antes/después
+                try:
+                    h2 = doc_word.styles['Heading 2']
+                    h2.font.name = 'Arial'
+                    h2.font.size = Pt(12)
+                    h2.font.bold = True
+                    h2.paragraph_format.space_before = Pt(14)
+                    h2.paragraph_format.space_after = Pt(6)
+                    h2.paragraph_format.line_spacing = 1.2
+                    h2.paragraph_format.keep_with_next = True
+                except Exception:
+                    pass
+
+                # Heading 3 (### ...): 12pt negrita y cursiva
+                try:
+                    h3 = doc_word.styles['Heading 3']
+                    h3.font.name = 'Arial'
+                    h3.font.size = Pt(12)
+                    h3.font.bold = True
+                    h3.font.italic = True
+                    h3.paragraph_format.space_before = Pt(10)
+                    h3.paragraph_format.space_after = Pt(4)
+                    h3.paragraph_format.line_spacing = 1.2
+                    h3.paragraph_format.keep_with_next = True
+                except Exception:
+                    pass
+
+                # Aplicar directamente formato de margen y tamaño a cada encabezado
+                for p in doc_word.paragraphs:
+                    sname = p.style.name
+                    if sname in ['Heading 1', 'Encabezado 1']:
+                        p.paragraph_format.space_before = Pt(12)
+                        p.paragraph_format.space_after = Pt(6)
+                        p.paragraph_format.line_spacing = 1.25
+                        p.paragraph_format.keep_with_next = True
+                        for r in p.runs:
+                            r.font.name = 'Arial'
+                            r.font.size = Pt(14)
+                            r.font.bold = True
+                    elif sname in ['Heading 2', 'Encabezado 2']:
+                        p.paragraph_format.space_before = Pt(10)
+                        p.paragraph_format.space_after = Pt(4)
+                        p.paragraph_format.line_spacing = 1.25
+                        p.paragraph_format.keep_with_next = True
+                        for r in p.runs:
+                            r.font.name = 'Arial'
+                            r.font.size = Pt(12)
+                            r.font.bold = True
+                    elif sname in ['Heading 3', 'Encabezado 3']:
+                        p.paragraph_format.space_before = Pt(8)
+                        p.paragraph_format.space_after = Pt(2)
+                        p.paragraph_format.line_spacing = 1.25
+                        p.paragraph_format.keep_with_next = True
+                        for r in p.runs:
+                            r.font.name = 'Arial'
+                            r.font.size = Pt(12)
+                            r.font.bold = True
+                            r.font.italic = True
+
+                # Formatear y centrar el bloque del Título Principal y Subtítulo al inicio del cuerpo (Página 3)
+                for p in doc_word.paragraphs:
+                    txt = p.text.strip()
+                    if txt.startswith("Evaluación del Desempeño Docente") and "Factibilidad" in txt:
+                        p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+                        p.paragraph_format.space_before = Pt(0)
+                        p.paragraph_format.space_after = Pt(2)
+                        p.paragraph_format.line_spacing = 1.15
+                        
+                        if "\n" in txt:
+                            parts = txt.split("\n", 1)
+                            title_text = parts[0].strip()
+                            subtitle_text = parts[1].strip()
+                            
+                            p.text = ""
+                            r_title = p.add_run(title_text)
+                            r_title.bold = True
+                            r_title.font.name = "Arial"
+                            r_title.font.size = Pt(13)
+                            
+                            p_sub = doc_word.add_paragraph()
+                            p._p.addnext(p_sub._p)
+                            p_sub.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+                            p_sub.paragraph_format.space_before = Pt(0)
+                            p_sub.paragraph_format.space_after = Pt(6)
+                            p_sub.paragraph_format.line_spacing = 1.15
+                            
+                            r_sub = p_sub.add_run(subtitle_text)
+                            r_sub.italic = True
+                            r_sub.font.name = "Arial"
+                            r_sub.font.size = Pt(11)
+
+                            # Eliminar párrafos vacíos entre el subtítulo y el primer encabezado
+                            next_p = p_sub._p.getnext()
+                            while next_p is not None:
+                                try:
+                                    from lxml import etree
+                                    txt_p = etree.tostring(next_p, method="text", encoding="unicode").strip()
+                                except Exception:
+                                    txt_p = ""
+                                if not txt_p:
+                                    temp = next_p.getnext()
+                                    next_p.getparent().remove(next_p)
+                                    next_p = temp
+                                else:
+                                    break
+                        else:
+                            for r in p.runs:
+                                r.font.name = "Arial"
+                                r.font.size = Pt(13)
+                                r.font.bold = True
+                        break
 
                 # 1. Asegurar alineación centrada del logotipo y reconstruir la carátula oficial SIA
                 p_logo = None
@@ -554,8 +669,9 @@ def compilar_quarto_word(doc):
                 shutil.copy2(str(tmp_docx), str(docx_out))
                 tmp_docx.unlink(missing_ok=True)
             except PermissionError:
-                print(f"  [AVISO] El archivo {docx_out.name} está abierto en Word o en el visor del editor. Se generó en: {tmp_docx.name}")
-                return True
+                print(f"  [AVISO] No se pudo sobrescribir Entregas/{docx_out.name} porque está abierto en Microsoft Word. Por favor cerralo para actualizar la entrega.")
+                tmp_docx.unlink(missing_ok=True)
+                return False
 
             info = obtener_info_archivo(docx_out)
             rel_path = docx_out.relative_to(ENTREGAS_DIR)

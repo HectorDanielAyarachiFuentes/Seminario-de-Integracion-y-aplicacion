@@ -155,6 +155,8 @@ Año 2026
 
 # Tema de Investigación
 
+En esta primera sección del Proyecto de TFG se presenta la delimitación del tema de estudio, articulando la gestión pública universitaria con los modelos teóricos de gestión del empleo y recursos humanos en el sector público.
+
 ## Identificación del Tema y Encuadre en el Modelo de Francisco Longo
 
 Este proyecto de investigación se ubica en el cruce disciplinar entre la **Administración Pública** y la **Gestión de Recursos Humanos**. Su abordaje responde a los desafíos actuales de modernización institucional y desarrollo de capacidades estatales en el sector público [@oszlak2020]. Conforme a las pautas del Seminario de Integración y Aplicación (SIA) y a los criterios del Reglamento de Trabajo Final de Graduación [@uncocurzas2023], el tema se delimita mediante el criterio de "pirámide invertida" [@sautu2005], transitando desde el macrosistema de gestión pública hasta el análisis empírico de un problema situado en el ámbito universitario regional.
@@ -182,6 +184,8 @@ En el plano normativo, la actividad docente en el CURZAS se encuentra reglada po
 A partir de este marco, el proyecto plantea como **supuesto de partida e hipótesis exploratoria** que, en la dinámica cotidiana, dichos dispositivos podrían estar funcionando prioritariamente con un sentido administrativo y sumativo, enfocado en el cumplimiento reglamentario. No obstante, lejos de asumir una conclusión anticipada, **será necesario indagar empíricamente si** estas herramientas operan de manera aislada o si generan instancias efectivas de retroalimentación pedagógica. Examinar si los resultados evaluativos se vinculan efectivamente con planes de capacitación y mejora docente constituye el objetivo central del relevamiento de campo para el período **2025–2026**.
 
 # Delimitación del Objeto Problema
+
+En este apartado se problematiza la evaluación del desempeño docente a partir de la tensión entre el control estatutario y el desarrollo formativo, precisando las delimitaciones metodológicas y las dimensiones de factibilidad.
 
 ## Problematización y Construcción del Objeto de Estudio
 
@@ -246,7 +250,7 @@ A partir de las precisiones metodológicas señaladas, se formula el interrogant
 
 # Justificación y Relevancia de la Investigación
 
-La pertinencia del proyecto se sustenta en tres planos complementarios, acatando el esquema formal establecido por la normativa de graduación institucional [@uncocurzas2023]:
+A continuación, se explicita la pertinencia del estudio desde tres planos convergentes, en estricta consonancia con los criterios formales del Reglamento de TFG de la universidad:
 
 ## Plano Cognitivo y Disciplinar
 
@@ -269,7 +273,7 @@ En el orden formativo, el proyecto articula la Licenciatura en Gestión de Recur
 
 # Definición de Objetivos del TFG
 
-En estricta correspondencia lógica y simétrica con la pregunta general de investigación, los objetivos se formulan mediante verbos en infinitivo que denotan acción empíricamente contrastable:
+En este apartado se formulan las metas analíticas del proyecto en congruencia directa con la pregunta general de investigación y las dimensiones metodológicas planteadas:
 
 ## Objetivo General
 
