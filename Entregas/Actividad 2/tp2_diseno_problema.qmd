@@ -47,7 +47,7 @@ format:
 ::: {.content-visible when-format="typst"}
 ```{=typst}
 #align(center)[
-  #image("../../assets/img/CURZAS.png", width: 110pt)
+  #image("assets/img/CURZAS.png", width: 110pt)
 
   #v(1.2em)
 

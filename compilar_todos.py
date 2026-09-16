@@ -562,8 +562,7 @@ def sincronizar_documento(doc):
     if local_assets.exists():
         entrega_assets = qmd_entr.parent / "assets"
         entrega_assets.mkdir(parents=True, exist_ok=True)
-        for f in local_assets.glob("*"):
-            shutil.copy2(str(f), str(entrega_assets / f.name))
+        shutil.copytree(str(local_assets), str(entrega_assets), dirs_exist_ok=True)
 
 def compilar_todo(solo_pdf=False, solo_word=False, todos_los_tps=False, tp_id=None):
     """Ejecuta el pipeline para los TPs (por defecto el TP activo actual o tp_id especificado)."""
