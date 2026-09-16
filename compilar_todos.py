@@ -31,7 +31,7 @@ DOCUMENTOS = [
     {
         "id": "TP1",
         "nombre": "Trabajo Práctico N° 1 (Análisis Metodológico)",
-        "qmd": ROOT_DIR / "1 - Introducción" / "Trabajo Práctico 1" / "tp1_analisis_articulos.qmd",
+        "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "1 - Introducción" / "Trabajo Práctico 1" / "tp1_analisis_articulos.qmd",
         "pdf_entrega": ACTIVIDAD1_DIR / "TP1_Ayarachi_Fuentes.pdf",
         "docx_entrega": ACTIVIDAD1_DIR / "TP1_Ayarachi_Fuentes.docx",
         "qmd_entrega": ACTIVIDAD1_DIR / "tp1_analisis_articulos.qmd",
@@ -40,7 +40,7 @@ DOCUMENTOS = [
     {
         "id": "TP2",
         "nombre": "Trabajo Práctico N° 2 (Tema, Problema y Objetivos)",
-        "qmd": ROOT_DIR / "2 - El problema" / "Trabajo Práctico n° 2" / "tp2_diseno_problema.qmd",
+        "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "2 - El problema" / "Trabajo Práctico n° 2" / "tp2_diseno_problema.qmd",
         "pdf_entrega": ACTIVIDAD2_DIR / "TP2_Ayarachi_Fuentes.pdf",
         "docx_entrega": ACTIVIDAD2_DIR / "TP2_Ayarachi_Fuentes.docx",
         "qmd_entrega": ACTIVIDAD2_DIR / "quarto" / "tp2_diseno_problema.qmd",
@@ -49,7 +49,7 @@ DOCUMENTOS = [
     {
         "id": "TP3",
         "nombre": "Trabajo Práctico N° 3 (Marco Teórico y Antecedentes)",
-        "qmd": ROOT_DIR / "3 - Estado de la cuestión y marco teórico" / "Trabajo Práctico n° 3" / "tp3_marco_teorico_antecedentes.qmd",
+        "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "3 - Estado de la cuestión y marco teórico" / "Trabajo Práctico n° 3" / "tp3_marco_teorico_antecedentes.qmd",
         "pdf_entrega": ENTREGAS_DIR / "TP3_Ayarachi_Fuentes.pdf",
         "docx_entrega": ENTREGAS_DIR / "TP3_Ayarachi_Fuentes.docx",
         "activo": False
@@ -57,7 +57,7 @@ DOCUMENTOS = [
     {
         "id": "TP4",
         "nombre": "Trabajo Práctico N° 4 (Proyecto Integral de TFG)",
-        "qmd": ROOT_DIR / "4 - Metodología" / "Trabajo Práctico n° 4" / "tp4_proyecto_tfg_integral.qmd",
+        "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "4 - Metodología" / "Trabajo Práctico n° 4" / "tp4_proyecto_tfg_integral.qmd",
         "pdf_entrega": ENTREGAS_DIR / "TP4_Proyecto_TFG_Ayarachi_Fuentes.pdf",
         "docx_entrega": ENTREGAS_DIR / "TP4_Proyecto_TFG_Ayarachi_Fuentes.docx",
         "activo": False

@@ -1,7 +1,7 @@
 ---
 lang: es
 filters:
-  - ../../.agents/filtros/linebreak_filter.lua
+  - ../../../.agents/filtros/linebreak_filter.lua
 format:
   docx:
     toc: false
@@ -45,7 +45,7 @@ format:
 ```{=typst}
 #set page(numbering: none)
 #align(center)[
-  #image("../../assets/img/CURZAS.png", width: 105pt)
+  #image("../../../assets/img/CURZAS.png", width: 105pt)
 
   #v(1em)
 
@@ -90,7 +90,7 @@ format:
 
 ::: {.content-visible when-format="docx"}
 ::: {align="center"}
-![](../../assets/img/CURZAS.png){width=115px}
+![](../../../assets/img/CURZAS.png){width=115px}
 
 **Universidad Nacional del Comahue**  
 **Complejo Universitario Regional Zona Atlántica y Sur**  

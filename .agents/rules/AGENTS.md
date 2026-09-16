@@ -35,36 +35,37 @@ IA - Humano - TESINA/
 │   └── mcp_config.json                      # Configuración de servidores MCP
 ├── assets/                                  # Recursos gráficos e imágenes del proyecto
 │   └── img/                                 # Logotipos institucionales (CURZAS.png)
-├── 1 - Introducción/                        # Módulo 1: Introducción a la Investigación
-│   ├── Bibliografía - Introducción/         # Material teórico introductorio
-│   ├── Bibliografía Metodológica General/   # Manuales de metodología (Hernández Sampieri, etc.)
-│   ├── Líneas Temáticas de Investigación/   # Guías temáticas de la cátedra
-│   ├── Presentación de Clase 1/             # Diapositivas de clase
-│   └── Trabajo Práctico 1/                  # Consigna, avances (.typ / .qmd) y cuadro comparativo
-├── 2 - El problema/                         # Módulo 2: Selección del Tema y Formulación
-│   ├── Bibliografía - Formulación del Problema/
-│   ├── Bibliografía - Objetivos/
-│   ├── EJEMPLOS de Esquema 1° (LAP - RRHH)/ # Modelos de referencia
-│   ├── Material - Selección del tema/
-│   └── Trabajo Práctico n° 2/               # Consigna, avances (.typ / .qmd) y entrega (~5 págs)
-├── 3 - Estado de la cuestión y marco teórico/ # Módulo 3: Marco Teórico y Antecedentes
-│   ├── Bibliografía - Estado del Arte/
-│   ├── Bibliografía - Marco Teórico/
-│   ├── Ejemplo Marco de Referencia (AP-RRHH)/
-│   ├── MOTORES de Búsqueda de Información/
-│   └── Trabajo Práctico n° 3/               # Consigna, avances (.typ / .qmd) y entrega (~15 págs)
-├── 4 - Metodología/                         # Módulo 4: Estrategia Metodológica Integral
-│   ├── Bibliografia - Metodologia/
-│   └── Trabajo Práctico n° 4/               # Proyecto final de TFG completo (25 páginas)
-├── Entregas/                                # Repositorio central de versiones finales (.pdf)
-├── Recursos TFG/                            # Normativa, resoluciones y guías oficiales de cátedra
-│   ├── Modelo de Carátula SIA 2025.docx     # Estructura oficial obligatoria de carátula
-│   ├── Estructura de Proyecto de TFG.pdf    # Resolución CD-CURZAS N° 266/23
-│   └── Normas de estilo que deberán usar en el proyecto/ # Manuales y guías APA 7ma Edición
-└── IA-HERRAMIENTAS-QUANTO-TYPS/             # Banco de herramientas, plantillas y entornos
-    ├── plantillas_pdf/                      # Motores (1_typst, 2_playwright_html, etc.)
-    ├── herramientas/notebooklm/             # Utilidades para NotebookLM MCP
-    └── pruebas/                             # Entorno de pruebas y validaciones
+├── Entregas/                                # Repositorio central de versiones finales (.pdf / .docx)
+├── IA-HERRAMIENTAS-QUANTO-TYPS/             # Banco de herramientas, plantillas y entornos
+│   ├── plantillas_pdf/                      # Motores (1_typst, 2_playwright_html, etc.)
+│   ├── herramientas/notebooklm/             # Utilidades para NotebookLM MCP
+│   └── pruebas/                             # Entorno de pruebas y validaciones
+└── Seminario de Integración y Aplicación/   # Módulos académicos y recursos oficiales
+    ├── 1 - Introducción/                    # Módulo 1: Introducción a la Investigación
+    │   ├── Bibliografía - Introducción/
+    │   ├── Bibliografía Metodológica General/
+    │   ├── Líneas Temáticas de Investigación/
+    │   ├── Presentación de Clase 1/
+    │   └── Trabajo Práctico 1/
+    ├── 2 - El problema/                     # Módulo 2: Selección del Tema y Formulación
+    │   ├── Bibliografía - Formulación del Problema/
+    │   ├── Bibliografía - Objetivos/
+    │   ├── EJEMPLOS de Esquema 1° (LAP - RRHH)/
+    │   ├── Material - Selección del tema/
+    │   └── Trabajo Práctico n° 2/
+    ├── 3 - Estado de la cuestión y marco teórico/ # Módulo 3: Marco Teórico y Antecedentes
+    │   ├── Bibliografía - Estado del Arte/
+    │   ├── Bibliografía - Marco Teórico/
+    │   ├── Ejemplo Marco de Referencia (AP-RRHH)/
+    │   ├── MOTORES de Búsqueda de Información/
+    │   └── Trabajo Práctico n° 3/
+    ├── 4 - Metodología/                     # Módulo 4: Estrategia Metodológica Integral
+    │   ├── Bibliografia - Metodologia/
+    │   └── Trabajo Práctico n° 4/
+    └── Recursos TFG/                        # Normativa, resoluciones y guías oficiales de cátedra
+        ├── Modelo de Carátula SIA 2025.docx
+        ├── Estructura de Proyecto de TFG.pdf
+        └── Normas de estilo que deberán usar en el proyecto/
 ```
 
 ---
@@ -75,10 +76,10 @@ Toda asistencia pedagógica y técnica debe responder a las pautas de cada módu
 
 | Actividad | Ubicación | Contenido Requerido | Extensión Sugerida |
 | :--- | :--- | :--- | :--- |
-| **TP N° 1** | `1 - Introducción/Trabajo Práctico 1/` | Selección y análisis crítico de **dos (2) artículos científicos** disciplinares. Cuadro comparativo con 11 variables metodológicas (Tema, Problema, Objetivos, Metodología, Muestra, Resultados, etc.) con carátula institucional. | 4 a 6 páginas |
-| **TP N° 2** | `2 - El problema/Trabajo Práctico n° 2/` | **Primera parte del Proyecto de TFG**: 1. Carátula oficial, 2. Tema de investigación (área disciplinar, contexto, período, personas/organización), 3. Delimitación del objeto problema (justificación y relevancia), 4. Definición de objetivos (General y Específicos). | ~5 páginas |
-| **TP N° 3** | `3 - Estado de la cuestión y marco teórico/Trabajo Práctico n° 3/` | **Segunda parte acumulativa**: Integra TP N° 2 + 5. Marco Teórico (posicionamiento teórico y conceptos centrales) + 6. Antecedentes (estado del arte). | Hasta 15 páginas (acumulado con TP2) |
-| **TP N° 4** | `4 - Metodología/Trabajo Práctico n° 4/` | **Proyecto de TFG Integral (Res. 266/23)**: Integra Primera parte (1-4) + Segunda parte (5-6) + Tercera parte: 7. Metodología/Técnicas, 8. Cronograma de actividades, 9. Viabilidad (recursos y autorizaciones), 10. Bibliografía completa APA 7. | 25 páginas (sin anexos) |
+| **TP N° 1** | `Seminario de Integración y Aplicación/1 - Introducción/Trabajo Práctico 1/` | Selección y análisis crítico de **dos (2) artículos científicos** disciplinares. Cuadro comparativo con 11 variables metodológicas (Tema, Problema, Objetivos, Metodología, Muestra, Resultados, etc.) con carátula institucional. | 4 a 6 páginas |
+| **TP N° 2** | `Seminario de Integración y Aplicación/2 - El problema/Trabajo Práctico n° 2/` | **Primera parte del Proyecto de TFG**: 1. Carátula oficial, 2. Tema de investigación (área disciplinar, contexto, período, personas/organización), 3. Delimitación del objeto problema (justificación y relevancia), 4. Definición de objetivos (General y Específicos). | ~5 páginas |
+| **TP N° 3** | `Seminario de Integración y Aplicación/3 - Estado de la cuestión y marco teórico/Trabajo Práctico n° 3/` | **Segunda parte acumulativa**: Integra TP N° 2 + 5. Marco Teórico (posicionamiento teórico y conceptos centrales) + 6. Antecedentes (estado del arte). | Hasta 15 páginas (acumulado con TP2) |
+| **TP N° 4** | `Seminario de Integración y Aplicación/4 - Metodología/Trabajo Práctico n° 4/` | **Proyecto de TFG Integral (Res. 266/23)**: Integra Primera parte (1-4) + Segunda parte (5-6) + Tercera parte: 7. Metodología/Técnicas, 8. Cronograma de actividades, 9. Viabilidad (recursos y autorizaciones), 10. Bibliografía completa APA 7. | 25 páginas (sin anexos) |
 
 ---
 
