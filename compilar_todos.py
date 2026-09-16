@@ -306,22 +306,58 @@ def compilar_quarto_word(doc):
                                 else:
                                     p.paragraph_format.space_after = Pt(6)
 
-                # 2. Configurar pie de página: Portada sin número, contenido inicia en 1
-                if len(doc_word.sections) > 0:
-                    sec = doc_word.sections[0]
-                    sec.different_first_page_header_footer = True
-                    footer = sec.footer
-                    if footer.paragraphs:
-                        fp = footer.paragraphs[0]
-                    else:
-                        fp = footer.add_paragraph()
+                # 2. Configurar pie de página: Portada e Índice sin número, contenido inicia en 1
+                p_body = None
+                found_toc = False
+                for p in doc_word.paragraphs:
+                    txt = p.text.strip()
+                    if txt == "Índice de Contenidos":
+                        found_toc = True
+                        continue
+                    if found_toc and txt:
+                        if txt.startswith(('1.', '2.', '3.', '4.', '5.')) and '\t' in txt:
+                            continue
+                        if p.style.name.startswith(('Heading', 'First Paragraph', 'Title', 'Encabezado')) or txt.startswith(('1.', 'Evaluación', 'Tema', 'Introducción')):
+                            p_body = p
+                            break
+
+                if not p_body and len(doc_word.paragraphs) > 0:
+                    for p in doc_word.paragraphs:
+                        txt = p.text.strip()
+                        if txt.startswith(('1.', 'Evaluación', 'Tema', 'Introducción')) and not txt.startswith('Materia'):
+                            p_body = p
+                            break
+
+                if p_body is not None:
+                    p_prev = p_body._p.getprevious()
+                    if p_prev is not None:
+                        if len(p_prev.xpath('.//w:sectPr')) == 0:
+                            sect_pr = parse_xml(f'<w:sectPr {nsdecls("w")}><w:type w:val="nextPage"/></w:sectPr>')
+                            p_prev.get_or_add_pPr().append(sect_pr)
+
+                sections = doc_word.sections
+                if len(sections) >= 2:
+                    sec0 = sections[0]
+                    sec0.footer.is_linked_to_previous = False
+                    for p in sec0.footer.paragraphs:
+                        p.text = ""
+
+                    sec1 = sections[1]
+                    sec1.footer.is_linked_to_previous = False
+                    fp = sec1.footer.paragraphs[0] if sec1.footer.paragraphs else sec1.footer.add_paragraph()
+                    fp.text = ""
                     fp.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                    
-                    # Insertar campo de página Word {PAGE}
                     xml_fld = f'<w:fldSimple {nsdecls("w")} w:instr="PAGE"/>'
                     fp._p.append(parse_xml(xml_fld))
-                    
-                    # Establecer que la portada sea página 0 para que la hoja 2 sea 1
+                    xml_pg = f'<w:pgNumType {nsdecls("w")} w:start="1"/>'
+                    sec1._sectPr.append(parse_xml(xml_pg))
+                elif len(sections) == 1:
+                    sec = sections[0]
+                    sec.different_first_page_header_footer = True
+                    fp = sec.footer.paragraphs[0] if sec.footer.paragraphs else sec.footer.add_paragraph()
+                    fp.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+                    xml_fld = f'<w:fldSimple {nsdecls("w")} w:instr="PAGE"/>'
+                    fp._p.append(parse_xml(xml_fld))
                     xml_pg = f'<w:pgNumType {nsdecls("w")} w:start="0"/>'
                     sec._sectPr.append(parse_xml(xml_pg))
 
