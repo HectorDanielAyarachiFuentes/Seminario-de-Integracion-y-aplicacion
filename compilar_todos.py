@@ -43,7 +43,7 @@ DOCUMENTOS = [
         "qmd": ROOT_DIR / "2 - El problema" / "Trabajo Práctico n° 2" / "tp2_diseno_problema.qmd",
         "pdf_entrega": ACTIVIDAD2_DIR / "TP2_Ayarachi_Fuentes.pdf",
         "docx_entrega": ACTIVIDAD2_DIR / "TP2_Ayarachi_Fuentes.docx",
-        "qmd_entrega": ACTIVIDAD2_DIR / "tp2_diseno_problema.qmd",
+        "qmd_entrega": ACTIVIDAD2_DIR / "quarto" / "tp2_diseno_problema.qmd",
         "activo": True
     },
     {
@@ -563,6 +563,14 @@ def sincronizar_documento(doc):
         entrega_assets = qmd_entr.parent / "assets"
         entrega_assets.mkdir(parents=True, exist_ok=True)
         shutil.copytree(str(local_assets), str(entrega_assets), dirs_exist_ok=True)
+
+    # Sincronizar archivos auxiliares (.bib, .csl, .typ) de la carpeta origen hacia Entregas
+    for ext in ["*.bib", "*.csl", "*.typ"]:
+        for aux_file in qmd_orig.parent.glob(ext):
+            if not aux_file.name.endswith("_typst.typ") and aux_file.name != qmd_orig.with_suffix(".typ").name:
+                dst = qmd_entr.parent / aux_file.name
+                if not dst.exists() or aux_file.stat().st_mtime > dst.stat().st_mtime + 0.1:
+                    shutil.copy2(str(aux_file), str(dst))
 
 def compilar_todo(solo_pdf=False, solo_word=False, todos_los_tps=False, tp_id=None):
     """Ejecuta el pipeline para los TPs (por defecto el TP activo actual o tp_id especificado)."""
