@@ -161,15 +161,15 @@ En esta primera sección del Proyecto de TFG se presenta la delimitación del te
 
 Este proyecto de investigación se ubica en el cruce disciplinar entre la **Administración Pública** y la **Gestión de Recursos Humanos**. Su abordaje responde a los desafíos actuales de modernización institucional y desarrollo de capacidades estatales en el sector público [@oszlak2020]. Conforme a las pautas del Seminario de Integración y Aplicación (SIA) y a los criterios del Reglamento de Trabajo Final de Graduación [@uncocurzas2023], el tema se delimita mediante el criterio de "pirámide invertida" [@sautu2005], transitando desde el macrosistema de gestión pública hasta el análisis empírico de un problema situado en el ámbito universitario regional.
 
-A nivel teórico, la investigación adopta como marco analítico el **Modelo de Gestión del Empleo Público y Recursos Humanos** de **Francisco @longo2006**. Este modelo concibe la administración de personas como un sistema articulado con la estrategia institucional y compuesto por subsistemas interdependientes:
+A nivel teórico, la investigación adopta como marco analítico el **Modelo de Gestión del Empleo Público y Recursos Humanos** de **Francisco @longo2004**. Este modelo concibe la administración de personas como un sistema articulado con la estrategia institucional y compuesto por subsistemas interdependientes:
 
 ::: {align="center"}
-![*Subsistemas de la Gestión de Recursos Humanos en el Sector Público [@longo2006].*](assets/Sistemas-longo.svg){width=70%}
+![*Subsistemas de la Gestión de Recursos Humanos en el Sector Público [@longo2004].*](assets/Sistemas-longo.svg){width=70%}
 :::
 
 Dentro de este esquema, el trabajo hace foco en el **Subsistema de Gestión del Rendimiento (Evaluación del Desempeño)**, articulado con tres subsistemas clave: **Gestión del Desarrollo** (capacitación y carrera docente), **Organización del Trabajo** (perfiles y funciones académicas) y **Gestión de las Relaciones Humanas** (clima laboral y cultura participativa). 
 
-El propósito central es indagar si la evaluación docente puede superar la lógica tradicional de control formal o punitivo [@chiavenato2020] para orientarse hacia un enfoque formativo de aprendizaje continuo. Para ello, se analiza la factibilidad de un modelo de **retroalimentación 360 grados**, que articula diversas miradas sobre la labor docente: autoevaluación, valoración de pares disciplinares, apreciación de los estudiantes y seguimiento de directores departamentales [@dalmau2017; @lepsinger2009].
+El propósito central es indagar si la evaluación docente puede superar la lógica tradicional de control formal o punitivo [@chiavenato2020] para orientarse hacia un enfoque formativo de aprendizaje continuo. Para ello, se analiza la factibilidad de un modelo de **retroalimentación 360 grados**, que articula diversas fuentes sobre la labor docente (autoevaluación, valoración de pares, apreciación de los estudiantes e integración de portafolios) en el ámbito de la educación superior [@obando2014; @sifuentes2016], sobre la cual el presente proyecto propone incorporar formalmente la mirada de los directores departamentales como actores clave de la gestión universitaria.
 
 ## Descripción Contextual Socioeconómica, Histórica e Institucional
 
@@ -189,22 +189,22 @@ En este apartado se problematiza la evaluación del desempeño docente a partir 
 
 ## Problematización y Construcción del Objeto de Estudio
 
-Construir un problema científico exige desnaturalizar las rutinas cotidianas de la organización para reflexionar sobre sus supuestos teórico-metodológicos [@wainerman2011]. En la educación pública, la evaluación docente suele debatirse entre dos lógicas: el control formal-estatutario y el acompañamiento formativo enfocado en el desarrollo continuo [@longo2006].
+Construir un problema científico exige desnaturalizar las rutinas cotidianas de la organización para reflexionar sobre sus supuestos teórico-metodológicos [@wainerman2011]. En la educación pública, la evaluación docente suele debatirse entre deux lógicas: el control formal-estatutario y el acompañamiento formativo enfocado en el desarrollo continuo [@longo2004].
 
 En este sentido, la investigación no parte de suponer una falta de mecanismos de evaluación —ya que existen normas y procedimientos vigentes—, sino de indagar la **posible desconexión entre los circuitos de evaluación del rendimiento y las oportunidades reales de desarrollo pedagógico**. Si bien se aplican periódicamente encuestas a estudiantes, **se plantea como hipótesis a contrastar si estos instrumentos son percibidos en la práctica como un trámite formal**, con escasa incidencia en la autoevaluación docente, el diálogo entre pares o la planificación del departamento.
 
-Para responder a este interrogante, la literatura especializada destaca el modelo de **evaluación multiactoral o 360 grados** [@dalmau2017; @lepsinger2009] como una herramienta idónea para articular distintas fuentes de retroalimentación: la reflexión del propio docente, el juicio de colegas de cátedra, la valoración de los estudiantes y el seguimiento institucional.
+Para responder a este interrogante, la literatura sobre evaluación docente en el nivel universitario [@obando2014; @sifuentes2016] destaca el modelo de **retroalimentación multiactoral o 360 grados** como una herramienta idónea para articular distintas fuentes de información: la autoevaluación reflexiva del docente, el juicio valorativo de colegas de cátedra, la apreciación de los estudiantes y el seguimiento institucional.
 
-Conviene advertir que **la evaluación 360° no garantiza resultados formativos de forma automática**. Las investigaciones comparadas señalan que su viabilidad depende de condiciones precisas: anonimato y confidencialidad de los datos, instrumentos pedagógicamente válidos, sensibilización previa de los claustros y un clima institucional de confianza que aleje cualquier percepción de control punitivo.
+Conviene advertir que la aplicación de dispositivos 360° no garantiza resultados formativos de forma automática. Tal como señala la literatura sobre evaluación en organizaciones [@lepsinger2009] y sus análisis aplicados al ámbito universitario [@obando2014; @sifuentes2016], la efectividad y viabilidad del modelo dependen de condiciones metodológicas precisas: resguardo de la confidencialidad y el anonimato, validez pedagógica de los instrumentos, sensibilización previa de los claustros y un clima de confianza institucional que prevenga interpretaciones punitivas.
 
-En una universidad pública cogobernada, es indispensable **diferenciar la evaluación orientada a la mejora pedagógica de aquella vinculada a decisiones laborales sumativas** (como la permanencia o promoción regladas por la Ordenanza N° 0920/2019 y modificatorias, y el CCT Docente, Decreto N° 1246/2015). Trasladar herramientas de gestión sin cuidar esta frontera o sin el acuerdo de los claustros podría despertar comprensibles prevenciones. Por eso, la viabilidad de cualquier propuesta descansa en la **gobernanza universitaria**: un espacio colegiado donde las políticas de gestión de personas se construyen sobre *variables de control compartido* [@matus1993; @longo2006].
+En una universidad pública cogobernada, es indispensable **diferenciar la evaluación orientada a la mejora pedagógica de aquella vinculada a decisiones laborales sumativas** (como la permanencia o promoción regladas por la Ordenanza N° 0920/2019 y modificatorias, y el CCT Docente, Decreto N° 1246/2015). Trasladar herramientas de gestión sin cuidar esta frontera o sin el acuerdo de los claustros podría despertar comprensibles prevenciones. Por eso, la viabilidad de cualquier propuesta descansa en la **gobernanza universitaria**: un espacio colegiado donde las políticas de gestión de personas se construyen sobre *variables de control compartido* [@matus1993; @longo2004].
 
 ## Desglose de las Cuatro (4) Delimitaciones Metodológicas
 
 Siguiendo las pautas de la cátedra, la delimitación del problema comprende cuatro dimensiones constitutivas:
 
 1. **Delimitación Temática:** Mecanismos de estructuración de la evaluación del desempeño docente y análisis de factibilidad para implementar un modelo de retroalimentación multiactoral (360°), articulando autoevaluación, valoración de pares, opinión de estudiantes y seguimiento departamental.
-2. **Delimitación Semántica y Teórica:** Precisión de conceptos estructurantes: *Evaluación del Desempeño Docente* (apreciación formativa del quehacer pedagógico en el subsistema de rendimiento); *Modelo 360° / Retroalimentación Multiactoral* (dispositivo de consulta y triangulación de juicios valorativos); *Gobernanza Universitaria* [cogobierno, diálogo paritario y control compartido de variables institucionales; @matus1993]; y *Gestión del Desarrollo* [aprendizaje continuo y formación pedagógica articulada; @longo2006].
+2. **Delimitación Semántica y Teórica:** Precisión de conceptos estructurantes: *Evaluación del Desempeño Docente* (apreciación formativa del quehacer pedagógico en el subsistema de rendimiento); *Modelo 360° / Retroalimentación Multiactoral* (dispositivo de consulta y triangulación de juicios valorativos); *Gobernanza Universitaria* [cogobierno, diálogo paritario y control compartido de variables institucionales; @matus1993]; y *Gestión del Desarrollo* [aprendizaje continuo y formación pedagógica articulada; @longo2004].
 3. **Delimitación Temporal:** Período de investigación **2025–2026**, organizado en dos etapas:
    * **Fase preliminar y documental (2025):** Formulación del problema, revisión bibliográfica sistemática sobre evaluación 360°, análisis normativo institucional (Estatuto UNCo, Ordenanzas CS N° 470/2009 y N° 0920/2019 con sus modificatorias, y CCT Docente Decreto N° 1246/2015) y diseño metodológico.
    * **Fase empírica y propositiva (2026):** Trabajo de campo mediante entrevistas a autoridades y docentes, encuestas a estudiantes, análisis multidimensional de factibilidad e informe final de Tesina para el Seminario de Integración y Aplicación (SIA).
@@ -220,7 +220,7 @@ En términos prácticos, determinar si el modelo es factible en el Departamento 
 1. **Compatibilidad jurídica:** ¿Puede aplicarse con fines formativos sin colisionar con la estabilidad laboral regulada por el Estatuto UNCo, la Carrera Docente (Ord. N° 0920/2019 y modificatorias) y el CCT Docente (Decreto N° 1246/2015)?
 2. **Capacidad técnica y de gestión:** ¿Existen plataformas informáticas (SIU-Guaraní, campus virtual) y circuitos administrativos capaces de resguardar el anonimato y procesar devoluciones oportunas?
 3. **Aceptación y confianza de los claustros:** ¿Existe disposición en docentes, estudiantes y autoridades para participar en una evaluación multiactoral, disipando temores a controles punitivos?
-4. **Legitimidad en el cogobierno:** ¿Cuenta la propuesta con viabilidad política para ser tratada y consensuada en los órganos colegiados sobre variables de control compartido [@matus1993; @longo2006]?
+4. **Legitimidad en el cogobierno:** ¿Cuenta la propuesta con viabilidad política para ser tratada y consensuada en los órganos colegiados sobre variables de control compartido [@matus1993; @longo2004]?
 
 ### Dimensiones de Observación y Fuentes Empíricas
 
@@ -256,7 +256,7 @@ A continuación, se explicita la pertinencia del estudio desde tres planos conve
 
 En el plano teórico, el trabajo busca aportar al campo de la Administración Pública y la Gestión de Recursos Humanos en el sector estatal, dialogando con los enfoques sobre modernización y capacidades institucionales [@oszlak2020]. La implementación de modelos de retroalimentación 360° en universidades públicas argentinas —con estructuras de cogobierno, autonomía y regímenes paritarios específicos— representa un área de vacancia que amerita ser investigada de forma situada.
 
-Asimismo, la investigación operacionaliza el Subsistema de Gestión del Rendimiento de @longo2006 en una universidad patagónica. Se examina en qué condiciones la evaluación docente puede orientarse al aprendizaje continuo, generando evidencia empírica sobre la articulación entre gobernanza colegiada y dispositivos de retroalimentación en organizaciones públicas complejas.
+Asimismo, la investigación operacionaliza el Subsistema de Gestión del Rendimiento de @longo2004 en una universidad patagónica. Se examina en qué condiciones la evaluación docente puede orientarse al aprendizaje continuo, generando evidencia empírica sobre la articulación entre gobernanza colegiada y dispositivos de retroalimentación en organizaciones públicas complejas.
 
 ## Plano Social e Institucional
 
@@ -286,9 +286,9 @@ En este apartado se formulan las metas analíticas del proyecto en congruencia d
 3. **Identificar los condicionantes técnico-organizacionales, normativos y de gobernanza** (acuerdos paritarios, Carrera Docente según Ord. N° 0920/2019 y sus modificatorias, confidencialidad y cogobierno) que inciden en la factibilidad del modelo.
 4. **Proponer lineamientos orientativos** para una eventual implementación de un modelo de retroalimentación multiactoral (360°), en función de las condiciones y límites de factibilidad identificados en la investigación empírica.
 
-## Matriz de Consistencia Metodológica y Articulación con Longo (2006)
+## Matriz de Consistencia Metodológica y Articulación con Longo (2004)
 
-Para dotar de consistencia analítica a la investigación, cada subsistema del modelo de @longo2006 aporta una clave interpretativa específica al problema planteado:
+Para dotar de consistencia analítica a la investigación, cada subsistema del modelo de @longo2004 aporta una clave interpretativa específica al problema planteado:
 * **Gestión del Rendimiento:** actúa como eje estructurante para examinar los mecanismos evaluativos vigentes y explorar su potencial transformación hacia una lógica formativa e integral.
 * **Organización del Trabajo:** permite contrastar los perfiles, funciones docentes y exigencias pedagógicas (presenciales e híbridas en los nodos territoriales) con los criterios reales de evaluación.
 * **Gestión del Desarrollo:** analiza la articulación efectiva entre los resultados evaluativos y los planes de capacitación continua, perfeccionamiento didáctico y carrera docente.
@@ -296,7 +296,7 @@ Para dotar de consistencia analítica a la investigación, cada subsistema del m
 
 En consecuencia, el modelo de Longo no se utiliza únicamente como encuadre teórico, sino como criterio de lectura para analizar la articulación entre evaluación del desempeño, desarrollo de capacidades docentes, organización del trabajo y relaciones institucionales, permitiendo identificar condiciones que favorecen o limitan la factibilidad de una retroalimentación 360°.
 
-| Nivel de Objetivo | Dimensión y Acción Metodológica | Subsistema de RR.HH. (Longo, 2006) | Fuente, Actor e Instrumento Previsto |
+| Nivel de Objetivo | Dimensión y Acción Metodológica | Subsistema de RR.HH. (Longo, 2004) | Fuente, Actor e Instrumento Previsto |
 | :--- | :--- | :--- | :--- |
 | **General** | **Factibilidad integral:** Análisis multidimensional de mecanismos actuales y viabilidad de retroalimentación 360° | **Gestión del rendimiento** (*Evaluación del desempeño y retroalimentación formativa*) | Claustros y autoridades del Departamento de Administración Pública (CURZAS-UNCo) |
 | **Específico 1** | **Dimensión normativa-institucional:** Relevamiento y análisis documental de ordenanzas, reglamentos y prácticas vigentes | **Gestión del rendimiento en articulación con Organización del trabajo** (*Evaluación vigente y perfiles/funciones docentes según Estatuto y Ord. N° 0920/2019 y modificatorias*) | Estatuto UNCo (Ord. 470/2009 y modif.), Ord. N° 0920/2019 (y modif.) y CCT Docente (Decreto N° 1246/2015) (Matriz de análisis documental) |
