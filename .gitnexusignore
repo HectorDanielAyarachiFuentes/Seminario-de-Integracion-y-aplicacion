@@ -1,0 +1,34 @@
+# GitNexus Ignore — Seminario de Integración y Aplicación (TFG)
+
+# Herramientas auxiliares externas y repositorios clonados
+IA-HERRAMIENTAS-QUANTO-TYPS/
+node_modules/
+dist/
+build/
+
+# Skills e instrucciones de agentes (no forman parte del AST de código del proyecto)
+.agents/skills/
+.claude/
+
+# Pruebas y experimentos temporales
+pruebas/
+
+# Archivos de bibliografía estática y PDFs
+Bibliografia/
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+# Cache y temporales
+__pycache__/
+*.pyc
+.quarto/
+*_files/
+*_cache/
+.vscode/
+
+# Credenciales y logs
+cookies.txt
+auth.json
+*.log

@@ -38,5 +38,14 @@ venv/
 .venv/
 env/
 
-# Logs
+# Logs y depuración
 *.log
+
+# Credenciales y tokens sensibles
+cookies.txt
+auth.json
+*.session
+
+# Dependencias y herramientas externas
+node_modules/
+.claude/

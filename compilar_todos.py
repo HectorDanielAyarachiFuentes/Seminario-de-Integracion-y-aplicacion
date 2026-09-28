@@ -148,8 +148,544 @@ def compilar_quarto_pdf(doc):
         print(f"     {e.stderr.strip() or e.stdout.strip()}")
         return False
 
+def aplicar_estilos_base_apa7(doc_word):
+    """Configura márgenes de 2.54 cm, tipografía Arial 12pt e interlineado 1.5 en Word (Normas APA 7)."""
+    from docx.shared import Pt, Cm
+    
+    # 1. Márgenes normativos APA 7 (2.54 cm / 1 pulgada)
+    for sec in doc_word.sections:
+        sec.top_margin = Cm(2.54)
+        sec.bottom_margin = Cm(2.54)
+        sec.left_margin = Cm(2.54)
+        sec.right_margin = Cm(2.54)
+
+    # 2. Estilos de texto corrido
+    for s_name in ['Normal', 'Body Text', 'First Paragraph', 'Compact']:
+        try:
+            st = doc_word.styles[s_name]
+            st.font.name = 'Arial'
+            st.font.size = Pt(12)
+            st.paragraph_format.line_spacing = 1.5
+        except (KeyError, AttributeError):
+            pass
+
+    # 3. Heading 1 (# ...): 14pt negrita
+    try:
+        h1 = doc_word.styles['Heading 1']
+        h1.font.name = 'Arial'
+        h1.font.size = Pt(14)
+        h1.font.bold = True
+        h1.paragraph_format.space_before = Pt(20)
+        h1.paragraph_format.space_after = Pt(10)
+        h1.paragraph_format.line_spacing = 1.2
+        h1.paragraph_format.keep_with_next = True
+    except (KeyError, AttributeError):
+        pass
+
+    # 4. Heading 2 (## ...): 12pt negrita
+    try:
+        h2 = doc_word.styles['Heading 2']
+        h2.font.name = 'Arial'
+        h2.font.size = Pt(12)
+        h2.font.bold = True
+        h2.paragraph_format.space_before = Pt(14)
+        h2.paragraph_format.space_after = Pt(6)
+        h2.paragraph_format.line_spacing = 1.2
+        h2.paragraph_format.keep_with_next = True
+    except (KeyError, AttributeError):
+        pass
+
+    # 5. Heading 3 (### ...): 12pt negrita y cursiva
+    try:
+        h3 = doc_word.styles['Heading 3']
+        h3.font.name = 'Arial'
+        h3.font.size = Pt(12)
+        h3.font.bold = True
+        h3.font.italic = True
+        h3.paragraph_format.space_before = Pt(10)
+        h3.paragraph_format.space_after = Pt(4)
+        h3.paragraph_format.line_spacing = 1.2
+        h3.paragraph_format.keep_with_next = True
+    except (KeyError, AttributeError):
+        pass
+
+
+def formatear_parrafos_y_encabezados(doc_word):
+    """Aplica formato explícito de párrafo, espaciado y tipografía a encabezados y título principal."""
+    from docx.shared import Pt
+    from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+
+    for p in doc_word.paragraphs:
+        sname = p.style.name if p.style else ""
+        if sname in ['Heading 1', 'Encabezado 1']:
+            p.paragraph_format.space_before = Pt(12)
+            p.paragraph_format.space_after = Pt(6)
+            p.paragraph_format.line_spacing = 1.25
+            p.paragraph_format.keep_with_next = True
+            for r in p.runs:
+                r.font.name = 'Arial'
+                r.font.size = Pt(14)
+                r.font.bold = True
+        elif sname in ['Heading 2', 'Encabezado 2']:
+            p.paragraph_format.space_before = Pt(10)
+            p.paragraph_format.space_after = Pt(4)
+            p.paragraph_format.line_spacing = 1.25
+            p.paragraph_format.keep_with_next = True
+            for r in p.runs:
+                r.font.name = 'Arial'
+                r.font.size = Pt(12)
+                r.font.bold = True
+        elif sname in ['Heading 3', 'Encabezado 3']:
+            p.paragraph_format.space_before = Pt(8)
+            p.paragraph_format.space_after = Pt(2)
+            p.paragraph_format.line_spacing = 1.25
+            p.paragraph_format.keep_with_next = True
+            for r in p.runs:
+                r.font.name = 'Arial'
+                r.font.size = Pt(12)
+                r.font.bold = True
+                r.font.italic = True
+
+    # Formatear y centrar el bloque del Título Principal y Subtítulo al inicio del cuerpo (Página 3)
+    for p in doc_word.paragraphs:
+        txt = p.text.strip()
+        if txt.startswith("Evaluación del Desempeño Docente") and "Factibilidad" in txt:
+            p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+            p.paragraph_format.space_before = Pt(0)
+            p.paragraph_format.space_after = Pt(2)
+            p.paragraph_format.line_spacing = 1.15
+            
+            if "\n" in txt:
+                parts = txt.split("\n", 1)
+                title_text = parts[0].strip()
+                subtitle_text = parts[1].strip()
+                
+                p.text = ""
+                r_title = p.add_run(title_text)
+                r_title.bold = True
+                r_title.font.name = "Arial"
+                r_title.font.size = Pt(13)
+                
+                p_sub = doc_word.add_paragraph()
+                p._p.addnext(p_sub._p)
+                p_sub.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+                p_sub.paragraph_format.space_before = Pt(0)
+                p_sub.paragraph_format.space_after = Pt(6)
+                p_sub.paragraph_format.line_spacing = 1.15
+                
+                r_sub = p_sub.add_run(subtitle_text)
+                r_sub.italic = True
+                r_sub.font.name = "Arial"
+                r_sub.font.size = Pt(11)
+
+                # Eliminar párrafos vacíos entre el subtítulo y el primer encabezado
+                next_p = p_sub._p.getnext()
+                while next_p is not None:
+                    try:
+                        from lxml import etree
+                        txt_p = etree.tostring(next_p, method="text", encoding="unicode").strip()
+                    except Exception:
+                        txt_p = ""
+                    if not txt_p:
+                        temp = next_p.getnext()
+                        next_p.getparent().remove(next_p)
+                        next_p = temp
+                    else:
+                        break
+            else:
+                for r in p.runs:
+                    r.font.name = "Arial"
+                    r.font.size = Pt(13)
+                    r.font.bold = True
+            break
+
+
+def reconstruir_caratula_oficial(doc_word, doc):
+    """Alinea el logotipo y ajusta la carátula según el modelo oficial SIA (Res. CD-CURZAS N° 266/23)."""
+    from docx.shared import Pt, Inches
+    from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+
+    p_logo = None
+    for p in doc_word.paragraphs:
+        if len(p._element.xpath('.//w:drawing')) > 0:
+            p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+            p_logo = p
+            break
+
+    # Reconstruir la carátula según el modelo oficial SIA solo para TP2
+    if p_logo is not None and doc.get("id") == "TP2":
+        pb_idx = None
+        for i, p in enumerate(doc_word.paragraphs):
+            if 'type="page"' in p._p.xml or p.text.strip() == "Índice de Contenidos":
+                pb_idx = i if 'type="page"' in p._p.xml else i - 1
+                break
+
+        if pb_idx is not None and pb_idx > 0:
+            p_pb = doc_word.paragraphs[pb_idx]
+            
+            # Eliminar párrafos intermedios entre el logo y el salto de página
+            current_p = p_logo._p.getnext()
+            while current_p is not None and current_p != p_pb._p:
+                temp = current_p.getnext()
+                current_p.getparent().remove(current_p)
+                current_p = temp
+
+            # Párrafos idénticos al archivo oficial Modelo de Carátula SIA 2025.docx
+            cover_data = [
+                ("", False, WD_PARAGRAPH_ALIGNMENT.CENTER, None),
+                ("Universidad Nacional del Comahue", True, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
+                ("Complejo Universitario Regional Zona Atlántica y Sur", True, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
+                ("Departamento de Administración Pública", True, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
+                ("", False, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
+                ("", False, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
+                ("", False, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
+                ("Licenciatura en Gestión de Recursos Humanos", True, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.0),
+                ("", False, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.0),
+                ("", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
+                ("", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
+                ("Materia: Seminario de Integración y Aplicación", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
+                ("Profesores: Dra. Deborah Noguera", False, None, None),
+                ("                   Esp. Federico Abeiro", False, None, None),
+                ("                   Esp. María Cecilia Aguirre", False, None, None),
+                ("", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
+                ("Estudiante: Tec. Sup. en RRHH Héctor Daniel Ayarachi Fuentes", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
+                ("DNI y LEGAJO: DNI N° 35.492.138 — Legajo N° 8252", False, None, None),
+                ("Email: hectordanielayarachifuentes@gmail.com", False, None, None),
+                ("", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
+                ("Director/a: (A designar antes de finalizar el cursado del SIA)", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
+                ("Codirector/a: (A designar antes de finalizar el cursado del SIA)", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
+                ("", False, None, None),
+                ("", False, None, None),
+                ("Viedma, Río Negro — Año 2026", False, WD_PARAGRAPH_ALIGNMENT.CENTER, None)
+            ]
+
+            for text, bold, align, ls in cover_data:
+                new_p = doc_word.add_paragraph()
+                p_pb._p.addprevious(new_p._p)
+                if align is not None:
+                    new_p.alignment = align
+                if ls is not None:
+                    new_p.paragraph_format.line_spacing = ls
+                new_p.paragraph_format.space_before = Pt(0)
+                new_p.paragraph_format.space_after = Pt(0)
+                if text:
+                    run = new_p.add_run(text)
+                    run.bold = bold
+                    run.font.name = "Arial"
+                    run.font.size = Pt(12)
+
+    # Ajustar espaciado de carátula para TP1
+    if p_logo is not None and doc.get("id") == "TP1":
+        pb_idx = None
+        for i, p in enumerate(doc_word.paragraphs):
+            if 'type="page"' in p._p.xml or p.text.strip() == "Índice de Contenidos":
+                pb_idx = i if 'type="page"' in p._p.xml else i - 1
+                break
+
+        if pb_idx is not None:
+            for p in list(doc_word.paragraphs[:pb_idx]):
+                txt = p.text.strip()
+                if not txt and len(p._element.xpath('.//w:drawing')) == 0:
+                    p._p.getparent().remove(p._p)
+                else:
+                    p.paragraph_format.space_before = Pt(0)
+                    if "Universidad" in txt:
+                        p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+                        p.paragraph_format.space_after = Pt(10)
+                        p.paragraph_format.line_spacing = 1.15
+                    elif "TRABAJO PRÁCTICO" in txt:
+                        p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+                        p.paragraph_format.space_after = Pt(12)
+                        p.paragraph_format.line_spacing = 1.15
+                    elif "Materia" in txt or "Estudiante" in txt:
+                        p.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
+                        p.paragraph_format.left_indent = Inches(0.4)
+                        p.paragraph_format.space_after = Pt(12)
+                        p.paragraph_format.line_spacing = 1.15
+                    elif "Año Académico" in txt:
+                        p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+                        p.paragraph_format.space_after = Pt(0)
+                        p.paragraph_format.line_spacing = 1.15
+                    else:
+                        p.paragraph_format.space_after = Pt(6)
+
+
+def configurar_paginacion_dinamica(doc_word):
+    """Configura la paginación según normas APA 7: Carátula sin número visible, cuerpo inicia en 1."""
+    from docx.oxml import parse_xml
+    from docx.oxml.ns import nsdecls
+    from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+
+    p_body = None
+    found_toc = False
+    for p in doc_word.paragraphs:
+        txt = p.text.strip()
+        if txt == "Índice de Contenidos":
+            found_toc = True
+            continue
+        if found_toc and txt:
+            if txt.startswith(('1.', '2.', '3.', '4.', '5.')) and '\t' in txt:
+                continue
+            if p.style and (p.style.name.startswith(('Heading', 'First Paragraph', 'Title', 'Encabezado')) or txt.startswith(('1.', 'Evaluación', 'Tema', 'Introducción'))):
+                p_body = p
+                break
+
+    if not p_body and len(doc_word.paragraphs) > 0:
+        for p in doc_word.paragraphs:
+            txt = p.text.strip()
+            if txt.startswith(('1.', 'Evaluación', 'Tema', 'Introducción')) and not txt.startswith('Materia'):
+                p_body = p
+                break
+
+    if p_body is not None:
+        p_prev = p_body._p.getprevious()
+        if p_prev is not None:
+            if len(p_prev.xpath('.//w:sectPr')) == 0:
+                sect_pr = parse_xml(f'<w:sectPr {nsdecls("w")}><w:type w:val="nextPage"/></w:sectPr>')
+                p_prev.get_or_add_pPr().append(sect_pr)
+
+    sections = doc_word.sections
+    if len(sections) >= 2:
+        sec0 = sections[0]
+        sec0.footer.is_linked_to_previous = False
+        for p in sec0.footer.paragraphs:
+            p.text = ""
+
+        sec1 = sections[1]
+        sec1.footer.is_linked_to_previous = False
+        fp = sec1.footer.paragraphs[0] if sec1.footer.paragraphs else sec1.footer.add_paragraph()
+        fp.text = ""
+        fp.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+        xml_fld = f'<w:fldSimple {nsdecls("w")} w:instr="PAGE"/>'
+        fp._p.append(parse_xml(xml_fld))
+        xml_pg = f'<w:pgNumType {nsdecls("w")} w:start="1"/>'
+        sec1._sectPr.append(parse_xml(xml_pg))
+    elif len(sections) == 1:
+        sec = sections[0]
+        sec.different_first_page_header_footer = True
+        fp = sec.footer.paragraphs[0] if sec.footer.paragraphs else sec.footer.add_paragraph()
+        fp.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+        xml_fld = f'<w:fldSimple {nsdecls("w")} w:instr="PAGE"/>'
+        fp._p.append(parse_xml(xml_fld))
+        xml_pg = f'<w:pgNumType {nsdecls("w")} w:start="0"/>'
+        sec._sectPr.append(parse_xml(xml_pg))
+
+
+def formatear_tablas_apa7(doc_word):
+    """Aplica formato APA 7ma Edición a todas las tablas (triple línea horizontal, sin bordes verticales)."""
+    from docx.oxml import parse_xml
+    from docx.oxml.ns import nsdecls
+
+    for table in doc_word.tables:
+        xml_borders = (
+            f'<w:tblBorders {nsdecls("w")}>'
+            f'<w:top w:val="single" w:sz="8" w:space="0" w:color="000000"/>'
+            f'<w:left w:val="none"/>'
+            f'<w:bottom w:val="single" w:sz="8" w:space="0" w:color="000000"/>'
+            f'<w:right w:val="none"/>'
+            f'<w:insideH w:val="none"/>'
+            f'<w:insideV w:val="none"/>'
+            f'</w:tblBorders>'
+        )
+        table._tbl.tblPr.append(parse_xml(xml_borders))
+        if len(table.rows) > 0:
+            for cell in table.rows[0].cells:
+                tcPr = cell._tc.get_or_add_tcPr()
+                tcBorders = parse_xml(
+                    f'<w:tcBorders {nsdecls("w")}>'
+                    f'<w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>'
+                    f'</w:tcBorders>'
+                )
+                tcPr.append(tcBorders)
+
+
+def insertar_tabla_contenidos_word(doc_word, doc):
+    """Genera e inserta el Índice de Contenidos nativo OpenXML con tabulaciones de puntos guía."""
+    from docx.oxml import parse_xml
+    from docx.oxml.ns import nsdecls
+
+    p_toc = None
+    for p in doc_word.paragraphs:
+        if p.text.strip() == "Índice de Contenidos":
+            p_toc = p
+            break
+
+    if not p_toc:
+        return
+
+    # Limpiar párrafos de TOC previos
+    next_p = p_toc._p.getnext()
+    while next_p is not None:
+        try:
+            from lxml import etree
+            xml_s = etree.tostring(next_p, encoding="unicode")
+        except Exception:
+            xml_s = ""
+        if 'TOC' in xml_s or 'fldChar' in xml_s:
+            parent = next_p.getparent()
+            temp = next_p.getnext()
+            parent.remove(next_p)
+            next_p = temp
+        else:
+            break
+
+    # Extraer entradas y números de página desde el PDF o encabezados
+    items_toc = []
+    pdf_path = doc.get("pdf_entrega")
+    if pdf_path and pdf_path.exists():
+        try:
+            import pymupdf
+            doc_pdf = pymupdf.open(str(pdf_path))
+            if len(doc_pdf) > 1:
+                txt_toc = doc_pdf[1].get_text()
+                for line in txt_toc.split('\n'):
+                    line = line.strip()
+                    if not line or line.startswith('Índice') or line == '1':
+                        continue
+                    parts = line.split(' .')
+                    if len(parts) >= 2:
+                        title = parts[0].strip()
+                        pag = parts[-1].replace('.', '').replace('\u2060', '').strip()
+                        if pag.isdigit():
+                            level = 2 if title == 'Objetivos' or title.startswith('1.1') else 1
+                            items_toc.append((title, level, pag))
+        except Exception:
+            pass
+
+    headings_word = []
+    for p in doc_word.paragraphs:
+        txt = p.text.strip()
+        if txt == "Índice de Contenidos":
+            continue
+        if (p.style and p.style.name.startswith(('Heading', 'Encabezado'))) or txt.startswith(('1.', '2.', '3.', '4.', '5.')):
+            headings_word.append(txt)
+
+    final_items = []
+    if items_toc:
+        for title_pdf, level, pag in items_toc:
+            matched = title_pdf
+            for hw in headings_word:
+                hw_clean = hw
+                parts = hw.split(' ', 1)
+                if len(parts) > 1 and parts[0].replace('.', '').isdigit():
+                    hw_clean = parts[1]
+                if hw_clean.strip().lower() == title_pdf.strip().lower():
+                    matched = hw
+                    break
+            final_items.append((matched, level, pag))
+    else:
+        for hw in headings_word:
+            level = 2 if hw.startswith('1.1') else 1
+            final_items.append((hw, level, "1"))
+
+    # Construir estructura nativa OpenXML para el TOC
+    tab_pos = "9026"
+    curr = p_toc._p
+
+    begin_xml = (
+        f'<w:p {nsdecls("w")}>'
+        f'<w:pPr><w:spacing w:after="120"/></w:pPr>'
+        f'<w:r>'
+        f'<w:fldChar w:fldCharType="begin"/>'
+        f'<w:instrText xml:space="preserve"> TOC \\o "1-3" \\h \\z \\u </w:instrText>'
+        f'<w:fldChar w:fldCharType="separate"/>'
+        f'</w:r>'
+        f'</w:p>'
+    )
+    p_begin = parse_xml(begin_xml)
+    curr.addnext(p_begin)
+    curr = p_begin
+
+    for texto, nivel, num_pag in final_items:
+        style_name = f"TOC{nivel}"
+        left_indent = "280" if nivel == 2 else "0"
+        item_xml = (
+            f'<w:p {nsdecls("w")}>'
+            f'<w:pPr>'
+            f'<w:pStyle w:val="{style_name}"/>'
+            f'<w:tabs>'
+            f'<w:tab w:val="right" w:leader="dot" w:pos="{tab_pos}"/>'
+            f'</w:tabs>'
+            f'<w:ind w:left="{left_indent}"/>'
+            f'<w:spacing w:after="60"/>'
+            f'</w:pPr>'
+            f'<w:r>'
+            f'<w:rPr>'
+            f'<w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>'
+            f'<w:sz w:val="22"/>'
+            f'</w:rPr>'
+            f'<w:t>{texto}</w:t>'
+            f'</w:r>'
+            f'<w:r>'
+            f'<w:tab/>'
+            f'</w:r>'
+            f'<w:r>'
+            f'<w:rPr>'
+            f'<w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>'
+            f'<w:sz w:val="22"/>'
+            f'</w:rPr>'
+            f'<w:t>{num_pag}</w:t>'
+            f'</w:r>'
+            f'</w:p>'
+        )
+        p_item = parse_xml(item_xml)
+        curr.addnext(p_item)
+        curr = p_item
+
+    end_xml = (
+        f'<w:p {nsdecls("w")}>'
+        f'<w:r>'
+        f'<w:fldChar w:fldCharType="end"/>'
+        f'</w:r>'
+        f'</w:p>'
+    )
+    p_end = parse_xml(end_xml)
+    curr.addnext(p_end)
+
+    # Habilitar actualización automática al abrir en Word
+    try:
+        settings = doc_word.settings.element
+        update_fields = parse_xml(f'<w:updateFields {nsdecls("w")} w:val="true"/>')
+        settings.append(update_fields)
+    except Exception:
+        pass
+
+
+def aplicar_sangria_francesa_referencias(doc_word):
+    """Aplica sangría francesa APA 7 (1.27 cm / 0.5 pulg) a la sección de referencias bibliográficas."""
+    from docx.shared import Inches, Pt
+    from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+
+    is_ref = False
+    for p in doc_word.paragraphs:
+        txt = p.text.strip()
+        if (txt == "Referencias" or txt.startswith("Referencias Bibliográficas") or txt.startswith("Referencias")) and "\t" not in txt:
+            is_ref = True
+            p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+            continue
+        if is_ref and txt:
+            p.paragraph_format.left_indent = Inches(0.5)
+            p.paragraph_format.first_line_indent = Inches(-0.5)
+            p.paragraph_format.space_after = Pt(6)
+            p.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
+
+
+def postprocesar_documento_word(tmp_docx, doc):
+    """Orquesta todos los submódulos de formato APA 7 sobre el archivo Word temporal."""
+    import docx
+    doc_word = docx.Document(str(tmp_docx))
+    aplicar_estilos_base_apa7(doc_word)
+    formatear_parrafos_y_encabezados(doc_word)
+    reconstruir_caratula_oficial(doc_word, doc)
+    configurar_paginacion_dinamica(doc_word)
+    formatear_tablas_apa7(doc_word)
+    insertar_tabla_contenidos_word(doc_word, doc)
+    aplicar_sangria_francesa_referencias(doc_word)
+    doc_word.save(str(tmp_docx))
+
+
 def compilar_quarto_word(doc):
-    """Compila Quarto a Word (.docx) hacia Entregas/."""
+    """Compila Quarto a Word (.docx) hacia Entregas/ aplicando post-procesamiento APA 7 modular."""
     qmd_path = doc["qmd"]
     docx_out = doc["docx_entrega"]
     
@@ -167,502 +703,10 @@ def compilar_quarto_word(doc):
         if tmp_docx.exists():
             docx_out.parent.mkdir(parents=True, exist_ok=True)
             try:
-                import docx
-                from docx.oxml import parse_xml
-                from docx.oxml.ns import nsdecls
-                from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
-                from docx.shared import Inches, Pt, Cm
-
-                doc_word = docx.Document(str(tmp_docx))
-                
-                # 0. Configurar márgenes de 2.5 cm, tipografía Arial 12pt e interlineado 1.5 en Word (Normas APA 7)
-                for sec in doc_word.sections:
-                    sec.top_margin = Cm(2.5)
-                    sec.bottom_margin = Cm(2.5)
-                    sec.left_margin = Cm(2.5)
-                    sec.right_margin = Cm(2.5)
-
-                for s_name in ['Normal', 'Body Text', 'First Paragraph', 'Compact']:
-                    try:
-                        st = doc_word.styles[s_name]
-                        st.font.name = 'Arial'
-                        st.font.size = Pt(12)
-                        st.paragraph_format.line_spacing = 1.5
-                    except Exception:
-                        pass
-
-                # Heading 1 (# ...): 14pt negrita con espacio antes/después
-                try:
-                    h1 = doc_word.styles['Heading 1']
-                    h1.font.name = 'Arial'
-                    h1.font.size = Pt(14)
-                    h1.font.bold = True
-                    h1.paragraph_format.space_before = Pt(20)
-                    h1.paragraph_format.space_after = Pt(10)
-                    h1.paragraph_format.line_spacing = 1.2
-                    h1.paragraph_format.keep_with_next = True
-                except Exception:
-                    pass
-
-                # Heading 2 (## ...): 12pt negrita con espacio antes/después
-                try:
-                    h2 = doc_word.styles['Heading 2']
-                    h2.font.name = 'Arial'
-                    h2.font.size = Pt(12)
-                    h2.font.bold = True
-                    h2.paragraph_format.space_before = Pt(14)
-                    h2.paragraph_format.space_after = Pt(6)
-                    h2.paragraph_format.line_spacing = 1.2
-                    h2.paragraph_format.keep_with_next = True
-                except Exception:
-                    pass
-
-                # Heading 3 (### ...): 12pt negrita y cursiva
-                try:
-                    h3 = doc_word.styles['Heading 3']
-                    h3.font.name = 'Arial'
-                    h3.font.size = Pt(12)
-                    h3.font.bold = True
-                    h3.font.italic = True
-                    h3.paragraph_format.space_before = Pt(10)
-                    h3.paragraph_format.space_after = Pt(4)
-                    h3.paragraph_format.line_spacing = 1.2
-                    h3.paragraph_format.keep_with_next = True
-                except Exception:
-                    pass
-
-                # Aplicar directamente formato de margen y tamaño a cada encabezado
-                for p in doc_word.paragraphs:
-                    sname = p.style.name
-                    if sname in ['Heading 1', 'Encabezado 1']:
-                        p.paragraph_format.space_before = Pt(12)
-                        p.paragraph_format.space_after = Pt(6)
-                        p.paragraph_format.line_spacing = 1.25
-                        p.paragraph_format.keep_with_next = True
-                        for r in p.runs:
-                            r.font.name = 'Arial'
-                            r.font.size = Pt(14)
-                            r.font.bold = True
-                    elif sname in ['Heading 2', 'Encabezado 2']:
-                        p.paragraph_format.space_before = Pt(10)
-                        p.paragraph_format.space_after = Pt(4)
-                        p.paragraph_format.line_spacing = 1.25
-                        p.paragraph_format.keep_with_next = True
-                        for r in p.runs:
-                            r.font.name = 'Arial'
-                            r.font.size = Pt(12)
-                            r.font.bold = True
-                    elif sname in ['Heading 3', 'Encabezado 3']:
-                        p.paragraph_format.space_before = Pt(8)
-                        p.paragraph_format.space_after = Pt(2)
-                        p.paragraph_format.line_spacing = 1.25
-                        p.paragraph_format.keep_with_next = True
-                        for r in p.runs:
-                            r.font.name = 'Arial'
-                            r.font.size = Pt(12)
-                            r.font.bold = True
-                            r.font.italic = True
-
-                # Formatear y centrar el bloque del Título Principal y Subtítulo al inicio del cuerpo (Página 3)
-                for p in doc_word.paragraphs:
-                    txt = p.text.strip()
-                    if txt.startswith("Evaluación del Desempeño Docente") and "Factibilidad" in txt:
-                        p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                        p.paragraph_format.space_before = Pt(0)
-                        p.paragraph_format.space_after = Pt(2)
-                        p.paragraph_format.line_spacing = 1.15
-                        
-                        if "\n" in txt:
-                            parts = txt.split("\n", 1)
-                            title_text = parts[0].strip()
-                            subtitle_text = parts[1].strip()
-                            
-                            p.text = ""
-                            r_title = p.add_run(title_text)
-                            r_title.bold = True
-                            r_title.font.name = "Arial"
-                            r_title.font.size = Pt(13)
-                            
-                            p_sub = doc_word.add_paragraph()
-                            p._p.addnext(p_sub._p)
-                            p_sub.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                            p_sub.paragraph_format.space_before = Pt(0)
-                            p_sub.paragraph_format.space_after = Pt(6)
-                            p_sub.paragraph_format.line_spacing = 1.15
-                            
-                            r_sub = p_sub.add_run(subtitle_text)
-                            r_sub.italic = True
-                            r_sub.font.name = "Arial"
-                            r_sub.font.size = Pt(11)
-
-                            # Eliminar párrafos vacíos entre el subtítulo y el primer encabezado
-                            next_p = p_sub._p.getnext()
-                            while next_p is not None:
-                                try:
-                                    from lxml import etree
-                                    txt_p = etree.tostring(next_p, method="text", encoding="unicode").strip()
-                                except Exception:
-                                    txt_p = ""
-                                if not txt_p:
-                                    temp = next_p.getnext()
-                                    next_p.getparent().remove(next_p)
-                                    next_p = temp
-                                else:
-                                    break
-                        else:
-                            for r in p.runs:
-                                r.font.name = "Arial"
-                                r.font.size = Pt(13)
-                                r.font.bold = True
-                        break
-
-                # 1. Asegurar alineación centrada del logotipo y reconstruir la carátula oficial SIA
-                p_logo = None
-                for p in doc_word.paragraphs:
-                    if len(p._element.xpath('.//w:drawing')) > 0:
-                        p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                        p_logo = p
-                        break
-
-                # Reconstruir la carátula según el modelo oficial SIA (Recursos TFG/Modelo de Carátula SIA 2025.docx) solo para TP2
-                if p_logo is not None and doc.get("id") == "TP2":
-                    pb_idx = None
-                    for i, p in enumerate(doc_word.paragraphs):
-                        if 'type="page"' in p._p.xml or p.text.strip() == "Índice de Contenidos":
-                            pb_idx = i if 'type="page"' in p._p.xml else i - 1
-                            break
-
-                    if pb_idx is not None and pb_idx > 0:
-                        p_pb = doc_word.paragraphs[pb_idx]
-                        
-                        # Eliminar párrafos intermedios entre el logo y el salto de página
-                        current_p = p_logo._p.getnext()
-                        while current_p is not None and current_p != p_pb._p:
-                            temp = current_p.getnext()
-                            current_p.getparent().remove(current_p)
-                            current_p = temp
-
-                        # Párrafos idénticos al archivo oficial Modelo de Carátula SIA 2025.docx
-                        cover_data = [
-                            ("", False, WD_PARAGRAPH_ALIGNMENT.CENTER, None),
-                            ("Universidad Nacional del Comahue", True, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
-                            ("Complejo Universitario Regional Zona Atlántica y Sur", True, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
-                            ("Departamento de Administración Pública", True, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
-                            ("", False, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
-                            ("", False, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
-                            ("", False, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.5),
-                            ("Licenciatura en Gestión de Recursos Humanos", True, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.0),
-                            ("", False, WD_PARAGRAPH_ALIGNMENT.CENTER, 1.0),
-                            ("", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
-                            ("", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
-                            ("Materia: Seminario de Integración y Aplicación", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
-                            ("Profesores: Dra. Deborah Noguera", False, None, None),
-                            ("                   Esp. Federico Abeiro", False, None, None),
-                            ("                   Esp. María Cecilia Aguirre", False, None, None),
-                            ("", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
-                            ("Estudiante: Tec. Sup. en RRHH Héctor Daniel Ayarachi Fuentes", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
-                            ("DNI y LEGAJO: DNI N° 35.492.138 — Legajo N° 8252", False, None, None),
-                            ("Email: hectordanielayarachifuentes@gmail.com", False, None, None),
-                            ("", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
-                            ("Director/a: (A designar antes de finalizar el cursado del SIA)", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
-                            ("Codirector/a: (A designar antes de finalizar el cursado del SIA)", False, WD_PARAGRAPH_ALIGNMENT.JUSTIFY, 1.5),
-                            ("", False, None, None),
-                            ("", False, None, None),
-                            ("Viedma, Río Negro — Año 2026", False, WD_PARAGRAPH_ALIGNMENT.CENTER, None)
-                        ]
-
-                        for text, bold, align, ls in cover_data:
-                            new_p = doc_word.add_paragraph()
-                            p_pb._p.addprevious(new_p._p)
-                            if align is not None:
-                                new_p.alignment = align
-                            if ls is not None:
-                                new_p.paragraph_format.line_spacing = ls
-                            new_p.paragraph_format.space_before = Pt(0)
-                            new_p.paragraph_format.space_after = Pt(0)
-                            if text:
-                                run = new_p.add_run(text)
-                                run.bold = bold
-                                run.font.name = "Arial"
-                                run.font.size = Pt(12)
-
-                # Ajustar espaciado de carátula para TP1 para que entre exactamente en una sola página en Word
-                if p_logo is not None and doc.get("id") == "TP1":
-                    pb_idx = None
-                    for i, p in enumerate(doc_word.paragraphs):
-                        if 'type="page"' in p._p.xml or p.text.strip() == "Índice de Contenidos":
-                            pb_idx = i if 'type="page"' in p._p.xml else i - 1
-                            break
-
-                    if pb_idx is not None:
-                        for p in list(doc_word.paragraphs[:pb_idx]):
-                            txt = p.text.strip()
-                            if not txt and len(p._element.xpath('.//w:drawing')) == 0:
-                                p._p.getparent().remove(p._p)
-                            else:
-                                p.paragraph_format.space_before = Pt(0)
-                                if "Universidad" in txt:
-                                    p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                                    p.paragraph_format.space_after = Pt(10)
-                                    p.paragraph_format.line_spacing = 1.15
-                                elif "TRABAJO PRÁCTICO" in txt:
-                                    p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                                    p.paragraph_format.space_after = Pt(12)
-                                    p.paragraph_format.line_spacing = 1.15
-                                elif "Materia" in txt or "Estudiante" in txt:
-                                    p.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
-                                    p.paragraph_format.left_indent = Inches(0.4)
-                                    p.paragraph_format.space_after = Pt(12)
-                                    p.paragraph_format.line_spacing = 1.15
-                                elif "Año Académico" in txt:
-                                    p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                                    p.paragraph_format.space_after = Pt(0)
-                                    p.paragraph_format.line_spacing = 1.15
-                                else:
-                                    p.paragraph_format.space_after = Pt(6)
-
-                # 2. Configurar pie de página: Portada e Índice sin número, contenido inicia en 1
-                p_body = None
-                found_toc = False
-                for p in doc_word.paragraphs:
-                    txt = p.text.strip()
-                    if txt == "Índice de Contenidos":
-                        found_toc = True
-                        continue
-                    if found_toc and txt:
-                        if txt.startswith(('1.', '2.', '3.', '4.', '5.')) and '\t' in txt:
-                            continue
-                        if p.style.name.startswith(('Heading', 'First Paragraph', 'Title', 'Encabezado')) or txt.startswith(('1.', 'Evaluación', 'Tema', 'Introducción')):
-                            p_body = p
-                            break
-
-                if not p_body and len(doc_word.paragraphs) > 0:
-                    for p in doc_word.paragraphs:
-                        txt = p.text.strip()
-                        if txt.startswith(('1.', 'Evaluación', 'Tema', 'Introducción')) and not txt.startswith('Materia'):
-                            p_body = p
-                            break
-
-                if p_body is not None:
-                    p_prev = p_body._p.getprevious()
-                    if p_prev is not None:
-                        if len(p_prev.xpath('.//w:sectPr')) == 0:
-                            sect_pr = parse_xml(f'<w:sectPr {nsdecls("w")}><w:type w:val="nextPage"/></w:sectPr>')
-                            p_prev.get_or_add_pPr().append(sect_pr)
-
-                sections = doc_word.sections
-                if len(sections) >= 2:
-                    sec0 = sections[0]
-                    sec0.footer.is_linked_to_previous = False
-                    for p in sec0.footer.paragraphs:
-                        p.text = ""
-
-                    sec1 = sections[1]
-                    sec1.footer.is_linked_to_previous = False
-                    fp = sec1.footer.paragraphs[0] if sec1.footer.paragraphs else sec1.footer.add_paragraph()
-                    fp.text = ""
-                    fp.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                    xml_fld = f'<w:fldSimple {nsdecls("w")} w:instr="PAGE"/>'
-                    fp._p.append(parse_xml(xml_fld))
-                    xml_pg = f'<w:pgNumType {nsdecls("w")} w:start="1"/>'
-                    sec1._sectPr.append(parse_xml(xml_pg))
-                elif len(sections) == 1:
-                    sec = sections[0]
-                    sec.different_first_page_header_footer = True
-                    fp = sec.footer.paragraphs[0] if sec.footer.paragraphs else sec.footer.add_paragraph()
-                    fp.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                    xml_fld = f'<w:fldSimple {nsdecls("w")} w:instr="PAGE"/>'
-                    fp._p.append(parse_xml(xml_fld))
-                    xml_pg = f'<w:pgNumType {nsdecls("w")} w:start="0"/>'
-                    sec._sectPr.append(parse_xml(xml_pg))
-
-                # 3. Aplicar estilo de tablas APA 7 (solo 3 líneas horizontales: top, header-bottom, table-bottom)
-                for table in doc_word.tables:
-                    xml_borders = (
-                        f'<w:tblBorders {nsdecls("w")}>'
-                        f'<w:top w:val="single" w:sz="8" w:space="0" w:color="000000"/>'
-                        f'<w:left w:val="none"/>'
-                        f'<w:bottom w:val="single" w:sz="8" w:space="0" w:color="000000"/>'
-                        f'<w:right w:val="none"/>'
-                        f'<w:insideH w:val="none"/>'
-                        f'<w:insideV w:val="none"/>'
-                        f'</w:tblBorders>'
-                    )
-                    table._tbl.tblPr.append(parse_xml(xml_borders))
-                    if len(table.rows) > 0:
-                        for cell in table.rows[0].cells:
-                            tcPr = cell._tc.get_or_add_tcPr()
-                            tcBorders = parse_xml(
-                                f'<w:tcBorders {nsdecls("w")}>'
-                                f'<w:bottom w:val="single" w:sz="6" w:space="0" w:color="000000"/>'
-                                f'</w:tcBorders>'
-                            )
-                            tcPr.append(tcBorders)
-
-                # 4. Generar e insertar Tabla de Contenidos completa y visible en Word
-                p_toc = None
-                for p in doc_word.paragraphs:
-                    if p.text.strip() == "Índice de Contenidos":
-                        p_toc = p
-                        break
-
-                if p_toc:
-                    # Limpiar párrafos de TOC previos si estuvieran vacíos
-                    next_p = p_toc._p.getnext()
-                    while next_p is not None:
-                        try:
-                            from lxml import etree
-                            xml_s = etree.tostring(next_p, encoding="unicode")
-                        except Exception:
-                            xml_s = ""
-                        if 'TOC' in xml_s or 'fldChar' in xml_s:
-                            parent = next_p.getparent()
-                            temp = next_p.getnext()
-                            parent.remove(next_p)
-                            next_p = temp
-                        else:
-                            break
-
-                    # Extraer entradas y números de página desde el PDF o desde los encabezados
-                    items_toc = []
-                    pdf_path = doc.get("pdf_entrega")
-                    if pdf_path and pdf_path.exists():
-                        try:
-                            import pymupdf
-                            doc_pdf = pymupdf.open(str(pdf_path))
-                            if len(doc_pdf) > 1:
-                                txt_toc = doc_pdf[1].get_text()
-                                for line in txt_toc.split('\n'):
-                                    line = line.strip()
-                                    if not line or line.startswith('Índice') or line == '1':
-                                        continue
-                                    parts = line.split(' .')
-                                    if len(parts) >= 2:
-                                        title = parts[0].strip()
-                                        pag = parts[-1].replace('.', '').replace('\u2060', '').strip()
-                                        if pag.isdigit():
-                                            level = 2 if title == 'Objetivos' or title.startswith('1.1') else 1
-                                            items_toc.append((title, level, pag))
-                        except Exception:
-                            pass
-
-                    # Títulos detectados en Word
-                    headings_word = []
-                    for p in doc_word.paragraphs:
-                        txt = p.text.strip()
-                        if txt == "Índice de Contenidos":
-                            continue
-                        if p.style.name.startswith(('Heading', 'Encabezado')) or txt.startswith(('1.', '2.', '3.', '4.', '5.')):
-                            headings_word.append(txt)
-
-                    final_items = []
-                    if items_toc:
-                        for title_pdf, level, pag in items_toc:
-                            matched = title_pdf
-                            for hw in headings_word:
-                                hw_clean = hw
-                                parts = hw.split(' ', 1)
-                                if len(parts) > 1 and parts[0].replace('.', '').isdigit():
-                                    hw_clean = parts[1]
-                                if hw_clean.strip().lower() == title_pdf.strip().lower():
-                                    matched = hw
-                                    break
-                            final_items.append((matched, level, pag))
-                    else:
-                        for hw in headings_word:
-                            level = 2 if hw.startswith('1.1') else 1
-                            final_items.append((hw, level, "1"))
-
-                    # Construir estructura nativa OpenXML para el TOC de Word
-                    tab_pos = "9026"
-                    curr = p_toc._p
-
-                    begin_xml = (
-                        f'<w:p {nsdecls("w")}>'
-                        f'<w:pPr><w:spacing w:after="120"/></w:pPr>'
-                        f'<w:r>'
-                        f'<w:fldChar w:fldCharType="begin"/>'
-                        f'<w:instrText xml:space="preserve"> TOC \\o "1-3" \\h \\z \\u </w:instrText>'
-                        f'<w:fldChar w:fldCharType="separate"/>'
-                        f'</w:r>'
-                        f'</w:p>'
-                    )
-                    p_begin = parse_xml(begin_xml)
-                    curr.addnext(p_begin)
-                    curr = p_begin
-
-                    for texto, nivel, num_pag in final_items:
-                        style_name = f"TOC{nivel}"
-                        left_indent = "280" if nivel == 2 else "0"
-                        item_xml = (
-                            f'<w:p {nsdecls("w")}>'
-                            f'<w:pPr>'
-                            f'<w:pStyle w:val="{style_name}"/>'
-                            f'<w:tabs>'
-                            f'<w:tab w:val="right" w:leader="dot" w:pos="{tab_pos}"/>'
-                            f'</w:tabs>'
-                            f'<w:ind w:left="{left_indent}"/>'
-                            f'<w:spacing w:after="60"/>'
-                            f'</w:pPr>'
-                            f'<w:r>'
-                            f'<w:rPr>'
-                            f'<w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>'
-                            f'<w:sz w:val="22"/>'
-                            f'</w:rPr>'
-                            f'<w:t>{texto}</w:t>'
-                            f'</w:r>'
-                            f'<w:r>'
-                            f'<w:tab/>'
-                            f'</w:r>'
-                            f'<w:r>'
-                            f'<w:rPr>'
-                            f'<w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>'
-                            f'<w:sz w:val="22"/>'
-                            f'</w:rPr>'
-                            f'<w:t>{num_pag}</w:t>'
-                            f'</w:r>'
-                            f'</w:p>'
-                        )
-                        p_item = parse_xml(item_xml)
-                        curr.addnext(p_item)
-                        curr = p_item
-
-                    end_xml = (
-                        f'<w:p {nsdecls("w")}>'
-                        f'<w:r>'
-                        f'<w:fldChar w:fldCharType="end"/>'
-                        f'</w:r>'
-                        f'</w:p>'
-                    )
-                    p_end = parse_xml(end_xml)
-                    curr.addnext(p_end)
-
-                    # Habilitar actualización automática al abrir en Word
-                    try:
-                        settings = doc_word.settings.element
-                        update_fields = parse_xml(f'<w:updateFields {nsdecls("w")} w:val="true"/>')
-                        settings.append(update_fields)
-                    except Exception:
-                        pass
-
-                # 5. Aplicar sangría francesa APA 7 a las referencias y centrar su título en Word
-                is_ref = False
-                for p in doc_word.paragraphs:
-                    txt = p.text.strip()
-                    if (txt == "Referencias" or txt.startswith("Referencias Bibliográficas") or txt.startswith("Referencias")) and "\t" not in txt:
-                        is_ref = True
-                        p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                        continue
-                    if is_ref and txt:
-                        p.paragraph_format.left_indent = Inches(0.5)
-                        p.paragraph_format.first_line_indent = Inches(-0.5)
-                        p.paragraph_format.space_after = docx.shared.Pt(6)
-                        p.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
-
-                doc_word.save(str(tmp_docx))
+                postprocesar_documento_word(tmp_docx, doc)
             except Exception as e:
                 import traceback
-                print(f"  [AVISO] Post-procesamiento Word omitido: {e}")
+                print(f"  [AVISO] Post-procesamiento Word omitido o parcial: {e}")
                 traceback.print_exc()
 
             try:
@@ -771,21 +815,38 @@ def compilar_todo(solo_pdf=False, solo_word=False, todos_los_tps=False, tp_id=No
     print(f" Carpeta de Entregas: {ENTREGAS_DIR}")
     print("-" * 70 + "\n")
 
-def modo_vigilante():
-    """Vigila el archivo Quarto (.qmd) activo y recompila automáticamente al guardar.
+def calcular_hash_archivo(path):
+    """Calcula el hash SHA-256 para detectar cambios reales de contenido."""
+    try:
+        import hashlib
+        return hashlib.sha256(path.read_bytes()).hexdigest()
+    except Exception:
+        return None
+
+def modo_vigilante(solo_pdf=False, solo_word=False):
+    """Vigila el archivo Quarto (.qmd) activo y recompila automáticamente al detectar cambios reales.
     
-    Detecta cambios en AMBAS copias del QMD (original y Entregas/).
-    Al detectar un guardado, fuerza la copia al otro archivo SIN comparar timestamps
-    y recompila PDF + Word de inmediato.
+    Detecta modificaciones de contenido mediante SHA-256 en ambas copias del QMD (original y Entregas/).
+    Admite flags selectivos:
+        --watch --pdf   -> Recompilación ultrarrápida exclusiva para PDF.
+        --watch --word  -> Recompilación exclusiva para Word.
+        --watch         -> Recompilación dual estándar (PDF + Word).
     """
+    formato_str = "PDF y Word"
+    if solo_pdf:
+        formato_str = "únicamente PDF"
+    elif solo_word:
+        formato_str = "únicamente Word (.docx)"
+
     print("\n" + "=" * 70)
-    print(" 👁️ MODO VIGILANTE QUARTO ACTIVO — Recompila PDF y Word al guardar")
-    print(" Edita desde cualquiera de las dos ubicaciones del .qmd.")
+    print(f" 👁️ MODO VIGILANTE QUARTO ACTIVO — Recompila {formato_str} al guardar")
+    print(" Monitoreo por contenido (SHA-256) activo.")
     print(" Presiona Ctrl+C para detener.")
     print("=" * 70 + "\n")
 
     activos = [d for d in DOCUMENTOS if d["activo"]]
     archivos_mtime = {}
+    archivos_hash = {}
 
     for d in activos:
         # Al arrancar, la copia en Entregas manda: forzar sincronización inicial
@@ -794,46 +855,55 @@ def modo_vigilante():
             print(f"  [SYNC INICIAL] Entregas/{d['qmd_entrega'].name} → {d['qmd'].parent.name}/")
         if d["qmd"].exists():
             archivos_mtime[d["qmd"]] = d["qmd"].stat().st_mtime
+            archivos_hash[d["qmd"]] = calcular_hash_archivo(d["qmd"])
         if d.get("qmd_entrega") and d["qmd_entrega"].exists():
             archivos_mtime[d["qmd_entrega"]] = d["qmd_entrega"].stat().st_mtime
+            archivos_hash[d["qmd_entrega"]] = calcular_hash_archivo(d["qmd_entrega"])
 
-    compilar_todo()
+    compilar_todo(solo_pdf=solo_pdf, solo_word=solo_word)
 
     try:
         while True:
-            time.sleep(1.5)
+            time.sleep(1.2)
             cambios = []
             for p, mtime_ant in list(archivos_mtime.items()):
                 if p.exists():
                     mtime_act = p.stat().st_mtime
                     if mtime_act > mtime_ant + 0.05:
-                        archivos_mtime[p] = mtime_act
-                        cambios.append(p)
+                        h_act = calcular_hash_archivo(p)
+                        if h_act != archivos_hash.get(p):
+                            archivos_mtime[p] = mtime_act
+                            archivos_hash[p] = h_act
+                            cambios.append(p)
+                        else:
+                            archivos_mtime[p] = mtime_act
 
             if cambios:
                 for c in cambios:
                     print(f"\n[CAMBIO DETECTADO] {c.parent.name}/{c.name}")
                     for doc in activos:
                         if doc["qmd"] == c or doc.get("qmd_entrega") == c:
-                            # Fuerza copia sin comparar timestamps
+                            # Sincronización entre copia origen y entrega
                             if doc.get("qmd_entrega") == c and c.exists():
-                                # Guardó en Entregas/ → copiar al original
                                 shutil.copy2(str(c), str(doc["qmd"]))
                                 print(f"  [SYNC ▶] Entregas/{c.name} → {doc['qmd'].parent.name}/")
                             elif doc["qmd"] == c and c.exists() and doc.get("qmd_entrega"):
-                                # Guardó en original → copiar a Entregas/
                                 doc["qmd_entrega"].parent.mkdir(parents=True, exist_ok=True)
                                 shutil.copy2(str(c), str(doc["qmd_entrega"]))
                                 print(f"  [SYNC ▶] {doc['qmd'].parent.name}/{c.name} → Entregas/")
 
-                            compilar_quarto_pdf(doc)
-                            compilar_quarto_word(doc)
+                            if not solo_word:
+                                compilar_quarto_pdf(doc)
+                            if not solo_pdf:
+                                compilar_quarto_word(doc)
 
-                            # Refrescar timestamps para evitar doble disparo
+                            # Refrescar estado para evitar rebotes
                             if doc["qmd"].exists():
                                 archivos_mtime[doc["qmd"]] = doc["qmd"].stat().st_mtime
+                                archivos_hash[doc["qmd"]] = calcular_hash_archivo(doc["qmd"])
                             if doc.get("qmd_entrega") and doc["qmd_entrega"].exists():
                                 archivos_mtime[doc["qmd_entrega"]] = doc["qmd_entrega"].stat().st_mtime
+                                archivos_hash[doc["qmd_entrega"]] = calcular_hash_archivo(doc["qmd_entrega"])
     except KeyboardInterrupt:
         print("\n[Vigilante finalizado por el usuario].")
 
@@ -862,7 +932,9 @@ if __name__ == "__main__":
                     break
 
     if "--watch" in args or "-w" in args:
-        modo_vigilante()
+        solo_p = "--pdf" in args
+        solo_w = "--word" in args
+        modo_vigilante(solo_pdf=solo_p, solo_word=solo_w)
     elif "--pdf" in args:
         compilar_todo(solo_pdf=True, tp_id=tp_target)
     elif "--word" in args:
@@ -871,3 +943,4 @@ if __name__ == "__main__":
         compilar_todo(todos_los_tps=True)
     else:
         compilar_todo(tp_id=tp_target)
+

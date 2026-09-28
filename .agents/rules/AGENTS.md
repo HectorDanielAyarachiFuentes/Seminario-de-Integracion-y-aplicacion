@@ -29,46 +29,39 @@ IA - Humano - TESINA/
 ├── .agents/                                 # Configuración, reglas y skills del agente
 │   ├── rules/
 │   │   ├── AGENTS.md                        # Estándar operativo, académico y técnico (este archivo)
+│   │   ├── gitnexus.md                      # Pautas operativas para GitNexus (inteligencia de código)
 │   │   ├── notebooklm.md                    # Pautas para uso del servidor MCP NotebookLM
-│   │   └── supreme_guidelines.md            # Pautas de estilo visual y composición APA 7
-│   ├── skills/                              # Skills instaladas (ej. using-notebooklm-mcp)
-│   └── mcp_config.json                      # Configuración de servidores MCP
+│   │   ├── supreme_guidelines.md            # Pautas de estilo visual y composición APA 7
+│   │   └── git_commits.md                   # Convenciones de commits en español
+│   ├── skills/                              # Skills instaladas
+│   │   ├── using-notebooklm-mcp/            # Consultas y generación con NotebookLM
+│   │   ├── gitnexus-cli/                    # Comandos CLI e indexación GitNexus
+│   │   ├── gitnexus-impact-analysis/        # Análisis de impacto y radio de afectación
+│   │   ├── gitnexus-exploring/              # Exploración de arquitectura y flujos
+│   │   ├── gitnexus-debugging/              # Depuración de procesos y fallas
+│   │   └── gitnexus-refactoring/            # Refactorización segura guiada por grafo
+│   └── mcp_config.json                      # Servidores MCP: NotebookLM + GitNexus
+├── .gitnexus/                               # Base de datos Ladybug y grafo de dependencias
 ├── assets/                                  # Recursos gráficos e imágenes del proyecto
 │   └── img/                                 # Logotipos institucionales (CURZAS.png)
 ├── Entregas/                                # Repositorio central de versiones finales (.pdf / .docx)
+│   ├── Actividad 1/                         # TP1 finalizado y validado
+│   └── Actividad 2/                         # TP2 en desarrollo / finalizado
 ├── IA-HERRAMIENTAS-QUANTO-TYPS/             # Banco de herramientas, plantillas y entornos
 │   ├── plantillas_pdf/                      # Motores (1_typst, 2_playwright_html, etc.)
 │   ├── herramientas/notebooklm/             # Utilidades para NotebookLM MCP
 │   └── pruebas/                             # Entorno de pruebas y validaciones
+├── compilar_todos.py                        # Pipeline automatizado de compilación dual (Word + PDF)
 └── Seminario de Integración y Aplicación/   # Módulos académicos y recursos oficiales
     ├── 1 - Introducción/                    # Módulo 1: Introducción a la Investigación
-    │   ├── Bibliografía - Introducción/
-    │   ├── Bibliografía Metodológica General/
-    │   ├── Líneas Temáticas de Investigación/
-    │   ├── Presentación de Clase 1/
-    │   └── Trabajo Práctico 1/
     ├── 2 - El problema/                     # Módulo 2: Selección del Tema y Formulación
-    │   ├── Bibliografía - Formulación del Problema/
-    │   ├── Bibliografía - Objetivos/
-    │   ├── EJEMPLOS de Esquema 1° (LAP - RRHH)/
-    │   ├── Material - Selección del tema/
-    │   └── Trabajo Práctico n° 2/
     ├── 3 - Estado de la cuestión y marco teórico/ # Módulo 3: Marco Teórico y Antecedentes
-    │   ├── Bibliografía - Estado del Arte/
-    │   ├── Bibliografía - Marco Teórico/
-    │   ├── Ejemplo Marco de Referencia (AP-RRHH)/
-    │   ├── MOTORES de Búsqueda de Información/
-    │   └── Trabajo Práctico n° 3/
     ├── 4 - Metodología/                     # Módulo 4: Estrategia Metodológica Integral
-    │   ├── Bibliografia - Metodologia/
-    │   └── Trabajo Práctico n° 4/
     └── Recursos TFG/                        # Normativa, resoluciones y guías oficiales de cátedra
-        ├── Modelo de Carátula SIA 2025.docx
-        ├── Estructura de Proyecto de TFG.pdf
-        └── Normas de estilo que deberán usar en el proyecto/
 ```
 
 ---
+
 
 ## 📋 3. Estructura Progresiva de los Trabajos Prácticos (TPs)
 
@@ -225,5 +218,75 @@ Para garantizar consistencia en todos los Trabajos Prácticos y en el Trabajo Fi
 6. **Índice de Contenidos Dinámico y Sin Duplicación de Títulos:**
    * No anteponer números manuales en encabezados Markdown (ej. escribir `# Introducción...` en vez de `# 1. Introducción...`) para evitar la duplicación generada por `number-sections: true`.
    * El Índice de Contenidos se ubica en su propia hoja (Página 2) inmediatamente posterior a la carátula y previa a la Introducción, sincronizando dinámicamente los números exactos de página.
+
+---
+
+## 🧭 10. Ecosistema de Inteligencia Dual: GitNexus + NotebookLM
+
+El repositorio opera bajo un **modelo simbiótico de inteligencia dual**, donde dos herramientas avanzadas se complementan de forma armónica dividiendo sus dominios para garantizar la excelencia académica y la estabilidad técnica del TFG:
+
+```text
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                    ARQUITECTURA DE INTELIGENCIA DUAL                            │
+├───────────────────────────────────────┬─────────────────────────────────────────┤
+│    🧠 NOTEBOOKLM (Cerebro Académico)  │     🕸️ GITNEXUS (Cerebro Técnico)       │
+├───────────────────────────────────────┼─────────────────────────────────────────┤
+│ • Rigor conceptual y epistemológico   │ • Integridad de código y arquitectura   │
+│ • Bibliografía de cátedra (SIA 1-4)   │ • Pipeline Docs-as-Code (compilar_todos)│
+│ • Resoluciones UNCo (Res. 266/23)     │ • Grafo de dependencias y llamadas      │
+│ • Consignas de TPs y devoluciones     │ • Análisis de impacto (blast radius)    │
+│ • Generación de resúmenes y audios    │ • Detección de cambios y regresiones    │
+│ ➔ GOBIERNA EL CONTENIDO Y EL FONDO    │ ➔ GOBIERNA LA FORMA Y LA INFRAESTRUCTURA│
+└───────────────────────────────────────┴─────────────────────────────────────────┘
+                                       │
+                                       ▼
+                  📄 DOCUMENTOS QUARTO (.qmd) + TYPST (.typ)
+                                       │
+                                       ▼
+              📦 ENTREGABLES INSTITUCIONALES (.pdf + .docx APA 7)
+```
+
+### 1. Perfil y Responsabilidades de Cada Herramienta
+
+| Dimensión | 🧠 NotebookLM (`notebooklm-mcp`) | 🕸️ GitNexus (`gitnexus`) |
+| :--- | :--- | :--- |
+| **Rol Primario** | Asistente de Investigación y Rigor Académico | Asistente de Código y Control de Arquitectura |
+| **Fuentes de Verdad** | PDFs de autores (Sampieri, Sautu, Yuni & Urbano, Sabino, Chiavenato, Oszlak), normativa CURZAS, presentaciones de clase. | Código fuente (`compilar_todos.py`, scripts, filtros Pandoc, plantillas Typst, configs). |
+| **Operación Típica** | Consultar marco teórico, verificar coherencia de objetivos, resumir devoluciones docentes. | Analizar impacto de cambios (`impact`), inspeccionar flujos (`processes`), validar cambios antes de commit (`detect-changes`). |
+| **Salida Producida** | Fundamentación teórica, citas bibliográficas APA 7, síntesis conceptuales, guías de estudio. | Grafo de dependencias AST (90 nodos, 135 relaciones, 6 flujos), reportes de riesgo, refactorización segura. |
+
+### 2. Sinergia y Flujo de Trabajo Integrado (Workflow de 5 Fases)
+
+Para la elaboración y ajuste de cualquier Trabajo Práctico o sección de la Tesina:
+
+1. **Fase 1 — Indagación Teórica y Metodológica (NotebookLM):**
+   - Interrogar las fuentes académicas del módulo correspondiente para definir el problema, los objetivos o el marco conceptual conforme a las pautas de la cátedra SIA y la Res. CD-CURZAS N° 266/23.
+   - Extraer citas textuales exactas y referencias bibliográficas según el estándar APA 7ma Edición.
+2. **Fase 2 — Composición en Docs-as-Code (Quarto / BibTeX):**
+   - Redactar los contenidos en los archivos `.qmd` del módulo (`Seminario de Integración y Aplicación/...`) y en `Entregas/`.
+   - Registrar las fuentes en el archivo `referencias.bib` con los metadatos completos (autor, año, título, editorial/revista, DOI/URL).
+3. **Fase 3 — Control de Arquitectura y Análisis de Impacto (GitNexus):**
+   - Si se requiere ajustar `compilar_todos.py` (por ejemplo, para modificar un margen, refinar el post-procesamiento de tablas OpenXML o la portada institucional):
+     ```powershell
+     node .gitnexus/run.cjs impact "nombre_de_la_funcion" --direction upstream --repo .
+     ```
+   - Validar que el cambio no afecte la compilación de actividades previas ya aprobadas.
+4. **Fase 4 — Compilación Automatizada y Detección de Cambios (GitNexus + Python):**
+   - Ejecutar la compilación del documento:
+     ```powershell
+     python compilar_todos.py
+     ```
+   - Verificar la estabilidad estructural mediante el análisis de grafo de GitNexus:
+     ```powershell
+     node .gitnexus/run.cjs detect-changes --scope all --repo .
+     ```
+5. **Fase 5 — Retroalimentación Docente y Mejora Continua (NotebookLM):**
+   - Las devoluciones enviadas por la cátedra (Dra. Deborah Noguera, Esp. Federico Abeiro, Esp. María Cecilia Aguirre) se integran a NotebookLM para orientar las correcciones conceptuales, cerrando el ciclo de mejora con respaldo integral.
+
+### 3. Guardarraíles de Coexistencia Obligatorios:
+* **Prohibición de invención en ambos planos:**
+  - En lo académico: Nunca inventar citas, autores ni datos empíricos; validar siempre con NotebookLM.
+  - En lo técnico: Nunca alterar funciones o lógica de compilación a ciegas; validar siempre el impacto con GitNexus.
+* **Higiene total:** Toda prueba o experimento técnico debe realizarse en `pruebas/` o `IA-HERRAMIENTAS-QUANTO-TYPS/pruebas/`, preservando la raíz limpia y el índice de GitNexus actualizado.
 
 

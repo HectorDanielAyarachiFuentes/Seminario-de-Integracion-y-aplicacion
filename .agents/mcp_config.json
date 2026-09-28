@@ -2,6 +2,17 @@
   "mcpServers": {
     "notebooklm": {
       "command": "C:\\Users\\Ramoncito\\.local\\bin\\notebooklm-mcp.exe"
+    },
+    "gitnexus": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "gitnexus",
+        "mcp"
+      ]
     }
   }
 }
+
