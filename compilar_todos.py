@@ -26,6 +26,7 @@ ROOT_DIR = Path(__file__).resolve().parent
 ENTREGAS_DIR = ROOT_DIR / "Entregas"
 ACTIVIDAD1_DIR = ENTREGAS_DIR / "Actividad 1"
 ACTIVIDAD2_DIR = ENTREGAS_DIR / "Actividad 2"
+ACTIVIDAD3_DIR = ENTREGAS_DIR / "Actividad 3"
 
 DOCUMENTOS = [
     {
@@ -44,15 +45,16 @@ DOCUMENTOS = [
         "pdf_entrega": ACTIVIDAD2_DIR / "TP2_Ayarachi_Fuentes.pdf",
         "docx_entrega": ACTIVIDAD2_DIR / "TP2_Ayarachi_Fuentes.docx",
         "qmd_entrega": ACTIVIDAD2_DIR / "quarto" / "tp2_diseno_problema.qmd",
-        "activo": True
+        "activo": False
     },
     {
         "id": "TP3",
         "nombre": "Trabajo Práctico N° 3 (Marco Teórico y Antecedentes)",
         "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "3 - Estado de la cuestión y marco teórico" / "Trabajo Práctico n° 3" / "tp3_marco_teorico_antecedentes.qmd",
-        "pdf_entrega": ENTREGAS_DIR / "TP3_Ayarachi_Fuentes.pdf",
-        "docx_entrega": ENTREGAS_DIR / "TP3_Ayarachi_Fuentes.docx",
-        "activo": False
+        "pdf_entrega": ACTIVIDAD3_DIR / "TP3_Ayarachi_Fuentes.pdf",
+        "docx_entrega": ACTIVIDAD3_DIR / "TP3_Ayarachi_Fuentes.docx",
+        "qmd_entrega": ACTIVIDAD3_DIR / "quarto" / "tp3_marco_teorico_antecedentes.qmd",
+        "activo": True
     },
     {
         "id": "TP4",
