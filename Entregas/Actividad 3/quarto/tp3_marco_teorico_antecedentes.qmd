@@ -311,42 +311,12 @@ En consecuencia, el modelo de Longo no se utiliza únicamente como encuadre teó
 
 ## Marco Teórico: Posicionamiento Teórico y Conceptos Centrales
 
-### El Enfoque Sistémico de Gestión de Personas en el Sector Público: Francisco Longo
+*(Sección en desarrollo junto al estudiante)*
 
-La investigación se inscribe teóricamente en el modelo analítico de Francisco @longo2006 sobre la gestión de personas en las administraciones públicas. Desde este enfoque, el empleo público no constituye una mera sumatoria de rutinas administrativas ni un cuerpo estático de normas burocráticas, sino un sistema estratégico articulado compuesto por subsistemas interdependientes: planificación, organización del trabajo, gestión del empleo, gestión del rendimiento, gestión de la compensación, gestión del desarrollo y gestión de las relaciones humanas y sociales.
+## Antecedentes: Estado del Arte del Tema
 
-En este marco, el proyecto focaliza en el subsistema de **gestión del rendimiento**, analizándolo no de forma aislada, sino en su interacción orgánica con la organización del trabajo (roles y funciones académicas), el desarrollo (capacitación pedagógica y carrera docente) y las relaciones laborales (clima institucional, diálogo paritario y cultura participativa). Para Longo, la evaluación del rendimiento en el sector público adquiere sentido pleno cuando supera el control formal y se orienta a alinear las conductas y competencias laborales con la misión institucional y la generación de valor público.
+*(Sección en desarrollo junto al estudiante)*
 
-### De la Lógica de Control a la Lógica Formativa: El Modelo de Retroalimentación 360°
-
-En el marco de la gestión del rendimiento, la literatura contemporánea [@chiavenato2020; @lepsinger2009] distingue con claridad dos grandes paradigmas evaluativos:
-
-1. **La lógica sumativa o de control:** Centrada en la fiscalización reglamentaria, la auditoría del cumplimiento de obligaciones y la eventual aplicación de sanciones o consecuencias sobre la estabilidad laboral.
-2. **La lógica formativa:** Enfocada en el aprendizaje continuo, la retroalimentación cualitativa, el diagnóstico de necesidades de perfeccionamiento y el fortalecimiento de competencias pedagógicas.
-
-En las organizaciones universitarias, donde predomina la autonomía académica y la libertad de cátedra, los modelos unilaterales y descendentes de evaluación suscitan desconfianza y resistencia gremial. Frente a esta limitación, el modelo de retroalimentación 360 grados [@lepsinger2009; @obando2014; @sifuentes2016] propone un dispositivo multiactoral donde el desempeño de una persona es evaluado circularmente por los distintos actores que interactúan con ella en el ejercicio cotidiano de su labor: el propio docente (autoevaluación reflexiva), sus pares de cátedra (coevaluación pedagógica), los estudiantes (evaluación de la práctica de enseñanza) y las autoridades departamentales (visión estratégica y de gestión).
-
-La potencia teórica de este modelo radica en que no busca construir un veredicto punitivo, sino triangular percepciones contrastantes para identificar brechas de desempeño, necesidades formativas y oportunidades de mejora pedagógica compartida.
-
-### Gobernanza Universitaria, Autonomía y Negociación Paritaria Docente
-
-La viabilidad de transferir un dispositivo como la retroalimentación 360° al ámbito universitario exige situar el análisis en las particularidades de la gobernanza académica patagónica. Siguiendo a @matus1993 y @oszlak2020, la gestión pública opera en escenarios de poder compartido y conflicto legítimo de intereses.
-
-En la Universidad Nacional del Comahue (UNCo) y su sede descentralizada CURZAS, la gobernanza institucional se asienta sobre dos pilares fundamentales: el cogobierno colegiado por claustros y la negociación paritaria docente (CCT Docente, Decreto N° 1246/2015; Ordenanza CS N° 0920/2019 de Carrera Docente). Por consiguiente, cualquier propuesta de retroalimentación formativa solo resulta factible si se construye como un dispositivo confidencial, no vinculante para la permanencia estatutaria, preservando la carrera académica y validado en el marco paritario docente.
-
-## Antecedentes: Estado del Arte de la Cuestión
-
-### Investigaciones Internacionales y Latinoamericanas sobre Evaluación Docente y Modelo 360°
-
-A nivel internacional y regional, diversos estudios han explorado la aplicación de sistemas multiactorales de evaluación en el nivel universitario. @obando2014 analizaron el sistema de evaluación docente mediante el modelo 360 grados y el portafolio electrónico, concluyendo que la triangulación de miradas entre autoevaluación, coevaluación y heteroevaluación estudiantil incrementa la validez de los diagnósticos pedagógicos y reduce la subjetividad inherente a los instrumentos unidireccionales.
-
-En el ámbito latinoamericano, @sifuentes2016 evaluaron la implementación de la metodología 360° en profesorado de educación superior, demostrando que cuando el proceso se acompaña de garantías explícitas de confidencialidad y se orienta a planes de capacitación personalizados, los docentes manifiestan una alta receptividad y compromiso con la mejora de sus prácticas docentes. Estos antecedentes ratifican que el desafío central del modelo 360° no es puramente técnico o psicométrico, sino cultural e institucional: generar condiciones de confianza que disipen el temor a la fiscalización punitiva.
-
-### Investigaciones Nacionales y Locales sobre Evaluación del Desempeño en Universidades Públicas
-
-En el contexto argentino, las investigaciones sobre evaluación docente en universidades nacionales [@wainerman2011; @oszlak2020] evidencian que los regímenes estatutarios de permanencia (como los concursos periódicos y las carreras docentes) suelen concentrarse en la acreditación curricular formal, con escasa vinculación hacia el perfeccionamiento didáctico cotidiano.
-
-En el caso específico del CURZAS-UNCo, la articulación entre la sede central en Viedma y los Nodos Universitarios en el territorio rionegrino configura un escenario novedoso de docencia híbrida que demanda instrumentos de retroalimentación contextualizados, capaces de captar tanto la labor en el aula física como el acompañamiento virtual.
 
 {{< pagebreak >}}
 
