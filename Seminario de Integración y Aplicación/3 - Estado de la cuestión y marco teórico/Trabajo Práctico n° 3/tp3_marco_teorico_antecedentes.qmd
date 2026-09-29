@@ -111,6 +111,7 @@ Año 2026
 
 ```{=typst}
 #set page(numbering: none)
+#show outline.entry: set text(size: 9.2pt)
 #outline(title: [Índice de Contenidos], indent: auto)
 ```
 
@@ -167,7 +168,7 @@ Este proyecto de investigación se ubica en el cruce disciplinar entre la Admini
 A nivel teórico, la investigación adopta como marco analítico el modelo de gestión del empleo público y recursos humanos de Francisco @longo2006. Este modelo concibe la administración de personas como un sistema articulado con la estrategia institucional y compuesto por subsistemas interdependientes:
 
 ::: {align="center"}
-![*Subsistemas de la Gestión de Recursos Humanos en el Sector Público [@longo2006].*](assets/Sistemas-longo.svg){width=70%}
+![*Subsistemas de la Gestión de Recursos Humanos en el Sector Público [@longo2006].*](assets/Sistemas-longo.svg){width=52%}
 :::
 
 En el modelo propuesto por @longo2006, la presente investigación focaliza en el subsistema de gestión del rendimiento (evaluación del desempeño), articulado con tres subsistemas clave: gestión del desarrollo (capacitación y carrera docente), organización del trabajo (perfiles y funciones académicas) y gestión de las relaciones humanas y sociales (clima laboral y cultura participativa).
