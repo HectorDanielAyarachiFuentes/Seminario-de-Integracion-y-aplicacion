@@ -31,3 +31,7 @@
 #show figure: it => block(spacing: 10pt)[#it]
 #show figure.caption: set text(size: 9.5pt, style: "italic")
 #show figure.caption: set par(first-line-indent: 0pt)
+
+// ─── Bibliografía APA 7 ────────────────────────────────────────────────
+#set bibliography(title: [Referencias Bibliográficas], style: "apa")
+

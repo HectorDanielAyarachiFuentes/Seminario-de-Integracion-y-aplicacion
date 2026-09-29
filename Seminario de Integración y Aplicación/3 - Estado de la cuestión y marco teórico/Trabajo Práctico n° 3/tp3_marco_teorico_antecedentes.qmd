@@ -7,8 +7,9 @@ filters:
 format:
   docx:
     toc: false
-    number-sections: true
+    number-sections: false
     highlight-style: github
+
   typst:
     paper: a4
     toc: false
@@ -311,16 +312,101 @@ En consecuencia, el modelo de Longo no se utiliza únicamente como encuadre teó
 
 ## Marco Teórico: Posicionamiento Teórico y Conceptos Centrales
 
-*(Sección en desarrollo junto al estudiante)*
+### Posicionamiento Epistemológico: La Teoría como Configuración Abierta y el Análisis de Factibilidad
 
-## Antecedentes: Estado del Arte del Tema
+En consonancia con las pautas epistemológicas del Seminario de Integración y Aplicación, la construcción del marco teórico de este proyecto no se concibe como un mero listado de definiciones abstractas ni como la transcripción mecánica de un glosario disciplinar [@sautu2005]. Por el contrario, se asume la concepción de la teoría como una *configuración abierta*, formulada por Enrique @delagarza2001 en el marco de la epistemología crítica latinoamericana.
 
-*(Sección en desarrollo junto al estudiante)*
+Desde esta perspectiva, la teoría social no constituye un sistema axiomático, hipotético-deductivo, cerrado y rígido donde los conceptos operan como variables petrificadas. Una configuración teórica es una red articulada y flexible de conceptos que admite zonas con diferentes grados de determinación y apertura reflexiva, permitiendo integrar categorías provenientes de diversos campos analíticos —en este caso, la Administración Pública y la Gestión de Recursos Humanos— delimitando con rigurosidad sus relaciones y niveles de certidumbre [@delagarza2001].
 
+Esta posición epistemológica resulta especialmente fértil para una investigación centrada en la **factibilidad**:
+
+1. **La realidad social como proceso "dado-dándose":** La organización universitaria no es un ente estático gobernado por leyes mecánicas inmutables, sino una trama dinámica construida cotidianamente por la interacción entre estructuras institucionales y sujetos reflexivos (docentes, estudiantes y autoridades).
+2. **Determinación del espacio de posibilidades viables:** El objetivo de indagar la factibilidad no consiste en predecir pasivamente el éxito o fracaso de una política evaluativa, sino en reconstruir las condiciones estructurales, normativas y culturales del presente para desentrañar el *campo de posibilidades reales y viables para la acción de los sujetos* [@delagarza2001; @matus1993].
+3. **Articulación de niveles conceptuales (Ruth Sautu):** Siguiendo a @sautu2005, el marco teórico se despliega jerárquicamente en forma de "pirámide invertida": parte de los supuestos epistemológicos sobre la gobernanza y la acción institucional pública, transita por la teoría sustantiva de la gestión estratégica de personas en el Estado [@longo2006], y culmina en los conceptos operativos específicos referidos a la retroalimentación 360° formativa y las dimensiones de viabilidad situada.
+
+### El Enfoque Sistémico de Gestión de Personas en el Sector Público: Modelo de Francisco Longo
+
+La columna vertebral teórica de la investigación adopta el modelo analítico de Francisco @longo2006 sobre la gestión de personas en las organizaciones públicas. Longo plantea una superación crítica del modelo burocrático-weberiano tradicional —caracterizado por el apego formal a la norma reglamentaria y el control procesal ciego a los resultados—, proponiendo una administración estratégica articulada en torno a la generación de valor público, el mérito y la flexibilidad directiva.
+
+En este marco, la gestión de recursos humanos se estructura en siete subsistemas interdependientes: planificación, organización del trabajo, gestión del empleo, gestión del rendimiento, gestión de la compensación, gestión del desarrollo y gestión de las relaciones humanas y sociales. Para el presente Trabajo Final de Graduación, la mirada se concentra en el subsistema de **gestión del rendimiento** (evaluación del desempeño), concibiéndolo no como un fin aislado o autárquico, sino en su articulación orgánica con otros tres subsistemas institucionales:
+
+* **Gestión del Rendimiento:** Constituye el eje estructurante de la investigación. Comprende el conjunto de políticas, prácticas e instrumentos dirigidos a valorar la contribución efectiva de las personas a los fines de la organización. Según @longo2006, la gestión del rendimiento en el sector público adquiere legitimidad y eficacia únicamente cuando trasciende la fiscalización burocrática y se transforma en un proceso reflexivo de evaluación y mejora del desempeño laboral.
+* **Organización del Trabajo:** Articula la definición de los perfiles y funciones académicas de los equipos docentes con los requerimientos pedagógicos contemporáneos. En el CURZAS-UNCo, esto implica contrastar los criterios formales de evaluación previstos en la normativa estatutaria con las demandas reales que imponen las prácticas de enseñanza híbridas, la virtualidad y el acompañamiento tutorial en los Nodos Universitarios en territorio rionegrino.
+* **Gestión del Desarrollo:** Vincula estrechamente los hallazgos de la evaluación docente con las oportunidades de aprendizaje continuo, capacitación pedagógica y carrera académica (Art. 65 de la Ord. CS N° 0920/2019). Desde la óptica de @longo2006, evaluar sin ofrecer trayectorias de desarrollo institucional despoja al proceso de sentido formativo y lo reduce a un trámite estéril.
+* **Gestión de las Relaciones Humanas y Sociales:** Examina el clima institucional, la confianza intersubjetiva entre los claustros y los canales de diálogo paritario docente. En las organizaciones públicas y cogobernadas, la evaluación docente toca directamente las relaciones laborales y la estabilidad en el empleo; por ende, su factibilidad depende de que se construyan acuerdos paritarios y resguardos éticos que disipen sospechas de arbitrariedad o persecución gremial.
+
+### De la Lógica de Control a la Lógica Formativa: El Modelo de Retroalimentación 360° en la Educación Superior
+
+En el análisis de la gestión del rendimiento, la literatura contemporánea [@chiavenato2020; @lepsinger2009] identifica una tensión constitutiva entre dos paradigmas evaluativos:
+
+1. **La lógica sumativa o de control formal:** Se enfoca en la auditoría reglamentaria, el cumplimiento burocrático de obligaciones horarias o administrativas y la acreditación formal de antecedentes. Sus consecuencias suelen estar directamente vinculadas a decisiones laborales críticas, tales como la permanencia estatutaria, la pérdida de estabilidad o la eventual aplicación de sanciones. En las instituciones universitarias públicas, esta lógica tiende a generar ritualismo defensivo y desconfianza por parte del profesorado.
+2. **La lógica formativa:** Se orienta al aprendizaje reflexivo, al diagnóstico cualitativo de fortalezas y debilidades pedagógicas y al perfeccionamiento continuo de la labor de enseñanza. No persigue juzgar o calificar unívocamente a la persona, sino retroalimentar su quehacer pedagógico para enriquecer la experiencia de aprendizaje de los estudiantes.
+
+Para materializar esta segunda perspectiva en la educación superior, adquiere relevancia teórica el modelo de **retroalimentación multidireccional o de 360 grados** [@lepsinger2009; @obando2014; @sifuentes2016]. Tradicionalmente desarrollado en el ámbito organizacional privado, el modelo 360° se sustenta en la premisa de que una evaluación unilateral (vertical y descendente) resulta insuficiente y sesgada para captar la complejidad del desempeño profesional.
+
+En el contexto académico universitario, el modelo 360° plantea un dispositivo circular y multiactoral que triangula cuatro miradas complementarias sobre el proceso formativo:
+
+* **Autoevaluación docente:** Instancia donde el propio docente reflexiona sobre sus prácticas pedagógicas, el cumplimiento de su planificación académica y los desafíos didácticos experimentados en el aula.
+* **Coevaluación entre pares o colegas de cátedra:** Valoración colegiada realizada por docentes del mismo departamento o equipo, enfocada en la pertinencia conceptual, la rigurosidad disciplinar y el trabajo colaborativo.
+* **Heteroevaluación estudiantil:** Apreciación del claustro estudiantil centrada en la claridad expositiva, la accesibilidad de los recursos didácticos, la retroalimentación oportuna en evaluaciones y la empatía pedagógica.
+* **Apreciación de la conducción académica y departamental:** Mirada estratégica a cargo de la Dirección del Departamento, orientada a evaluar la articulación de la cátedra con el plan de estudios, la participación en proyectos de extensión e investigación y el compromiso con las directrices institucionales.
+
+La potencia conceptual de la retroalimentación 360° radica en que el juicio evaluativo no emana de una única autoridad jerárquica, sino de la triangulación reflexiva de actores situados en diferentes planos de la experiencia pedagógica [@obando2014]. El resultado no se traduce en un puntaje sancionatorio, sino en un perfil diagnóstico cualitativo que permite identificar brechas entre la autopercepción del docente y la percepción de sus estudiantes y colegas, brindando insumos para la mejora pedagógica.
+
+### Gobernanza Universitaria, Cogobierno y Negociación Paritaria Docente
+
+La factibilidad de incorporar un modelo de retroalimentación 360° en una universidad pública no puede ser abordada como un problema meramente técnico o instrumental. Demanda comprender las particularidades sociopolíticas de la **gobernanza universitaria** en el marco de la Administración Pública argentina [@matus1993; @oszlak2020].
+
+Siguiendo a Carlos @matus1993, la gestión en organizaciones estatales complejas se desenvuelve en escenarios de poder compartido y conflicto legítimo de intereses. Las decisiones no se imponen jerárquicamente por decreto; requieren construir consensos sobre *variables de control compartido*. En la Universidad Nacional del Comahue y su sede descentralizada en Viedma (CURZAS), la gobernanza institucional se sustenta en tres instituciones fundamentales:
+
+* **El principio de cogobierno colegiado:** Consagrado en el Estatuto de la UNCo (Ordenanza CS N° 0988/2025, texto ordenado) [@unco2025], donde las decisiones de política académica departamental son deliberadas y votadas por representantes de los claustros docente, estudiantil, nodocente y de graduados en el Consejo Directivo y los Consejos Departamentales.
+* **El régimen de Carrera Docente:** Normado por la Ordenanza CS N° 0920/2019 (y sus modificatorias) [@unco2019], que establece mecanismos estatutarios periódicos de evaluación de inserción y permanencia mediante informes anuales y jurados evaluadores cuatrienales externos.
+* **La negociación paritaria y el Convenio Colectivo de Trabajo:** Regido a nivel nacional por el Decreto PEN N° 1246/2015 [@pen2015], que salvaguarda la estabilidad laboral, la libertad de cátedra y las condiciones dignas de trabajo frente a cualquier mecanismo evaluativo susceptible de ser utilizado como herramienta de persecución, flexibilización o sobrecarga laboral.
+
+Por consiguiente, el marco teórico de esta investigación asume que la factibilidad de un dispositivo de evaluación 360° depende críticamente de su **blindaje ético y normativo**: el modelo solo resulta viable en el CURZAS si se preserva como una herramienta estrictamente voluntaria, anónima, confidencial y formativa, completamente disociada de los circuitos estatutarios sancionatorios o sumativos de carrera docente. Su viabilidad exige ser consensuada en mesas de diálogo paritario docente y legitimada por los claustros en el seno del cogobierno universitario.
+
+## Antecedentes: Estado del Arte de la Cuestión
+
+De acuerdo con las pautas metodológicas de la cátedra y las recomendaciones de @torraco2016 y @jimenez2008, la construcción de los antecedentes o Estado del Arte no consiste en una reseña acumulativa de lecturas ni en un resumen bibliográfico lineal. Representa un ejercicio analítico e integrador de "investigación de la investigación", dirigido a sistematizar la evidencia empírica previa sobre el problema de estudio, identificar metodologías empleadas y precisar con rigurosidad la **vacancia de conocimiento** que justifica el desarrollo del presente proyecto.
+
+Para dar cumplimiento a la estructura exigida por el Seminario de Integración y Aplicación, los antecedentes se organizan jerárquicamente en tres niveles geográficos: internacional, nacional y regional/local.
+
+### Antecedentes Internacionales: Modelos 360° y Triangulación Evaluativa en la Educación Superior
+
+En el plano internacional, diversos estudios empíricos han examinado la aplicación y los efectos de los modelos de evaluación 360 grados en instituciones universitarias públicas y privadas:
+
+* **Sifuentes Ocegueda, Suárez Flores y Lara González (2016)** desarrollaron una investigación empírica titulada *"La evaluación de 360° aplicada al personal docente de nivel superior"*, publicada en la *Revista de Investigación en Tecnologías de la Información (RITI)* (Dialnet). El objetivo del estudio consistió en diseñar y evaluar el grado de aceptación de un instrumento 360° para el profesorado universitario en México. Mediante una metodología descriptiva y transversal que abarcó encuestas estructuradas a docentes, directores y estudiantes, los autores concluyeron que el modelo 360° registra un índice de aceptación docente superior al 85% siempre que se respeten tres garantías operativas: el estricto anonimato de los participantes, la entrega de reportes diagnósticos individuales y la ausencia total de penalidades administrativas. Este antecedente aporta a nuestro proyecto una evidencia empírica directa sobre la viabilidad actitudinal del modelo en el contexto universitario iberoamericano.
+* **Obando Freire et al. (2014)**, en su artículo *"Sistema de evaluación docente mediante el modelo 360 grados y el portafolio electrónico"*, publicado en la revista *Medisur* (SciELO), investigaron la implementación de una plataforma digital para la triangulación evaluativa en el nivel superior en Cuba. Su objetivo fue contrastar la efectividad de las encuestas unilaterales frente a un circuito multiactoral que combina autoevaluación, coevaluación de pares y heteroevaluación de alumnos y autoridades académicas. Entre sus principales hallazgos, demostraron que la evaluación circular mitiga los sesgos de complacencia o castigo inherentes a las encuestas estudiantiles aisladas y estimula en los docentes la autorreflexión sobre sus métodos didácticos. Su aporte a este TFG reside en documentar la factibilidad técnico-operativa de procesar evaluaciones multidireccionales mediante soportes informáticos.
+* **Reyes y Díaz (2020)** llevaron a cabo una investigación evaluativa titulada *"Metaevaluación del sistema de evaluación docente en una universidad pública"*, publicada en *Education Policy Analysis Archives (EPAA)*. Mediante un enfoque metodológico mixto que combinó análisis normativo-documental y entrevistas a profundidad a docentes y autoridades sindicales, los autores evaluaron el impacto institucional de los sistemas de evaluación vigentes en una universidad pública mexicana. Concluyeron que los esquemas evaluativos de corte sumativo producen desconfianza y un "efecto cumplimiento formal", donde el docente cumple el trámite administrativo sin transformar su práctica pedagógica. Asimismo, advirtieron que para que una innovación evaluativa prospere en la universidad pública, resulta indispensable que el modelo se oriente al aprendizaje institucional y se encuentre legitimado por los órganos de representación laboral. Este antecedente fundamenta la centralidad de la dimensión de gobernanza en nuestra investigación.
+
+### Antecedentes Nacionales: Evaluación Docente y Carrera Académica en Universidades Públicas Argentinas
+
+En el ámbito nacional argentino, la literatura científica ha indagado las tensiones inherentes a la profesión docente universitaria y sus mecanismos de valoración:
+
+* **Marquina (2012)**, en su estudio empírico *"¿Hay un nuevo modelo de profesión académica en Argentina? Debates y tendencias en la universidad pública"*, publicado en *Pensamiento Universitario*, analizó las transformaciones en la labor de los profesores de las universidades nacionales a partir de las exigencias contrapuestas entre la docencia, la investigación y la gestión institucional. A través de un abordaje cualitativo apoyado en entrevistas a docentes y referentes gremiales de diversas universidades públicas, Marquina evidenció que los instrumentos tradicionales de evaluación docente (concursos y permanencias) suelen privilegiar la producción científica abstracta o la acumulación de posgrados por sobre la calidad didáctica en las aulas de grado. Este hallazgo resulta nodal para nuestro TFG, pues justifica la necesidad de generar dispositivos de retroalimentación centrados específicamente en la función formativa y de enseñanza del docente universitario.
+* **Pérez, González y Castro (2021)** publicaron el artículo de investigación empírica *"Evaluación 360° de las tutorías presenciales y en línea en universidades públicas"*, en la revista científica *Unaciencia* (Redalyc). El estudio evaluó la factibilidad de aplicar la metodología 360° para valorar el desempeño de docentes universitarios con funciones tutoriales presenciales y mediadas por tecnologías virtuales. Mediante un diseño metodológico descriptivo aplicado a estudiantes, docentes tutores y coordinadores, el trabajo concluyó que el modelo 360° demostró una capacidad significativamente superior para captar competencias pedagógicas blandas (comunicación asertiva, empatía, acompañamiento en entornos virtuales) en comparación con las rúbricas estandarizadas tradicionales. Este antecedente aporta un valor metodológico e instrumental directo para el CURZAS-UNCo, donde la docencia universitaria se despliega crecientemente de forma híbrida articulando la sede central con los Nodos Territoriales.
+
+### Antecedentes Regionales y Locales: Prácticas de Evaluación y Contexto Institucional en la UNCo y el CURZAS
+
+En el plano regional y local patagónico, los antecedentes vinculados a la Universidad Nacional del Comahue y al Complejo Universitario Regional Zona Atlántica y Sur (CURZAS) permiten contextualizar la situación empírica de partida:
+
+* **Relevamiento documental e institucional del régimen de Carrera Docente en la UNCo (Ordenanza CS N° 0920/2019 y Estatuto Ord. CS N° 0988/2025):** Las actas y resoluciones del Consejo Superior y del Consejo Directivo del CURZAS revelan que, históricamente, los dos mecanismos estatutarios de evaluación docente vigentes en la institución —los informes anuales con encuestas de opinión estudiantil (Art. 74) y las comisiones evaluadoras cuatrienales con tribunales de pares externos y veedores estudiantiles (Art. 75)— cumplen de forma efectiva su propósito legal de control de la inserción y permanencia. Sin embargo, los claustros han señalado reiteradamente la carencia de dispositivos institucionales sistemáticos que transformen los resultados de dichas evaluaciones en devoluciones formativas individualizadas o en insumos directos para la planificación de los programas departamentales de capacitación docente (Art. 76).
+* **La experiencia de expansión territorial mediante la Red de Nodos Universitarios (2020–2026):** A nivel regional rionegrino, la puesta en marcha de los Nodos del CURZAS en localidades como Sierra Grande, Valcheta, Los Menucos y Ramos Mexía ha configurado un nuevo escenario de docencia híbrida que demanda competencias docentes específicas para la atención simultánea en sedes centrales y aulas virtuales remotas. No existen antecedentes empíricos locales que hayan explorado la factibilidad de implementar un modelo de retroalimentación multiactoral en este contexto geográfico particular, lo que refuerza la pertinencia del estudio situado.
+
+### Síntesis Integradora y Vacancia de la Investigación
+
+En concordancia con los principios epistemológicos de @torraco2016 y @jimenez2008, el recorrido por los antecedentes internacionales, nacionales y locales permite constatar un consenso sobre la riqueza del modelo 360° para mejorar la calidad formativa y la necesidad de diferenciar la evaluación del desarrollo de la fiscalización sumativa de la permanencia.
+
+No obstante, la revisión revela una evidente **vacancia de conocimiento empírico**: existe abundante literatura sobre la validez métrica del modelo 360° en ámbitos corporativos o en universidades privadas, así como estudios sobre la carrera docente en grandes universidades urbanas argentinas, pero **se verifica una ausencia de investigaciones científicas sobre la factibilidad integral (organizacional, técnica, normativa y de gobernanza) de implementar un circuito de retroalimentación 360° en una unidad académica pública, descentralizada y patagónica, cogobernada por claustros y con sedes en territorio híbrido**. 
+
+En este espacio de vacancia se inscribe el aporte original y situado del presente Trabajo Final de Graduación.
 
 {{< pagebreak >}}
 
-# Referencias {.unnumbered}
+::: {.content-visible when-format="docx"}
+# Referencias Bibliográficas {.unnumbered}
+:::
 
 ::: {#refs}
 :::
+

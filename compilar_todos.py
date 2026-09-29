@@ -538,7 +538,13 @@ def insertar_tabla_contenidos_word(doc_word, doc):
         try:
             import pymupdf
             doc_pdf = pymupdf.open(str(pdf_path))
-            if len(doc_pdf) > 1:
+            toc = doc_pdf.get_toc()
+            if toc:
+                offset = toc[0][2] - 1
+                for lvl, title, phys_pag in toc:
+                    vis_pag = str(max(1, phys_pag - offset))
+                    items_toc.append((title, lvl, vis_pag))
+            elif len(doc_pdf) > 1:
                 txt_toc = doc_pdf[1].get_text()
                 for line in txt_toc.split('\n'):
                     line = line.strip()
@@ -565,16 +571,7 @@ def insertar_tabla_contenidos_word(doc_word, doc):
     final_items = []
     if items_toc:
         for title_pdf, level, pag in items_toc:
-            matched = title_pdf
-            for hw in headings_word:
-                hw_clean = hw
-                parts = hw.split(' ', 1)
-                if len(parts) > 1 and parts[0].replace('.', '').isdigit():
-                    hw_clean = parts[1]
-                if hw_clean.strip().lower() == title_pdf.strip().lower():
-                    matched = hw
-                    break
-            final_items.append((matched, level, pag))
+            final_items.append((title_pdf, level, pag))
     else:
         for hw in headings_word:
             level = 2 if hw.startswith('1.1') else 1
@@ -599,8 +596,9 @@ def insertar_tabla_contenidos_word(doc_word, doc):
     curr = p_begin
 
     for texto, nivel, num_pag in final_items:
-        style_name = f"TOC{nivel}"
-        left_indent = "280" if nivel == 2 else "0"
+        style_name = f"TOC{min(nivel, 3)}"
+        left_indent = "0" if nivel <= 1 else ("280" if nivel == 2 else ("560" if nivel == 3 else "840"))
+
         item_xml = (
             f'<w:p {nsdecls("w")}>'
             f'<w:pPr>'
