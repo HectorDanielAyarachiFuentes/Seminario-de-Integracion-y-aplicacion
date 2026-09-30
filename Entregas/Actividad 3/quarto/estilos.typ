@@ -21,10 +21,10 @@
 // ─── Tablas estilo APA 7 (solo bordes horizontales) ─────────────────────
 #set table(
   stroke: (x, y) => if y == 0 { (top: 1pt + black, bottom: 0.5pt + black) } else if y == 5 { (bottom: 1pt + black) } else { none },
-  inset: 5pt
+  inset: 4.5pt
 )
-#show table: set text(size: 9.5pt)
-#show table.cell: set par(first-line-indent: 0pt, leading: 0.5em)
+#show table: set text(size: 8.5pt)
+#show table.cell: set par(first-line-indent: 0pt, leading: 0.5em, justify: false)
 #show table.cell.where(y: 0): set text(weight: "bold")
 
 // ─── Figuras ────────────────────────────────────────────────────────────
