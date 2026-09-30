@@ -131,11 +131,21 @@ def compilar_quarto_pdf(doc):
                             cover.apply_redactions()
                             break
 
-                    doc_pdf.save(str(pdf_out), incremental=False, encryption=0)
-                doc_pdf.close()
+                    pdf_bytes = doc_pdf.tobytes(deflate=True)
+                    doc_pdf.close()
+                    with open(pdf_out, "wb") as f_out:
+                        f_out.write(pdf_bytes)
+                else:
+                    doc_pdf.close()
                 tmp_pdf.unlink(missing_ok=True)
             except Exception:
-                shutil.copy2(str(tmp_pdf), str(pdf_out))
+                try:
+                    if 'doc_pdf' in locals() and not doc_pdf.is_closed:
+                        doc_pdf.close()
+                except Exception:
+                    pass
+                with open(tmp_pdf, "rb") as f_in, open(pdf_out, "wb") as f_out:
+                    f_out.write(f_in.read())
                 tmp_pdf.unlink(missing_ok=True)
 
             info = obtener_info_archivo(pdf_out)
