@@ -57,6 +57,15 @@ DOCUMENTOS = [
         "activo": True
     },
     {
+        "id": "TP3_SIMPLIFICADO",
+        "nombre": "Trabajo Práctico N° 3 (Marco Teórico y Antecedentes — Versión Simplificada)",
+        "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "3 - Estado de la cuestión y marco teórico" / "Trabajo Práctico n° 3" / "tp3_simplificado.qmd",
+        "pdf_entrega": ACTIVIDAD3_DIR / "TP3_Ayarachi_Fuentes_Simplificado.pdf",
+        "docx_entrega": ACTIVIDAD3_DIR / "TP3_Ayarachi_Fuentes_Simplificado.docx",
+        "qmd_entrega": ACTIVIDAD3_DIR / "quarto" / "tp3_simplificado.qmd",
+        "activo": False
+    },
+    {
         "id": "TP4",
         "nombre": "Trabajo Práctico N° 4 (Proyecto Integral de TFG)",
         "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "4 - Metodología" / "Trabajo Práctico n° 4" / "tp4_proyecto_tfg_integral.qmd",
@@ -924,6 +933,8 @@ if __name__ == "__main__":
         tp_target = "TP1"
     elif "--tp2" in args:
         tp_target = "TP2"
+    elif "--tp3-simplificado" in args or "--tp3-simp" in args:
+        tp_target = "TP3_SIMPLIFICADO"
     elif "--tp3" in args:
         tp_target = "TP3"
     elif "--tp4" in args:
