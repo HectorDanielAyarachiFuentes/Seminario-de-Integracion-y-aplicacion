@@ -137,7 +137,7 @@ Año 2026
 
 #align(center)[
   #set par(first-line-indent: 0pt)
-  #text(weight: "bold", size: 12pt)[Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026)] \
+  #text(weight: "bold", size: 12pt)[Factibilidad de un Modelo de Retroalimentación 360° para la Evaluación Formativa del Desempeño Docente en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026)] \
   #v(0.3em)
   #text(style: "italic", size: 10.5pt)[Trabajo Práctico N° 3: Estructura del Proyecto de Investigación de TFG (Versión Simplificada)]
 ]
@@ -146,7 +146,7 @@ Año 2026
 
 ::: {.content-visible when-format="docx"}
 ::: {align="center"}
-**Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026)**  
+**Factibilidad de un Modelo de Retroalimentación 360° para la Evaluación Formativa del Desempeño Docente en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026)**  
 *(Trabajo Práctico N° 3: Estructura del Proyecto de Investigación de TFG — Versión Simplificada)*
 :::
 
@@ -213,7 +213,7 @@ En el marco de la gestión pública, la factibilidad representa el grado de comp
 1. *Factibilidad normativa y estatutaria:* Compatibilidad con el Estatuto UNCo (Ord. CS N° 0988/2025), la Carrera Docente (Ord. CS N° 0910/1997 y modificatorias) y el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015), garantizando la no afectación de la estabilidad laboral.
 2. *Factibilidad técnica e instrumental:* Disponibilidad y usabilidad de plataformas digitales institucionales (Moodle, SIU-Guaraní), con instrumentos breves que resguarden el anonimato y mitiguen la sobrecarga de respuestas.
 3. *Factibilidad organizacional y procedimental:* Capacidad de gestión del Departamento para procesar devoluciones diagnósticas y articularlas con el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo).
-4. *Factibilidad cultural y actitudinal:* Clima de confianza institucional, disposición docente y estudiantil ante la coevaluación y superación de temores a controles punitivos.
+4. *Factibilidad cultural y actitudinal:* Clima de confianza institucional, disposición docente y estudiantil ante la coevaluación y atenuación de eventuales temores a usos punitivos.
 5. *Factibilidad de gobernanza institucional:* Viabilidad política para deliberar y consensuar la propuesta en los órganos de cogobierno (Consejo Directivo y Superior) y mesas paritarias sobre variables de control compartido [@cao2023; @matus1993].
 
 | Dimensión | Criterios de Observación | Fuentes e Indicadores Empíricos |
@@ -230,13 +230,13 @@ En el marco de la gestión pública, la factibilidad representa el grado de comp
 
 * *Factibilidad alta:* Valoración favorable y convergente en las cinco dimensiones, sin barreras estructurales.
 * *Factibilidad condicionada:* Viabilidad sujeta a acuerdos paritarios, adecuación de plataformas o implementación gradual mediante pruebas piloto.
-* *Factibilidad baja o inviabilidad:* Presencia de obstáculos insalvables (colisión jurídica con el CCT, desconfianza generalizada o inviabilidad técnica del anonimato).
+* *Factibilidad baja o inviabilidad:* Presencia de obstáculos estructurales o incompatibilidades que impidan su adopción en las condiciones analizadas (colisión jurídica con el CCT Docente, desconfianza generalizada o inviabilidad técnica del anonimato).
 
 Esta escala analítica garantiza la estricta apertura científica de la investigación: no se persigue validar a priori la conveniencia del modelo 360°, sino evaluar con neutralidad metodológica las condiciones bajo las cuales una retroalimentación multiactoral podría constituir una alternativa viable, admitiendo como resultados empíricamente válidos que la innovación sea viable, viable bajo condiciones o actualmente inviable.
 
 ### Pregunta General de Investigación
 
-> ¿Cuáles son las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo durante el período 2025–2026?
+> ¿Cuáles son las condiciones de factibilidad normativa, técnica, organizacional, cultural y de gobernanza para un modelo de retroalimentación multiactoral (360°) en la evaluación formativa del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo durante el período 2025–2026?
 
 ## Justificación y Relevancia
 
@@ -248,13 +248,13 @@ Esta escala analítica garantiza la estricta apertura científica de la investig
 
 ### Objetivo General
 
-* Determinar las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026).
+* Determinar las condiciones de factibilidad normativa, técnica, organizacional, cultural y de gobernanza para un modelo de retroalimentación multiactoral (360°) en la evaluación formativa del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026).
 
 ### Objetivos Específicos
 
 1. Relevar y caracterizar los instrumentos normativos, procedimientos y prácticas vigentes aplicadas a la evaluación del desempeño docente en el Departamento, distinguiendo las prescripciones estatutarias de su aplicación real.
 2. Explorar las percepciones, disposiciones y expectativas de docentes, estudiantes y autoridades respecto a la retroalimentación 360° y las condiciones de confianza requeridas.
-3. Identificar los condicionantes técnico-organizacionales, normativos y de gobernanza multinivel (acuerdos paritarios, confidencialidad y cogobierno) que inciden en la factibilidad del modelo.
+3. Identificar los condicionantes normativos, técnico-organizacionales, culturales y de gobernanza multinivel (acuerdos paritarios, confidencialidad, confianza y cogobierno) que inciden en la factibilidad del modelo.
 4. Formular lineamientos orientativos o recomendaciones institucionales en función del grado de factibilidad constatado, contemplando alternativas para una eventual implementación formativa gradual o, de constatarse inviabilidad, vías complementarias para el fortalecimiento pedagógico.
 
 ### Matriz de Consistencia Metodológica
@@ -266,7 +266,7 @@ Con el propósito de asegurar la consistencia metodológica del proyecto, la sig
 | **General** | **Factibilidad integral:** Determinación de condiciones de viabilidad en las 5 dimensiones analíticas | **Gestión del rendimiento** (*Evaluación y retroalimentación*) | Docentes, estudiantes y autoridades del Departamento |
 | **Específico 1** | **Dimensión normativa:** Relevamiento documental de estatutos, reglamentos y prácticas vigentes | **Gestión del rendimiento y Organización del trabajo** | Estatuto UNCo, Ord. CS N° 0910/1997 y CCT (Matriz documental) |
 | **Específico 2** | **Dimensión cultural:** Percepciones, expectativas y confianza institucional ante el modelo 360° | **Gestión de las relaciones humanas y sociales** | Docentes, estudiantes y autoridades (Entrevistas y encuestas) |
-| **Específico 3** | **Dimensión de gobernanza:** Condicionantes paritarios, de cogobierno y plataformas técnicas | **Relaciones laborales y Gestión del empleo** | Representantes docentes, gremiales y de gestión académica |
+| **Específico 3** | **Gobernanza y condiciones estructurales:** Condicionantes paritarios, normativos, técnicos y culturales | **Relaciones laborales y Gestión del empleo** | Representantes docentes, gremiales y de gestión académica |
 | **Específico 4** | **Dimensión propositiva:** Lineamientos según grado de factibilidad constatado (viabilidad o inviabilidad) | **Gestión del desarrollo** (*Capacitación continua y mejora*) | Síntesis analítica del proyecto adaptada al CURZAS |
 
 *Nota.* Elaboración propia a partir del marco conceptual de Longo (2006) y la normativa institucional de la Universidad Nacional del Comahue (Estatuto UNCo y Ordenanza CS N° 0910/1997).
@@ -290,7 +290,7 @@ Se adopta el modelo de Francisco @longo2006 sobre la gestión estratégica de pe
 
 * *Gestión del rendimiento:* Constituye el eje central. Comprende las políticas e instrumentos para valorar la contribución de las personas. En el sector público, alcanza legitimidad cuando trasciende la fiscalización procesal y se consolida como un proceso reflexivo de evaluación para la mejora continua.
 * *Organización del trabajo:* Articula las funciones docentes con las demandas pedagógicas actuales, contrastando las pautas estatutarias con las exigencias de la docencia híbrida y tutorial en los Nodos Territoriales.
-* *Gestión del desarrollo:* Vincula la evaluación con las oportunidades de aprendizaje continuo y carrera docente (Art. 65 y 76 de la Ord. CS N° 0988/2025). Evaluar sin ofrecer instancias de capacitación reduce el proceso a una rutina burocrática sin impacto.
+* *Gestión del desarrollo:* Vincula la evaluación con las oportunidades de aprendizaje continuo y carrera docente (Art. 65 y 76 de la Ord. CS N° 0988/2025). Evaluar sin ofrecer instancias de capacitación puede reducir el proceso a una rutina predominantemente burocrática, limitando su potencial formativo.
 * *Gestión de las relaciones humanas y sociales:* Examina el clima institucional y los canales de diálogo paritario. Dado que la evaluación roza la percepción de estabilidad laboral, el acuerdo paritario y el resguardo de la confidencialidad son indispensables para disipar temores punitivos.
 
 ### De la Lógica de Control a la Lógica Formativa: Modelo de Retroalimentación 360°
@@ -303,7 +303,7 @@ Para explorar la perspectiva formativa en la educación superior, se recurre con
 
 * *Autoevaluación docente:* Reflexión del propio docente sobre sus métodos didácticos y desafíos pedagógicos.
 * *Coevaluación de pares (equipo de cátedra):* Valoración de colegas sobre rigurosidad disciplinar y trabajo colaborativo.
-* *Heteroevaluación estudiantil:* Apreciación de los estudiantes sobre la claridad expositiva, recursos didácticos y retroalimentación pedagógica, superando el rol de mero usuario administrativo.
+* *Heteroevaluación estudiantil:* Apreciación de los estudiantes sobre la claridad expositiva, recursos didácticos y retroalimentación pedagógica, incorporando la perspectiva estudiantil como fuente de información pedagógica.
 * *Apreciación de la conducción académica:* Mirada de la Dirección del Departamento sobre la articulación con el plan de estudios y el compromiso institucional.
 
 El interés analítico del modelo radica en evaluar si la articulación de estas miradas puede producir un perfil diagnóstico orientado a la mejora pedagógica, o si las dinámicas micropolíticas y la desconfianza institucional limitan su viabilidad operativa.
@@ -313,7 +313,7 @@ El interés analítico del modelo radica en evaluar si la articulación de estas
 La viabilidad de esta innovación requiere comprender la complejidad sociopolítica de la universidad pública:
 
 * *Gobernanza como dirección social compartida:* Siguiendo a Luis F. @aguilar2006, la gobernanza supera esquemas jerárquicos de mando, basándose en la deliberación y la cooperación entre actores. En el CURZAS, una evaluación participativa no puede imponerse verticalmente; exige un pacto de confianza pedagógica recíproca.
-* *Aporte de Horacio Cao y Gustavo Blutman (Poligobernanza y Estado plataforma):* En sus estudios sobre el sector estatal [@cao2007], Cao y Blutman analizan los tres ámbitos jurisdiccionales del federalismo argentino (Nación, Provincias y Municipios) y sus modelos de gestión. Asimismo, en sus análisis prospectivos [@cao2021; @cao2023], formulan el concepto de *poligobernanza*, superando la rigidez burocrática y la gerencialización, y postulando un "Estado plataforma" en redes horizontales para "gestionar la complejidad" mediante soluciones situadas. Trasladado al CURZAS, este enfoque fundamenta la necesidad de interconectar la sede central de Viedma con los Nodos de la Línea Sur y Costa Atlántica mediante redes tecnológicas de acompañamiento formativo, superando encuestas rígidas.
+* *Aporte de Horacio Cao y Gustavo Blutman (Poligobernanza y Estado plataforma):* En sus estudios sobre el sector estatal [@cao2007], Cao y Blutman analizan los tres ámbitos jurisdiccionales del federalismo argentino (Nación, Provincias y Municipios) y sus modelos de gestión. Asimismo, en sus análisis prospectivos [@cao2021; @cao2023], formulan el concepto de *poligobernanza*, superando la rigidez burocrática y la gerencialización, y postulando un "Estado plataforma" en redes horizontales para "gestionar la complejidad" mediante soluciones situadas. Trasladado al CURZAS, este enfoque fundamenta la necesidad de interconectar la sede central de Viedma con los Nodos de la Línea Sur y Costa Atlántica mediante redes tecnológicas de acompañamiento formativo, ampliando la información disponible respecto de las encuestas estudiantiles aisladas.
 * *Niveles de análisis y operacionalización analítica propia:* Conviene precisar metodológicamente que la distinción entre niveles de agregación no constituye una tipología taxativa de Cao y Blutman, sino que proviene de la sociología organizacional y de las matrices analíticas del Estado sistematizadas por Oscar @oszlak2011 [Nivel Macro: relación Estado-sociedad y régimen general; Nivel Meso: organizaciones, agencias intermedias y estructuras de gestión; Nivel Micro: interacción cotidiana cara a cara del agente estatal en la ventanilla y en el puesto de trabajo], en diálogo con la literatura de gobernanza universitaria multinivel [@krotsch2001; @brunner2011]. A su turno, la inclusión del plano sociolaboral colectivo responde al subsistema de *gestión de las relaciones humanas y sociales* de Francisco @longo2006, donde la dirección interactúa no con el trabajador individual, sino con el colectivo laboral y sus representaciones sindicales. A partir de estos fundamentos, en esta investigación se adopta una operacionalización analítica propia que articula cuatro planos en el CURZAS:
   1. *Nivel Macro (político-institucional y central):* Rectorado y Consejo Superior de la UNCo en Neuquén (normativa estatutaria y Carrera Docente).
   2. *Nivel Meso (organizacional y departamental):* Consejo Directivo del CURZAS y Dirección del Departamento de Administración Pública en Viedma (gestión operativa, planificación académica y plan anual de capacitación docente del Art. 76).
