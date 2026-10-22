@@ -54,6 +54,15 @@ DOCUMENTOS = [
         "pdf_entrega": ACTIVIDAD3_DIR / "TP3_Ayarachi_Fuentes.pdf",
         "docx_entrega": ACTIVIDAD3_DIR / "TP3_Ayarachi_Fuentes.docx",
         "qmd_entrega": ACTIVIDAD3_DIR / "quarto" / "tp3_marco_teorico_antecedentes.qmd",
+        "activo": False
+    },
+    {
+        "id": "TP3_CORREGIDO",
+        "nombre": "Trabajo Práctico N° 3 (Marco Teórico y Antecedentes — Versión Corregida)",
+        "qmd": ACTIVIDAD3_DIR / "Correcion" / "quarto" / "tp3_marco_teorico_corregido.qmd",
+        "pdf_entrega": ACTIVIDAD3_DIR / "Correcion" / "TP3_Ayarachi_Fuentes_Corregido.pdf",
+        "docx_entrega": ACTIVIDAD3_DIR / "Correcion" / "TP3_Ayarachi_Fuentes_Corregido.docx",
+        "qmd_entrega": ACTIVIDAD3_DIR / "Correcion" / "quarto" / "tp3_marco_teorico_corregido.qmd",
         "activo": True
     },
     {
@@ -754,6 +763,9 @@ def sincronizar_documento(doc):
         return
     qmd_orig = doc["qmd"]
     qmd_entr = doc["qmd_entrega"]
+    
+    if qmd_orig.resolve() == qmd_entr.resolve():
+        return
     
     if qmd_orig.exists() and qmd_entr.exists():
         mtime_orig = qmd_orig.stat().st_mtime
