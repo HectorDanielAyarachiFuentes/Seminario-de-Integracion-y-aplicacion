@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Defensa de Tesina | Héctor Daniel Ayarachi Fuentes | CURZAS - UNCo</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="assets/CURZAS.png">
+</head>
+<body>
+
+  <!-- Lienzo de renderizado Three.js (WebGL 3D de fondo / Segundo Plano) -->
+  <canvas id="webgl-canvas"></canvas>
+
+  <!-- Capa de Interfaz de Usuario (UI Glassmorphism de Alto Contraste) -->
+  <div class="ui-layer">
+
+    <!-- Barra Superior: Cabecera Institucional + Contador + Estaciones + Cronómetro 30 min -->
+    <header class="top-bar">
+      <div class="brand">
+        <img src="assets/CURZAS.png" alt="Logotipo CURZAS - Universidad Nacional del Comahue" class="brand-logo">
+        <div class="brand-info">
+          <h1>UNCo — CURZAS</h1>
+          <p>Licenciatura en Gestión de RRHH | Seminario de Integración y Aplicación</p>
+        </div>
+      </div>
+
+      <!-- Centro: Contador de Filminas y Estaciones Interactivas -->
+      <div class="stations-wrapper">
+        <div class="slide-counter-badge" id="slide-counter-badge">
+          Filmina <span id="slide-counter">1 / 20</span>
+        </div>
+        <nav class="stations-indicator" id="stations-indicator" aria-label="Estaciones de la Defensa"></nav>
+      </div>
+
+      <!-- Cronómetro HUD de 30 minutos con control de ritmo -->
+      <div class="timer-container" aria-label="Cronómetro de Defensa">
+        <span class="timer-display" id="timer-display">30:00</span>
+        <div class="timer-actions">
+          <button id="btn-timer-toggle" title="Iniciar / Pausar Cronómetro (T)">▶</button>
+          <button id="btn-timer-reset" title="Reiniciar a 30:00">↺</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Escenario Principal: Tarjeta de Texto Prioritaria (Primer Plano) -->
+    <main class="main-stage">
+      <article class="slide-card" id="slide-card">
+        <div class="slide-header-tags">
+          <span class="slide-badge" id="slide-badge">FILMINA 1</span>
+          <span class="slide-bloque-badge" id="slide-bloque-badge">BLOQUE I</span>
+        </div>
+        <h2 class="slide-title" id="slide-title">Cargando presentación...</h2>
+        <p class="slide-subtitle" id="slide-subtitle">Espere un instante mientras se inicializan los módulos.</p>
+        <ul class="slide-bullets" id="slide-bullets"></ul>
+        <footer class="slide-footer-meta" id="slide-footer-meta"></footer>
+      </article>
+    </main>
+
+    <!-- Barra Inferior: Navegación + Atajos + Herramientas Auxiliares -->
+    <footer class="bottom-bar">
+      <div class="nav-buttons">
+        <button class="btn-nav" id="btn-prev" title="Filmina Anterior (← / RePág)">
+          ◀ Anterior <span class="shortcut-pill">←</span>
+        </button>
+        <button class="btn-nav" id="btn-next" title="Filmina Siguiente (→ / Espacio / AvPág)">
+          Siguiente ▶ <span class="shortcut-pill">→</span>
+        </button>
+      </div>
+
+      <div class="side-tools">
+        <button class="btn-tool" id="btn-dim-3d" title="Atenuar Fondo 3D / Enfoque Texto (D)">
+          👁️ Enfoque Texto <span class="shortcut-pill">D</span>
+        </button>
+        <button class="btn-tool" id="btn-toggle-notes" title="Guion y Notas del Orador (N)">
+          🎙️ Notas del Orador <span class="shortcut-pill">N</span>
+        </button>
+        <button class="btn-tool" id="btn-toggle-drawer" title="Respaldo Metodológico y Q&A Jurado (M)">
+          📚 Respaldo Metodológico <span class="shortcut-pill">M</span>
+        </button>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Modal Flotante: Guion y Notas del Orador (Verbatim Teleprompter) -->
+  <aside class="notes-modal" id="notes-modal" aria-label="Guion del Orador">
+    <div class="notes-header">
+      <h3>🎙️ Guion Sugerido para el Orador</h3>
+      <button class="btn-close" id="btn-close-notes" title="Cerrar guion">✕</button>
+    </div>
+    <div class="notes-body" id="notes-body"></div>
+  </aside>
+
+  <!-- Modal Especial: Visor de Diagramas Vectoriales SVG en Alta Definición -->
+  <div class="svg-modal-backdrop" id="svg-modal-backdrop"></div>
+  <aside class="svg-modal" id="svg-modal" aria-label="Visor de Diagramas SVG">
+    <div class="svg-modal-header">
+      <h3 id="svg-modal-title">📐 Diagrama Conceptual SVG</h3>
+      <button class="btn-close" id="btn-close-svg" title="Cerrar visor">✕</button>
+    </div>
+    <div class="svg-modal-body">
+      <img id="svg-modal-img" src="" alt="Diagrama Conceptual Vectorial">
+    </div>
+  </aside>
+
+  <!-- Panel Desplegable (Drawer): 7 Pestañas de Respaldo Metodológico para el Jurado -->
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <aside class="drawer-panel" id="drawer-panel" aria-label="Respaldo Metodológico Jurado">
+    <div class="drawer-header">
+      <h2>📚 Respaldo Teórico-Metodológico</h2>
+      <button class="btn-close" id="btn-close-drawer" title="Cerrar panel">✕</button>
+    </div>
+
+    <!-- 7 Pestañas de Filtrado Temático -->
+    <div class="drawer-tabs">
+      <button class="drawer-tab active" data-tab="autores">Autores Clave</button>
+      <button class="drawer-tab" data-tab="normativa">Normativa & Estatuto</button>
+      <button class="drawer-tab" data-tab="objetivos">Matriz Objetivos</button>
+      <button class="drawer-tab" data-tab="dimensiones">Dimensiones Factibilidad</button>
+      <button class="drawer-tab" data-tab="territorio">Red Territorial</button>
+      <button class="drawer-tab" data-tab="faq">FAQ Jurado</button>
+      <button class="drawer-tab" data-tab="svgs">📐 Diagramas SVG</button>
+    </div>
+
+    <!-- Contenedor dinámico de fichas -->
+    <div class="drawer-content-box" id="drawer-content"></div>
+  </aside>
+
+  <!-- Librerías Externas y Módulos de la Aplicación -->
+  <!-- 1. Motor Gráfico Three.js (r128 CDN estable) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- 2. Base de Datos Externa de Metadatos (20 Filminas + Enlaces SVG) -->
+  <script src="data/presentacion_data.js"></script>
+  <!-- 3. Motor de Escenas 3D Ambientales y Objetos Pertinentes -->
+  <script src="js/scene3d.js"></script>
+  <!-- 4. Controlador de Navegación, Temporizador y Eventos -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>

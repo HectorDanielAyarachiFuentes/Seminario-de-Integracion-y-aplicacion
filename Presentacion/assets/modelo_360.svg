@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradCenter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="gradNode1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="gradNode2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="gradNode3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <linearGradient id="gradNode4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#7e22ce" />
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+    </marker>
+  </defs>
+
+  <style>
+    .title { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 20px; fill: #ffffff; letter-spacing: 0.5px; }
+    .subtitle { font-family: 'Inter', system-ui, sans-serif; font-size: 13px; fill: #94a3b8; }
+    .node-title { font-family: 'Inter', system-ui, sans-serif; font-weight: 700; font-size: 14px; fill: #ffffff; }
+    .node-desc { font-family: 'Inter', system-ui, sans-serif; font-size: 11px; fill: #e2e8f0; }
+    .center-title { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 15px; fill: #38bdf8; }
+    .center-desc { font-family: 'Inter', system-ui, sans-serif; font-size: 11px; fill: #cbd5e1; }
+    .shield-text { font-family: 'Inter', system-ui, sans-serif; font-weight: 600; font-size: 11px; fill: #10b981; }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#070d18" rx="16" />
+  <rect x="15" y="15" width="770" height="570" fill="none" stroke="#1e293b" stroke-width="2" rx="12" />
+
+  <!-- Title Header -->
+  <text x="400" y="45" text-anchor="middle" class="title">ARQUITECTURA DEL MODELO DE RETROALIMENTACIÓN 360°</text>
+  <text x="400" y="68" text-anchor="middle" class="subtitle">Triangulación Multiactoral Formativa y Protección Criptográfica del Anonimato (CURZAS-UNCo)</text>
+  <line x1="40" y1="82" x2="760" y2="82" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Outer Orbit Rings -->
+  <circle cx="400" cy="330" r="195" fill="none" stroke="#1e293b" stroke-dasharray="6,6" stroke-width="2" />
+  <circle cx="400" cy="330" r="150" fill="none" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1.5" />
+
+  <!-- Circular Flow Arrows -->
+  <path d="M 400 135 A 195 195 0 0 1 595 330" fill="none" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="5,5" />
+  <path d="M 595 330 A 195 195 0 0 1 400 525" fill="none" stroke="#10b981" stroke-width="2" marker-end="url(#arrow-green)" stroke-dasharray="5,5" />
+  <path d="M 400 525 A 195 195 0 0 1 205 330" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5,5" />
+  <path d="M 205 330 A 195 195 0 0 1 400 135" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="5,5" />
+
+  <!-- Center Core: Desarrollo Formativo Art. 76 -->
+  <circle cx="400" cy="330" r="80" fill="url(#gradCenter)" stroke="#38bdf8" stroke-width="3" />
+  <circle cx="400" cy="330" r="68" fill="none" stroke="rgba(255,255,255,0.15)" stroke-dasharray="3,3" />
+  <text x="400" y="315" text-anchor="middle" class="center-title">DESARROLLO</text>
+  <text x="400" y="335" text-anchor="middle" class="center-title">DOCENTE</text>
+  <text x="400" y="355" text-anchor="middle" class="center-desc">Art. 76 Estatuto UNCo</text>
+  <text x="400" y="370" text-anchor="middle" class="center-desc">(Capacitación Continua)</text>
+
+  <!-- Node 1: Autoevaluación (Norte) -->
+  <g transform="translate(400, 135)">
+    <rect x="-105" y="-35" width="210" height="70" rx="10" fill="url(#gradNode1)" stroke="#ffffff" stroke-width="1.5" />
+    <text x="0" y="-10" text-anchor="middle" class="node-title">1. AUTOEVALUACIÓN</text>
+    <text x="0" y="8" text-anchor="middle" class="node-desc">Reflexión sobre la propia práctica,</text>
+    <text x="0" y="22" text-anchor="middle" class="node-desc">entornos virtuales y docencia híbrida</text>
+  </g>
+
+  <!-- Node 2: Coevaluación de Pares (Este) -->
+  <g transform="translate(595, 330)">
+    <rect x="-100" y="-35" width="200" height="70" rx="10" fill="url(#gradNode2)" stroke="#ffffff" stroke-width="1.5" />
+    <text x="0" y="-10" text-anchor="middle" class="node-title">2. PARES DE CÁTEDRA</text>
+    <text x="0" y="8" text-anchor="middle" class="node-desc">Colegialidad pedagógica,</text>
+    <text x="0" y="22" text-anchor="middle" class="node-desc">coordinación y trabajo en equipo</text>
+  </g>
+
+  <!-- Node 3: Heteroevaluación Estudiantil (Sur) -->
+  <g transform="translate(400, 525)">
+    <rect x="-115" y="-35" width="230" height="70" rx="10" fill="url(#gradNode3)" stroke="#ffffff" stroke-width="1.5" />
+    <text x="0" y="-10" text-anchor="middle" class="node-title">3. CUERPO ESTUDIANTIL</text>
+    <text x="0" y="8" text-anchor="middle" class="node-desc">Experiencia de aprendizaje situada,</text>
+    <text x="0" y="22" text-anchor="middle" class="node-desc">claridad didáctica y acompañamiento</text>
+  </g>
+
+  <!-- Node 4: Dirección Departamental (Oeste) -->
+  <g transform="translate(205, 330)">
+    <rect x="-100" y="-35" width="200" height="70" rx="10" fill="url(#gradNode4)" stroke="#ffffff" stroke-width="1.5" />
+    <text x="0" y="-10" text-anchor="middle" class="node-title">4. GESTIÓN DPTO.</text>
+    <text x="0" y="8" text-anchor="middle" class="node-desc">Alineación estratégica de cátedra,</text>
+    <text x="0" y="22" text-anchor="middle" class="node-desc">gestión del plan de estudio</text>
+  </g>
+
+  <!-- Shield of Anonymity Banner (Bottom Left) -->
+  <rect x="40" y="525" width="220" height="42" rx="8" fill="rgba(16, 185, 129, 0.15)" stroke="#10b981" stroke-width="1.5" />
+  <text x="150" y="543" text-anchor="middle" class="shield-text">🔒 Anonimato Estadístico Auditado</text>
+  <text x="150" y="558" text-anchor="middle" font-size="10" fill="#cbd5e1" font-family="'Inter', sans-serif">Criptografía SIU / Moodle (Oszlak 2020)</text>
+
+  <!-- Desacoplamiento Banner (Bottom Right) -->
+  <rect x="540" y="525" width="220" height="42" rx="8" fill="rgba(245, 158, 11, 0.15)" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="650" y="543" text-anchor="middle" font-size="11" font-weight="700" fill="#f59e0b" font-family="'Inter', sans-serif">⚖️ Desacoplado del Art. 75</text>
+  <text x="650" y="558" text-anchor="middle" font-size="10" fill="#cbd5e1" font-family="'Inter', sans-serif">100% No Punitivo (CCT Dec. 1246/15)</text>
+
+</svg>
