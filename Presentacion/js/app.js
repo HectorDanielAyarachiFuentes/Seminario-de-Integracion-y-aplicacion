@@ -462,7 +462,7 @@ class PresentationApp {
           <h4>📐 ${item.titulo}</h4>
           <p><strong>Fuente:</strong> ${item.autor}</p>
           <p style="margin-top: 0.4rem;">${item.descripcion}</p>
-          <button class="btn-inspect-svg" style="margin-top: 0.8rem; width: 100%; padding: 0.5rem; background: rgba(56, 189, 248, 0.2); border: 1px solid #38bdf8; color: #fff; border-radius: 6px; cursor: pointer; font-weight: 600;">
+          <button class="btn-inspect-svg" style="margin-top: 0.8rem; width: 100%; padding: 0.55rem; background: var(--gold-dim); border: 1px solid var(--gold-main); color: var(--gold-light); border-radius: 4px; cursor: pointer; font-family: var(--font-serif); font-size: 0.76rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700;">
             🔍 Abrir Diagrama en Pantalla Completa
           </button>
         `;

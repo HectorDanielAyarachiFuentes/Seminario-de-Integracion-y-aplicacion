@@ -78,6 +78,32 @@ Los diagramas pueden observarse de forma interactiva en pantalla completa median
 
 ---
 
+## 🏛️ Catálogo de las 20 Esculturas Académicas 3D (Galería Institucional)
+
+Cada filmina posee una pieza escultórica tridimensional inspirada en la tradición universitaria y las artes plásticas clásicas (mármol de Carrara, latón dorado cepillado, bronce escultórico, cristal esmerilado y plintos de granito pulido bajo iluminación de museo):
+1. **Filmina 1:** *Esfera Armilar Renacentista*: base clásica con tres aros meridiano y eclíptica graduados de latón girando en torno al orbe universitario de marfil.
+2. **Filmina 2:** *Monumento al Valor Social*: pedestal de mármol con tres anillos horizontales concéntricos de bronce ascendiendo armónicamente y gema de cristal.
+3. **Filmina 3:** *Frontispicio Normativo (Res. 266/23)*: estilóbato de granito con 3 columnas jónicas de mármol, arquitrabe y frontón clásico de latón.
+4. **Filmina 4:** *Maqueta Geodésica de Río Negro*: plinto de bronce patinado con 5 obeliscos geodésicos monumentales en mármol y piramidones dorados (Viedma y Nodos).
+5. **Filmina 5:** *Red Tensada de Nodos Territoriales*: esferas perladas de alabastro unidas por finos filamentos tensores de latón (Res. CD-CURZA N° 196/2022).
+6. **Filmina 6:** *Escultura Cinética de Péndulos Armónicos*: 7 esferas de mármol y bronce suspendidas que transitan del desorden a la alineación epistemológica (Wainerman & Sautu).
+7. **Filmina 7:** *Balanza de la Justicia Universitaria*: fuste de mármol con balancín de latón y dos platillos en solemne equilibrio (Art. 75 vs. Art. 76 Estatuto UNCo).
+8. **Filmina 8:** *Astrolabio Geodésico de Precisión*: limbo graduado de bronce con disco de cristal y alidada rotatoria para la delimitación del problema.
+9. **Filmina 9:** *Tétrada Monumental de Placas*: cuatro placas de bronce con pátina y biseles dorados que se abren en compás ordenado (Objetivo General + 3 Específicos).
+10. **Filmina 10:** *Heptágono Escultórico de los 7 Subsistemas*: prisma regular de 7 caras de mármol blanco de Carrara coronado por estrella heptagonal y anillo orbital (Francisco Longo).
+11. **Filmina 11:** *Atril de Honor Académico*: marco ceremonial de bronce y columna de mármol que enmarca el diagrama oficial SVG de Longo.
+12. **Filmina 12:** *Escalera Monumental de la Carrera Docente*: cuatro pedestales de mármol ascendentes con molduras de latón (Planificación, Organización, Rendimiento, Desarrollo).
+13. **Filmina 13:** *Giroscopio Cuádruple de Bronce y Alabastro*: cuatro aros cardinales girando en rotación solemne con las 4 esferas de los claustros evaluativos (Modelo 360°).
+14. **Filmina 14:** *Cúpula Geodésica de Cristal y Tracería de Bronce*: cúpula protectora arquitectónica de cristal esmerilado cobijando la libertad de cátedra y confidencialidad.
+15. **Filmina 15:** *Triángulo de Matus en Granito y Latón*: tríada monumental conectada por barras de tensión (Proyecto, Capacidad y Gobernabilidad).
+16. **Filmina 16:** *Estructura Tensada de Tensegridad*: barras de latón suspendidas en equilibrio flotante sin tocarse, metáfora de la poligobernanza (Cao & Blutman).
+17. **Filmina 17:** *Teodolito y Prisma Óptico de Triangulación*: prisma de cristal puro tallado sobre montura clásica de latón y trípode geodésico.
+18. **Filmina 18:** *Pentagrama Armónico de Vitral y Latón*: escultura pentagonal con 5 radios de latón sosteniendo cristales biselados para las 5 dimensiones de factibilidad.
+19. **Filmina 19:** *Linterna de la Biblioteca del Saber*: faro cilíndrico de mampostería clásica y cúpula de bronce con celosía renacentista.
+20. **Filmina 20:** *Gran Medallón de Honor CURZAS - UNCo*: medalla conmemorativa de bronce patinado y oro con corona de laureles sobre plinto de mármol blanco.
+
+---
+
 ## ⌨️ Atajos de Teclado Profesionales
 
 | Tecla | Acción |
