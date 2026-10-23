@@ -73,6 +73,7 @@ class Presentation3D {
 
     this.camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.1, 100);
     this.camera.position.copy(this.currentCamPos);
+    this.updateCameraViewOffset();
 
     this.renderer = new THREE.WebGLRenderer({
       canvas: this.canvas,
@@ -1671,8 +1672,27 @@ class Presentation3D {
 
   onWindowResize() {
     this.camera.aspect = window.innerWidth / window.innerHeight;
-    this.camera.updateProjectionMatrix();
+    this.updateCameraViewOffset();
     this.renderer.setSize(window.innerWidth, window.innerHeight);
+  }
+
+  /**
+   * Ajusta el centro óptico de la cámara hacia la derecha en pantallas amplias.
+   * Esto desplaza la escultura 3D de modo que se sitúe justo al costado del cuadro
+   * de texto institucional, casi rozándolo armónicamente ("que se toquen sí, pero que no esté tapado"),
+   * impidiendo toda superposición y logrando un centrado visual perfectamente balanceado en pantalla.
+   */
+  updateCameraViewOffset() {
+    const w = window.innerWidth;
+    const h = window.innerHeight;
+    if (w > 960) {
+      // Desplazamiento óptico del centro al ~66% del ancho de pantalla
+      const shiftX = -Math.round(w * 0.16);
+      this.camera.setViewOffset(w, h, shiftX, 0, w, h);
+    } else {
+      this.camera.clearViewOffset();
+      this.camera.updateProjectionMatrix();
+    }
   }
 
   /* ═══════════════════════════════════════════════════════════════════════════
