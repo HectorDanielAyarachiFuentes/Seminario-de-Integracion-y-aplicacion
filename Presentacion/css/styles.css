@@ -78,6 +78,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   pointer-events: none;
+  overflow: hidden;
 }
 
 /* ─── BARRA SUPERIOR (HEADER INSTITUCIONAL CLÁSICO) ──────────────────────── */
@@ -85,27 +86,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.1rem 2.8rem;
+  padding: clamp(0.55rem, 1.3vh, 1.1rem) clamp(1rem, 2.5vw, 2.8rem);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.92) 100%);
   pointer-events: auto;
   border-bottom: 1px solid rgba(180, 131, 36, 0.22);
   box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+  flex-shrink: 0;
+  z-index: 20;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 1.2rem;
+  gap: clamp(0.6rem, 1.2vw, 1.2rem);
 }
 
 .brand-logo {
-  height: 46px;
+  height: clamp(34px, 4.5vh, 46px);
   filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.12));
 }
 
 .brand-info h1 {
   font-family: var(--font-serif);
-  font-size: 0.95rem;
+  font-size: clamp(0.82rem, 1.2vh, 0.95rem);
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -113,7 +116,7 @@ body {
 }
 
 .brand-info p {
-  font-size: 0.74rem;
+  font-size: clamp(0.68rem, 1vh, 0.74rem);
   color: var(--text-muted);
   letter-spacing: 0.02em;
   margin-top: 2px;
@@ -228,25 +231,34 @@ body {
 
 /* ─── CONTENIDO CENTRAL DE LA PRESENTACIÓN (SLIDE CARD EN BLANCO CLÁSICO) ─── */
 .main-stage {
-  flex: 1;
+  flex: 1 1 auto;
+  min-height: 0;
   display: flex;
   align-items: center;
-  padding: 0 3.5rem;
+  justify-content: flex-start;
+  padding: clamp(0.6rem, 1.8vh, 1.5rem) clamp(1rem, 3.2vw, 3.5rem);
   pointer-events: none;
+  overflow: hidden;
+  position: relative;
 }
 
 .slide-card {
-  max-width: 740px;
+  width: 100%;
+  max-width: min(740px, 48vw);
+  max-height: 100%;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
-  border-radius: 12px;
-  padding: 2.8rem 3rem;
-  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08), 0 2px 8px rgba(15, 23, 42, 0.04);
+  border-radius: clamp(8px, 1.4vh, 12px);
+  padding: clamp(1.2rem, 2.5vh, 2.4rem) clamp(1.4rem, 2.8vw, 2.8rem);
+  box-shadow: 0 16px 45px rgba(15, 23, 42, 0.08), 0 2px 8px rgba(15, 23, 42, 0.04);
   backdrop-filter: blur(24px);
   pointer-events: auto;
   transform: translateY(0);
   opacity: 1;
   transition: all 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .slide-card.entering {
@@ -257,17 +269,18 @@ body {
 .slide-header-tags {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 1.1rem;
+  gap: 0.65rem;
+  margin-bottom: clamp(0.45rem, 1vh, 0.9rem);
   flex-wrap: wrap;
+  flex-shrink: 0;
 }
 
 .slide-badge {
   display: inline-block;
-  padding: 0.3rem 0.75rem;
+  padding: clamp(0.2rem, 0.4vh, 0.3rem) clamp(0.5rem, 0.8vw, 0.75rem);
   border-radius: 4px;
   font-family: var(--font-serif);
-  font-size: 0.68rem;
+  font-size: clamp(0.62rem, 0.9vh, 0.68rem);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -278,10 +291,10 @@ body {
 
 .slide-bloque-badge {
   display: inline-block;
-  padding: 0.3rem 0.75rem;
+  padding: clamp(0.2rem, 0.4vh, 0.3rem) clamp(0.5rem, 0.8vw, 0.75rem);
   border-radius: 4px;
   font-family: var(--font-serif);
-  font-size: 0.68rem;
+  font-size: clamp(0.62rem, 0.9vh, 0.68rem);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -292,38 +305,63 @@ body {
 
 .slide-title {
   font-family: var(--font-title);
-  font-size: 2.35rem;
+  font-size: clamp(1.45rem, 2.4vh + 0.4vw, 2.25rem);
   font-weight: 700;
-  line-height: 1.22;
-  margin-bottom: 0.75rem;
+  line-height: 1.18;
+  margin-bottom: clamp(0.35rem, 0.8vh, 0.65rem);
   color: var(--oxford-blue);
   letter-spacing: -0.01em;
+  flex-shrink: 0;
 }
 
 .slide-subtitle {
   font-family: var(--font-body);
-  font-size: 1.05rem;
+  font-size: clamp(0.82rem, 1.2vh + 0.2vw, 1rem);
   color: var(--gold-main);
   font-weight: 400;
   font-style: italic;
-  line-height: 1.5;
-  margin-bottom: 1.6rem;
+  line-height: 1.4;
+  margin-bottom: clamp(0.55rem, 1.3vh, 1.25rem);
   letter-spacing: 0.01em;
+  flex-shrink: 0;
 }
 
 .slide-bullets {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.85rem;
-  margin-bottom: 1.6rem;
+  gap: clamp(0.38rem, 0.9vh, 0.75rem);
+  margin-bottom: clamp(0.55rem, 1.2vh, 1.1rem);
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(180, 131, 36, 0.35) transparent;
+}
+
+.slide-bullets::-webkit-scrollbar {
+  width: 5px;
+}
+
+.slide-bullets::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slide-bullets::-webkit-scrollbar-thumb {
+  background: rgba(180, 131, 36, 0.28);
+  border-radius: 4px;
+}
+
+.slide-bullets::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-main);
 }
 
 .slide-bullets li {
   position: relative;
-  padding-left: 1.8rem;
-  font-size: 0.95rem;
-  line-height: 1.6;
+  padding-left: clamp(1.4rem, 2vw, 1.8rem);
+  font-size: clamp(0.82rem, 1.15vh + 0.2vw, 0.94rem);
+  line-height: 1.45;
   color: #1e293b;
 }
 
@@ -334,12 +372,13 @@ body {
   top: 0;
   color: var(--gold-light);
   font-family: var(--font-serif);
-  font-size: 0.92rem;
+  font-size: clamp(0.8rem, 1.2vh, 0.92rem);
   font-weight: 700;
 }
 
 .slide-svg-action {
-  margin-top: 1rem;
+  margin-top: clamp(0.4rem, 0.8vh, 0.8rem);
+  flex-shrink: 0;
 }
 
 .btn-open-svg {
@@ -347,13 +386,13 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0.75rem 1.2rem;
+  padding: clamp(0.52rem, 1vh, 0.72rem) clamp(0.85rem, 1.4vw, 1.2rem);
   background: #ffffff;
   border: 1px solid var(--gold-border);
   border-radius: 6px;
   color: var(--oxford-blue);
   font-family: var(--font-serif);
-  font-size: 0.82rem;
+  font-size: clamp(0.72rem, 1vh, 0.82rem);
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -378,13 +417,14 @@ body {
 }
 
 .slide-footer-meta {
-  padding-top: 1rem;
+  padding-top: clamp(0.5rem, 1vh, 0.85rem);
   border-top: 1px solid rgba(15, 23, 42, 0.08);
-  font-size: 0.78rem;
+  font-size: clamp(0.7rem, 0.95vh, 0.78rem);
   color: var(--text-muted);
   display: flex;
   justify-content: space-between;
   letter-spacing: 0.02em;
+  flex-shrink: 0;
 }
 
 /* ─── BARRA INFERIOR DE NAVEGACIÓN Y CONTROLES ─────────────────────────── */
@@ -392,35 +432,38 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.1rem 2.8rem;
+  padding: clamp(0.55rem, 1.2vh, 1.1rem) clamp(1rem, 2.5vw, 2.8rem);
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.92) 100%);
   pointer-events: auto;
   border-top: 1px solid rgba(180, 131, 36, 0.22);
   box-shadow: 0 -4px 20px rgba(15, 23, 42, 0.04);
+  flex-shrink: 0;
+  z-index: 20;
 }
 
 .nav-buttons {
   display: flex;
-  gap: 0.8rem;
+  gap: clamp(0.4rem, 0.8vw, 0.8rem);
 }
 
 .btn-nav {
   display: flex;
   align-items: center;
-  gap: 0.55rem;
+  gap: 0.5rem;
   background: #ffffff;
   border: 1px solid rgba(15, 23, 42, 0.15);
   color: var(--oxford-blue);
-  padding: 0.55rem 1.15rem;
+  padding: clamp(0.42rem, 0.9vh, 0.55rem) clamp(0.75rem, 1.2vw, 1.15rem);
   border-radius: 6px;
   font-family: var(--font-serif);
-  font-size: 0.82rem;
+  font-size: clamp(0.72rem, 1vh, 0.82rem);
   letter-spacing: 0.06em;
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
   transition: var(--transition-smooth);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  white-space: nowrap;
 }
 
 .btn-nav:hover:not(:disabled) {
@@ -446,24 +489,25 @@ body {
 
 .side-tools {
   display: flex;
-  gap: 0.8rem;
+  gap: clamp(0.4rem, 0.8vw, 0.8rem);
 }
 
 .btn-tool {
   background: #ffffff;
   border: 1px solid rgba(15, 23, 42, 0.15);
   color: var(--text-muted);
-  padding: 0.55rem 1rem;
+  padding: clamp(0.42rem, 0.9vh, 0.55rem) clamp(0.65rem, 1vw, 1rem);
   border-radius: 6px;
   font-family: var(--font-serif);
-  font-size: 0.8rem;
+  font-size: clamp(0.7rem, 0.95vh, 0.8rem);
   letter-spacing: 0.05em;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.45rem;
   transition: var(--transition-smooth);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  white-space: nowrap;
 }
 
 .btn-tool:hover {
@@ -623,14 +667,14 @@ body {
 /* ─── MODAL DE GUION DEL ORADOR (SPEAKER NOTES) ──────────────────────────── */
 .notes-modal {
   position: fixed;
-  bottom: 80px;
-  left: 3.5rem;
-  width: 520px;
-  max-height: 290px;
+  bottom: clamp(55px, 8.5vh, 80px);
+  left: clamp(1rem, 3.5vw, 3.5rem);
+  width: min(520px, calc(100vw - 2rem));
+  max-height: min(290px, 45vh);
   background: #ffffff;
   border: 1px solid var(--gold-main);
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: clamp(1rem, 2vh, 1.5rem);
   box-shadow: 0 15px 40px rgba(15, 23, 42, 0.15);
   backdrop-filter: blur(18px);
   z-index: 50;
@@ -690,9 +734,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.96);
-  width: 85vw;
+  width: min(1080px, 92vw);
   max-width: 1080px;
-  height: 85vh;
+  height: min(85vh, 800px);
+  max-height: 90vh;
   background: #ffffff;
   border: 1px solid var(--gold-main);
   border-radius: 10px;
@@ -700,7 +745,7 @@ body {
   z-index: 151;
   display: flex;
   flex-direction: column;
-  padding: 1.8rem;
+  padding: clamp(1rem, 2vh, 1.8rem);
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
@@ -763,16 +808,158 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ─── RESPONSIVE ────────────────────────────────────────────────────────── */
-@media (max-width: 900px) {
+/* ─── RESPONSIVIDAD INTEGRAL Y ADAPTACIÓN MULTIDISPOSITIVO ───────────────── */
+
+/* 1. Alturas reducidas (Laptops 1366x768, pantallas con escalado Windows 125%/150%) */
+@media (max-height: 820px) {
+  .top-bar {
+    padding: 0.55rem 1.8rem;
+  }
+  .brand-logo {
+    height: 38px;
+  }
+  .slide-card {
+    padding: 1.3rem 1.8rem;
+  }
+  .bottom-bar {
+    padding: 0.55rem 1.8rem;
+  }
+}
+
+@media (max-height: 720px) {
+  .top-bar {
+    padding: 0.42rem 1.4rem;
+  }
+  .brand-logo {
+    height: 32px;
+  }
+  .brand-info h1 {
+    font-size: 0.82rem;
+  }
+  .brand-info p {
+    display: none;
+  }
+  .stations-indicator {
+    padding: 0.3rem 0.6rem;
+    gap: 0.3rem;
+  }
+  .station-dot {
+    width: 5px;
+    height: 5px;
+  }
+  .timer-container {
+    padding: 0.22rem 0.7rem;
+    gap: 0.5rem;
+  }
+  .timer-display {
+    font-size: 0.95rem;
+    min-width: 50px;
+  }
+  .slide-card {
+    padding: 1rem 1.4rem;
+    border-radius: 8px;
+  }
+  .main-stage {
+    padding: 0.4rem 1.5rem;
+  }
+  .bottom-bar {
+    padding: 0.42rem 1.4rem;
+  }
+  .btn-nav, .btn-tool {
+    padding: 0.38rem 0.7rem;
+  }
+}
+
+@media (max-height: 620px) {
+  .top-bar {
+    padding: 0.3rem 1rem;
+  }
+  .bottom-bar {
+    padding: 0.3rem 1rem;
+  }
+  .slide-card {
+    padding: 0.8rem 1.1rem;
+  }
+  .shortcut-pill {
+    display: none;
+  }
+}
+
+/* 2. Anchos intermedios (Pantallas estrechas, tablets, split-screen) */
+@media (max-width: 1200px) {
+  .slide-card {
+    max-width: min(650px, 58vw);
+  }
+  .main-stage {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
+  .top-bar, .bottom-bar {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
+}
+
+@media (max-width: 960px) {
   .slide-card {
     max-width: 100%;
-    padding: 1.8rem;
   }
-  .slide-title {
-    font-size: 1.7rem;
+  .main-stage {
+    padding: 0.6rem 1rem;
+  }
+  .brand-info p {
+    display: none;
+  }
+  .stations-indicator {
+    max-width: 180px;
+  }
+  .bottom-bar {
+    padding: 0.6rem 1rem;
+  }
+  .side-tools {
+    gap: 0.4rem;
+  }
+  .btn-tool {
+    padding: 0.42rem 0.65rem;
+    font-size: 0.74rem;
   }
   .drawer-panel {
     width: 100vw;
+  }
+  .notes-modal {
+    left: 1rem;
+    right: 1rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .stations-indicator {
+    display: none;
+  }
+  .top-bar {
+    padding: 0.45rem 0.8rem;
+  }
+  .bottom-bar {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 0.5rem 0.8rem;
+  }
+  .nav-buttons {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .btn-nav {
+    flex: 1;
+    justify-content: center;
+  }
+  .side-tools {
+    width: 100%;
+    justify-content: center;
+  }
+  .btn-tool {
+    flex: 1;
+    justify-content: center;
   }
 }
