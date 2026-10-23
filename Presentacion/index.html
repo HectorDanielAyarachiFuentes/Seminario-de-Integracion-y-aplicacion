@@ -15,6 +15,11 @@
   <!-- Lienzo de renderizado Three.js (WebGL 3D de fondo / Segundo Plano) -->
   <canvas id="webgl-canvas"></canvas>
 
+  <!-- Píldora de ayuda de interacción 3D (arrastre, rueda y doble clic) -->
+  <div class="canvas-3d-hint" id="canvas-3d-hint" title="Interactúa libremente con la escultura 3D en todas las filminas">
+    <span>🖱️ Arrastrar: Rotar 360° • Rueda: Zoom • Doble clic: Centrar</span>
+  </div>
+
   <!-- Capa de Interfaz de Usuario (UI Glassmorphism de Alto Contraste) -->
   <div class="ui-layer">
 
@@ -73,6 +78,9 @@
       </div>
 
       <div class="side-tools">
+        <button class="btn-tool" id="btn-reset-3d" title="Restablecer Rotación y Zoom 3D (R)">
+          🔄 Centrar 3D <span class="shortcut-pill">R</span>
+        </button>
         <button class="btn-tool" id="btn-dim-3d" title="Atenuar Fondo 3D / Enfoque Texto (D)">
           👁️ Enfoque Texto <span class="shortcut-pill">D</span>
         </button>
@@ -96,15 +104,31 @@
     <div class="notes-body" id="notes-body"></div>
   </aside>
 
-  <!-- Modal Especial: Visor de Diagramas Vectoriales SVG en Alta Definición -->
+  <!-- Modal Especial: Visor de Diagramas Vectoriales SVG en Alta Definición y Zoom Interactivo -->
   <div class="svg-modal-backdrop" id="svg-modal-backdrop"></div>
   <aside class="svg-modal" id="svg-modal" aria-label="Visor de Diagramas SVG">
     <div class="svg-modal-header">
-      <h3 id="svg-modal-title">📐 Diagrama Conceptual SVG</h3>
-      <button class="btn-close" id="btn-close-svg" title="Cerrar visor">✕</button>
+      <div class="svg-modal-title-group">
+        <h3 id="svg-modal-title">📐 Diagrama Conceptual SVG</h3>
+        <span class="svg-zoom-badge" id="svg-zoom-level">100%</span>
+      </div>
+      <div class="svg-modal-toolbar">
+        <button class="btn-svg-tool" id="btn-svg-zoom-out" title="Alejar (-)">➖</button>
+        <button class="btn-svg-tool" id="btn-svg-zoom-in" title="Acercar / Agrandar (+)">➕</button>
+        <button class="btn-svg-tool" id="btn-svg-reset" title="Restablecer (100%)">↺ 100%</button>
+        <button class="btn-svg-tool" id="btn-svg-fit" title="Ajustar al Visor">↔ Ajustar</button>
+        <button class="btn-svg-tool" id="btn-svg-maximize" title="Maximizar / Restaurar (M)">⛶ Maximizar</button>
+        <a class="btn-svg-tool btn-svg-link" id="btn-svg-newtab" href="#" target="_blank" title="Abrir SVG original en nueva pestaña">↗ Original</a>
+        <button class="btn-close" id="btn-close-svg" title="Cerrar visor (Esc)">✕</button>
+      </div>
     </div>
-    <div class="svg-modal-body">
-      <img id="svg-modal-img" src="" alt="Diagrama Conceptual Vectorial">
+    <div class="svg-modal-body" id="svg-modal-body">
+      <div class="svg-viewport" id="svg-viewport">
+        <img id="svg-modal-img" src="" alt="Diagrama Conceptual Vectorial">
+      </div>
+    </div>
+    <div class="svg-modal-footer">
+      <span>💡 Rueda del mouse: Zoom libre • Clic y arrastrar: Desplazar • Doble clic: Alternar zoom • Teclas + / - / 0</span>
     </div>
   </aside>
 

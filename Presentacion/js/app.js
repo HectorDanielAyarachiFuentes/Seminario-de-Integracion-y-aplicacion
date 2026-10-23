@@ -101,14 +101,32 @@ class PresentationApp {
     this.drawerContent = document.getElementById("drawer-content");
 
     this.btnDim3d = document.getElementById("btn-dim-3d");
+    this.btnReset3d = document.getElementById("btn-reset-3d");
     this.canvas = document.getElementById("webgl-canvas");
 
-    // Modal Visor SVG
+    // Modal Visor SVG Interactivo con Zoom y Pan
     this.svgModal = document.getElementById("svg-modal");
     this.svgModalBackdrop = document.getElementById("svg-modal-backdrop");
     this.svgModalTitle = document.getElementById("svg-modal-title");
     this.svgModalImg = document.getElementById("svg-modal-img");
     this.btnCloseSvg = document.getElementById("btn-close-svg");
+    this.svgViewport = document.getElementById("svg-viewport");
+    this.svgZoomLevel = document.getElementById("svg-zoom-level");
+    this.btnSvgZoomIn = document.getElementById("btn-svg-zoom-in");
+    this.btnSvgZoomOut = document.getElementById("btn-svg-zoom-out");
+    this.btnSvgReset = document.getElementById("btn-svg-reset");
+    this.btnSvgFit = document.getElementById("btn-svg-fit");
+    this.btnSvgMaximize = document.getElementById("btn-svg-maximize");
+    this.btnSvgNewTab = document.getElementById("btn-svg-newtab");
+
+    // Estado de Zoom y Desplazamiento (Pan) del SVG
+    this.svgZoom = 1.0;
+    this.svgPanX = 0;
+    this.svgPanY = 0;
+    this.isSvgDragging = false;
+    this.svgDragStartX = 0;
+    this.svgDragStartY = 0;
+    this.isSvgMaximized = false;
   }
 
   bindEvents() {
@@ -129,17 +147,87 @@ class PresentationApp {
     this.btnCloseDrawer.addEventListener("click", () => this.toggleDrawer(false));
     this.drawerBackdrop.addEventListener("click", () => this.toggleDrawer(false));
 
-    // Modal Visor SVG
+    // Modal Visor SVG y Controles de Zoom / Desplazamiento
     if (this.btnCloseSvg) {
       this.btnCloseSvg.addEventListener("click", () => this.closeSvgModal());
     }
     if (this.svgModalBackdrop) {
       this.svgModalBackdrop.addEventListener("click", () => this.closeSvgModal());
     }
+    if (this.btnSvgZoomIn) {
+      this.btnSvgZoomIn.addEventListener("click", () => this.zoomSvg(0.25));
+    }
+    if (this.btnSvgZoomOut) {
+      this.btnSvgZoomOut.addEventListener("click", () => this.zoomSvg(-0.25));
+    }
+    if (this.btnSvgReset) {
+      this.btnSvgReset.addEventListener("click", () => this.resetSvgTransform());
+    }
+    if (this.btnSvgFit) {
+      this.btnSvgFit.addEventListener("click", () => this.fitSvgTransform());
+    }
+    if (this.btnSvgMaximize) {
+      this.btnSvgMaximize.addEventListener("click", () => this.toggleSvgMaximize());
+    }
+
+    // Interacciones gestuales y de ratón en el viewport del SVG
+    if (this.svgViewport) {
+      // Zoom progresivo mediante rueda del mouse
+      this.svgViewport.addEventListener("wheel", (e) => {
+        e.preventDefault();
+        const delta = e.deltaY < 0 ? 0.2 : -0.2;
+        this.zoomSvg(delta);
+      }, { passive: false });
+
+      // Doble clic para alternar entre tamaño normal (100%) y ampliado (200%)
+      this.svgViewport.addEventListener("dblclick", (e) => {
+        e.preventDefault();
+        if (this.svgZoom > 1.25) {
+          this.resetSvgTransform();
+        } else {
+          this.setSvgZoom(2.0);
+        }
+      });
+
+      // Arrastre libre (Pan) con clic sostenido
+      this.svgViewport.addEventListener("pointerdown", (e) => {
+        if (e.button !== 0) return; // Solo clic izquierdo
+        this.isSvgDragging = true;
+        this.svgDragStartX = e.clientX - this.svgPanX;
+        this.svgDragStartY = e.clientY - this.svgPanY;
+        this.svgViewport.classList.add("dragging");
+        this.svgViewport.setPointerCapture(e.pointerId);
+      });
+
+      this.svgViewport.addEventListener("pointermove", (e) => {
+        if (!this.isSvgDragging) return;
+        this.svgPanX = e.clientX - this.svgDragStartX;
+        this.svgPanY = e.clientY - this.svgDragStartY;
+        this.updateSvgTransform();
+      });
+
+      const finalizarArrastre = (e) => {
+        if (this.isSvgDragging) {
+          this.isSvgDragging = false;
+          this.svgViewport.classList.remove("dragging");
+          try {
+            this.svgViewport.releasePointerCapture(e.pointerId);
+          } catch (_) {}
+        }
+      };
+
+      this.svgViewport.addEventListener("pointerup", finalizarArrastre);
+      this.svgViewport.addEventListener("pointercancel", finalizarArrastre);
+    }
 
     // Modo Enfoque de Texto (Atenuar 3D)
     if (this.btnDim3d) {
       this.btnDim3d.addEventListener("click", () => this.toggle3dDim());
+    }
+
+    // Restablecer y Centrar Vista 3D
+    if (this.btnReset3d) {
+      this.btnReset3d.addEventListener("click", () => this.engine3D?.resetUserControls());
     }
 
     // Pestañas del Drawer (7 categorías)
@@ -153,6 +241,26 @@ class PresentationApp {
 
     // Atajos de Teclado Profesionales
     window.addEventListener("keydown", (e) => {
+      // Si el modal SVG está abierto, priorizar atajos de lupa y escape
+      if (this.svgModal && this.svgModal.classList.contains("open")) {
+        if (e.key === "+" || e.key === "=") {
+          this.zoomSvg(0.25);
+          return;
+        } else if (e.key === "-" || e.key === "_") {
+          this.zoomSvg(-0.25);
+          return;
+        } else if (e.key === "0") {
+          this.resetSvgTransform();
+          return;
+        } else if (e.key.toLowerCase() === "m") {
+          this.toggleSvgMaximize();
+          return;
+        } else if (e.key === "Escape") {
+          this.closeSvgModal();
+          return;
+        }
+      }
+
       if (e.key === "ArrowRight" || e.key === " " || e.key === "PageDown") {
         this.nextSlide();
       } else if (e.key === "ArrowLeft" || e.key === "PageUp") {
@@ -161,6 +269,8 @@ class PresentationApp {
         this.toggleNotes();
       } else if (e.key.toLowerCase() === "m") {
         this.toggleDrawer();
+      } else if (e.key.toLowerCase() === "r") {
+        this.engine3D?.resetUserControls();
       } else if (e.key.toLowerCase() === "v") {
         // Atajo V: Ver diagrama SVG de la filmina actual si existe
         const slide = this.data.slides[this.currentSlideIndex];
@@ -221,8 +331,8 @@ class PresentationApp {
         const svgActionBox = document.createElement("div");
         svgActionBox.className = "slide-svg-action";
         svgActionBox.innerHTML = `
-          <button class="btn-open-svg" title="Observar Diagrama Vectorial SVG (Atajo: V)">
-            <span>📐 Observar Diagrama SVG de Esta Sección</span>
+          <button class="btn-open-svg" title="Agrandar y Explorar Mapa SVG en Alta Definición (Atajo: V)">
+            <span>🔍 Agrandar y Explorar Mapa Territorial (SVG)</span>
             <span class="shortcut-pill">V</span>
           </button>
         `;
@@ -471,6 +581,81 @@ class PresentationApp {
         });
         this.drawerContent.appendChild(card);
       });
+    }
+  }
+
+  // ─── VISOR Y MODAL SVG INTERACTIVO (ZOOM, PAN Y MAXIMIZAR) ─────────────
+  openSvgModal(url, title) {
+    if (!this.svgModal) return;
+    if (this.svgModalTitle) {
+      this.svgModalTitle.textContent = title ? `📐 ${title}` : "📐 Diagrama Conceptual SVG";
+    }
+    if (this.svgModalImg) {
+      this.svgModalImg.src = url;
+    }
+    if (this.btnSvgNewTab) {
+      this.btnSvgNewTab.href = url;
+    }
+    this.resetSvgTransform();
+    this.svgModal.classList.add("open");
+    if (this.svgModalBackdrop) {
+      this.svgModalBackdrop.classList.add("open");
+    }
+  }
+
+  closeSvgModal() {
+    if (!this.svgModal) return;
+    this.svgModal.classList.remove("open", "maximized");
+    if (this.svgModalBackdrop) {
+      this.svgModalBackdrop.classList.remove("open");
+    }
+    this.isSvgMaximized = false;
+    if (this.btnSvgMaximize) {
+      this.btnSvgMaximize.textContent = "⛶ Maximizar";
+    }
+    this.resetSvgTransform();
+  }
+
+  setSvgZoom(newZoom) {
+    this.svgZoom = Math.min(Math.max(newZoom, 0.4), 6.0);
+    this.updateSvgTransform();
+  }
+
+  zoomSvg(delta) {
+    this.setSvgZoom(this.svgZoom + delta);
+  }
+
+  resetSvgTransform() {
+    this.svgZoom = 1.0;
+    this.svgPanX = 0;
+    this.svgPanY = 0;
+    this.updateSvgTransform();
+  }
+
+  fitSvgTransform() {
+    this.svgZoom = 1.0;
+    this.svgPanX = 0;
+    this.svgPanY = 0;
+    this.updateSvgTransform();
+  }
+
+  toggleSvgMaximize() {
+    this.isSvgMaximized = !this.isSvgMaximized;
+    if (this.svgModal) {
+      this.svgModal.classList.toggle("maximized", this.isSvgMaximized);
+    }
+    if (this.btnSvgMaximize) {
+      this.btnSvgMaximize.textContent = this.isSvgMaximized ? "🗗 Restaurar" : "⛶ Maximizar";
+    }
+    this.resetSvgTransform();
+  }
+
+  updateSvgTransform() {
+    if (this.svgModalImg) {
+      this.svgModalImg.style.transform = `translate(${this.svgPanX}px, ${this.svgPanY}px) scale(${this.svgZoom})`;
+    }
+    if (this.svgZoomLevel) {
+      this.svgZoomLevel.textContent = `${Math.round(this.svgZoom * 100)}%`;
     }
   }
 

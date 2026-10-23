@@ -18,13 +18,25 @@ class Presentation3D {
     this.scenes = {};
     this.animTime = 0;
 
+    // Estado interactivo de usuario (Rotación 360°, Pan y Zoom con mouse o rueda)
+    this.userRotation = { x: 0, y: 0 };
+    this.targetUserRotation = { x: 0, y: 0 };
+    this.userZoom = 0; // offset de distancia con la rueda del mouse
+    this.targetUserZoom = 0;
+    this.userPan = { x: 0, y: 0 };
+    this.targetUserPan = { x: 0, y: 0 };
+
+    this.isDragging = false;
+    this.previousPointerPos = { x: 0, y: 0 };
+    this.dragButton = 0; // 0 = rotar en 3D, 2 = pan/desplazar
+
     // Posiciones de cámara cinematográficas y sobrias orientadas hacia la derecha
     // para dejar espacio prioritario a la tarjeta de texto institucional a la izquierda
     this.cameraTargets = {
       anim_01: { pos: [2.3, 1.4, 6.8], lookAt: [1.4, 0.2, 0] },
       anim_02: { pos: [2.2, 1.6, 6.5], lookAt: [1.3, 0.1, 0] },
       anim_03: { pos: [2.4, 1.2, 6.8], lookAt: [1.4, 0.0, 0] },
-      anim_04: { pos: [2.3, 2.8, 5.8], lookAt: [1.3, -0.2, 0] },
+      anim_04: { pos: [1.8, 3.2, 5.4], lookAt: [1.5, -0.4, 0.1] },
       anim_05: { pos: [2.1, 2.2, 5.6], lookAt: [1.2, 0.0, 0] },
       anim_06: { pos: [2.0, 1.4, 6.5], lookAt: [1.2, 0.1, 0] },
       anim_07: { pos: [2.2, 1.5, 6.2], lookAt: [1.3, 0.1, 0] },
@@ -84,6 +96,9 @@ class Presentation3D {
 
     // Construcción de las 20 esculturas académicas
     this.buildAll20Scenes();
+
+    // Controles interactivos de rotación 360°, pan y zoom con mouse o rueda
+    this.setupInteractiveControls();
 
     window.addEventListener("resize", () => this.onWindowResize());
     this.clock = new THREE.Clock();
@@ -232,17 +247,17 @@ class Presentation3D {
   }
 
   /** Etiqueta 3D tipo Sprite vectorial nítida sobre cualquier perspectiva */
-  createLabelSprite(title, subtitle = "", color = "#0f2d59", isMain = false) {
+  createLabelSprite(title, subtitle = "", color = "#0f2d59", isMain = false, customScale = null) {
     const canvas = document.createElement("canvas");
-    canvas.width = 512;
-    canvas.height = 160;
+    canvas.width = 440;
+    canvas.height = 130;
     const ctx = canvas.getContext("2d");
 
-    // Fondo pill académico con borde de latón
-    const x = 16, y = 16, w = 480, h = 128, r = 24;
-    ctx.fillStyle = isMain ? "rgba(255, 255, 255, 0.96)" : "rgba(255, 255, 255, 0.92)";
-    ctx.strokeStyle = isMain ? "#b8860b" : "rgba(15, 45, 89, 0.35)";
-    ctx.lineWidth = isMain ? 5 : 3;
+    // Fondo pill académico nítido con marco fino de latón
+    const x = 10, y = 10, w = 420, h = 110, r = 20;
+    ctx.fillStyle = isMain ? "rgba(255, 255, 255, 0.98)" : "rgba(255, 255, 255, 0.94)";
+    ctx.strokeStyle = isMain ? "#b8860b" : "rgba(15, 45, 89, 0.45)";
+    ctx.lineWidth = isMain ? 4 : 2.5;
 
     ctx.beginPath();
     ctx.moveTo(x + r, y);
@@ -259,24 +274,33 @@ class Presentation3D {
     ctx.stroke();
 
     // Texto principal
-    ctx.font = isMain ? "bold 32px 'Cinzel', Georgia, serif" : "bold 28px 'Inter', sans-serif";
+    ctx.font = isMain ? "bold 26px 'Cinzel', Georgia, serif" : "bold 23px 'Inter', Arial, sans-serif";
     ctx.fillStyle = color;
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
-    ctx.fillText(title, 256, subtitle ? 58 : 80);
+    ctx.fillText(title, 220, subtitle ? 48 : 65);
 
     // Subtítulo
     if (subtitle) {
-      ctx.font = "600 20px 'Inter', sans-serif";
+      ctx.font = "600 16px 'Inter', Arial, sans-serif";
       ctx.fillStyle = isMain ? "#b8860b" : "#475569";
-      ctx.fillText(subtitle, 256, 102);
+      ctx.fillText(subtitle, 220, 82);
     }
 
     const texture = new THREE.CanvasTexture(canvas);
     texture.minFilter = THREE.LinearFilter;
-    const spriteMat = new THREE.SpriteMaterial({ map: texture, transparent: true, depthTest: false });
+    const spriteMat = new THREE.SpriteMaterial({
+      map: texture,
+      transparent: true,
+      depthTest: true,
+      depthWrite: false
+    });
     const sprite = new THREE.Sprite(spriteMat);
-    sprite.scale.set(isMain ? 1.05 : 0.82, isMain ? 0.33 : 0.26, 1);
+    if (customScale) {
+      sprite.scale.set(customScale.x, customScale.y, 1);
+    } else {
+      sprite.scale.set(isMain ? 0.72 : 0.52, isMain ? 0.22 : 0.16, 1);
+    }
     return sprite;
   }
 
@@ -484,6 +508,197 @@ class Presentation3D {
     );
     argMesh.add(argEdges);
 
+    // ── 1.B. PLATAFORMA CONTINENTAL ARGENTINA (Soberanía Submarina y Talud del Mar Argentino) ──
+    const shelfShape = new THREE.Shape();
+    shelfShape.moveTo(0.38, 0.35);  // Frente al Río de la Plata
+    shelfShape.lineTo(0.72, 0.18);  // Talud frente a Provincia de Buenos Aires
+    shelfShape.lineTo(0.68, -0.15); // Talud exterior del Mar Argentino
+    shelfShape.lineTo(0.62, -0.45); // Frente al Golfo San Matías y Península Valdés
+    shelfShape.lineTo(0.66, -0.85); // Cuenca Marina Austral
+    shelfShape.lineTo(0.70, -1.12); // Meseta submarina de Malvinas (Este)
+    shelfShape.lineTo(0.64, -1.34); // Banco Burdwood / Namuncurá (Sur)
+    shelfShape.lineTo(0.25, -1.45); // Litoral del Pasaje de Drake
+    shelfShape.lineTo(0.05, -1.52); // Tierra del Fuego
+    shelfShape.lineTo(0.08, -1.30); // Costa de Santa Cruz
+    shelfShape.lineTo(0.14, -1.05);
+    shelfShape.lineTo(0.18, -0.78); // Golfo San Jorge
+    shelfShape.lineTo(0.34, -0.52); // Península Valdés
+    shelfShape.lineTo(0.24, -0.38); // Golfo San Matías
+    shelfShape.lineTo(0.36, -0.25); // Desembocadura del Río Negro
+    shelfShape.lineTo(0.30, -0.10);
+    shelfShape.lineTo(0.50, 0.05);  // Mar del Plata
+    shelfShape.lineTo(0.60, 0.20);
+    shelfShape.closePath();
+
+    const shelfGeo = new THREE.ExtrudeGeometry(shelfShape, {
+      depth: 0.025,
+      bevelEnabled: true,
+      bevelThickness: 0.008,
+      bevelSize: 0.008,
+      bevelSegments: 2
+    });
+    const shelfMat = new THREE.MeshStandardMaterial({
+      color: 0x0284c7,
+      roughness: 0.32,
+      metalness: 0.15,
+      transparent: true,
+      opacity: 0.35
+    });
+    const shelfMesh = new THREE.Mesh(shelfGeo, shelfMat);
+    shelfMesh.rotation.x = -Math.PI / 2;
+    shelfMesh.position.set(0, -1.096, 0);
+    g.add(shelfMesh);
+
+    // Límite exterior de la Plataforma Continental (Borde celeste náutico de soberanía marítima)
+    const shelfEdges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(shelfGeo, 24),
+      new THREE.LineBasicMaterial({ color: 0x38bdf8, transparent: true, opacity: 0.65 })
+    );
+    shelfMesh.add(shelfEdges);
+
+    // ── 1.C. ISLAS MALVINAS (Soberanía Argentina • Isla Gran Malvina e Isla Soledad) ──
+    // 1. Isla Gran Malvina (Oeste)
+    const gmShape = new THREE.Shape();
+    gmShape.moveTo(0.39, -1.15);
+    gmShape.lineTo(0.43, -1.13);
+    gmShape.lineTo(0.46, -1.16);
+    gmShape.lineTo(0.47, -1.21);
+    gmShape.lineTo(0.44, -1.26);
+    gmShape.lineTo(0.40, -1.25);
+    gmShape.lineTo(0.38, -1.20);
+    gmShape.closePath();
+
+    // 2. Isla Soledad (Este, con Istmo de Darwin y Lafonia)
+    const isShape = new THREE.Shape();
+    isShape.moveTo(0.49, -1.13);
+    isShape.lineTo(0.56, -1.12);
+    isShape.lineTo(0.59, -1.16); // Puerto Argentino
+    isShape.lineTo(0.54, -1.20); // Istmo de Darwin
+    isShape.lineTo(0.57, -1.25); // Lafonia
+    isShape.lineTo(0.53, -1.28);
+    isShape.lineTo(0.49, -1.24);
+    isShape.lineTo(0.51, -1.18);
+    isShape.closePath();
+
+    // 3. Isla de los Estados (al este de Tierra del Fuego)
+    const ieShape = new THREE.Shape();
+    ieShape.moveTo(0.12, -1.53);
+    ieShape.lineTo(0.19, -1.51);
+    ieShape.lineTo(0.22, -1.54);
+    ieShape.lineTo(0.14, -1.56);
+    ieShape.closePath();
+
+    const malvinasExtrudeOpts = {
+      depth: 0.075,
+      bevelEnabled: true,
+      bevelThickness: 0.016,
+      bevelSize: 0.014,
+      bevelSegments: 3
+    };
+
+    const gmGeo = new THREE.ExtrudeGeometry(gmShape, malvinasExtrudeOpts);
+    const isGeo = new THREE.ExtrudeGeometry(isShape, malvinasExtrudeOpts);
+    const ieGeo = new THREE.ExtrudeGeometry(ieShape, { depth: 0.06, bevelEnabled: true, bevelThickness: 0.01, bevelSize: 0.01 });
+
+    const gmMesh = new THREE.Mesh(gmGeo, this.marbleMat(0xfdfbf7));
+    const isMesh = new THREE.Mesh(isGeo, this.marbleMat(0xfdfbf7));
+    const ieMesh = new THREE.Mesh(ieGeo, this.marbleMat(0xfdfbf7));
+
+    gmMesh.rotation.x = -Math.PI / 2;
+    gmMesh.position.set(0, -1.08, 0);
+    isMesh.rotation.x = -Math.PI / 2;
+    isMesh.position.set(0, -1.08, 0);
+    ieMesh.rotation.x = -Math.PI / 2;
+    ieMesh.position.set(0, -1.08, 0);
+
+    // Contorno de latón bruñido de soberanía nacional
+    const gmEdges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(gmGeo, 20),
+      new THREE.LineBasicMaterial({ color: 0xd4af37, linewidth: 2 })
+    );
+    gmMesh.add(gmEdges);
+
+    const isEdges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(isGeo, 20),
+      new THREE.LineBasicMaterial({ color: 0xd4af37, linewidth: 2 })
+    );
+    isMesh.add(isEdges);
+
+    g.add(gmMesh);
+    g.add(isMesh);
+    g.add(ieMesh);
+
+    // Faro / Baliza de Soberanía en Puerto Argentino (Isla Soledad)
+    const paBeacon = new THREE.Group();
+    const paPin = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.007, 0.010, 0.05, 12),
+      this.brassMat(0xd4af37)
+    );
+    paPin.position.set(0.575, -0.98, 1.15);
+    paBeacon.add(paPin);
+
+    const paGem = new THREE.Mesh(
+      new THREE.SphereGeometry(0.018, 16, 16),
+      this.glassMat(0x38bdf8, { roughness: 0.1, transmission: 0.9 })
+    );
+    paGem.position.set(0.575, -0.945, 1.15);
+    paBeacon.add(paGem);
+
+    const paHalo = new THREE.Mesh(
+      new THREE.TorusGeometry(0.024, 0.0025, 8, 16),
+      this.brassMat()
+    );
+    paHalo.rotation.x = Math.PI / 2;
+    paHalo.position.set(0.575, -0.945, 1.15);
+    paBeacon.add(paHalo);
+
+    const paLight = new THREE.PointLight(0x38bdf8, 0.8, 0.9);
+    paLight.position.set(0.575, -0.94, 1.15);
+    paBeacon.add(paLight);
+    g.add(paBeacon);
+
+    // Etiqueta Cartográfica de las Islas Malvinas
+    const malvinasLabel = this.createLabelSprite(
+      "ISLAS MALVINAS",
+      "Soberanía Argentina • Atlántico Sur",
+      "#0f2d59",
+      true,
+      { x: 0.65, y: 0.18 }
+    );
+    malvinasLabel.position.set(0.68, -0.72, 1.22);
+    g.add(malvinasLabel);
+
+    // Hilo conductor de latón hacia Puerto Argentino
+    const malvinasLeaderGeo = new THREE.BufferGeometry().setFromPoints([
+      new THREE.Vector3(0.575, -0.94, 1.15),
+      new THREE.Vector3(0.68, -0.78, 1.22)
+    ]);
+    const malvinasLeaderLine = new THREE.Line(
+      malvinasLeaderGeo,
+      new THREE.LineBasicMaterial({ color: 0xb8860b, transparent: true, opacity: 0.65 })
+    );
+    g.add(malvinasLeaderLine);
+
+    // ── 1.D. MAR ARGENTINO Y OCÉANO ATLÁNTICO SUR (Rótulo Náutico y Ondas de Relieve) ──
+    const marArgLabel = this.createLabelSprite(
+      "MAR ARGENTINO",
+      "Océano Atlántico Sur • Plataforma Continental",
+      "#0284c7",
+      false,
+      { x: 0.70, y: 0.17 }
+    );
+    marArgLabel.position.set(0.72, -0.90, 0.68);
+    g.add(marArgLabel);
+
+    // Aro exterior náutico de latón pulido sobre la placa oceánica
+    const oceanRim = new THREE.Mesh(
+      new THREE.TorusGeometry(1.90, 0.012, 16, 64),
+      this.brassMat(0xd4af37)
+    );
+    oceanRim.rotation.x = Math.PI / 2;
+    oceanRim.position.y = -1.09;
+    g.add(oceanRim);
+
     // ── 2. PROVINCIA DE RÍO NEGRO (Protagonista en Alto Relieve de Latón Dorado) ──
     const rnShape = new THREE.Shape();
     rnShape.moveTo(-0.26, -0.12);  // Noroeste: Catriel / Río Colorado
@@ -542,15 +757,16 @@ class Presentation3D {
     const routeMesh = new THREE.Mesh(routeGeo, this.brassMat(0xb8860b));
     g.add(routeMesh);
 
-    // ── 3. LAS SEDES Y NODOS DEL CURZAS (Georreferenciadas con Balizas) ──────
+    // ── 3. LAS SEDES Y NODOS DEL CURZAS (Georreferenciadas con Balizas Geodésicas) ──
     const sedesData = [
       {
         nombre: "VIEDMA",
         tipo: "★ SEDE CENTRAL",
-        subtitulo: "CURZAS-UNCo • Cogobierno",
+        subtitulo: "CURZAS-UNCo • Rectorado",
         x: 0.36, z: 0.25,
         isCabecera: true,
-        colorGem: 0xffd700
+        colorGem: 0xffd700,
+        labelPos: { x: 0.44, y: -0.36, z: 0.14 } // Al Este sobre el Océano Atlántico
       },
       {
         nombre: "Nodo Valcheta",
@@ -558,7 +774,8 @@ class Presentation3D {
         subtitulo: "Aula Híbrida",
         x: 0.14, z: 0.31,
         isCabecera: false,
-        colorGem: 0x0284c7
+        colorGem: 0x0284c7,
+        labelPos: { x: 0.14, y: -0.46, z: 0.15 } // Al Norte de la Ruta Nacional 23
       },
       {
         nombre: "Nodo Ramos Mexía",
@@ -566,7 +783,8 @@ class Presentation3D {
         subtitulo: "Sincronía Digital",
         x: 0.00, z: 0.32,
         isCabecera: false,
-        colorGem: 0x38bdf8
+        colorGem: 0x38bdf8,
+        labelPos: { x: -0.02, y: -0.62, z: 0.48 } // Al Sur de la Ruta Nacional 23
       },
       {
         nombre: "Nodo Los Menucos",
@@ -574,7 +792,8 @@ class Presentation3D {
         subtitulo: "Entornos Moodle",
         x: -0.14, z: 0.33,
         isCabecera: false,
-        colorGem: 0x10b981
+        colorGem: 0x10b981,
+        labelPos: { x: -0.28, y: -0.44, z: 0.20 } // Al Oeste hacia Bariloche
       },
       {
         nombre: "Nodo Sierra Grande",
@@ -582,11 +801,12 @@ class Presentation3D {
         subtitulo: "Tutorías Remotas",
         x: 0.23, z: 0.41,
         isCabecera: false,
-        colorGem: 0xf59e0b
+        colorGem: 0xf59e0b,
+        labelPos: { x: 0.35, y: -0.58, z: 0.52 } // Al Sudeste sobre el Golfo San Matías
       }
     ];
 
-    const viedmaPos = new THREE.Vector3(0.36, -0.86, 0.25);
+    const viedmaBeaconPos = new THREE.Vector3(0.36, -0.58, 0.25);
     this.nodeCurves04 = [];
     this.nodePulses04 = [];
 
@@ -594,110 +814,133 @@ class Presentation3D {
       const pinGroup = new THREE.Group();
 
       if (sede.isCabecera) {
-        // ── Sede Central Viedma (Polo Académico Monumental) ──
-        const base = new THREE.Mesh(
-          new THREE.CylinderGeometry(0.09, 0.12, 0.06, 24),
+        // ── Sede Central Viedma (Monumento Clásico de Latón y Mármol) ──
+        const step1 = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.07, 0.09, 0.022, 24),
           this.brassMat()
         );
-        base.position.y = -0.85;
-        pinGroup.add(base);
+        step1.position.y = -0.865;
+        pinGroup.add(step1);
 
-        const col = new THREE.Mesh(
-          new THREE.CylinderGeometry(0.05, 0.065, 0.55, 24),
+        const step2 = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.05, 0.055, 0.016, 24),
           this.marbleMat()
         );
-        col.position.y = -0.55;
-        pinGroup.add(col);
+        step2.position.y = -0.846;
+        pinGroup.add(step2);
 
-        const cap = new THREE.Mesh(
-          new THREE.BoxGeometry(0.12, 0.04, 0.12),
+        // Estela esbelta arquitectónica
+        const stela = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.022, 0.026, 0.24, 20),
+          this.marbleMat(0xfdfbf7)
+        );
+        stela.position.y = -0.72;
+        pinGroup.add(stela);
+
+        // Aros de collar de latón
+        const collar = new THREE.Mesh(
+          new THREE.TorusGeometry(0.029, 0.0035, 12, 24),
           this.brassMat()
         );
-        cap.position.y = -0.26;
-        pinGroup.add(cap);
+        collar.rotation.x = Math.PI / 2;
+        collar.position.y = -0.61;
+        pinGroup.add(collar);
 
+        // Orbe y Esfera Armilar Giratoria de Viedma
         const orb = new THREE.Mesh(
-          new THREE.SphereGeometry(0.09, 32, 32),
+          new THREE.SphereGeometry(0.042, 24, 24),
           this.brassMat(0xffd700)
         );
-        orb.position.y = -0.15;
+        orb.position.y = -0.58;
         pinGroup.add(orb);
 
         const armRing = new THREE.Group();
         const r1 = new THREE.Mesh(
-          new THREE.TorusGeometry(0.15, 0.012, 16, 48),
+          new THREE.TorusGeometry(0.075, 0.005, 16, 36),
           this.brassMat()
         );
         const r2 = new THREE.Mesh(
-          new THREE.TorusGeometry(0.15, 0.012, 16, 48),
+          new THREE.TorusGeometry(0.075, 0.005, 16, 36),
           this.brassMat()
         );
         r2.rotation.x = Math.PI / 2;
         armRing.add(r1);
         armRing.add(r2);
-        armRing.position.y = -0.15;
+        armRing.position.y = -0.58;
         pinGroup.add(armRing);
         this.viedmaRing04 = armRing;
 
-        const beaconLight = new THREE.PointLight(0xffd700, 1.4, 2.8);
-        beaconLight.position.y = -0.12;
+        const beaconLight = new THREE.PointLight(0xffd700, 1.4, 2.2);
+        beaconLight.position.y = -0.56;
         pinGroup.add(beaconLight);
 
-        const label = this.createLabelSprite("★ VIEDMA", "Sede Central CURZAS", "#996515", true);
-        label.position.set(0, 0.14, 0);
-        pinGroup.add(label);
-
       } else {
-        // ── Nodos Territoriales (Balizas Geodésicas de Mármol y Gemas) ──
+        // ── Nodos Territoriales (Monolitos Geodésicos de Precisión - Sin aspecto de velas) ──
         const base = new THREE.Mesh(
-          new THREE.CylinderGeometry(0.05, 0.07, 0.04, 16),
-          this.brassMat()
+          new THREE.CylinderGeometry(0.038, 0.046, 0.016, 20),
+          this.brassMat(0xd4af37)
         );
-        base.position.y = -0.85;
+        base.position.y = -0.87;
         pinGroup.add(base);
 
-        const col = new THREE.Mesh(
-          new THREE.CylinderGeometry(0.03, 0.04, 0.28, 16),
-          this.marbleMat()
-        );
-        col.position.y = -0.70;
-        pinGroup.add(col);
-
-        const gem = new THREE.Mesh(
-          new THREE.SphereGeometry(0.055, 24, 24),
-          this.glassMat(sede.colorGem, { roughness: 0.1, transmission: 0.7 })
-        );
-        gem.position.y = -0.53;
-        pinGroup.add(gem);
-
-        const cap = new THREE.Mesh(
-          new THREE.ConeGeometry(0.035, 0.08, 16),
+        // Aguja vertical de latón
+        const mast = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.006, 0.006, 0.14, 12),
           this.brassMat()
         );
-        cap.position.y = -0.45;
-        pinGroup.add(cap);
+        mast.position.y = -0.79;
+        pinGroup.add(mast);
 
-        const label = this.createLabelSprite(sede.nombre, sede.tipo, "#0f2d59", false);
-        label.position.set(0, -0.22, 0);
-        pinGroup.add(label);
+        // Gema óptica cristalina iluminada
+        const gem = new THREE.Mesh(
+          new THREE.SphereGeometry(0.026, 20, 20),
+          this.glassMat(sede.colorGem, { roughness: 0.08, transmission: 0.85 })
+        );
+        gem.position.y = -0.71;
+        pinGroup.add(gem);
 
-        // ── 4. ARCOS DE TRANSMISIÓN DE DOCENCIA HÍBRIDA (Res. 196/2022) ──
-        const nodeTarget = new THREE.Vector3(sede.x, -0.53, sede.z);
-        const midPoint = new THREE.Vector3().addVectors(viedmaPos, nodeTarget).multiplyScalar(0.5);
-        midPoint.y = -0.18;
+        // Halo horizontal de latón
+        const ring = new THREE.Mesh(
+          new THREE.TorusGeometry(0.036, 0.0035, 12, 24),
+          this.brassMat()
+        );
+        ring.rotation.x = Math.PI / 2;
+        ring.position.y = -0.71;
+        pinGroup.add(ring);
+
+        const nodeLight = new THREE.PointLight(sede.colorGem, 0.7, 1.2);
+        nodeLight.position.y = -0.70;
+        pinGroup.add(nodeLight);
+
+        // ── 4. ARCOS PARABÓLICOS DE TRANSMISIÓN DE DOCENCIA HÍBRIDA (Res. 196/2022) ──
+        const nodeTarget = new THREE.Vector3(sede.x, -0.71, sede.z);
+        const dist = viedmaBeaconPos.distanceTo(nodeTarget);
+        const midPoint = new THREE.Vector3().addVectors(viedmaBeaconPos, nodeTarget).multiplyScalar(0.5);
+        // Altura parabólica estratificada y armoniosa proporcional a la distancia
+        midPoint.y = -0.58 + dist * 0.72;
 
         const arcCurve = new THREE.QuadraticBezierCurve3(
-          new THREE.Vector3(viedmaPos.x, -0.15, viedmaPos.z),
+          viedmaBeaconPos,
           midPoint,
           nodeTarget
         );
-        const arcGeo = new THREE.TubeGeometry(arcCurve, 32, 0.009, 8, false);
-        const arcMesh = new THREE.Mesh(arcGeo, this.brassMat(0xb8860b));
+        const arcGeo = new THREE.TubeGeometry(arcCurve, 36, 0.0042, 8, false);
+        const arcMesh = new THREE.Mesh(
+          arcGeo,
+          new THREE.MeshStandardMaterial({
+            color: 0xe6b800,
+            roughness: 0.15,
+            metalness: 0.85,
+            emissive: 0x996515,
+            emissiveIntensity: 0.25
+          })
+        );
         g.add(arcMesh);
 
+        // Pulso fotónico de datos / clase sincrónica
         const pulse = new THREE.Mesh(
-          new THREE.SphereGeometry(0.024, 16, 16),
-          new THREE.MeshBasicMaterial({ color: 0xfff0c2 })
+          new THREE.SphereGeometry(0.014, 16, 16),
+          new THREE.MeshBasicMaterial({ color: 0xfffad0 })
         );
         pulse.position.copy(nodeTarget);
         g.add(pulse);
@@ -708,20 +951,41 @@ class Presentation3D {
 
       pinGroup.position.set(sede.x, 0, sede.z);
       g.add(pinGroup);
+
+      // ── ETIQUETA ESCALONADA CON HILO GUÍA DE LATÓN (CERO SUPERPOSICIONES) ──
+      const label = this.createLabelSprite(
+        sede.nombre,
+        sede.tipo,
+        sede.isCabecera ? "#996515" : "#0f2d59",
+        sede.isCabecera,
+        sede.isCabecera ? { x: 0.65, y: 0.20 } : { x: 0.48, y: 0.15 }
+      );
+      label.position.set(sede.labelPos.x, sede.labelPos.y, sede.labelPos.z);
+      g.add(label);
+
+      // Trazador geodésico de latón (línea sutil que une la etiqueta flotante con la base del nodo)
+      const pinTop = new THREE.Vector3(sede.x, sede.isCabecera ? -0.54 : -0.68, sede.z);
+      const labelAnchor = new THREE.Vector3(sede.labelPos.x, sede.labelPos.y - 0.06, sede.labelPos.z);
+      const leaderGeo = new THREE.BufferGeometry().setFromPoints([pinTop, labelAnchor]);
+      const leaderLine = new THREE.Line(
+        leaderGeo,
+        new THREE.LineBasicMaterial({ color: 0xb8860b, transparent: true, opacity: 0.55 })
+      );
+      g.add(leaderLine);
     });
 
-    // ── 5. ROSA DE LOS VIENTOS Y CARTELA CARTOGRÁFICA EN EL ATLÁNTICO ──
+    // ── 5. ROSA DE LOS VIENTOS Y CARTELA CARTOGRÁFICA EN EL BORDE OCEÁNICO ──
     const compassGroup = new THREE.Group();
-    compassGroup.position.set(0.72, -1.07, 0.42);
+    compassGroup.position.set(0.78, -1.07, 0.28);
 
     const compRing = new THREE.Mesh(
-      new THREE.RingGeometry(0.18, 0.21, 32),
+      new THREE.RingGeometry(0.16, 0.19, 32),
       this.brassMat()
     );
     compRing.rotation.x = -Math.PI / 2;
     compassGroup.add(compRing);
 
-    const starGeom = new THREE.ConeGeometry(0.06, 0.26, 4);
+    const starGeom = new THREE.ConeGeometry(0.05, 0.22, 4);
     const needleN = new THREE.Mesh(starGeom, this.brassMat(0xd4af37));
     needleN.rotation.x = Math.PI / 2;
     compassGroup.add(needleN);
@@ -733,15 +997,15 @@ class Presentation3D {
 
     g.add(compassGroup);
 
-    // Cartela institucional en el Mar Argentino
+    // Cartela institucional integrada en el pedestal granítico (zócalo sur bajo Tierra del Fuego)
     const cartela = this.createLabelSprite(
       "RED DE NODOS CURZAS",
       "Res. CD-CURZA N° 196/2022 • Docencia Híbrida",
       "#0f2d59",
-      false
+      false,
+      { x: 0.62, y: 0.18 }
     );
-    cartela.position.set(0.72, -0.78, 0.82);
-    cartela.scale.set(0.95, 0.30, 1);
+    cartela.position.set(0.10, -1.02, 1.68);
     g.add(cartela);
   }
 
@@ -1302,6 +1566,80 @@ class Presentation3D {
   }
 
   /* ═══════════════════════════════════════════════════════════════════════════
+     SISTEMA DE INTERACCIÓN 3D: ROTACIÓN 360°, PAN Y ZOOM CON MOUSE / RUEDA
+     ═══════════════════════════════════════════════════════════════════════════ */
+  setupInteractiveControls() {
+    this.canvas.style.cursor = "grab";
+
+    // 1. Zoom Progresivo con la Rueda del Mouse sobre el lienzo 3D
+    this.canvas.addEventListener("wheel", (e) => {
+      e.preventDefault();
+      // Scroll hacia abajo aleja la cámara, scroll hacia arriba acerca la cámara al objeto
+      const zoomSpeed = 0.0035;
+      this.targetUserZoom = Math.max(-4.2, Math.min(6.5, this.targetUserZoom + e.deltaY * zoomSpeed));
+    }, { passive: false });
+
+    // 2. Clic y Arrastre con Mouse o Toque (Rotación libre 360° y Desplazamiento Pan)
+    this.canvas.addEventListener("pointerdown", (e) => {
+      this.isDragging = true;
+      this.dragButton = e.button;
+      this.previousPointerPos = { x: e.clientX, y: e.clientY };
+      this.canvas.style.cursor = "grabbing";
+      try {
+        this.canvas.setPointerCapture(e.pointerId);
+      } catch (_) {}
+    });
+
+    window.addEventListener("pointermove", (e) => {
+      if (!this.isDragging) return;
+
+      const deltaX = e.clientX - this.previousPointerPos.x;
+      const deltaY = e.clientY - this.previousPointerPos.y;
+      this.previousPointerPos = { x: e.clientX, y: e.clientY };
+
+      if (this.dragButton === 0 && !e.shiftKey) {
+        // Clic izquierdo: Rotación orbital del objeto 3D en 360°
+        this.targetUserRotation.y += deltaX * 0.009;
+        // Inclinación vertical (pitch) suave
+        this.targetUserRotation.x = Math.max(-0.85, Math.min(0.85, this.targetUserRotation.x + deltaY * 0.007));
+      } else {
+        // Clic secundario (derecho) o Shift + Clic: Desplazamiento (Pan)
+        this.targetUserPan.x += deltaX * 0.0045;
+        this.targetUserPan.y -= deltaY * 0.0045;
+      }
+    });
+
+    const stopDragging = (e) => {
+      if (this.isDragging) {
+        this.isDragging = false;
+        this.canvas.style.cursor = "grab";
+        try {
+          this.canvas.releasePointerCapture(e.pointerId);
+        } catch (_) {}
+      }
+    };
+
+    window.addEventListener("pointerup", stopDragging);
+    window.addEventListener("pointercancel", stopDragging);
+
+    // 3. Doble clic en el fondo: recentrar suavemente al ángulo inicial de la filmina
+    this.canvas.addEventListener("dblclick", () => {
+      this.resetUserControls();
+    });
+
+    // Desactivar menú contextual para permitir pan libre con clic secundario
+    this.canvas.addEventListener("contextmenu", (e) => e.preventDefault());
+  }
+
+  resetUserControls() {
+    this.targetUserRotation.x = 0;
+    this.targetUserRotation.y = 0;
+    this.targetUserZoom = 0;
+    this.targetUserPan.x = 0;
+    this.targetUserPan.y = 0;
+  }
+
+  /* ═══════════════════════════════════════════════════════════════════════════
      TRANSICIÓN CINEMATOGRÁFICA Y CONTROL DE CÁMARA
      ═══════════════════════════════════════════════════════════════════════════ */
   switchScene(newSceneId) {
@@ -1310,10 +1648,19 @@ class Presentation3D {
     const oldG = this.scenes[this.currentSceneId];
     const newG = this.scenes[newSceneId];
 
-    if (oldG) oldG.visible = false;
-    if (newG) newG.visible = true;
+    if (oldG) {
+      oldG.visible = false;
+      oldG.rotation.set(0, 0, 0);
+      oldG.position.set(1.6, 0, 0);
+    }
+    if (newG) {
+      newG.visible = true;
+      newG.rotation.set(0, 0, 0);
+      newG.position.set(1.6, 0, 0);
+    }
 
     this.currentSceneId = newSceneId;
+    this.resetUserControls();
 
     const target = this.cameraTargets[newSceneId];
     if (target) {
@@ -1336,18 +1683,49 @@ class Presentation3D {
 
     const t = this.clock.getElapsedTime();
 
-    // Interpolación suave y cinematográfica de la cámara
-    this.currentCamPos.lerp(this.targetCamPos, 0.035);
-    this.currentLookAt.lerp(this.targetLookAt, 0.035);
+    // 1. Amortiguación e interpolación suave (Lerp) de las órdenes del usuario
+    this.userRotation.x += (this.targetUserRotation.x - this.userRotation.x) * 0.08;
+    this.userRotation.y += (this.targetUserRotation.y - this.userRotation.y) * 0.08;
+    this.userZoom += (this.targetUserZoom - this.userZoom) * 0.08;
+    this.userPan.x += (this.targetUserPan.x - this.userPan.x) * 0.08;
+    this.userPan.y += (this.targetUserPan.y - this.userPan.y) * 0.08;
+
+    // 2. Zoom Progresivo con Rueda: Dolly de la cámara respecto al objeto
+    const camDir = new THREE.Vector3().subVectors(this.targetCamPos, this.targetLookAt).normalize();
+    const baseDist = this.targetCamPos.distanceTo(this.targetLookAt);
+    const effectiveDist = Math.max(2.2, Math.min(12.5, baseDist + this.userZoom));
+
+    const desiredCamPos = new THREE.Vector3()
+      .copy(this.targetLookAt)
+      .addScaledVector(camDir, effectiveDist);
+
+    desiredCamPos.x += this.userPan.x;
+    desiredCamPos.y += this.userPan.y;
+
+    const desiredLookAt = new THREE.Vector3()
+      .copy(this.targetLookAt)
+      .add(new THREE.Vector3(this.userPan.x, this.userPan.y, 0));
+
+    this.currentCamPos.lerp(desiredCamPos, 0.045);
+    this.currentLookAt.lerp(desiredLookAt, 0.045);
     this.camera.position.copy(this.currentCamPos);
     this.camera.lookAt(this.currentLookAt);
 
-    // Motes dorados de polvo en lenta deriva atmosférica
+    // 3. Motes dorados de polvo en lenta deriva atmosférica
     if (this.dustParticles) {
       this.dustParticles.rotation.y = t * 0.006;
     }
 
-    // Micro-rotación lenta y solemne de cada escultura según la escena activa
+    // 4. Aplicar rotación orbital y desplazamiento interactivo a la escultura 3D activa
+    const activeGroup = this.scenes[this.currentSceneId];
+    if (activeGroup) {
+      activeGroup.position.x = 1.6 + this.userPan.x;
+      activeGroup.position.y = this.userPan.y;
+      activeGroup.rotation.y = this.userRotation.y;
+      activeGroup.rotation.x = this.userRotation.x;
+    }
+
+    // 5. Micro-rotación lenta y solemne de cada escultura según la escena activa
     const id = this.currentSceneId;
 
     if (id === "anim_01") {
@@ -1390,12 +1768,16 @@ class Presentation3D {
       }
       const g4 = this.scenes["anim_04"];
       if (g4) {
-        g4.rotation.y = Math.sin(t * 0.12) * 0.04;
+        g4.rotation.y = this.userRotation.y + Math.sin(t * 0.12) * 0.04;
+        g4.rotation.x = this.userRotation.x;
       }
     }
     else if (id === "anim_05") {
       const g5 = this.scenes["anim_05"];
-      if (g5) g5.rotation.y = Math.sin(t * 0.2) * 0.08;
+      if (g5) {
+        g5.rotation.y = this.userRotation.y + Math.sin(t * 0.2) * 0.08;
+        g5.rotation.x = this.userRotation.x;
+      }
     }
     else if (id === "anim_06") {
       if (this.spheres06) {
@@ -1433,7 +1815,10 @@ class Presentation3D {
     }
     else if (id === "anim_12") {
       const g12 = this.scenes["anim_12"];
-      if (g12) g12.rotation.y = Math.sin(t * 0.3) * 0.06;
+      if (g12) {
+        g12.rotation.y = this.userRotation.y + Math.sin(t * 0.3) * 0.06;
+        g12.rotation.x = this.userRotation.x;
+      }
     }
     else if (id === "anim_13") {
       if (this.gyroRing13) this.gyroRing13.rotation.z = t * 0.12;
@@ -1450,7 +1835,10 @@ class Presentation3D {
     }
     else if (id === "anim_15") {
       const g15 = this.scenes["anim_15"];
-      if (g15) g15.rotation.y = t * 0.06;
+      if (g15) {
+        g15.rotation.y = this.userRotation.y + t * 0.06;
+        g15.rotation.x = this.userRotation.x;
+      }
     }
     else if (id === "anim_16") {
       if (this.tensegrity16) this.tensegrity16.rotation.y = t * 0.08;
