@@ -231,6 +231,55 @@ class Presentation3D {
     return mesh;
   }
 
+  /** Etiqueta 3D tipo Sprite vectorial nítida sobre cualquier perspectiva */
+  createLabelSprite(title, subtitle = "", color = "#0f2d59", isMain = false) {
+    const canvas = document.createElement("canvas");
+    canvas.width = 512;
+    canvas.height = 160;
+    const ctx = canvas.getContext("2d");
+
+    // Fondo pill académico con borde de latón
+    const x = 16, y = 16, w = 480, h = 128, r = 24;
+    ctx.fillStyle = isMain ? "rgba(255, 255, 255, 0.96)" : "rgba(255, 255, 255, 0.92)";
+    ctx.strokeStyle = isMain ? "#b8860b" : "rgba(15, 45, 89, 0.35)";
+    ctx.lineWidth = isMain ? 5 : 3;
+
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.lineTo(x + w - r, y);
+    ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+    ctx.lineTo(x + w, y + h - r);
+    ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+    ctx.lineTo(x + r, y + h);
+    ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+    ctx.lineTo(x, y + r);
+    ctx.quadraticCurveTo(x, y, x + r, y);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+
+    // Texto principal
+    ctx.font = isMain ? "bold 32px 'Cinzel', Georgia, serif" : "bold 28px 'Inter', sans-serif";
+    ctx.fillStyle = color;
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText(title, 256, subtitle ? 58 : 80);
+
+    // Subtítulo
+    if (subtitle) {
+      ctx.font = "600 20px 'Inter', sans-serif";
+      ctx.fillStyle = isMain ? "#b8860b" : "#475569";
+      ctx.fillText(subtitle, 256, 102);
+    }
+
+    const texture = new THREE.CanvasTexture(canvas);
+    texture.minFilter = THREE.LinearFilter;
+    const spriteMat = new THREE.SpriteMaterial({ map: texture, transparent: true, depthTest: false });
+    const sprite = new THREE.Sprite(spriteMat);
+    sprite.scale.set(isMain ? 1.05 : 0.82, isMain ? 0.33 : 0.26, 1);
+    return sprite;
+  }
+
   /* ═══════════════════════════════════════════════════════════════════════════
      CONSTRUCCIÓN DE LAS 20 ESCULTURAS ACADÉMICAS
      ═══════════════════════════════════════════════════════════════════════════ */
@@ -369,55 +418,331 @@ class Presentation3D {
   }
 
   // ──────────────────────────────────────────────────────────────────────────
-  // 4. TERRITORIO: Maqueta Geodésica de Río Negro con Hitos Escultóricos
-  //    Placa de bronce topográfica con 5 obeliscos geodésicos en mármol y oro
+  // 4. TERRITORIO: Maqueta Geodésica de la República Argentina y Río Negro
+  //    Relieve escultórico nacional en mármol con Río Negro en alto relieve
+  //    de latón dorado, las 5 sedes georreferenciadas y arcos de docencia híbrida
   // ──────────────────────────────────────────────────────────────────────────
   buildScene_anim_04(g) {
-    this.createMuseumPlinth(g, 1.6);
+    this.createMuseumPlinth(g, 1.95, 0.16);
 
-    // Placa territorial base en bronce oscuro
-    const plate = new THREE.Mesh(
-      new THREE.BoxGeometry(3.0, 0.1, 2.2),
-      this.bronzeMat(0x423325)
+    // Placa oceánica base (Mar Argentino / Cuenca Atlántica)
+    const oceanBase = new THREE.Mesh(
+      new THREE.CylinderGeometry(1.88, 1.92, 0.04, 64),
+      this.graniteMat(0x1e293b)
     );
-    plate.position.y = -0.9;
-    g.add(plate);
+    oceanBase.position.y = -1.10;
+    g.add(oceanBase);
 
-    // 5 Obeliscos de hitos territoriales
-    this.obelisks04 = [];
-    const positions = [
-      [1.1, 0.5],    // Viedma (Sede Cabecera)
-      [0.4, 0.2],    // Valcheta
-      [0.8, -0.4],   // Sierra Grande
-      [-0.4, 0.3],   // Los Menucos
-      [-0.1, -0.2]   // Ramos Mexía
+    // ── 1. SILUETA GEOGRÁFICA DE LA REPÚBLICA ARGENTINA (Base Escultórica) ──
+    const argShape = new THREE.Shape();
+    // Punto de partida: La Quiaca / Jujuy (Norte extremo)
+    argShape.moveTo(-0.25, 1.35);
+    argShape.lineTo(0.12, 1.15);   // Formosa / Chaco
+    argShape.lineTo(0.58, 1.05);   // Misiones (Cataratas del Iguazú)
+    argShape.lineTo(0.42, 0.75);   // Corrientes
+    argShape.lineTo(0.36, 0.50);   // Entre Ríos
+    argShape.lineTo(0.38, 0.35);   // Buenos Aires (Río de la Plata)
+    argShape.lineTo(0.60, 0.20);   // Cabo San Antonio
+    argShape.lineTo(0.50, 0.05);   // Mar del Plata
+    argShape.lineTo(0.30, -0.10);  // Bahía Blanca
+    argShape.lineTo(0.36, -0.25);  // Viedma (Desembocadura Río Negro)
+    argShape.lineTo(0.24, -0.38);  // Golfo San Matías (Sierra Grande)
+    argShape.lineTo(0.34, -0.52);  // Península Valdés (Chubut)
+    argShape.lineTo(0.18, -0.78);  // Golfo San Jorge (Comodoro Rivadavia)
+    argShape.lineTo(0.14, -1.05);  // Costa de Santa Cruz (Puerto Deseado)
+    argShape.lineTo(0.08, -1.30);  // Cabo Vírgenes / Estrecho de Magallanes
+    argShape.lineTo(0.05, -1.52);  // Tierra del Fuego (Ushuaia)
+    argShape.lineTo(-0.02, -1.62); // Cabo de Hornos
+    argShape.lineTo(-0.08, -1.48); // Cordillera Fueguina
+    argShape.lineTo(-0.14, -1.15); // Hielos Continentales (Santa Cruz)
+    argShape.lineTo(-0.28, -0.68); // Andes de Chubut (Esquel)
+    argShape.lineTo(-0.38, -0.36); // Andes de Río Negro (Bariloche / El Bolsón)
+    argShape.lineTo(-0.40, -0.12); // Andes de Neuquén
+    argShape.lineTo(-0.42, 0.32);  // Andes de Mendoza (Aconcagua)
+    argShape.lineTo(-0.38, 0.65);  // Andes de San Juan y La Rioja
+    argShape.lineTo(-0.34, 1.00);  // Puna de Catamarca y Salta
+    argShape.lineTo(-0.30, 1.28);  // Puna de Jujuy (Paso de Jama)
+    argShape.closePath();
+
+    const argExtrudeOpts = {
+      depth: 0.08,
+      bevelEnabled: true,
+      bevelThickness: 0.018,
+      bevelSize: 0.016,
+      bevelSegments: 3
+    };
+    const argGeo = new THREE.ExtrudeGeometry(argShape, argExtrudeOpts);
+    const argMesh = new THREE.Mesh(argGeo, this.marbleMat(0xf1efe8));
+    argMesh.rotation.x = -Math.PI / 2;
+    argMesh.position.set(0, -1.08, 0);
+    g.add(argMesh);
+
+    // Contorno sutil de latón en la costa argentina
+    const argEdges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(argGeo, 28),
+      new THREE.LineBasicMaterial({ color: 0xb8860b, transparent: true, opacity: 0.45 })
+    );
+    argMesh.add(argEdges);
+
+    // ── 2. PROVINCIA DE RÍO NEGRO (Protagonista en Alto Relieve de Latón Dorado) ──
+    const rnShape = new THREE.Shape();
+    rnShape.moveTo(-0.26, -0.12);  // Noroeste: Catriel / Río Colorado
+    rnShape.lineTo(0.08, -0.14);   // Norte: Curso Río Colorado / Valle Medio
+    rnShape.lineTo(0.28, -0.18);   // Noreste: Guardia Mitre
+    rnShape.lineTo(0.36, -0.25);   // Este: Viedma / El Cóndor (Desembocadura)
+    rnShape.lineTo(0.25, -0.33);   // Sudeste: San Antonio Oeste / Las Grutas
+    rnShape.lineTo(0.23, -0.42);   // Sudeste: Sierra Grande / Paralelo 42° costa
+    rnShape.lineTo(-0.36, -0.42);  // Sur: Paralelo 42° S (Límite recto con Chubut)
+    rnShape.lineTo(-0.38, -0.38);  // Sudoeste: El Bolsón / Cordillera
+    rnShape.lineTo(-0.34, -0.28);  // Oeste: Bariloche / Lago Nahuel Huapi
+    rnShape.lineTo(-0.24, -0.19);  // Noroeste: Río Limay / Confluencia Cipolletti
+    rnShape.closePath();
+
+    const rnExtrudeOpts = {
+      depth: 0.12,
+      bevelEnabled: true,
+      bevelThickness: 0.02,
+      bevelSize: 0.015,
+      bevelSegments: 3
+    };
+    const rnGeo = new THREE.ExtrudeGeometry(rnShape, rnExtrudeOpts);
+    const rnMesh = new THREE.Mesh(rnGeo, this.brassMat(0xd4af37));
+    rnMesh.rotation.x = -Math.PI / 2;
+    rnMesh.position.set(0, -1.00, 0);
+    g.add(rnMesh);
+
+    // Contorno biselado de oro brillante para Río Negro
+    const rnEdges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(rnGeo, 20),
+      new THREE.LineBasicMaterial({ color: 0xffe082, linewidth: 2 })
+    );
+    rnMesh.add(rnEdges);
+
+    // Curso fluvial estilizado del Río Negro (cristal azul cerúleo)
+    const riverCurve = new THREE.CatmullRomCurve3([
+      new THREE.Vector3(-0.24, -0.87, 0.19),
+      new THREE.Vector3(-0.06, -0.87, 0.20),
+      new THREE.Vector3(0.12, -0.87, 0.22),
+      new THREE.Vector3(0.26, -0.87, 0.24),
+      new THREE.Vector3(0.36, -0.87, 0.25)
+    ]);
+    const riverGeo = new THREE.TubeGeometry(riverCurve, 24, 0.01, 6, false);
+    const riverMesh = new THREE.Mesh(riverGeo, this.glassMat(0x0284c7));
+    g.add(riverMesh);
+
+    // Traza de la Ruta Nacional 23 (Eje de la Línea Sur en latón bruñido)
+    const routeCurve = new THREE.CatmullRomCurve3([
+      new THREE.Vector3(0.36, -0.872, 0.25),   // Viedma
+      new THREE.Vector3(0.14, -0.872, 0.31),   // Valcheta
+      new THREE.Vector3(0.00, -0.872, 0.32),   // Ramos Mexía
+      new THREE.Vector3(-0.14, -0.872, 0.33),  // Los Menucos
+      new THREE.Vector3(-0.34, -0.872, 0.28)   // Bariloche
+    ]);
+    const routeGeo = new THREE.TubeGeometry(routeCurve, 32, 0.007, 6, false);
+    const routeMesh = new THREE.Mesh(routeGeo, this.brassMat(0xb8860b));
+    g.add(routeMesh);
+
+    // ── 3. LAS SEDES Y NODOS DEL CURZAS (Georreferenciadas con Balizas) ──────
+    const sedesData = [
+      {
+        nombre: "VIEDMA",
+        tipo: "★ SEDE CENTRAL",
+        subtitulo: "CURZAS-UNCo • Cogobierno",
+        x: 0.36, z: 0.25,
+        isCabecera: true,
+        colorGem: 0xffd700
+      },
+      {
+        nombre: "Nodo Valcheta",
+        tipo: "Portal Línea Sur",
+        subtitulo: "Aula Híbrida",
+        x: 0.14, z: 0.31,
+        isCabecera: false,
+        colorGem: 0x0284c7
+      },
+      {
+        nombre: "Nodo Ramos Mexía",
+        tipo: "Línea Sur Alta",
+        subtitulo: "Sincronía Digital",
+        x: 0.00, z: 0.32,
+        isCabecera: false,
+        colorGem: 0x38bdf8
+      },
+      {
+        nombre: "Nodo Los Menucos",
+        tipo: "Sur Central",
+        subtitulo: "Entornos Moodle",
+        x: -0.14, z: 0.33,
+        isCabecera: false,
+        colorGem: 0x10b981
+      },
+      {
+        nombre: "Nodo Sierra Grande",
+        tipo: "Costa Atlántica",
+        subtitulo: "Tutorías Remotas",
+        x: 0.23, z: 0.41,
+        isCabecera: false,
+        colorGem: 0xf59e0b
+      }
     ];
 
-    positions.forEach((pos, idx) => {
-      const isCabecera = idx === 0;
-      const obelisk = new THREE.Group();
+    const viedmaPos = new THREE.Vector3(0.36, -0.86, 0.25);
+    this.nodeCurves04 = [];
+    this.nodePulses04 = [];
 
-      // Fuste de obelisco de mármol
-      const height = isCabecera ? 1.5 : 0.85;
-      const shaft = new THREE.Mesh(
-        new THREE.CylinderGeometry(0.04, 0.08, height, 4),
-        this.marbleMat()
-      );
-      shaft.position.y = height / 2;
-      obelisk.add(shaft);
+    sedesData.forEach((sede) => {
+      const pinGroup = new THREE.Group();
 
-      // Piramidón superior de latón dorado
-      const cap = new THREE.Mesh(
-        new THREE.ConeGeometry(0.06, 0.15, 4),
-        this.brassMat()
-      );
-      cap.position.y = height + 0.075;
-      obelisk.add(cap);
+      if (sede.isCabecera) {
+        // ── Sede Central Viedma (Polo Académico Monumental) ──
+        const base = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.09, 0.12, 0.06, 24),
+          this.brassMat()
+        );
+        base.position.y = -0.85;
+        pinGroup.add(base);
 
-      obelisk.position.set(pos[0], -0.85, pos[1]);
-      g.add(obelisk);
-      this.obelisks04.push(obelisk);
+        const col = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.05, 0.065, 0.55, 24),
+          this.marbleMat()
+        );
+        col.position.y = -0.55;
+        pinGroup.add(col);
+
+        const cap = new THREE.Mesh(
+          new THREE.BoxGeometry(0.12, 0.04, 0.12),
+          this.brassMat()
+        );
+        cap.position.y = -0.26;
+        pinGroup.add(cap);
+
+        const orb = new THREE.Mesh(
+          new THREE.SphereGeometry(0.09, 32, 32),
+          this.brassMat(0xffd700)
+        );
+        orb.position.y = -0.15;
+        pinGroup.add(orb);
+
+        const armRing = new THREE.Group();
+        const r1 = new THREE.Mesh(
+          new THREE.TorusGeometry(0.15, 0.012, 16, 48),
+          this.brassMat()
+        );
+        const r2 = new THREE.Mesh(
+          new THREE.TorusGeometry(0.15, 0.012, 16, 48),
+          this.brassMat()
+        );
+        r2.rotation.x = Math.PI / 2;
+        armRing.add(r1);
+        armRing.add(r2);
+        armRing.position.y = -0.15;
+        pinGroup.add(armRing);
+        this.viedmaRing04 = armRing;
+
+        const beaconLight = new THREE.PointLight(0xffd700, 1.4, 2.8);
+        beaconLight.position.y = -0.12;
+        pinGroup.add(beaconLight);
+
+        const label = this.createLabelSprite("★ VIEDMA", "Sede Central CURZAS", "#996515", true);
+        label.position.set(0, 0.14, 0);
+        pinGroup.add(label);
+
+      } else {
+        // ── Nodos Territoriales (Balizas Geodésicas de Mármol y Gemas) ──
+        const base = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.05, 0.07, 0.04, 16),
+          this.brassMat()
+        );
+        base.position.y = -0.85;
+        pinGroup.add(base);
+
+        const col = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.03, 0.04, 0.28, 16),
+          this.marbleMat()
+        );
+        col.position.y = -0.70;
+        pinGroup.add(col);
+
+        const gem = new THREE.Mesh(
+          new THREE.SphereGeometry(0.055, 24, 24),
+          this.glassMat(sede.colorGem, { roughness: 0.1, transmission: 0.7 })
+        );
+        gem.position.y = -0.53;
+        pinGroup.add(gem);
+
+        const cap = new THREE.Mesh(
+          new THREE.ConeGeometry(0.035, 0.08, 16),
+          this.brassMat()
+        );
+        cap.position.y = -0.45;
+        pinGroup.add(cap);
+
+        const label = this.createLabelSprite(sede.nombre, sede.tipo, "#0f2d59", false);
+        label.position.set(0, -0.22, 0);
+        pinGroup.add(label);
+
+        // ── 4. ARCOS DE TRANSMISIÓN DE DOCENCIA HÍBRIDA (Res. 196/2022) ──
+        const nodeTarget = new THREE.Vector3(sede.x, -0.53, sede.z);
+        const midPoint = new THREE.Vector3().addVectors(viedmaPos, nodeTarget).multiplyScalar(0.5);
+        midPoint.y = -0.18;
+
+        const arcCurve = new THREE.QuadraticBezierCurve3(
+          new THREE.Vector3(viedmaPos.x, -0.15, viedmaPos.z),
+          midPoint,
+          nodeTarget
+        );
+        const arcGeo = new THREE.TubeGeometry(arcCurve, 32, 0.009, 8, false);
+        const arcMesh = new THREE.Mesh(arcGeo, this.brassMat(0xb8860b));
+        g.add(arcMesh);
+
+        const pulse = new THREE.Mesh(
+          new THREE.SphereGeometry(0.024, 16, 16),
+          new THREE.MeshBasicMaterial({ color: 0xfff0c2 })
+        );
+        pulse.position.copy(nodeTarget);
+        g.add(pulse);
+
+        this.nodeCurves04.push(arcCurve);
+        this.nodePulses04.push(pulse);
+      }
+
+      pinGroup.position.set(sede.x, 0, sede.z);
+      g.add(pinGroup);
     });
+
+    // ── 5. ROSA DE LOS VIENTOS Y CARTELA CARTOGRÁFICA EN EL ATLÁNTICO ──
+    const compassGroup = new THREE.Group();
+    compassGroup.position.set(0.72, -1.07, 0.42);
+
+    const compRing = new THREE.Mesh(
+      new THREE.RingGeometry(0.18, 0.21, 32),
+      this.brassMat()
+    );
+    compRing.rotation.x = -Math.PI / 2;
+    compassGroup.add(compRing);
+
+    const starGeom = new THREE.ConeGeometry(0.06, 0.26, 4);
+    const needleN = new THREE.Mesh(starGeom, this.brassMat(0xd4af37));
+    needleN.rotation.x = Math.PI / 2;
+    compassGroup.add(needleN);
+    this.compassNeedle04 = needleN;
+
+    const needleS = new THREE.Mesh(starGeom, this.graniteMat());
+    needleS.rotation.x = -Math.PI / 2;
+    compassGroup.add(needleS);
+
+    g.add(compassGroup);
+
+    // Cartela institucional en el Mar Argentino
+    const cartela = this.createLabelSprite(
+      "RED DE NODOS CURZAS",
+      "Res. CD-CURZA N° 196/2022 • Docencia Híbrida",
+      "#0f2d59",
+      false
+    );
+    cartela.position.set(0.72, -0.78, 0.82);
+    cartela.scale.set(0.95, 0.30, 1);
+    g.add(cartela);
   }
 
   // ──────────────────────────────────────────────────────────────────────────
@@ -1047,8 +1372,25 @@ class Presentation3D {
       }
     }
     else if (id === "anim_04") {
-      if (this.obelisks04) {
-        this.obelisks04[0].rotation.y = t * 0.15;
+      if (this.viedmaRing04) {
+        this.viedmaRing04.rotation.y = t * 0.45;
+        this.viedmaRing04.rotation.x = Math.sin(t * 0.3) * 0.2;
+      }
+      if (this.nodePulses04 && this.nodeCurves04) {
+        this.nodePulses04.forEach((pulse, idx) => {
+          const curve = this.nodeCurves04[idx];
+          if (curve) {
+            const prog = (t * 0.35 + idx * 0.25) % 1.0;
+            pulse.position.copy(curve.getPoint(prog));
+          }
+        });
+      }
+      if (this.compassNeedle04) {
+        this.compassNeedle04.rotation.z = Math.sin(t * 0.5) * 0.04;
+      }
+      const g4 = this.scenes["anim_04"];
+      if (g4) {
+        g4.rotation.y = Math.sin(t * 0.12) * 0.04;
       }
     }
     else if (id === "anim_05") {

@@ -263,6 +263,7 @@ const PRESENTACION_DATA = {
       ],
       metadatosFooter: "Territorialidad • Patagonia Norte • Democratización del Acceso",
       escena3D: "anim_04",
+      diagramaSVG: "assets/red_territorial.svg",
       guionOrador: "Pasando al Esquema 1, nuestro objeto de estudio no se sitúa en un campus universitario tradicional ni en una metrópoli central. El CURZAS tiene un despliegue territorial extenso y singular en la Patagonia Norte. Desde su sede cabecera en Viedma, articula una comunidad académica diversa que abarca desde la capital provincial hasta localidades del interior provincial. Comprender este contexto es vital: no se puede diseñar un sistema de evaluación de personal docente ignorando el territorio donde enseñan."
     },
 
