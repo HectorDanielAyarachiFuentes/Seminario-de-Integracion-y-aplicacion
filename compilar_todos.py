@@ -27,6 +27,7 @@ ENTREGAS_DIR = ROOT_DIR / "Entregas"
 ACTIVIDAD1_DIR = ENTREGAS_DIR / "Actividad 1"
 ACTIVIDAD2_DIR = ENTREGAS_DIR / "Actividad 2"
 ACTIVIDAD3_DIR = ENTREGAS_DIR / "Actividad 3"
+ACTIVIDAD4_DIR = ENTREGAS_DIR / "Actividad 4"
 
 DOCUMENTOS = [
     {
@@ -63,7 +64,7 @@ DOCUMENTOS = [
         "pdf_entrega": ACTIVIDAD3_DIR / "Correcion" / "TP3_Ayarachi_Fuentes_Corregido.pdf",
         "docx_entrega": ACTIVIDAD3_DIR / "Correcion" / "TP3_Ayarachi_Fuentes_Corregido.docx",
         "qmd_entrega": ACTIVIDAD3_DIR / "Correcion" / "quarto" / "tp3_marco_teorico_corregido.qmd",
-        "activo": True
+        "activo": False
     },
     {
         "id": "TP3_SIMPLIFICADO",
@@ -77,10 +78,11 @@ DOCUMENTOS = [
     {
         "id": "TP4",
         "nombre": "Trabajo Práctico N° 4 (Proyecto Integral de TFG)",
-        "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "4 - Metodología" / "Trabajo Práctico n° 4" / "tp4_proyecto_tfg_integral.qmd",
-        "pdf_entrega": ENTREGAS_DIR / "TP4_Proyecto_TFG_Ayarachi_Fuentes.pdf",
-        "docx_entrega": ENTREGAS_DIR / "TP4_Proyecto_TFG_Ayarachi_Fuentes.docx",
-        "activo": False
+        "qmd": ACTIVIDAD4_DIR / "quarto" / "tp4_proyecto_tfg_integral.qmd",
+        "pdf_entrega": ACTIVIDAD4_DIR / "TP4_Ayarachi_Fuentes.pdf",
+        "docx_entrega": ACTIVIDAD4_DIR / "TP4_Ayarachi_Fuentes.docx",
+        "qmd_entrega": ACTIVIDAD4_DIR / "quarto" / "tp4_proyecto_tfg_integral.qmd",
+        "activo": True
     }
 ]
 

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="100%" height="100%">
+  <defs>
+    <!-- Arrowhead markers -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#1e293b" />
+    </marker>
+  </defs>
+
+  <style>
+    .title { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 20px; fill: #0f3b7d; letter-spacing: 0.5px; }
+    .header-box { font-family: system-ui, -apple-system, sans-serif; font-weight: bold; font-style: italic; font-size: 16px; fill: #b91c1c; }
+    .subsystem-title { font-family: system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 15px; fill: #0f3b7d; }
+    .subsystem-title-white { font-family: system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 15px; fill: #ffffff; }
+    .item-text { font-family: system-ui, -apple-system, sans-serif; font-style: italic; font-size: 13px; fill: #1e293b; }
+    .item-text-white { font-family: system-ui, -apple-system, sans-serif; font-style: italic; font-size: 13px; fill: #ffffff; }
+    .line { stroke: #1e293b; stroke-width: 1.5; }
+    .arrow-line { stroke: #1e293b; stroke-width: 1.5; marker-end: url(#arrow); }
+    .arrow-line-both { stroke: #1e293b; stroke-width: 1.5; marker-start: url(#arrow); marker-end: url(#arrow); }
+  </style>
+
+  <!-- Canvas Outer Frame -->
+  <rect x="15" y="15" width="770" height="590" fill="#ffffff" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Main Title -->
+  <text x="400" y="45" text-anchor="middle" class="title">SUBSISTEMAS DE LA GESTIÓN DE RECURSOS HUMANOS</text>
+  <line x1="15" y1="56" x2="785" y2="56" stroke="#0f3b7d" stroke-width="2.5" />
+
+  <!-- ESTRATEGIA Box -->
+  <rect x="320" y="70" width="160" height="34" fill="#ffffff" stroke="#1e293b" stroke-width="1.5" rx="2"/>
+  <text x="400" y="93" text-anchor="middle" class="header-box">ESTRATEGIA</text>
+
+  <!-- Down Arrow from ESTRATEGIA -->
+  <path d="M 390 104 L 410 104 L 410 116 L 418 116 L 400 128 L 382 116 L 390 116 Z" fill="#0f3b7d" />
+
+  <!-- Main Subsystems Border Box -->
+  <rect x="45" y="132" width="710" height="448" fill="#ffffff" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Planificación Section -->
+  <text x="400" y="157" text-anchor="middle" class="subsystem-title" font-size="16">Planificación</text>
+  <line x1="45" y1="170" x2="755" y2="170" class="line" />
+
+  <!-- Grid Vertical Lines -->
+  <line x1="222.5" y1="170" x2="222.5" y2="470" class="line" />
+  <line x1="400" y1="170" x2="400" y2="470" class="line" />
+  <line x1="577.5" y1="170" x2="577.5" y2="470" class="line" />
+
+  <!-- Horizontal line dividing Compensación and Desarrollo -->
+  <line x1="577.5" y1="320" x2="755" y2="320" class="line" />
+
+  <!-- Down Arrows from Planificación -->
+  <line x1="133.75" y1="170" x2="133.75" y2="188" class="arrow-line" />
+  <line x1="311.25" y1="170" x2="311.25" y2="188" class="arrow-line" />
+  <line x1="488.75" y1="170" x2="488.75" y2="188" class="arrow-line" />
+  <line x1="666.25" y1="170" x2="666.25" y2="188" class="arrow-line" />
+
+  <!-- COLUMN 1: Organización del trabajo -->
+  <text x="133.75" y="215" text-anchor="middle" class="subsystem-title">Organización</text>
+  <text x="133.75" y="233" text-anchor="middle" class="subsystem-title">del trabajo</text>
+  <text x="133.75" y="280" text-anchor="middle" class="item-text">Diseño de puestos</text>
+  <text x="133.75" y="302" text-anchor="middle" class="item-text">Definición de perfiles</text>
+
+  <!-- COLUMN 2: Gestión del empleo -->
+  <text x="311.25" y="215" text-anchor="middle" class="subsystem-title">Gestión del</text>
+  <text x="311.25" y="233" text-anchor="middle" class="subsystem-title">empleo</text>
+  <text x="311.25" y="280" text-anchor="middle" class="item-text">Incorporación</text>
+  <text x="311.25" y="302" text-anchor="middle" class="item-text">Movilidad</text>
+  <text x="311.25" y="324" text-anchor="middle" class="item-text">Desvinculación</text>
+
+  <!-- COLUMN 3: Gestión del rendimiento (Highlighted Box) -->
+  <rect x="408" y="230" width="161.5" height="190" fill="#1d4ed8" rx="3" />
+  <text x="488.75" y="270" text-anchor="middle" class="subsystem-title-white">Gestión del</text>
+  <text x="488.75" y="288" text-anchor="middle" class="subsystem-title-white">rendimiento</text>
+  <text x="488.75" y="340" text-anchor="middle" class="item-text-white">Planificación</text>
+  <text x="488.75" y="362" text-anchor="middle" class="item-text-white">Evaluación</text>
+
+  <!-- COLUMN 4 TOP: Gestión de la compensación -->
+  <text x="666.25" y="202" text-anchor="middle" class="subsystem-title">Gestión de la</text>
+  <text x="666.25" y="220" text-anchor="middle" class="subsystem-title">compensación</text>
+  <text x="666.25" y="258" text-anchor="middle" class="item-text">Retribución monetaria</text>
+  <text x="666.25" y="276" text-anchor="middle" class="item-text">y no monetaria</text>
+
+  <!-- COLUMN 4 BOTTOM: Gestión del desarrollo -->
+  <text x="666.25" y="350" text-anchor="middle" class="subsystem-title">Gestión del</text>
+  <text x="666.25" y="368" text-anchor="middle" class="subsystem-title">desarrollo</text>
+  <text x="666.25" y="405" text-anchor="middle" class="item-text">Promoción y carrera</text>
+  <text x="666.25" y="427" text-anchor="middle" class="item-text">Aprendizaje</text>
+  <text x="666.25" y="445" text-anchor="middle" class="item-text">individual y colectivo</text>
+
+  <!-- Inter-column Horizontal & Bidirectional Arrows -->
+  <line x1="185" y1="225" x2="235" y2="225" class="arrow-line" />
+  <line x1="360" y1="225" x2="400" y2="225" class="arrow-line" />
+  <line x1="577.5" y1="230" x2="605" y2="230" class="arrow-line-both" />
+  <line x1="570" y1="355" x2="600" y2="355" class="arrow-line-both" />
+  <line x1="740" y1="280" x2="740" y2="345" class="arrow-line-both" />
+
+  <!-- BOTTOM SECTION: Gestión de las relaciones humanas y sociales -->
+  <line x1="45" y1="470" x2="755" y2="470" class="line" />
+  <text x="400" y="500" text-anchor="middle" class="subsystem-title" font-size="16">Gestión de las relaciones humanas y sociales</text>
+
+  <text x="133.75" y="545" text-anchor="middle" class="item-text" font-weight="bold">Clima laboral</text>
+  <text x="400" y="545" text-anchor="middle" class="item-text" font-weight="bold">Relaciones laborales</text>
+  <text x="666.25" y="545" text-anchor="middle" class="item-text" font-weight="bold">Políticas sociales</text>
+
+  <!-- Up Arrows from Bottom Section -->
+  <line x1="133.75" y1="470" x2="133.75" y2="452" class="arrow-line" />
+  <line x1="311.25" y1="470" x2="311.25" y2="452" class="arrow-line" />
+  <line x1="488.75" y1="470" x2="488.75" y2="452" class="arrow-line" />
+  <line x1="666.25" y1="470" x2="666.25" y2="452" class="arrow-line" />
+</svg>
