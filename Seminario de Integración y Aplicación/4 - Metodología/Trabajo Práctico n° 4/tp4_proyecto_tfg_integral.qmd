@@ -139,7 +139,7 @@ Año 2026
 
 #align(center)[
   #set par(first-line-indent: 0pt)
-  #text(weight: "bold", size: 12pt)[Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026)] \
+  #text(weight: "bold", size: 12pt)[Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)] \
   #v(0.4em)
   #text(style: "italic", size: 11pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23]
 ]
@@ -148,7 +148,7 @@ Año 2026
 
 ::: {.content-visible when-format="docx"}
 ::: {align="center"}
-**Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026)**  
+**Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)**  
 *(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23)*
 :::
 
@@ -196,7 +196,7 @@ Siguiendo las pautas del SIA, el objeto de estudio se delimita en cuatro dimensi
 
 * **Delimitación Temática y Conceptual:** Factibilidad de implementación de un modelo de retroalimentación 360° en la evaluación docente, analizado desde cuatro subsistemas de recursos humanos [@longo2006]: rendimiento, desarrollo, organización del trabajo y relaciones humanas.
 * **Delimitación Espacial:** Sede central del CURZAS (Viedma) y Red de Nodos Universitarios (Sierra Grande, Valcheta, Los Menucos y Ramos Mexía) donde el Departamento dicta asignaturas con mediación tecnológica y presencialidad distribuida.
-* **Delimitación Temporal:** Bienio 2025–2026, período lectivo que enmarca la formulación del TFG bajo la vigencia del nuevo Estatuto UNCo (Ord. CS N° 0988/2025).
+* **Delimitación Temporal:** Ciclo lectivo 2027 (mayo a noviembre de 2027), período en el que se llevará a cabo el trabajo de campo empírico, la recolección y análisis de datos y la redacción final del TFG, bajo la plena vigencia del nuevo Estatuto UNCo (Ord. CS N° 0988/2025).
 * **Delimitación Poblacional y Organizacional:** La unidad institucional es el Departamento de Administración Pública. Los actores involucrados comprenden docentes (regulares e interinos), estudiantes regulares y autoridades académicas (Dirección departamental y miembros del Consejo Departamental).
 
 ### Enfoque Analítico de las Dimensiones de Factibilidad
@@ -211,7 +211,7 @@ En el marco de la gestión pública [@longo2006; @matus1993], la factibilidad re
 
 ### Pregunta General de Investigación
 
-> ¿Cuáles son las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo durante el período 2025–2026?
+> ¿Cuáles son las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo durante el año 2027?
 
 ## Justificación y Relevancia de la Investigación
 
@@ -225,7 +225,7 @@ La investigación se justifica en tres planos complementarios:
 
 ### Objetivo General
 
-* Determinar las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026).
+* Determinar las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo (2027).
 
 ### Objetivos Específicos
 
@@ -362,7 +362,7 @@ El estudio presenta un alcance descriptivo, exploratorio y propositivo:
 * *Exploratorio:* Indaga la viabilidad de un modelo 360° en una unidad académica pública con cogobierno y modalidades híbridas en territorio.
 * *Propositivo:* Formula lineamientos orientativos para una eventual aplicación formativa a partir de los condicionantes empíricos relevados.
 
-El diseño corresponde a un estudio de caso situado [@flyvbjerg2005; @gimenez2012], de corte no experimental y transversal [@hernandezsampieri2014], delimitado temporalmente al bienio 2025–2026.
+El diseño corresponde a un estudio de caso situado [@flyvbjerg2005; @gimenez2012], de corte no experimental y transversal [@hernandezsampieri2014], delimitado temporalmente al ciclo lectivo 2027.
 
 ### Población, Muestra y Unidades de Análisis
 
@@ -414,14 +414,14 @@ Se articulan tres técnicas complementarias:
 
 ### Procedimiento y Fases del Trabajo de Campo
 
-Las actividades de investigación se estructuran en seis fases secuenciales coordinadas a lo largo de los 18 meses del cronograma:
+Las actividades de investigación se estructuran en seis fases secuenciales coordinadas a lo largo de un lapso intensivo y viable de 7 meses de ejecución proyectados para el año 2027:
 
-* **Fase 1: Preparación, diseño y avales (Meses 1–4 / Bim 1–2):** Aprobación del proyecto en el SIA; solicitud formal de aval académico ante la Dirección del Departamento y el Decanato del CURZAS; contacto informativo con ADUNC y Centro de Estudiantes; calibración de instrumentos y prueba piloto con 2 docentes y 5 estudiantes. *Entregable:* Aval institucional e instrumentos validados.
-* **Fase 2: Relevamiento normativo y entrevistas (Meses 5–8 / Bim 3–4):** Sistematización documental de estatutos, ordenanzas y CCT; concreción de las 8 entrevistas semiestructuradas a docentes, autoridades y dirigentes gremiales; transcripción y codificación temática preliminar. *Entregable:* Fichas normativas y transcripciones codificadas.
-* **Fase 3: Aplicación del sondeo exploratorio (Meses 8–10 / Bim 4–5):** Parametrización y lanzamiento del cuestionario digital a docentes y estudiantes de Viedma y Nodos Territoriales; seguimiento de participación; cierre y depuración de la base de datos. *Entregable:* Base de datos anonimizada y depurada.
-* **Fase 4: Procesamiento analítico y triangulación (Meses 10–12 / Bim 5–6):** Procesamiento descriptivo del sondeo y análisis de contenido temático de las entrevistas; contrastación cruzada de fuentes normativas, testimoniales y cuantitativas. *Entregable:* Informe diagnóstico integrado de factibilidad.
-* **Fase 5: Formulación de lineamientos y redacción (Meses 12–15 / Bim 6–7):** Elaboración de lineamientos orientativos para el Departamento; reunión de consulta y devolución con docentes; redacción integral del borrador de TFG. *Entregable:* Borrador completo de Tesina.
-* **Fase 6: Revisión final, tramitación y defensa oral (Meses 16–18 / Bim 8):** Supervisión y visto bueno final de la Dirección de TFG; presentación formal ante mesa de entradas del CURZAS; designación de jurados y defensa oral del TFG. *Entregable:* Trabajo Final de Graduación aprobado.
+* **Fase 1: Preparación, diseño y avales (Mes 1 / Mayo 2027):** Aprobación del proyecto en el SIA; solicitud formal de aval académico ante la Dirección del Departamento y el Decanato del CURZAS; contacto informativo con ADUNC y Centro de Estudiantes; calibración de instrumentos y prueba piloto con 2 docentes y 5 estudiantes. *Entregable:* Aval institucional e instrumentos validados.
+* **Fase 2: Relevamiento normativo y entrevistas (Mes 2 / Junio 2027):** Sistematización documental de estatutos, ordenanzas y CCT; concreción de las 8 entrevistas semiestructuradas a docentes, autoridades y dirigentes gremiales; transcripción y codificación temática preliminar. *Entregable:* Fichas normativas y transcripciones codificadas.
+* **Fase 3: Aplicación del sondeo exploratorio (Mes 3 / Julio 2027):** Parametrización y lanzamiento del cuestionario digital a docentes y estudiantes de Viedma y Nodos Territoriales; seguimiento de participación; cierre y depuración de la base de datos. *Entregable:* Base de datos anonimizada y depurada.
+* **Fase 4: Procesamiento analítico y triangulación (Mes 4 / Agosto 2027):** Procesamiento descriptivo del sondeo y análisis de contenido temático de las entrevistas; contrastación cruzada de fuentes normativas, testimoniales y cuantitativas. *Entregable:* Informe diagnóstico integrado de factibilidad.
+* **Fase 5: Formulación de lineamientos y redacción (Meses 5–6 / Septiembre–Octubre 2027):** Elaboración de lineamientos orientativos para el Departamento; reunión de consulta y devolución con docentes; redacción integral del borrador de TFG. *Entregable:* Borrador completo de Tesina.
+* **Fase 6: Revisión final, tramitación y defensa oral (Mes 7 / Noviembre 2027):** Supervisión y visto bueno final de la Dirección de TFG; presentación formal ante mesa de entradas del CURZAS; designación de jurados y defensa oral del TFG. *Entregable:* Trabajo Final de Graduación aprobado.
 
 ### Procesamiento y Análisis de Datos
 
@@ -440,20 +440,20 @@ El estudio se rige por las siguientes garantías institucionales y éticas:
 
 ## Cronograma de Actividades
 
-El proyecto se planifica en un lapso de 18 meses distribuidos en ocho etapas bimestrales articuladas con las seis fases de investigación:
+El proyecto se planifica en un lapso de 7 meses continuos distribuidos en etapas mensuales articuladas con las seis fases de investigación para su desarrollo durante el año 2027:
 
-| Etapa / Actividad Metodológica | Bim 1 (May-Jun 25) | Bim 2 (Jul-Ago 25) | Bim 3 (Sep-Oct 25) | Bim 4 (Nov-Dic 25) | Bim 5 (Feb-Mar 26) | Bim 6 (Abr-May 26) | Bim 7 (Jun-Jul 26) | Bim 8 (Ago-Sep 26) |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1. Aprobación del Proyecto de TFG (SIA) | **X** | | | | | | | |
-| 2. Gestión de avales y diseño de instrumentos (Fase 1) | | **X** | | | | | | |
-| 3. Prueba piloto de instrumentos (Fase 1) | | **X** | **X** | | | | | |
-| 4. Trabajo de campo: normativa y entrevistas (Fase 2) | | | **X** | **X** | | | | |
-| 5. Trabajo de campo: sondeo en Viedma y Nodos (Fase 3) | | | | **X** | **X** | | | |
-| 6. Procesamiento de datos y triangulación (Fase 4) | | | | | **X** | **X** | | |
-| 7. Redacción de Tesina y lineamientos (Fase 5) | | | | | | **X** | **X** | |
-| 8. Revisión final, tramitación y defensa de TFG (Fase 6) | | | | | | | | **X** |
+| Etapa / Actividad Metodológica | Mes 1 (May 27) | Mes 2 (Jun 27) | Mes 3 (Jul 27) | Mes 4 (Ago 27) | Mes 5 (Sep 27) | Mes 6 (Oct 27) | Mes 7 (Nov 27) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1. Aprobación del Proyecto de TFG (SIA) | **X** | | | | | | |
+| 2. Gestión de avales y diseño de instrumentos (Fase 1) | **X** | | | | | | |
+| 3. Prueba piloto de instrumentos (Fase 1) | **X** | | | | | | |
+| 4. Trabajo de campo: normativa y entrevistas (Fase 2) | | **X** | | | | | |
+| 5. Trabajo de campo: sondeo en Viedma y Nodos (Fase 3) | | | **X** | | | | |
+| 6. Procesamiento de datos y triangulación (Fase 4) | | | | **X** | | | |
+| 7. Redacción de Tesina y lineamientos (Fase 5) | | | | | **X** | **X** | |
+| 8. Revisión final, tramitación y defensa de TFG (Fase 6) | | | | | | | **X** |
 
-*Nota.* Elaboración propia. La planificación contempla los recesos de invierno y verano reglamentados por la UNCo.
+*Nota.* Elaboración propia. La planificación mensual de 7 meses proyectada para el año 2027 se adecua a la escala operativa de un investigador individual y a los plazos académicos reglamentados por el CURZAS-UNCo.
 
 {{< pagebreak >}}
 
@@ -508,7 +508,7 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 
 ### Anexo I: Guía Temática de Entrevista Semiestructurada
 
-**Proyecto:** *Evaluación del Desempeño Docente y Factibilidad de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026)*  
+**Proyecto:** *Evaluación del Desempeño Docente y Factibilidad de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)*  
 **Investigador:** Tec. Sup. Héctor Daniel Ayarachi Fuentes  
 
 *Objetivo:* Relevar opiniones sobre los mecanismos actuales de evaluación docente y las condiciones de factibilidad para un circuito formativo 360°.
@@ -551,7 +551,7 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 
 **SOLICITUD DE AVAL ACADÉMICO PARA INVESTIGACIÓN DE TFG**
 
-Viedma, Río Negro, ______ de ________________ de 2025  
+Viedma, Río Negro, ______ de ________________ de 202__
 
 **A la Dirección del Departamento de Administración Pública**  
 **Complejo Universitario Regional Zona Atlántica y Sur (CURZAS — UNCo)**  
@@ -560,7 +560,7 @@ De mi mayor consideración:
 
 Me dirijo a Usted como estudiante regular del Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos (Legajo N° 8252 — DNI N° 35.492.138), en el marco de la formulación de mi Trabajo Final de Graduación para la asignatura *Seminario de Integración y Aplicación* (SIA 2025/2026), titulado:  
 
-**"Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026)"**  
+**"Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)"**  
 
 Por la presente, solicito formalmente el correspondiente **aval institucional y autorización de acceso al campo** para llevar adelante las tareas de relevamiento previstas en el diseño:  
 a) Consulta de documentación reglamentaria y programas de capacitación docente;  
@@ -583,7 +583,7 @@ Departamento de Administración Pública — CURZAS-UNCo
 
 **FORMULARIO DE CONSENTIMIENTO INFORMADO**
 
-1. **Proyecto:** *Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2025–2026)*.
+1. **Proyecto:** *Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)*.
 2. **Investigador:** Tec. Sup. Héctor Daniel Ayarachi Fuentes (CURZAS-UNCo).
 3. **Propósito:** Diagnosticar las condiciones de factibilidad para un circuito formativo de retroalimentación docente.
 4. **Constancia:**
