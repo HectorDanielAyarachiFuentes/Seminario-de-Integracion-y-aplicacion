@@ -9,19 +9,49 @@ Genera automáticamente tanto la versión en formato Word (.docx) como la versi�
 en formato PDF (.pdf) directamente hacia la carpeta Entregas/.
 
 Uso:
-    python compilar_todos.py            # Compila TP1 (o todos los activos) a PDF y Word (.docx)
+    python compilar_todos.py            # Compila el TP activo a PDF y Word (.docx)
     python compilar_todos.py --pdf      # Solo compila PDF
     python compilar_todos.py --word     # Solo compila Word (.docx)
-    python compilar_todos.py --watch    # Monitorea cambios en vivo y recompila automáticamente
+    python compilar_todos.py --watch    # Monitorea cambios en vivo con debouncing
 """
 
 import os
 import sys
 import time
 import shutil
+import hashlib
 import subprocess
 from pathlib import Path
 
+# =============================================================================
+# IMPORTACIONES CENTRALIZADAS DE RENDIMIENTO (LAZY / SAFE LOAD)
+# =============================================================================
+try:
+    import pymupdf
+except ImportError:
+    try:
+        import fitz as pymupdf
+    except ImportError:
+        pymupdf = None
+
+try:
+    import docx
+    from docx.shared import Pt, Cm, Inches
+    from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+    from docx.oxml import parse_xml
+    from docx.oxml.ns import nsdecls
+except ImportError:
+    docx = None
+    Pt = Cm = Inches = WD_PARAGRAPH_ALIGNMENT = parse_xml = nsdecls = None
+
+try:
+    from lxml import etree
+except ImportError:
+    etree = None
+
+# =============================================================================
+# RUTAS Y CONFIGURACIÓN DE ENTREGAS
+# =============================================================================
 ROOT_DIR = Path(__file__).resolve().parent
 ENTREGAS_DIR = ROOT_DIR / "Entregas"
 ACTIVIDAD1_DIR = ENTREGAS_DIR / "Actividad 1"
@@ -87,15 +117,14 @@ DOCUMENTOS = [
 ]
 
 def obtener_info_archivo(filepath):
-    """Devuelve tamaño y páginas/características del archivo."""
+    """Devuelve tamaño y páginas/características del archivo liberando el descriptor de forma segura."""
     if not filepath.exists():
         return "No encontrado"
     size_kb = filepath.stat().st_size / 1024
-    if filepath.suffix == ".pdf":
+    if filepath.suffix == ".pdf" and pymupdf is not None:
         try:
-            import pymupdf
-            doc = pymupdf.open(str(filepath))
-            return f"{len(doc)} págs, {size_kb:.1f} KB"
+            with pymupdf.open(str(filepath)) as doc:
+                return f"{len(doc)} págs, {size_kb:.1f} KB"
         except Exception:
             pass
     return f"{size_kb:.1f} KB"
@@ -121,52 +150,49 @@ def compilar_quarto_pdf(doc):
             pdf_out.parent.mkdir(parents=True, exist_ok=True)
             
             # 1. Centrar logotipo en portada, quitar número de portada y renumerar páginas desde 1
-            try:
-                import pymupdf
-                doc_pdf = pymupdf.open(str(tmp_pdf))
-                if len(doc_pdf) > 0:
-                    cover = doc_pdf[0]
-                    # Centrar el logotipo del CURZAS en la carátula si no estuviera centrado
-                    imgs = cover.get_images(full=True)
-                    if imgs:
-                        img_bbox = cover.get_image_bbox(imgs[0])
-                        center_x = cover.rect.width / 2
-                        if abs((img_bbox.x0 + img_bbox.x1) / 2 - center_x) > 10:
-                            cover.add_redact_annot(img_bbox, fill=(1, 1, 1))
-                            cover.apply_redactions()
-                            new_rect = pymupdf.Rect(
-                                (cover.rect.width - img_bbox.width) / 2,
-                                img_bbox.y0,
-                                (cover.rect.width + img_bbox.width) / 2,
-                                img_bbox.y1
-                            )
-                            logo_path = ROOT_DIR / "assets" / "img" / "CURZAS.png"
-                            cover.insert_image(new_rect, filename=str(logo_path))
-
-                    # Quitar número en la carátula (página 0)
-                    for b in cover.get_text("blocks"):
-                        if b[4].strip() == "1" and b[1] > cover.rect.height * 0.85:
-                            r = pymupdf.Rect(b[0] - 5, b[1] - 5, b[2] + 5, b[3] + 5)
-                            cover.add_redact_annot(r, fill=(1, 1, 1))
-                            cover.apply_redactions()
-                            break
-
-                    pdf_bytes = doc_pdf.tobytes(deflate=True)
-                    doc_pdf.close()
-                    with open(pdf_out, "wb") as f_out:
-                        f_out.write(pdf_bytes)
-                else:
-                    doc_pdf.close()
-                tmp_pdf.unlink(missing_ok=True)
-            except Exception:
+            processed_bytes = None
+            if pymupdf is not None:
                 try:
-                    if 'doc_pdf' in locals() and not doc_pdf.is_closed:
-                        doc_pdf.close()
+                    with pymupdf.open(str(tmp_pdf)) as doc_pdf:
+                        if len(doc_pdf) > 0:
+                            cover = doc_pdf[0]
+                            # Centrar el logotipo del CURZAS en la carátula si no estuviera centrado
+                            imgs = cover.get_images(full=True)
+                            if imgs:
+                                img_bbox = cover.get_image_bbox(imgs[0])
+                                center_x = cover.rect.width / 2
+                                if abs((img_bbox.x0 + img_bbox.x1) / 2 - center_x) > 10:
+                                    cover.add_redact_annot(img_bbox, fill=(1, 1, 1))
+                                    cover.apply_redactions()
+                                    new_rect = pymupdf.Rect(
+                                        (cover.rect.width - img_bbox.width) / 2,
+                                        img_bbox.y0,
+                                        (cover.rect.width + img_bbox.width) / 2,
+                                        img_bbox.y1
+                                    )
+                                    logo_path = ROOT_DIR / "assets" / "img" / "CURZAS.png"
+                                    if logo_path.exists():
+                                        cover.insert_image(new_rect, filename=str(logo_path))
+
+                            # Quitar número en la carátula (página 0)
+                            for b in cover.get_text("blocks"):
+                                if b[4].strip() == "1" and b[1] > cover.rect.height * 0.85:
+                                    r = pymupdf.Rect(b[0] - 5, b[1] - 5, b[2] + 5, b[3] + 5)
+                                    cover.add_redact_annot(r, fill=(1, 1, 1))
+                                    cover.apply_redactions()
+                                    break
+
+                            processed_bytes = doc_pdf.tobytes(deflate=True)
                 except Exception:
-                    pass
-                with open(tmp_pdf, "rb") as f_in, open(pdf_out, "wb") as f_out:
-                    f_out.write(f_in.read())
-                tmp_pdf.unlink(missing_ok=True)
+                    processed_bytes = None
+
+            if processed_bytes:
+                with open(pdf_out, "wb") as f_out:
+                    f_out.write(processed_bytes)
+            else:
+                shutil.copy2(str(tmp_pdf), str(pdf_out))
+            
+            tmp_pdf.unlink(missing_ok=True)
 
             info = obtener_info_archivo(pdf_out)
             rel_path = pdf_out.relative_to(ENTREGAS_DIR)
@@ -182,8 +208,9 @@ def compilar_quarto_pdf(doc):
 
 def aplicar_estilos_base_apa7(doc_word):
     """Configura márgenes de 2.54 cm, tipografía Arial 12pt e interlineado 1.5 en Word (Normas APA 7)."""
-    from docx.shared import Pt, Cm
-    
+    if doc_word is None or Cm is None:
+        return
+
     # 1. Márgenes normativos APA 7 (2.54 cm / 1 pulgada)
     for sec in doc_word.sections:
         sec.top_margin = Cm(2.54)
@@ -241,11 +268,10 @@ def aplicar_estilos_base_apa7(doc_word):
     except (KeyError, AttributeError):
         pass
 
-
 def formatear_parrafos_y_encabezados(doc_word):
     """Aplica formato explícito de párrafo, espaciado y tipografía a encabezados y título principal."""
-    from docx.shared import Pt
-    from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+    if doc_word is None or Pt is None:
+        return
 
     for p in doc_word.paragraphs:
         sname = p.style.name if p.style else ""
@@ -314,8 +340,7 @@ def formatear_parrafos_y_encabezados(doc_word):
                 next_p = p_sub._p.getnext()
                 while next_p is not None:
                     try:
-                        from lxml import etree
-                        txt_p = etree.tostring(next_p, method="text", encoding="unicode").strip()
+                        txt_p = etree.tostring(next_p, method="text", encoding="unicode").strip() if etree else ""
                     except Exception:
                         txt_p = ""
                     if not txt_p:
@@ -331,11 +356,10 @@ def formatear_parrafos_y_encabezados(doc_word):
                     r.font.bold = True
             break
 
-
 def reconstruir_caratula_oficial(doc_word, doc):
     """Alinea el logotipo y ajusta la carátula según el modelo oficial SIA (Res. CD-CURZAS N° 266/23)."""
-    from docx.shared import Pt, Inches
-    from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+    if doc_word is None or Pt is None:
+        return
 
     p_logo = None
     for p in doc_word.paragraphs:
@@ -441,12 +465,10 @@ def reconstruir_caratula_oficial(doc_word, doc):
                     else:
                         p.paragraph_format.space_after = Pt(6)
 
-
 def configurar_paginacion_dinamica(doc_word):
     """Configura la paginación según normas APA 7: Carátula sin número visible, cuerpo inicia en 1."""
-    from docx.oxml import parse_xml
-    from docx.oxml.ns import nsdecls
-    from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+    if doc_word is None or parse_xml is None:
+        return
 
     p_body = None
     found_toc = False
@@ -502,11 +524,10 @@ def configurar_paginacion_dinamica(doc_word):
         xml_pg = f'<w:pgNumType {nsdecls("w")} w:start="0"/>'
         sec._sectPr.append(parse_xml(xml_pg))
 
-
 def formatear_tablas_apa7(doc_word):
     """Aplica formato APA 7ma Edición a todas las tablas (triple línea horizontal, sin bordes verticales)."""
-    from docx.oxml import parse_xml
-    from docx.oxml.ns import nsdecls
+    if doc_word is None or parse_xml is None:
+        return
 
     for table in doc_word.tables:
         xml_borders = (
@@ -530,11 +551,10 @@ def formatear_tablas_apa7(doc_word):
                 )
                 tcPr.append(tcBorders)
 
-
 def insertar_tabla_contenidos_word(doc_word, doc):
     """Genera e inserta el Índice de Contenidos nativo OpenXML con tabulaciones de puntos guía."""
-    from docx.oxml import parse_xml
-    from docx.oxml.ns import nsdecls
+    if doc_word is None or parse_xml is None:
+        return
 
     p_toc = None
     for p in doc_word.paragraphs:
@@ -549,8 +569,7 @@ def insertar_tabla_contenidos_word(doc_word, doc):
     next_p = p_toc._p.getnext()
     while next_p is not None:
         try:
-            from lxml import etree
-            xml_s = etree.tostring(next_p, encoding="unicode")
+            xml_s = etree.tostring(next_p, encoding="unicode") if etree else ""
         except Exception:
             xml_s = ""
         if 'TOC' in xml_s or 'fldChar' in xml_s:
@@ -561,32 +580,31 @@ def insertar_tabla_contenidos_word(doc_word, doc):
         else:
             break
 
-    # Extraer entradas y números de página desde el PDF o encabezados
+    # Extraer entradas y números de página desde el PDF con context manager
     items_toc = []
     pdf_path = doc.get("pdf_entrega")
-    if pdf_path and pdf_path.exists():
+    if pdf_path and pdf_path.exists() and pymupdf is not None:
         try:
-            import pymupdf
-            doc_pdf = pymupdf.open(str(pdf_path))
-            toc = doc_pdf.get_toc()
-            if toc:
-                offset = toc[0][2] - 1
-                for lvl, title, phys_pag in toc:
-                    vis_pag = str(max(1, phys_pag - offset))
-                    items_toc.append((title, lvl, vis_pag))
-            elif len(doc_pdf) > 1:
-                txt_toc = doc_pdf[1].get_text()
-                for line in txt_toc.split('\n'):
-                    line = line.strip()
-                    if not line or line.startswith('Índice') or line == '1':
-                        continue
-                    parts = line.split(' .')
-                    if len(parts) >= 2:
-                        title = parts[0].strip()
-                        pag = parts[-1].replace('.', '').replace('\u2060', '').strip()
-                        if pag.isdigit():
-                            level = 2 if title == 'Objetivos' or title.startswith('1.1') else 1
-                            items_toc.append((title, level, pag))
+            with pymupdf.open(str(pdf_path)) as doc_pdf:
+                toc = doc_pdf.get_toc()
+                if toc:
+                    offset = toc[0][2] - 1
+                    for lvl, title, phys_pag in toc:
+                        vis_pag = str(max(1, phys_pag - offset))
+                        items_toc.append((title, lvl, vis_pag))
+                elif len(doc_pdf) > 1:
+                    txt_toc = doc_pdf[1].get_text()
+                    for line in txt_toc.split('\n'):
+                        line = line.strip()
+                        if not line or line.startswith('Índice') or line == '1':
+                            continue
+                        parts = line.split(' .')
+                        if len(parts) >= 2:
+                            title = parts[0].strip()
+                            pag = parts[-1].replace('.', '').replace('\u2060', '').strip()
+                            if pag.isdigit():
+                                level = 2 if title == 'Objetivos' or title.startswith('1.1') else 1
+                                items_toc.append((title, level, pag))
         except Exception:
             pass
 
@@ -680,11 +698,10 @@ def insertar_tabla_contenidos_word(doc_word, doc):
     except Exception:
         pass
 
-
 def aplicar_sangria_francesa_referencias(doc_word):
     """Aplica sangría francesa APA 7 (1.27 cm / 0.5 pulg) a la sección de referencias bibliográficas."""
-    from docx.shared import Inches, Pt
-    from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+    if doc_word is None or Inches is None:
+        return
 
     is_ref = False
     for p in doc_word.paragraphs:
@@ -699,10 +716,10 @@ def aplicar_sangria_francesa_referencias(doc_word):
             p.paragraph_format.space_after = Pt(6)
             p.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
 
-
 def postprocesar_documento_word(tmp_docx, doc):
     """Orquesta todos los submódulos de formato APA 7 sobre el archivo Word temporal."""
-    import docx
+    if docx is None:
+        return
     doc_word = docx.Document(str(tmp_docx))
     aplicar_estilos_base_apa7(doc_word)
     formatear_parrafos_y_encabezados(doc_word)
@@ -712,7 +729,6 @@ def postprocesar_documento_word(tmp_docx, doc):
     insertar_tabla_contenidos_word(doc_word, doc)
     aplicar_sangria_francesa_referencias(doc_word)
     doc_word.save(str(tmp_docx))
-
 
 def compilar_quarto_word(doc):
     """Compila Quarto a Word (.docx) hacia Entregas/ aplicando post-procesamiento APA 7 modular."""
@@ -851,20 +867,12 @@ def compilar_todo(solo_pdf=False, solo_word=False, todos_los_tps=False, tp_id=No
 def calcular_hash_archivo(path):
     """Calcula el hash SHA-256 para detectar cambios reales de contenido."""
     try:
-        import hashlib
         return hashlib.sha256(path.read_bytes()).hexdigest()
     except Exception:
         return None
 
 def modo_vigilante(solo_pdf=False, solo_word=False):
-    """Vigila el archivo Quarto (.qmd) activo y recompila automáticamente al detectar cambios reales.
-    
-    Detecta modificaciones de contenido mediante SHA-256 en ambas copias del QMD (original y Entregas/).
-    Admite flags selectivos:
-        --watch --pdf   -> Recompilación ultrarrápida exclusiva para PDF.
-        --watch --word  -> Recompilación exclusiva para Word.
-        --watch         -> Recompilación dual estándar (PDF + Word).
-    """
+    """Vigila el archivo Quarto (.qmd) activo y recompila automáticamente con debouncing."""
     formato_str = "PDF y Word"
     if solo_pdf:
         formato_str = "únicamente PDF"
@@ -873,13 +881,15 @@ def modo_vigilante(solo_pdf=False, solo_word=False):
 
     print("\n" + "=" * 70)
     print(f" 👁️ MODO VIGILANTE QUARTO ACTIVO — Recompila {formato_str} al guardar")
-    print(" Monitoreo por contenido (SHA-256) activo.")
+    print(" Monitoreo por contenido (SHA-256) con debouncing anti-rebote activo.")
     print(" Presiona Ctrl+C para detener.")
     print("=" * 70 + "\n")
 
     activos = [d for d in DOCUMENTOS if d["activo"]]
     archivos_mtime = {}
     archivos_hash = {}
+    ultimo_disparo = 0.0
+    DEBOUNCE_COOLDOWN = 0.8  # Segundos mínimos entre recompilaciones en ráfaga
 
     for d in activos:
         # Al arrancar, la copia en Entregas manda: forzar sincronización inicial
@@ -894,10 +904,15 @@ def modo_vigilante(solo_pdf=False, solo_word=False):
             archivos_hash[d["qmd_entrega"]] = calcular_hash_archivo(d["qmd_entrega"])
 
     compilar_todo(solo_pdf=solo_pdf, solo_word=solo_word)
+    ultimo_disparo = time.time()
 
     try:
         while True:
-            time.sleep(1.2)
+            time.sleep(1.0)
+            ahora = time.time()
+            if ahora - ultimo_disparo < DEBOUNCE_COOLDOWN:
+                continue
+
             cambios = []
             for p, mtime_ant in list(archivos_mtime.items()):
                 if p.exists():
@@ -912,6 +927,7 @@ def modo_vigilante(solo_pdf=False, solo_word=False):
                             archivos_mtime[p] = mtime_act
 
             if cambios:
+                ultimo_disparo = time.time()
                 for c in cambios:
                     print(f"\n[CAMBIO DETECTADO] {c.parent.name}/{c.name}")
                     for doc in activos:
@@ -978,4 +994,3 @@ if __name__ == "__main__":
         compilar_todo(todos_los_tps=True)
     else:
         compilar_todo(tp_id=tp_target)
-
