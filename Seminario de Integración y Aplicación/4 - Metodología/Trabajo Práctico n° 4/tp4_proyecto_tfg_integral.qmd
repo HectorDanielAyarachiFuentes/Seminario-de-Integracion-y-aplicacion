@@ -2,6 +2,7 @@
 lang: es
 bibliography: referencias.bib
 csl: apa.csl
+citeproc: true
 filters:
   - ../../../.agents/filtros/linebreak_filter.lua
 format:
@@ -433,7 +434,7 @@ Las actividades de investigación se estructuran en seis fases secuenciales coor
 
 El estudio se rige por las siguientes garantías institucionales y éticas:
 1. **Protección de datos y resguardo de identidad:** Conforme a la Ley Nacional N° 25.326 de Protección de los Datos Personales [@ley25326], se garantiza la estricta disociación entre las respuestas y la identidad de los participantes. El cuestionario digital se administra sin registrar correos electrónicos ni direcciones IP, y las variables sociodemográficas se agrupan en categorías amplias para impedir la identificación por deducción en cátedras con pocos integrantes.
-2. **Consentimiento informado:** La participación en entrevistas y sondeos es libre y voluntaria. Cada participante valida digitalmente el formulario de consentimiento informado (Anexo III) previo a responder.
+2. **Consentimiento informado:** La participación en entrevistas y sondeos es libre y voluntaria. Cada participante valida digitalmente el formulario de consentimiento informado (Anexo IV) previo a responder.
 3. **Garantía de no afectación laboral:** En concordancia con el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015), los datos obtenidos se destinan exclusivamente a fines diagnósticos y académicos del TFG. Bajo ninguna circunstancia los reportes integrarán legajos, evaluaciones de permanencia ni concursos laborales.
 
 {{< pagebreak >}}
@@ -493,20 +494,18 @@ La investigación no requiere financiamiento institucional ni subsidios externos
 
 El tesista es alumno regular del Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos. Se presentará la nota formal de aval ante la Dirección del Departamento de Administración Pública (Anexo III) para autorizar las actividades de relevamiento empírico.
 
-::: {.content-visible when-format="docx"}
 {{< pagebreak >}}
 
 # Referencias Bibliográficas {.unnumbered}
 
 ::: {#refs}
 :::
-:::
 
 {{< pagebreak >}}
 
-## Anexos Metodológicos
+# Anexos Metodológicos {.unnumbered}
 
-### Anexo I: Guía Temática de Entrevista Semiestructurada
+### Anexo I: Guía Temática de Entrevista Semiestructurada {.unnumbered}
 
 **Proyecto:** *Evaluación del Desempeño Docente y Factibilidad de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)*  
 **Investigador:** Tec. Sup. Héctor Daniel Ayarachi Fuentes  
@@ -521,9 +520,9 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 6. **Resguardos necesarios:** ¿Qué salvaguardas (anonimato, voluntariedad, desvinculación de legajos sumativos) considera indispensables para legitimar una propuesta de este tipo?
 7. **Articulación departamental:** ¿De qué forma deberían vincularse los resultados con el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo)?
 
----
+{{< pagebreak >}}
 
-### Anexo II: Cuestionario Exploratorio de Factibilidad (Escala Likert)
+### Anexo II: Cuestionario Exploratorio de Factibilidad (Escala Likert) {.unnumbered}
 
 *Instrucciones:* Indique su nivel de acuerdo marcando del 1 al 5 (1: Totalmente en desacuerdo; 2: En desacuerdo; 3: Ni de acuerdo ni en desacuerdo; 4: De acuerdo; 5: Totalmente de acuerdo).
 
@@ -545,13 +544,15 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 | 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | [ ] | [ ] | [ ] | [ ] | [ ] |
 
----
+{{< pagebreak >}}
 
-### Anexo III: Modelo de Nota Institucional y Consentimiento Informado
+### Anexo III: Modelo de Nota Institucional de Solicitud de Aval Académico {.unnumbered}
 
+::: {align="center"}
 **SOLICITUD DE AVAL ACADÉMICO PARA INVESTIGACIÓN DE TFG**
+:::
 
-Viedma, Río Negro, ______ de ________________ de 202__
+Viedma, Río Negro, ______ de ________________ de 202___
 
 **A la Dirección del Departamento de Administración Pública**  
 **Complejo Universitario Regional Zona Atlántica y Sur (CURZAS — UNCo)**  
@@ -572,26 +573,37 @@ Se garantiza que toda la información se tratará bajo estricto secreto estadís
 Agradeciendo su atención, saludo a Usted atentamente.  
 
 <br>
-<br>
 
+::: {align="center"}
 ______________________________________________  
 **Tec. Sup. Héctor Daniel Ayarachi Fuentes**  
 Legajo N° 8252 — DNI N° 35.492.138  
 Departamento de Administración Pública — CURZAS-UNCo  
+:::
 
----
+{{< pagebreak >}}
 
+### Anexo IV: Formulario de Consentimiento Informado {.unnumbered}
+
+::: {align="center"}
 **FORMULARIO DE CONSENTIMIENTO INFORMADO**
+:::
 
 1. **Proyecto:** *Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)*.
 2. **Investigador:** Tec. Sup. Héctor Daniel Ayarachi Fuentes (CURZAS-UNCo).
 3. **Propósito:** Diagnosticar las condiciones de factibilidad para un circuito formativo de retroalimentación docente.
-4. **Constancia:**
-   - Declaro haber recibido información clara sobre los objetivos de la investigación.
+4. **Constancia y Declaración del Participante:**
+   - Declaro haber recibido información clara y suficiente sobre los objetivos de la investigación.
    - Mi participación es libre, voluntaria y no remunerada, pudiendo retirarme en cualquier momento sin perjuicio alguno.
-   - Se me garantiza el anonimato estricto y la confidencialidad de mis respuestas (Ley N° 25.326).
+   - Se me garantiza el anonimato estricto y la confidencialidad de mis respuestas (Ley N° 25.326 de Protección de los Datos Personales).
    - Se me informa que los resultados no afectarán mi situación laboral estatutaria ni mi condición académica.
 
-Lugar y Fecha: ____________________________________________________________________  
-Firma (o validación digital): ________________________________________________________  
-Aclaración: _______________________________________________________________________  
+<br>
+
+| Campo | Registro del Participante |
+| :--- | :--- |
+| **Lugar y Fecha:** | __________________________________________________ |
+| **Firma (o validación digital):** | __________________________________________________ |
+| **Aclaración de Firma:** | __________________________________________________ |
+| **Estamento / Rol:** | [ ] Docente &nbsp;&nbsp;&nbsp;&nbsp; [ ] Estudiante &nbsp;&nbsp;&nbsp;&nbsp; [ ] Autoridad |
+  

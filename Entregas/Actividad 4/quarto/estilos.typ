@@ -36,3 +36,9 @@
 
 // ─── Bibliografía APA 7 ────────────────────────────────────────────────
 #set bibliography(title: [Referencias Bibliográficas], style: "apa")
+
+// ─── Sangría Francesa (Hanging Indent 1.27 cm) para Pandoc Citeproc ─────
+#show <refs>: it => block[
+  #set par(first-line-indent: -1.27cm, hanging-indent: 1.27cm)
+  #it
+]

@@ -1,0 +1,44 @@
+// estilos.typ — Configuración visual para PDF/Typst (APA 7 / SIA CURZAS)
+// Extraído del YAML include-before-body para mantener el QMD limpio.
+
+// ─── Párrafos con sangría reglamentaria APA 7 (1.27 cm) ─────────────────
+#set par(justify: true, leading: 0.75em, first-line-indent: 1.27cm)
+
+// ─── Encabezados (con par[] para asegurar sangría obligatoria APA 7 en el primer párrafo) ───
+#show heading.where(level: 1): it => block(spacing: 14pt)[
+  #set align(center)
+  #text(weight: "bold", size: 12pt)[#it.body]
+] + par[]
+
+#show heading.where(level: 2): it => block(spacing: 12pt)[
+  #set align(left)
+  #text(weight: "bold", size: 12pt)[#it.body]
+] + par[]
+
+#show heading.where(level: 3): it => block(spacing: 10pt)[
+  #set align(left)
+  #text(weight: "bold", style: "italic", size: 12pt)[#it.body]
+] + par[]
+
+// ─── Tablas estilo APA 7 (solo bordes horizontales) ─────────────────────
+#set table(
+  stroke: (x, y) => if y == 0 { (top: 1pt + black, bottom: 0.5pt + black) } else if y == 5 { (bottom: 1pt + black) } else { none },
+  inset: 3.5pt
+)
+#show table: set text(size: 8pt)
+#show table.cell: set par(first-line-indent: 0pt, leading: 0.45em, justify: false)
+#show table.cell.where(y: 0): set text(weight: "bold")
+
+// ─── Figuras ────────────────────────────────────────────────────────────
+#show figure: it => block(spacing: 10pt)[#it]
+#show figure.caption: set text(size: 9.5pt, style: "italic")
+#show figure.caption: set par(first-line-indent: 0pt)
+
+// ─── Bibliografía APA 7 ────────────────────────────────────────────────
+#set bibliography(title: [Referencias Bibliográficas], style: "apa")
+
+// ─── Sangría Francesa (Hanging Indent 1.27 cm) para Pandoc Citeproc ─────
+#show <refs>: it => block[
+  #set par(first-line-indent: -1.27cm, hanging-indent: 1.27cm)
+  #it
+]
