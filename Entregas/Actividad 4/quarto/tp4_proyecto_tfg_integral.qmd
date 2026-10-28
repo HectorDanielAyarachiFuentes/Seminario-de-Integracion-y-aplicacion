@@ -376,21 +376,47 @@ El diseño corresponde a un estudio de caso situado [@flyvbjerg2005; @gimenez201
 
 ### Población, Muestra y Unidades de Análisis
 
-La unidad de análisis institucional es el Departamento de Administración Pública del CURZAS-UNCo. Las unidades de observación comprenden cuatro colectivos: docentes regulares e interinos, estudiantes regulares, autoridades académicas y representantes gremiales paritarios.
+Conforme a las pautas metodológicas de la cátedra y a los criterios de @sautu2005 y @hernandezsampieri2014, los componentes empíricos del estudio se definen de manera taxativa y cuantitativamente delimitada:
 
-Considerando que el proyecto es ejecutado por un único investigador y no persigue generalización estadística inferencial, el muestreo se diseña bajo criterios de rigurosidad y viabilidad operativa:
+#### Población o Universo de Estudio (*N*)
 
-* **Muestra cualitativa:** Muestreo intencional no probabilístico por criterios teóricos [@sautu2005]. Comprende 8 entrevistas semiestructuradas a informantes clave:
-  - 4 docentes de cátedra con diversas categorías, dedicaciones y modalidades (presencial en Viedma y tutoría híbrida en Nodos).
-  - 2 autoridades académicas (Dirección departamental y Coordinación de carrera).
-  - 1 representante gremial docente de la mesa paritaria local (ADUNC).
-  - 1 estudiante avanzado con experiencia en cursadas presenciales y virtuales.
-  El número final se ajustará conforme al criterio de saturación temática [@glaser1967].
+El universo poblacional comprende a la totalidad de los agentes que integran la comunidad académica del Departamento de Administración Pública del CURZAS-UNCo (sede Viedma y Nodos Territoriales):
 
-* **Sondeo cuantitativo exploratorio:** Muestreo no probabilístico por accesibilidad y participación voluntaria [@hernandezsampieri2014]. Se aplicará un cuestionario digital autoadministrado a una muestra diagnóstica acotada:
-  - 15 docentes del Departamento.
-  - 30 estudiantes de asignaturas de los últimos años de ambas carreras.
-  Este tamaño muestral (45 participantes en total) resulta plenamente manejable para un investigador individual y provee frecuencias descriptivas consistentes para triangular con las entrevistas.
+* **Población Docente (*N*~doc~ ≈ 38 docentes):** Totalidad de los profesores y auxiliares docentes (regulares e interinos) con designación activa frente a cátedra en el Departamento de Administración Pública, distribuidos entre las asignaturas presenciales de sede Viedma y los espacios con mediación tecnológica y tutoría en la Red de Nodos Universitarios (Sierra Grande, Valcheta, Los Menucos y Ramos Mexía).
+* **Población Estudiantil (*N*~est~ ≈ 130 estudiantes):** Total de estudiantes con condición regular activa matriculados en los tramos formativos avanzados de las dos carreras del Departamento: 3° y 4° año de la Licenciatura en Administración Pública (LAP) y la cohorte activa del Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos (CCC-LGRH).
+* **Población de Gestión y Representación Institucional (*N*~inst~ = 5 actores clave):** Integrada por la Dirección del Departamento de Administración Pública, las dos Coordinaciones de Carrera (LAP y CCC-LGRH) y dos representantes docentes paritarios de la asociación gremial de base (ADUNC) con competencia en la mesa local del CURZAS.
+
+*Nota metodológica sobre la cuantificación poblacional:* Dado que el presente documento constituye el Proyecto de TFG y el trabajo de campo empírico se proyecta para el ciclo lectivo 2027, las cifras poblacionales consignadas revisten carácter de **estimación preliminar de referencia**, calculadas a partir de la planta funcional docente habitual del Departamento y la matrícula histórica de las cursadas de tramos superiores. La determinación del número censal nominal exacto (*N*) se llevará a cabo formalmente en la **Fase 1 del trabajo de campo** (Mayo 2027), mediante el acceso a los registros oficiales del Departamento de Alumnos, la Secretaría Académica del CURZAS y las actas de cursada del sistema SIU-Guaraní, previa autorización formal de las autoridades departamentales a través de la solicitud de aval académico (Anexo III).
+
+#### Precisión Epistemológica: Unidad de Análisis frente a Unidades de Observación
+
+Para evitar ambigüedades metodológicas [@wainerman2011], se establece una clara diferenciación analítica:
+
+* **Unidad de Análisis (objeto central de estudio):** El sistema de evaluación del desempeño docente y las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la eventual implementación de un circuito de retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo.
+* **Unidades de Observación (fuentes de recolección y respuesta):** Los actores situados individuales y colectivos que experimentan cotidianamente la práctica formativa y de gestión (docentes en ejercicio, directivos académicos, estudiantes avanzados y dirigentes paritarios).
+
+#### Muestra y Tipos de Muestreo (*N*)
+
+Tratándose de una investigación con diseño mixto de predominio cualitativo (CUAL → cuan) ejecutada por un único tesista, se implementa un **muestreo no probabilístico** orientado a la representatividad sustantiva y teórica [@sautu2005; @glaser1967]:
+
+* **Submuestra Cualitativa (*n* = 8 informantes clave):** Muestreo intencional o por criterios teóricos [@sautu2005], cuyo tamaño se ajustará durante el trabajo de campo bajo el principio de saturación temática [@glaser1967]:
+  - 4 docentes de cátedra (seleccionados buscando heterogeneidad: cátedras unipersonales vs. colegiadas, dedicaciones simples vs. exclusivas, y modalidad presencial Viedma vs. tutoría virtual en Nodos).
+  - 2 autoridades académicas (Dirección del Departamento y Coordinación de Carrera).
+  - 1 representante paritario de ADUNC.
+  - 1 estudiante avanzado con experiencia transitada en cursadas presenciales y virtuales.
+* **Submuestra Cuantitativa Diagnóstica (*n* = 45 participantes):** Muestreo por accesibilidad y participación voluntaria [@hernandezsampieri2014] para el cuestionario exploratorio autoadministrado:
+  - 15 docentes del Departamento (representa aproximadamente el 40% del universo docente departamental).
+  - 30 estudiantes regulares de tramos avanzados (representa cerca del 23% de la matrícula activa de ciclos superiores).
+
+#### Criterios Taxativos de Inclusión y Exclusión
+
+* **Criterios de Inclusión:**
+  1. *Docentes:* Designación vigente frente a cátedra con una antigüedad mínima de un (1) año en el Departamento, garantizando conocimiento situado de las prácticas evaluativas institucionales.
+  2. *Estudiantes:* Alumnos regulares activos con al menos el 50% de materias aprobadas en LAP o cursando el segundo cuatrimestre en el CCC-LGRH, asegurando experiencia previa en las encuestas y cursadas.
+  3. *Autoridades y dirigentes:* Ejercicio activo de funciones de gestión o representación paritaria durante el ciclo 2027.
+* **Criterios de Exclusión:**
+  1. *Estudiantes ingresantes (1° año):* Quienes carecen de trayectoria en los circuitos de evaluación docente universitaria.
+  2. *Docentes en licencia reglamentaria prolongada:* Aquellos con licencia total (año sabático, maternidad o enfermedad prolongada) durante todo el período del relevamiento de campo.
 
 ### Técnicas e Instrumentos de Recolección de Datos
 
