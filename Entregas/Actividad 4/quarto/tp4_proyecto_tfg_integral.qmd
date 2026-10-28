@@ -199,7 +199,7 @@ Siguiendo las pautas del SIA, el objeto de estudio se delimita en cuatro dimensi
 * **Delimitación Temática y Conceptual:** Factibilidad de implementación de un modelo de retroalimentación 360° en la evaluación docente, analizado desde cuatro subsistemas de recursos humanos [@longo2006]: rendimiento, desarrollo, organización del trabajo y relaciones humanas.
 * **Delimitación Espacial:** Sede central del CURZAS (Viedma) y Red de Nodos Universitarios (Sierra Grande, Valcheta, Los Menucos y Ramos Mexía) donde el Departamento dicta asignaturas con mediación tecnológica y presencialidad distribuida.
 * **Delimitación Temporal:** Ciclo lectivo 2027 (mayo a noviembre de 2027), período en el que se llevará a cabo el trabajo de campo empírico, la recolección y análisis de datos y la redacción final del TFG, bajo la plena vigencia del nuevo Estatuto UNCo (Ord. CS N° 0988/2025).
-* **Delimitación Poblacional y Organizacional:** La unidad institucional es el Departamento de Administración Pública. Los actores involucrados comprenden docentes (regulares e interinos), estudiantes regulares y autoridades académicas (Dirección departamental y miembros del Consejo Departamental).
+* **Delimitación Poblacional y Organizacional:** La unidad institucional es el Departamento de Administración Pública. Los actores involucrados comprenden docentes (regulares e interinos), estudiantes regulares, autoridades académicas (Dirección departamental y miembros del Consejo Departamental) y representantes gremiales paritarios (ADUNC).
 
 ### Enfoque Analítico de las Dimensiones de Factibilidad
 
@@ -395,7 +395,7 @@ Para evitar ambigüedades metodológicas [@wainerman2011], se establece una clar
 * **Unidad de Análisis (objeto central de estudio):** El sistema de evaluación del desempeño docente y las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la eventual implementación de un circuito de retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo.
 * **Unidades de Observación (fuentes de recolección y respuesta):** Los actores situados individuales y colectivos que experimentan cotidianamente la práctica formativa y de gestión (docentes en ejercicio, directivos académicos, estudiantes avanzados y dirigentes paritarios).
 
-#### Muestra y Tipos de Muestreo (*N*)
+#### Muestra y Tipos de Muestreo (*n*)
 
 Tratándose de una investigación con diseño mixto de predominio cualitativo (CUAL → cuan) ejecutada por un único tesista, se implementa un **muestreo no probabilístico** orientado a la representatividad sustantiva y teórica [@sautu2005; @glaser1967]:
 
