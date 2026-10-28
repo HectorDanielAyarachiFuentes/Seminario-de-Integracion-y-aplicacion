@@ -174,7 +174,11 @@ En el marco de este modelo, la investigación focaliza de forma prioritaria en e
 
 ### Contexto Institucional y Normativo
 
-El estudio se desarrolla en el Departamento de Administración Pública del CURZAS-UNCo, unidad académica con sede central en la ciudad de Viedma (Río Negro). El Departamento coordina la Licenciatura en Administración Pública, el Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos y diversos trayectos formativos para el sector público provincial y municipal. Su población estudiantil comprende tanto jóvenes de la comarca Viedma-Patagones como trabajadores estatales insertos en administraciones públicas. A ello se suma la expansión territorial a través de la Red de Nodos Universitarios en localidades de la Línea Sur y la Costa Atlántica rionegrina (Sierra Grande, Valcheta, Los Menucos y Ramos Mexía), donde se implementan modalidades de cursada híbrida reguladas por la Resolución CD-CURZA N° 196/2022 [@curza2022].
+El estudio se desarrolla en el Departamento de Administración Pública del CURZAS-UNCo, unidad académica con sede central en la ciudad de Viedma (Río Negro). El Departamento coordina la Licenciatura en Administración Pública, el Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos y diversos trayectos formativos para el sector público provincial y municipal. Su población estudiantil comprende tanto jóvenes de la comarca Viedma-Patagones como trabajadores estatales insertos en administraciones públicas. A ello se suma la expansión territorial a través de la Red Territorial de Nodos Universitarios distribuida en 10 localidades rionegrinas (Valcheta, Ramos Mexía, Sierra Colorada, Los Menucos, Maquinchao, Ingeniero Jacobacci, San Antonio Oeste / Las Grutas, Sierra Grande, General Conesa y Río Colorado), articuladas desde la sede central de Viedma bajo modalidades de cursada híbrida reguladas por la Resolución CD-CURZA N° 196/2022 [@curza2022] (ver Figura 2).
+
+::: {align="center"}
+![*Red Territorial de Nodos Universitarios del CURZAS-UNCo (Resolución CD-CURZA N° 196/2022).*](assets/red_territorial.svg){width=92%}
+:::
 
 En el plano regulatorio, la labor docente en la institución se encuentra regida por:
 
@@ -197,7 +201,7 @@ No obstante, los mecanismos estatutarios vigentes no proveen devoluciones pedag�
 Siguiendo las pautas del SIA, el objeto de estudio se delimita en cuatro dimensiones analíticas:
 
 * **Delimitación Temática y Conceptual:** Factibilidad de implementación de un modelo de retroalimentación 360° en la evaluación docente, analizado desde cuatro subsistemas de recursos humanos [@longo2006]: rendimiento, desarrollo, organización del trabajo y relaciones humanas.
-* **Delimitación Espacial:** Sede central del CURZAS (Viedma) y Red de Nodos Universitarios (Sierra Grande, Valcheta, Los Menucos y Ramos Mexía) donde el Departamento dicta asignaturas con mediación tecnológica y presencialidad distribuida.
+* **Delimitación Espacial:** Sede central del CURZAS (Viedma) y Red Territorial de Nodos Universitarios en sus 10 localidades (Valcheta, Ramos Mexía, Sierra Colorada, Los Menucos, Maquinchao, Ingeniero Jacobacci, San Antonio Oeste / Las Grutas, Sierra Grande, General Conesa y Río Colorado), donde el Departamento dicta asignaturas bajo modalidades presenciales e híbridas con mediación tecnológica y presencialidad distribuida.
 * **Delimitación Temporal:** Ciclo lectivo 2027 (mayo a noviembre de 2027), período en el que se llevará a cabo el trabajo de campo empírico, la recolección y análisis de datos y la redacción final del TFG, bajo la plena vigencia del nuevo Estatuto UNCo (Ord. CS N° 0988/2025).
 * **Delimitación Poblacional y Organizacional:** La unidad institucional es el Departamento de Administración Pública. Los actores involucrados comprenden docentes (regulares e interinos), estudiantes regulares, autoridades académicas (Dirección departamental y miembros del Consejo Departamental) y representantes gremiales paritarios (ADUNC).
 
@@ -307,7 +311,7 @@ A partir de los marcos de @aguilar2006 y @cao2023, la gobernanza institucional d
 
 1. *Nivel Macro (Central):* El Consejo Superior y el Rectorado de la UNCo (Neuquén), donde se regulan los marcos estatutarios generales y el régimen de Carrera Docente (Ord. CS N° 0988/2025 y Ord. CS N° 0910/1997).
 2. *Nivel Meso (Regional):* El Consejo Directivo del CURZAS y la Dirección del Departamento de Administración Pública (Viedma), responsables de la coordinación operativa de las carreras y la definición de planes anuales de capacitación docente (Art. 76).
-3. *Nivel Micro (Territorial):* La Red de Nodos Universitarios (Sierra Grande, Valcheta, Los Menucos y Ramos Mexía), donde las prácticas híbridas demandan acompañamiento tutorial virtual específico [@curza2022].
+3. *Nivel Micro (Territorial):* La Red Territorial de Nodos Universitarios (10 localidades distribuidas en la Línea Sur, Valle Medio y Costa Atlántica), donde las prácticas híbridas demandan acompañamiento tutorial virtual específico [@curza2022].
 4. *Dimensión Transversal Sociolaboral:* La representación paritaria docente (ADUNC), encargada de salvaguardar las condiciones laborales y la estabilidad en el marco del Convenio Colectivo de Trabajo (Decreto N° 1246/2015).
 
 #### Poder Compartido y Capacidades Estatales: Matus y Oszlak
@@ -348,7 +352,7 @@ Conforme a las pautas metodológicas de @torraco2016 y @jimenez2008, el relevami
 
 * **Estatuto UNCo (Ordenanza CS N° 0988/2025):** Define al CURZAS como Complejo Universitario Regional y consolida en su Título X la Carrera Docente mediante informes anuales (Art. 74) y evaluaciones cuatrienales de permanencia ante jurados externos (Art. 75), instituyendo en el Art. 76 la formulación de programas anuales de capacitación departamental [@unco2025].
 * **Reglamento de Carrera Docente (Ordenanza CS N° 0910/1997 y modif.):** Norma los procedimientos de presentación de informes docentes y encuestas estudiantiles en armonía con el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015) [@unco1997; @pen2015]. Si bien asegura solvencia jurídica en la acreditación de permanencia, los registros evidencian la ausencia de circuitos sistemáticos de retroalimentación formativa y confidencial.
-* **Red de Nodos y Docencia Híbrida (Resolución CD-CURZA N° 196/2022):** Valida las mediaciones pedagógicas híbridas en las localidades de la Línea Sur y Costa Atlántica rionegrina [@curza2022], demandando competencias de tutoría virtual que actualmente no son ponderadas formativamente por los instrumentos evaluativos vigentes.
+* **Red de Nodos y Docencia Híbrida (Resolución CD-CURZA N° 196/2022):** Valida las mediaciones pedagógicas híbridas en las 10 localidades que integran la red territorial en la Línea Sur, Valle Medio y Costa Atlántica rionegrina [@curza2022], demandando competencias de tutoría virtual que actualmente no son ponderadas formativamente por los instrumentos evaluativos vigentes.
 
 ### Síntesis Integradora y Vacancia de la Investigación
 
@@ -382,7 +386,7 @@ Conforme a las pautas metodológicas de la cátedra y a los criterios de @sautu2
 
 El universo poblacional comprende a la totalidad de los agentes que integran la comunidad académica del Departamento de Administración Pública del CURZAS-UNCo (sede Viedma y Nodos Territoriales):
 
-* **Población Docente (*N*~doc~ ≈ 38 docentes):** Totalidad de los profesores y auxiliares docentes (regulares e interinos) con designación activa frente a cátedra en el Departamento de Administración Pública, distribuidos entre las asignaturas presenciales de sede Viedma y los espacios con mediación tecnológica y tutoría en la Red de Nodos Universitarios (Sierra Grande, Valcheta, Los Menucos y Ramos Mexía).
+* **Población Docente (*N*~doc~ ≈ 38 docentes):** Totalidad de los profesores y auxiliares docentes (regulares e interinos) con designación activa frente a cátedra en el Departamento de Administración Pública, distribuidos entre las asignaturas presenciales de sede Viedma y los espacios con mediación tecnológica y tutoría en los 10 Nodos Universitarios de la red territorial (Valcheta, Ramos Mexía, Sierra Colorada, Los Menucos, Maquinchao, Ingeniero Jacobacci, San Antonio Oeste / Las Grutas, Sierra Grande, General Conesa y Río Colorado).
 * **Población Estudiantil (*N*~est~ ≈ 130 estudiantes):** Total de estudiantes con condición regular activa matriculados en los tramos formativos avanzados de las dos carreras del Departamento: 3° y 4° año de la Licenciatura en Administración Pública (LAP) y la cohorte activa del Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos (CCC-LGRH).
 * **Población de Gestión y Representación Institucional (*N*~inst~ = 5 actores clave):** Integrada por la Dirección del Departamento de Administración Pública, las dos Coordinaciones de Carrera (LAP y CCC-LGRH) y dos representantes docentes paritarios de la asociación gremial de base (ADUNC) con competencia en la mesa local del CURZAS.
 
@@ -512,7 +516,7 @@ La investigación no requiere financiamiento institucional ni subsidios externos
 | **Edición y encuadernación** | Impresión de ejemplares requeridos para la entrega formal y defensa. | $ 35.000 | Autofinanciamiento |
 | **Total** | **Presupuesto total estimado** | **$ 160.000** | **100% Propio** |
 
-*Nota.* El relevamiento en los Nodos Universitarios (Sierra Grande, Valcheta, Los Menucos y Ramos Mexía) se realizará mediante formularios digitales y salas de videoconferencia institucionales, sin generar costos extraordinarios de traslado físico.
+*Nota.* El relevamiento en los 10 Nodos Universitarios de la red territorial se realizará mediante formularios digitales autoadministrados y salas de videoconferencia institucionales, sin generar costos extraordinarios de traslado físico.
 
 ### Recursos Humanos y Dedicación
 
