@@ -7,12 +7,12 @@
   </defs>
 
   <style>
-    .title { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 20px; fill: #0f3b7d; letter-spacing: 0.5px; }
-    .header-box { font-family: system-ui, -apple-system, sans-serif; font-weight: bold; font-style: italic; font-size: 16px; fill: #b91c1c; }
-    .subsystem-title { font-family: system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 15px; fill: #0f3b7d; }
-    .subsystem-title-white { font-family: system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 15px; fill: #ffffff; }
-    .item-text { font-family: system-ui, -apple-system, sans-serif; font-style: italic; font-size: 13px; fill: #1e293b; }
-    .item-text-white { font-family: system-ui, -apple-system, sans-serif; font-style: italic; font-size: 13px; fill: #ffffff; }
+    .title { font-family: Arial, Helvetica, sans-serif; font-weight: 800; font-size: 21px; fill: #0f3b7d; letter-spacing: 0.5px; }
+    .header-box { font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-style: italic; font-size: 16px; fill: #b91c1c; }
+    .subsystem-title { font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; fill: #0f3b7d; }
+    .subsystem-title-white { font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; fill: #ffffff; }
+    .item-text { font-family: Arial, Helvetica, sans-serif; font-weight: 500; font-size: 14.5px; fill: #1e293b; }
+    .item-text-white { font-family: Arial, Helvetica, sans-serif; font-weight: 500; font-size: 14.5px; fill: #ffffff; }
     .line { stroke: #1e293b; stroke-width: 1.5; }
     .arrow-line { stroke: #1e293b; stroke-width: 1.5; marker-end: url(#arrow); }
     .arrow-line-both { stroke: #1e293b; stroke-width: 1.5; marker-start: url(#arrow); marker-end: url(#arrow); }
@@ -36,7 +36,7 @@
   <rect x="45" y="132" width="710" height="448" fill="#ffffff" stroke="#1e293b" stroke-width="2"/>
 
   <!-- Planificación Section -->
-  <text x="400" y="157" text-anchor="middle" class="subsystem-title" font-size="16">Planificación</text>
+  <text x="400" y="158" text-anchor="middle" class="subsystem-title" font-size="17">Planificación</text>
   <line x1="45" y1="170" x2="755" y2="170" class="line" />
 
   <!-- Grid Vertical Lines -->
@@ -55,36 +55,36 @@
 
   <!-- COLUMN 1: Organización del trabajo -->
   <text x="133.75" y="215" text-anchor="middle" class="subsystem-title">Organización</text>
-  <text x="133.75" y="233" text-anchor="middle" class="subsystem-title">del trabajo</text>
+  <text x="133.75" y="235" text-anchor="middle" class="subsystem-title">del trabajo</text>
   <text x="133.75" y="280" text-anchor="middle" class="item-text">Diseño de puestos</text>
-  <text x="133.75" y="302" text-anchor="middle" class="item-text">Definición de perfiles</text>
+  <text x="133.75" y="304" text-anchor="middle" class="item-text">Definición de perfiles</text>
 
   <!-- COLUMN 2: Gestión del empleo -->
   <text x="311.25" y="215" text-anchor="middle" class="subsystem-title">Gestión del</text>
-  <text x="311.25" y="233" text-anchor="middle" class="subsystem-title">empleo</text>
+  <text x="311.25" y="235" text-anchor="middle" class="subsystem-title">empleo</text>
   <text x="311.25" y="280" text-anchor="middle" class="item-text">Incorporación</text>
-  <text x="311.25" y="302" text-anchor="middle" class="item-text">Movilidad</text>
-  <text x="311.25" y="324" text-anchor="middle" class="item-text">Desvinculación</text>
+  <text x="311.25" y="304" text-anchor="middle" class="item-text">Movilidad</text>
+  <text x="311.25" y="328" text-anchor="middle" class="item-text">Desvinculación</text>
 
   <!-- COLUMN 3: Gestión del rendimiento (Highlighted Box) -->
-  <rect x="408" y="230" width="161.5" height="190" fill="#1d4ed8" rx="3" />
-  <text x="488.75" y="270" text-anchor="middle" class="subsystem-title-white">Gestión del</text>
+  <rect x="408" y="228" width="161.5" height="194" fill="#1d4ed8" rx="3" />
+  <text x="488.75" y="268" text-anchor="middle" class="subsystem-title-white">Gestión del</text>
   <text x="488.75" y="288" text-anchor="middle" class="subsystem-title-white">rendimiento</text>
-  <text x="488.75" y="340" text-anchor="middle" class="item-text-white">Planificación</text>
-  <text x="488.75" y="362" text-anchor="middle" class="item-text-white">Evaluación</text>
+  <text x="488.75" y="340" text-anchor="middle" class="item-text-white" font-weight="bold">Planificación</text>
+  <text x="488.75" y="364" text-anchor="middle" class="item-text-white" font-weight="bold">Evaluación</text>
 
   <!-- COLUMN 4 TOP: Gestión de la compensación -->
   <text x="666.25" y="202" text-anchor="middle" class="subsystem-title">Gestión de la</text>
-  <text x="666.25" y="220" text-anchor="middle" class="subsystem-title">compensación</text>
-  <text x="666.25" y="258" text-anchor="middle" class="item-text">Retribución monetaria</text>
-  <text x="666.25" y="276" text-anchor="middle" class="item-text">y no monetaria</text>
+  <text x="666.25" y="222" text-anchor="middle" class="subsystem-title">compensación</text>
+  <text x="666.25" y="260" text-anchor="middle" class="item-text">Retribución monetaria</text>
+  <text x="666.25" y="282" text-anchor="middle" class="item-text">y no monetaria</text>
 
   <!-- COLUMN 4 BOTTOM: Gestión del desarrollo -->
   <text x="666.25" y="350" text-anchor="middle" class="subsystem-title">Gestión del</text>
-  <text x="666.25" y="368" text-anchor="middle" class="subsystem-title">desarrollo</text>
-  <text x="666.25" y="405" text-anchor="middle" class="item-text">Promoción y carrera</text>
-  <text x="666.25" y="427" text-anchor="middle" class="item-text">Aprendizaje</text>
-  <text x="666.25" y="445" text-anchor="middle" class="item-text">individual y colectivo</text>
+  <text x="666.25" y="370" text-anchor="middle" class="subsystem-title">desarrollo</text>
+  <text x="666.25" y="406" text-anchor="middle" class="item-text">Promoción y carrera</text>
+  <text x="666.25" y="428" text-anchor="middle" class="item-text">Aprendizaje</text>
+  <text x="666.25" y="448" text-anchor="middle" class="item-text">individual y colectivo</text>
 
   <!-- Inter-column Horizontal & Bidirectional Arrows -->
   <line x1="185" y1="225" x2="235" y2="225" class="arrow-line" />
@@ -95,7 +95,7 @@
 
   <!-- BOTTOM SECTION: Gestión de las relaciones humanas y sociales -->
   <line x1="45" y1="470" x2="755" y2="470" class="line" />
-  <text x="400" y="500" text-anchor="middle" class="subsystem-title" font-size="16">Gestión de las relaciones humanas y sociales</text>
+  <text x="400" y="500" text-anchor="middle" class="subsystem-title" font-size="17">Gestión de las relaciones humanas y sociales</text>
 
   <text x="133.75" y="545" text-anchor="middle" class="item-text" font-weight="bold">Clima laboral</text>
   <text x="400" y="545" text-anchor="middle" class="item-text" font-weight="bold">Relaciones laborales</text>

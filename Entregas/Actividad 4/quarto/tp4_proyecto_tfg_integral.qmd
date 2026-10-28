@@ -167,7 +167,7 @@ El presente proyecto de investigación se inscribe en la intersección entre la 
 A nivel teórico, el proyecto toma como marco de referencia el modelo de gestión estratégica del empleo y los recursos humanos en el sector público formulado por Francisco @longo2006. Dicho enfoque estructura la gestión de personas en subsistemas interdependientes:
 
 ::: {align="center"}
-![*Subsistemas de la Gestión de Recursos Humanos en el Sector Público [@longo2006].*](assets/Sistemas-longo.svg){width=50%}
+![*Subsistemas de la Gestión de Recursos Humanos en el Sector Público [@longo2006].*](assets/Sistemas-longo.svg){width=95%}
 :::
 
 En el marco de este modelo, la investigación focaliza de forma prioritaria en el subsistema de *gestión del rendimiento* (evaluación del desempeño), articulándolo analíticamente con tres subsistemas complementarios: *gestión del desarrollo* (capacitación docente y planes de carrera), *organización del trabajo* (diseño de perfiles y funciones académicas presenciales e híbridas) y *gestión de las relaciones humanas y sociales* (clima institucional, cultura participativa y diálogo paritario). La investigación se orienta a explorar las condiciones organizacionales, técnicas, normativas y políticas requeridas para dotar a la evaluación docente de un sentido formativo [@obando2014; @sifuentes2016], capaz de articular la retroalimentación del propio docente, sus colegas de cátedra, los estudiantes y la conducción académica.
@@ -177,6 +177,7 @@ En el marco de este modelo, la investigación focaliza de forma prioritaria en e
 El estudio se desarrolla en el Departamento de Administración Pública del CURZAS-UNCo, unidad académica con sede central en la ciudad de Viedma (Río Negro). El Departamento coordina la Licenciatura en Administración Pública, el Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos y diversos trayectos formativos para el sector público provincial y municipal. Su población estudiantil comprende tanto jóvenes de la comarca Viedma-Patagones como trabajadores estatales insertos en administraciones públicas. A ello se suma la expansión territorial a través de la Red de Nodos Universitarios en localidades de la Línea Sur y la Costa Atlántica rionegrina (Sierra Grande, Valcheta, Los Menucos y Ramos Mexía), donde se implementan modalidades de cursada híbrida reguladas por la Resolución CD-CURZA N° 196/2022 [@curza2022].
 
 En el plano regulatorio, la labor docente en la institución se encuentra regida por:
+
 1. El Estatuto de la Universidad Nacional del Comahue (Ordenanza CS N° 0988/2025, texto ordenado) [@unco2025], que en sus artículos 17 y Disposición Transitoria Cuarta define al CURZAS como Complejo Universitario Regional, y en su Título X regula la Carrera Docente (Arts. 65 a 76).
 2. El Reglamento General de Carrera Docente de la UNCo (Ordenanza CS N° 0910/1997 y modificatorias) [@unco1997], que fija las pautas para informes anuales y evaluaciones periódicas cuatrienales.
 3. El Convenio Colectivo de Trabajo para los Docentes de las Instituciones Universitarias Nacionales (Decreto PEN N° 1246/2015) [@pen2015], que establece la garantía de estabilidad laboral, el régimen de concursos y los resguardos contra prácticas evaluativas arbitrarias.
@@ -232,7 +233,7 @@ La investigación se justifica en tres planos complementarios:
 
 1. Relevar y caracterizar los instrumentos normativos, procedimientos y prácticas vigentes aplicadas a la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo, distinguiendo las prescripciones estatutarias de su implementación efectiva.
 2. Explorar las percepciones, disposiciones y representaciones de los actores institucionales involucrados (docentes y estudiantes) y de las autoridades departamentales respecto a la retroalimentación multiactoral (360°) y las condiciones de confianza institucional requeridas.
-3. Identificar los condicionantes técnico-organizacionales, normativos y de gobernanza multinivel (acuerdos paritarios, carrera docente, confidencialidad y cogobierno) que inciden en la factibilidad del modelo en el marco de la poligobernanza institucional.
+3. Identificar los condicionantes técnico-organizacionales (incluyendo la resolución de la coevaluación en cátedras unipersonales mediante pares horizontales por área o tramo curricular), normativos y de gobernanza multinivel (acuerdos paritarios, carrera docente, confidencialidad y cogobierno) que inciden en la factibilidad del modelo en el marco de la poligobernanza institucional.
 4. Proponer lineamientos orientativos para una eventual implementación de un modelo de retroalimentación multiactoral (360°), en función de las condiciones y límites de factibilidad identificados en la investigación empírica.
 
 {{< pagebreak >}}
@@ -260,6 +261,7 @@ La investigación se justifica en tres planos complementarios:
 La construcción del marco teórico asume la perspectiva de la teoría como *configuración abierta*, formulada por Enrique @delagarza2001 en el ámbito de la epistemología crítica latinoamericana. Desde este enfoque, la teoría no constituye un sistema cerrado de axiomas rígidos, sino una red flexible y conceptualmente articulada que permite vincular categorías provenientes de la Administración Pública y la Gestión de Recursos Humanos, reconociendo zonas con diferentes grados de determinación y apertura analítica.
 
 Esta perspectiva resulta fértil para el estudio de la factibilidad organizacional:
+
 1. *La realidad social como proceso abierto:* La organización universitaria no es un sistema estático regido por normas mecánicas, sino una trama dinámica construida cotidianamente por sujetos reflexivos (docentes, estudiantes y autoridades).
 2. *Determinación del campo de lo viable:* Evaluar la factibilidad no consiste en emitir un pronóstico cerrado sobre el éxito o fracaso de un dispositivo, sino en desentrañar las condiciones estructurales, normativas y culturales del presente para reconstruir el espacio de posibilidades viables para la acción institucional [@delagarza2001; @matus1993].
 3. *Articulación conceptual en pirámide invertida:* Siguiendo a @sautu2005, el marco conceptual transita desde el análisis sistémico de personas en el Estado [@longo2006] hacia los conceptos específicos sobre evaluación multiactoral y gobernanza universitaria.
@@ -269,6 +271,7 @@ Esta perspectiva resulta fértil para el estudio de la factibilidad organizacion
 La columna analítica de la investigación adopta el modelo de gestión estratégica de recursos humanos en organizaciones públicas desarrollado por Francisco @longo2006. El autor propone superar el modelo burocrático-weberiano tradicional —enfocado en el apego formal a la norma procedimental sin atención a los resultados— mediante una administración orientada al mérito, el valor público y la flexibilidad directiva.
 
 El modelo se articula en torno al subsistema de *gestión del rendimiento* en estrecha interdependencia con otros tres subsistemas:
+
 * **Gestión del Rendimiento:** Constituye el eje estructurante del estudio. Comprende los instrumentos dirigidos a valorar la contribución de los agentes a los fines institucionales. Según @longo2006, este subsistema adquiere legitimidad en el sector público cuando trasciende la fiscalización burocrática y se consolida como un proceso reflexivo de evaluación y perfeccionamiento laboral.
 * **Organización del Trabajo:** Articula los perfiles y funciones académicas de las cátedras con las demandas pedagógicas contemporáneas. En el CURZAS-UNCo, esto implica contrastar los criterios estatutarios formales con las exigencias docentes que imponen las aulas híbridas y el acompañamiento tutorial en los Nodos Universitarios [@curza2022].
 * **Gestión del Desarrollo:** Vincula la evaluación con oportunidades de formación continua y actualización docente (Art. 76 del Estatuto UNCo). Evaluar sin ofrecer vías de perfeccionamiento pedagógico despoja al proceso de sentido formativo y lo reduce a un trámite administrativo estéril [@longo2006].
@@ -279,8 +282,9 @@ El modelo se articula en torno al subsistema de *gestión del rendimiento* en es
 En la gestión del rendimiento, la literatura distingue entre dos orientaciones evaluativas [@chiavenato2020; @lepsinger2009]: la *lógica sumativa* (dirigida al control procesal, la auditoría reglamentaria y la toma de decisiones contractuales de permanencia) y la *lógica formativa* (orientada al aprendizaje reflexivo, al diagnóstico de fortalezas y debilidades pedagógicas y al enriquecimiento de la labor docente).
 
 Para operativizar un enfoque formativo en la universidad, el modelo de retroalimentación 360 grados [@lepsinger2009; @obando2014; @sifuentes2016] plantea superar las evaluaciones unilaterales descendentes mediante una triangulación multiactoral que integra cuatro miradas sobre la práctica educativa:
+
 1. *Autoevaluación docente:* Espacio reflexivo donde el profesorado examina su propia planificación académica, sus elecciones didácticas y los desafíos emergentes del aula.
-2. *Coevaluación de pares:* Valoración colegiada realizada por docentes del mismo equipo de cátedra o área disciplinar, focalizada en la pertinencia conceptual, la rigurosidad disciplinar y el trabajo colaborativo.
+2. *Coevaluación de pares:* Valoración colegiada realizada por docentes del mismo equipo de cátedra o área disciplinar, focalizada en la pertinencia conceptual, la rigurosidad disciplinar y el trabajo colaborativo. Para las asignaturas de cátedra unipersonal (frecuentes en el Departamento de Administración Pública y en el CCC de RRHH, donde una materia cuenta con un único docente sin auxiliares ni adjuntos), la investigación indagará la viabilidad de instrumentar una **coevaluación horizontal por área o tramo curricular** (articulando docentes de materias afines del mismo año o ciclo), evitando que el anillo de pares del dispositivo 360° quede vacante.
 3. *Heteroevaluación estudiantil:* Apreciación realizada por los estudiantes sobre la labor docente cotidiana, la claridad explicativa, la puntualidad en las devoluciones y el acompañamiento pedagógico en entornos presenciales y virtuales.
 4. *Apreciación de la dirección departamental:* Mirada estratégica orientada a valorar la articulación de la cátedra con los planes de estudio y las prioridades académicas e institucionales del Departamento.
 
@@ -293,12 +297,14 @@ La incorporación de un dispositivo 360° en una universidad pública no constit
 #### La Perspectiva de la Poligobernanza: El Aporte de Cao y Blutman
 
 Partiendo del concepto clásico de gobernanza como *dirección social compartida* [@aguilar2006], el proyecto incorpora los desarrollos de Horacio Cao y Gustavo Blutman [@cao2021; @cao2023] en torno a la *poligobernanza*. Frente al control burocrático rígido y a las recetas mercantiles de la Nueva Gerencia Pública, la poligobernanza postula un enfoque sociocéntrico y relacional:
+
 * *El Estado plataforma y la descentralización:* Estructuras horizontales e interconectadas que coordinan interacciones entre comunidades y colectivos profesionales [@cao2021]. En el CURZAS, esta noción permite conceptualizar la articulación entre la sede central en Viedma y los Nodos Universitarios de la Línea Sur y la Costa Atlántica, concibiendo al 360° como una red horizontal de acompañamiento pedagógico en territorio.
 * *Gestión de la complejidad situada:* Metodología relacional que busca gestionar la incertidumbre construyendo soluciones adaptadas a la singularidad institucional [@cao2023]. En el CURZAS, implica superar las encuestas genéricas estandarizadas para captar las realidades específicas de cada cátedra y modalidad de cursada.
 
 #### La Poligobernanza Universitaria en Cuatro Planos Decisionales
 
 A partir de los marcos de @aguilar2006 y @cao2023, la gobernanza institucional del CURZAS-UNCo se estructura en cuatro planos interdependientes:
+
 1. *Nivel Macro (Central):* El Consejo Superior y el Rectorado de la UNCo (Neuquén), donde se regulan los marcos estatutarios generales y el régimen de Carrera Docente (Ord. CS N° 0988/2025 y Ord. CS N° 0910/1997).
 2. *Nivel Meso (Regional):* El Consejo Directivo del CURZAS y la Dirección del Departamento de Administración Pública (Viedma), responsables de la coordinación operativa de las carreras y la definición de planes anuales de capacitación docente (Art. 76).
 3. *Nivel Micro (Territorial):* La Red de Nodos Universitarios (Sierra Grande, Valcheta, Los Menucos y Ramos Mexía), donde las prácticas híbridas demandan acompañamiento tutorial virtual específico [@curza2022].
@@ -307,12 +313,14 @@ A partir de los marcos de @aguilar2006 y @cao2023, la gobernanza institucional d
 #### Poder Compartido y Capacidades Estatales: Matus y Oszlak
 
 Al interior de esta trama convergen los aportes conceptuales de Carlos Matus y Oscar Oszlak:
+
 * *Carlos Matus y la viabilidad en arenas de poder compartido:* Desde la Planificación Estratégica Situacional, @matus1993 demuestra que en organizaciones complejas ningún actor concentra el monopolio del poder decisional. En el CURZAS, un modelo de retroalimentación solo es viable si se construye sobre variables de control compartido, concertando con la representación docente reglas claras de voluntariedad, confidencialidad y desvinculación de los jurados de permanencia sumativa.
 * *Oscar Oszlak y las capacidades estatales en la era digital:* @oszlak2020 fundamenta que las plataformas digitales institucionales (Moodle y SIU-Guaraní) deben ponerse al servicio del desarrollo de capacidades de gestión de personas [@longo2006], evitando la fiscalización tecno-burocrática y garantizando el procesamiento anónimo de información para nutrir la capacitación continua.
 
 ### Precisión Categorial: "Claustro" frente a "Actores Situados"
 
 Para asegurar precisión analítica, la investigación distingue explícitamente entre dos categorías conceptuales:
+
 * *Claustros (categoría jurídico-institucional):* Estamentos de representación legal reglamentados por la Ley N° 24.521 [@ministerio1995] y el Estatuto de la UNCo (docente, estudiantil, nodocente y graduados), cuya función reside en estructurar el cogobierno y la deliberación política en cuerpos colegiados.
 * *Actores situados (categoría analítica de la investigación):* Sujetos concretos que experimentan cotidianamente la práctica formativa: docentes de cátedra y tutores de nodos, estudiantes de diversas trayectorias, equipos de conducción académica y representantes gremiales paritarios. La evaluación formativa interpela a los actores en sus dinámicas reales de enseñanza y aprendizaje, más allá de la abstracción de los estamentos jurídicos formales.
 
@@ -359,6 +367,7 @@ Este capítulo define el diseño metodológico, la muestra, los instrumentos de 
 La investigación adopta un enfoque metodológico mixto con predominio cualitativo y un componente cuantitativo descriptivo ($CUAL \rightarrow cuan$) [@hernandezsampieri2014]. La prioridad cualitativa permite profundizar en las percepciones, disposiciones y condiciones de acuerdo de los actores universitarios, mientras que el componente cuantitativo aporta un sondeo estructurado sobre las dimensiones específicas de viabilidad.
 
 El estudio presenta un alcance descriptivo, exploratorio y propositivo:
+
 * *Descriptivo:* Sistematiza las normas y prácticas de evaluación docente vigentes en el Departamento.
 * *Exploratorio:* Indaga la viabilidad de un modelo 360° en una unidad académica pública con cogobierno y modalidades híbridas en territorio.
 * *Propositivo:* Formula lineamientos orientativos para una eventual aplicación formativa a partir de los condicionantes empíricos relevados.
@@ -386,6 +395,7 @@ Considerando que el proyecto es ejecutado por un único investigador y no persig
 ### Técnicas e Instrumentos de Recolección de Datos
 
 Se articulan tres técnicas complementarias:
+
 1. **Análisis documental normativo:** Relevamiento del Estatuto UNCo (Ord. CS N° 0988/2025), el Reglamento de Carrera Docente (Ord. CS N° 0910/1997), el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015) y la Resolución CD-CURZA N° 196/2022. *Instrumento:* Ficha de registro documental para sistematizar prescripciones reglamentarias y cláusulas de estabilidad laboral.
 2. **Entrevistas semiestructuradas en profundidad:** Diálogo cualitativo sobre la evaluación vigente, la disposición a la coevaluación y las condiciones de viabilidad gremial e institucional. *Instrumento:* Guía de entrevista temática adaptada al rol del entrevistado (Anexo I).
 3. **Cuestionario exploratorio autoadministrado:** Consulta estructurada sobre dimensiones de factibilidad técnica, cultural y procedimental. Consta de 15 reactivos en escala Likert de 5 puntos (desde 1: *Totalmente en desacuerdo* hasta 5: *Totalmente de acuerdo*) y 2 preguntas abiertas breves. *Instrumento:* Cuestionario de factibilidad (Anexo II).
@@ -399,7 +409,7 @@ Se articulan tres técnicas complementarias:
 | **1. Normativa y Estatutaria** | Compatibilidad jurídica | Adecuación al Estatuto UNCo, Carrera Docente y CCT Docente (Decreto N° 1246/2015). | • Articulación con informes anuales y evaluaciones cuatrienales.<br>• Preservación de la estabilidad y libertad de cátedra. | Estatuto UNCo, Ord. CS N° 0910/1997 y CCT.<br>*Ficha de análisis documental.* |
 | | No sumatividad estatutaria | Resguardo de que el dispositivo carezca de consecuencias punitivas o contractuales. | • Cláusula de destino formativo exclusivo.<br>• Desvinculación de jurados de permanencia. | Normativa de carrera y actas paritarias.<br>*Ficha documental y entrevista gremial.* |
 | **2. Técnica e Instrumental** | Plataforma y usabilidad | Accesibilidad de plataformas institucionales (Moodle/SIU) para formularios estructurados. | • Disponibilidad de servidores en Viedma y Nodos.<br>• Tiempo de respuesta menor a 15 minutos. | Personal informático y usuarios.<br>*Ficha técnica y sondeo exploratorio.* |
-| | Confidencialidad y anonimato | Medidas de diseño para evitar la reidentificación de los participantes. | • Inhabilitación de registro de IP y metadatos.<br>• Agrupamiento de variables sociodemográficas. | Plataforma digital y prueba piloto.<br>*Auditoría técnica de formulario.* |
+| | Confidencialidad y anonimato | Medidas de diseño para evitar la reidentificación de los participantes. | • Inhabilitación de registro de IP y metadatos.<br>• Agrupamiento de variables sociodemográficas.<br>• Protocolo de anonimización en origen (tokens aleatorios de un solo uso).<br>• Custodia técnica neutral: procesamiento a cargo de una comisión ad-hoc o área pedagógica neutral externa a la Dirección, que entrega al Departamento reportes consolidados y al docente su reporte individual confidencial. | Plataforma digital y prueba piloto.<br>*Auditoría técnica de formulario.* |
 | | Mitigación de fatiga | Criterios de brevedad para evitar sobrecarga en asignaturas compartidas. | • Límite estricto de reactivos (hasta 15 ítems).<br>• Frecuencia diagnóstica anual. | Respondientes en prueba piloto.<br>*Cuestionario exploratorio.* |
 | **3. Organizacional y Procedimental** | Capacidad departamental | Circuitos y tiempos de gestión para procesar información y coordinar devoluciones. | • Circuitos internos de procesamiento.<br>• Plazos de emisión de reportes globales. | Dirección departamental y docentes.<br>*Entrevistas y revisión de circuitos.* |
 | | Articulación con Art. 76 | Canalización de demandas hacia el Programa Anual de Capacitación Docente. | • Registro temático de necesidades prioritarias.<br>• Transferencia formal de insumos al plan anual. | Programas anuales de formación y actas.<br>*Ficha documental y entrevistas.* |
@@ -433,7 +443,8 @@ Las actividades de investigación se estructuran en seis fases secuenciales coor
 ### Consideraciones Éticas
 
 El estudio se rige por las siguientes garantías institucionales y éticas:
-1. **Protección de datos y resguardo de identidad:** Conforme a la Ley Nacional N° 25.326 de Protección de los Datos Personales [@ley25326], se garantiza la estricta disociación entre las respuestas y la identidad de los participantes. El cuestionario digital se administra sin registrar correos electrónicos ni direcciones IP, y las variables sociodemográficas se agrupan en categorías amplias para impedir la identificación por deducción en cátedras con pocos integrantes.
+
+1. **Protección de datos y resguardo de identidad (Custodia del Anonimato):** Conforme a la Ley Nacional N° 25.326 de Protección de los Datos Personales [@ley25326], se garantiza la estricta disociación entre las respuestas y la identidad de los participantes. El cuestionario digital se administra bajo un protocolo de **anonimización en origen** mediante tokens aleatorios de un solo uso, sin registrar correos electrónicos ni direcciones IP. Para disipar cualquier incertidumbre sobre cruce de horarios o permisos de administrador en servidores institucionales, la custodia y administración técnica del instrumento será gestionada por un área pedagógica neutral o comisión técnica ad-hoc independiente de la conducción ejecutiva del Departamento. Dicha custodia garantiza que el Departamento solo reciba informes diagnósticos agregados y globales, mientras que cada docente recibe de forma directa y confidencial su reporte individual de retroalimentación pedagógica, impidiendo cualquier reidentificación por deducción en cátedras unipersonales o con reducida matrícula.
 2. **Consentimiento informado:** La participación en entrevistas y sondeos es libre y voluntaria. Cada participante valida digitalmente el formulario de consentimiento informado (Anexo IV) previo a responder.
 3. **Garantía de no afectación laboral:** En concordancia con el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015), los datos obtenidos se destinan exclusivamente a fines diagnósticos y académicos del TFG. Bajo ninguna circunstancia los reportes integrarán legajos, evaluaciones de permanencia ni concursos laborales.
 
@@ -510,15 +521,27 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 **Proyecto:** *Evaluación del Desempeño Docente y Factibilidad de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)*  
 **Investigador:** Tec. Sup. Héctor Daniel Ayarachi Fuentes  
 
-*Objetivo:* Relevar opiniones sobre los mecanismos actuales de evaluación docente y las condiciones de factibilidad para un circuito formativo 360°.
+*Objetivo:* Relevar opiniones, percepciones y juicios críticos sobre los mecanismos actuales de evaluación docente y las condiciones de factibilidad para un circuito formativo 360° adaptado a la singularidad institucional.
+
+#### Bloque A: Guía Temática para Docentes de Cátedra y Autoridades Académicas {.unnumbered}
 
 1. **Evaluación vigente:** ¿Qué balance realiza de los instrumentos actuales (informes anuales, encuestas estudiantiles y evaluaciones cuatrienales de permanencia)?
 2. **Uso pedagógico:** ¿En qué medida considera que las opiniones estudiantiles actuales se traducen en mejoras de la enseñanza o en planes de capacitación?
 3. **Autoevaluación:** ¿Realiza habitualmente instancias de autorreflexión sobre su práctica pedagógica? ¿Qué utilidad le asigna a formalizar dicha instancia?
-4. **Mirada de pares:** ¿Qué condiciones de confianza institucional considera necesarias para que la coevaluación entre colegas sea constructiva y no genere prevención?
+4. **Mirada de pares y cátedras unipersonales:** ¿Qué condiciones de confianza institucional considera necesarias para que la coevaluación entre colegas sea constructiva? En asignaturas de docente único, ¿ve viable la coevaluación horizontal entre pares de materias afines del mismo tramo curricular?
 5. **Nodos Territoriales:** En asignaturas con modalidad híbrida en la Línea Sur y Costa Atlántica, ¿qué aspectos de la labor docente (tutoría virtual, diseño de recursos) deberían valorarse de forma diferenciada?
 6. **Resguardos necesarios:** ¿Qué salvaguardas (anonimato, voluntariedad, desvinculación de legajos sumativos) considera indispensables para legitimar una propuesta de este tipo?
 7. **Articulación departamental:** ¿De qué forma deberían vincularse los resultados con el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo)?
+
+#### Bloque B: Preguntas Específicas para la Representación Gremial Paritaria (ADUNC) {.unnumbered}
+
+1. **Compatibilidad normativa y estabilidad laboral:** ¿Qué condiciones y salvaguardas paritarias considera prioritario establecer para asegurar la plena compatibilidad con los Arts. 74 y 75 del Estatuto UNCo y el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015), blindando el carácter estrictamente formativo del modelo frente a cualquier uso sumativo o punitivo?
+2. **Veeduría y custodia de datos:** ¿Qué mecanismos de veeduría y gobernanza gremial deberían incorporarse en la administración y custodia técnica de los formularios para otorgar plena certeza de que los datos diagnósticos no serán transferidos a legajos ni utilizados por jurados de permanencia o acreditación?
+
+#### Bloque C: Preguntas Específicas para Estudiantes Avanzados {.unnumbered}
+
+1. **Utilidad percibida de la evaluación actual:** En base a su trayectoria, ¿qué balance realiza de la utilidad pedagógica real de las encuestas estudiantiles obligatorias que se completan en SIU-Guaraní al término de cada cursada? ¿Considera que sus aportes inciden efectivamente en cambios o mejoras en la enseñanza?
+2. **Condiciones para la retroalimentación constructiva:** ¿Qué condiciones de anonimato y qué tipo de aspectos de la enseñanza (ej. claridad didáctica, acompañamiento tutorial virtual en Nodos, criterios de evaluación y devoluciones) considera más relevantes de incorporar en una retroalimentación formativa para opinar con sinceridad y compromiso?
 
 {{< pagebreak >}}
 
@@ -527,7 +550,7 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 *Instrucciones:* Indique su nivel de acuerdo marcando del 1 al 5 (1: Totalmente en desacuerdo; 2: En desacuerdo; 3: Ni de acuerdo ni en desacuerdo; 4: De acuerdo; 5: Totalmente de acuerdo).
 
 | N° | Reactivo | 1 | 2 | 3 | 4 | 5 |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: |
+|:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|
 | 1 | La evaluación docente debería orientarse prioritariamente al aprendizaje pedagógico continuo y no al control formal. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 2 | Es indispensable que los reportes individuales no integren legajos de permanencia ni concursos laborales. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios anónimos. | [ ] | [ ] | [ ] | [ ] | [ ] |
@@ -543,6 +566,18 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 | 13 | El acuerdo de la representación gremial docente (ADUNC) es un requisito central para su viabilidad. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | [ ] | [ ] | [ ] | [ ] | [ ] |
+
+*Nota.* En el formulario administrado al claustro estudiantil, los reactivos 8 y 9 se adaptan consultando sobre la utilidad percibida de la autoevaluación y coevaluación docente.
+
+**Preguntas Abiertas Complementarias:**
+
+* **Pregunta abierta 1:** ¿Qué condición o resguardo considera prioritario garantizar para participar con confianza en una instancia de retroalimentación docente?  
+  *Respuesta:* `...........................................................................................................................................................`  
+  `...........................................................................................................................................................`
+
+* **Pregunta abierta 2:** ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por las encuestas actuales?  
+  *Respuesta:* `...........................................................................................................................................................`  
+  `...........................................................................................................................................................`
 
 {{< pagebreak >}}
 
@@ -563,22 +598,39 @@ Me dirijo a Usted como estudiante regular del Ciclo de Complementación Curricul
 
 **"Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)"**  
 
-Por la presente, solicito formalmente el correspondiente **aval institucional y autorización de acceso al campo** para llevar adelante las tareas de relevamiento previstas en el diseño:  
+Por la presente, solicito formalmente el correspondiente **aval institucional y autorización de acceso al campo** para llevar adelante las tareas de relevamiento previstas en el diseño:
+
 a) Consulta de documentación reglamentaria y programas de capacitación docente;  
 b) Realización de entrevistas a informantes clave (autoridades, docentes y representantes gremiales);  
 c) Administración de un sondeo digital anónimo y voluntario a docentes y estudiantes en sede Viedma y Nodos Territoriales.  
 
 Se garantiza que toda la información se tratará bajo estricto secreto estadístico (Ley N° 25.326) con fines exclusivamente diagnósticos y académicos, sin generar consecuencias laborales ni sumativas.  
 
-Agradeciendo su atención, saludo a Usted atentamente.  
+Agradeciendo su atención, saludo a Usted atentamente.
 
+
+::: {.content-visible when-format="typst"}
+```{=typst}
+#v(1.4cm)
+#align(center)[
+  #line(length: 65%, stroke: 0.5pt + black)
+  #v(0.6em)
+  #text(weight: "bold")[Tec. Sup. Héctor Daniel Ayarachi Fuentes]   Legajo N° 8252 — DNI N° 35.492.138   Estudiante del CCC de la Licenciatura en Gestión de Recursos Humanos   Departamento de Administración Pública — CURZAS-UNCo
+]
+```
+:::
+
+::: {.content-visible when-format="docx"}
+<br>
 <br>
 
 ::: {align="center"}
-______________________________________________  
+................................................................................................................  
 **Tec. Sup. Héctor Daniel Ayarachi Fuentes**  
 Legajo N° 8252 — DNI N° 35.492.138  
+Estudiante del CCC de la Licenciatura en Gestión de Recursos Humanos  
 Departamento de Administración Pública — CURZAS-UNCo  
+:::
 :::
 
 {{< pagebreak >}}
@@ -593,6 +645,7 @@ Departamento de Administración Pública — CURZAS-UNCo
 2. **Investigador:** Tec. Sup. Héctor Daniel Ayarachi Fuentes (CURZAS-UNCo).
 3. **Propósito:** Diagnosticar las condiciones de factibilidad para un circuito formativo de retroalimentación docente.
 4. **Constancia y Declaración del Participante:**
+
    - Declaro haber recibido información clara y suficiente sobre los objetivos de la investigación.
    - Mi participación es libre, voluntaria y no remunerada, pudiendo retirarme en cualquier momento sin perjuicio alguno.
    - Se me garantiza el anonimato estricto y la confidencialidad de mis respuestas (Ley N° 25.326 de Protección de los Datos Personales).
@@ -605,5 +658,5 @@ Departamento de Administración Pública — CURZAS-UNCo
 | **Lugar y Fecha:** | __________________________________________________ |
 | **Firma (o validación digital):** | __________________________________________________ |
 | **Aclaración de Firma:** | __________________________________________________ |
-| **Estamento / Rol:** | [ ] Docente &nbsp;&nbsp;&nbsp;&nbsp; [ ] Estudiante &nbsp;&nbsp;&nbsp;&nbsp; [ ] Autoridad |
+| **Estamento / Rol:** | [ ] Docente &nbsp;&nbsp;&nbsp;&nbsp; [ ] Estudiante &nbsp;&nbsp;&nbsp;&nbsp; [ ] Autoridad &nbsp;&nbsp;&nbsp;&nbsp; [ ] Representante Gremial |
   

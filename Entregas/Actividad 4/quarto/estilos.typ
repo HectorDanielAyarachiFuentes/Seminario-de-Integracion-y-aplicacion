@@ -22,8 +22,8 @@
 
 // ─── Tablas estilo APA 7 (solo bordes horizontales) ─────────────────────
 #set table(
-  stroke: (x, y) => if y == 0 { (top: 1pt + black, bottom: 0.5pt + black) } else if y == 5 { (bottom: 1pt + black) } else { none },
-  inset: 3.5pt
+  stroke: (x, y) => if y == 0 { (top: 1pt + black, bottom: 0.5pt + black) } else { none },
+  inset: 2.8pt
 )
 #show table: set text(size: 8pt)
 #show table.cell: set par(first-line-indent: 0pt, leading: 0.45em, justify: false)
