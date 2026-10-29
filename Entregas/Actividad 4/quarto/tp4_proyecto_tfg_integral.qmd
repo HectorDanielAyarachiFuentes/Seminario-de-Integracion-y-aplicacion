@@ -177,7 +177,7 @@ En el marco de este modelo, la investigación focaliza de forma prioritaria en e
 El estudio se desarrolla en el Departamento de Administración Pública del CURZAS-UNCo, unidad académica con sede central en la ciudad de Viedma (Río Negro). El Departamento coordina la Licenciatura en Administración Pública, el Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos y diversos trayectos formativos para el sector público provincial y municipal. Su población estudiantil comprende tanto jóvenes de la comarca Viedma-Patagones como trabajadores estatales insertos en administraciones públicas. A ello se suma la expansión territorial a través de la Red Territorial de Nodos Universitarios distribuida en 10 localidades rionegrinas (Valcheta, Ramos Mexía, Sierra Colorada, Los Menucos, Maquinchao, Ingeniero Jacobacci, San Antonio Oeste / Las Grutas, Sierra Grande, General Conesa y Río Colorado), articuladas desde la sede central de Viedma bajo modalidades de cursada híbrida reguladas por la Resolución CD-CURZA N° 196/2022 [@curza2022] (ver Figura 2).
 
 ::: {align="center"}
-![*Red Territorial de Nodos Universitarios del CURZAS-UNCo (Resolución CD-CURZA N° 196/2022).*](assets/red_territorial.svg){width=92%}
+![*Red Territorial de Nodos Universitarios del CURZAS-UNCo (Resolución CD-CURZA N° 196/2022). Elaboración propia.*](assets/red_territorial.svg){width=92%}
 :::
 
 En el plano regulatorio, la labor docente en la institución se encuentra regida por:
