@@ -22,6 +22,7 @@ import shutil
 import hashlib
 import subprocess
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
 
 # =============================================================================
 # IMPORTACIONES CENTRALIZADAS DE RENDIMIENTO (LAZY / SAFE LOAD)
@@ -775,6 +776,22 @@ def compilar_quarto_word(doc):
         print(f"     {e.stderr.strip() or e.stdout.strip()}")
         return False
 
+def copiar_si_cambio(src, dst):
+    """Copia el archivo únicamente si el destino no existe o si difiere en mtime o tamaño."""
+    if not src.exists():
+        return False
+    if not dst.exists():
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(str(src), str(dst))
+        return True
+    # Comparar mtime y tamaño antes de copiar
+    s_stat = src.stat()
+    d_stat = dst.stat()
+    if s_stat.st_mtime > d_stat.st_mtime + 0.1 or s_stat.st_size != d_stat.st_size:
+        shutil.copy2(str(src), str(dst))
+        return True
+    return False
+
 def sincronizar_documento(doc):
     """Sincroniza bidireccionalmente el archivo origen y la copia en Entregas según la última modificación."""
     if "qmd_entrega" not in doc:
@@ -807,15 +824,19 @@ def sincronizar_documento(doc):
     if local_assets.exists():
         entrega_assets = qmd_entr.parent / "assets"
         entrega_assets.mkdir(parents=True, exist_ok=True)
-        shutil.copytree(str(local_assets), str(entrega_assets), dirs_exist_ok=True)
+        for root, dirs, files in os.walk(str(local_assets)):
+            rel = os.path.relpath(root, str(local_assets))
+            target_dir = entrega_assets if rel == "." else entrega_assets / rel
+            target_dir.mkdir(parents=True, exist_ok=True)
+            for f in files:
+                copiar_si_cambio(Path(root) / f, target_dir / f)
 
     # Sincronizar archivos auxiliares (.bib, .csl, .typ) de la carpeta origen hacia Entregas
     for ext in ["*.bib", "*.csl", "*.typ"]:
         for aux_file in qmd_orig.parent.glob(ext):
             if not aux_file.name.endswith("_typst.typ") and aux_file.name != qmd_orig.with_suffix(".typ").name:
                 dst = qmd_entr.parent / aux_file.name
-                if not dst.exists() or aux_file.stat().st_mtime > dst.stat().st_mtime + 0.1:
-                    shutil.copy2(str(aux_file), str(dst))
+                copiar_si_cambio(aux_file, dst)
 
 def compilar_todo(solo_pdf=False, solo_word=False, todos_los_tps=False, tp_id=None):
     """Ejecuta el pipeline para los TPs (por defecto el TP activo actual o tp_id especificado)."""
@@ -843,12 +864,21 @@ def compilar_todo(solo_pdf=False, solo_word=False, todos_los_tps=False, tp_id=No
         # Sincronizar antes de compilar
         sincronizar_documento(doc)
 
-        if not solo_word:
+        if not solo_word and not solo_pdf:
+            # Compilación paralela de PDF y Word para máxima velocidad
+            total_tareas += 2
+            with ThreadPoolExecutor(max_workers=2) as executor:
+                f_pdf = executor.submit(compilar_quarto_pdf, doc)
+                f_word = executor.submit(compilar_quarto_word, doc)
+                if f_pdf.result():
+                    exitos += 1
+                if f_word.result():
+                    exitos += 1
+        elif not solo_word:
             total_tareas += 1
             if compilar_quarto_pdf(doc):
                 exitos += 1
-
-        if not solo_pdf:
+        elif not solo_pdf:
             total_tareas += 1
             if compilar_quarto_word(doc):
                 exitos += 1
@@ -893,15 +923,25 @@ def modo_vigilante(solo_pdf=False, solo_word=False):
 
     for d in activos:
         # Al arrancar, la copia en Entregas manda: forzar sincronización inicial
-        if d.get("qmd_entrega") and d["qmd_entrega"].exists():
+        if d.get("qmd_entrega") and d["qmd_entrega"].exists() and d["qmd"].resolve() != d["qmd_entrega"].resolve():
             shutil.copy2(str(d["qmd_entrega"]), str(d["qmd"]))
             print(f"  [SYNC INICIAL] Entregas/{d['qmd_entrega'].name} → {d['qmd'].parent.name}/")
-        if d["qmd"].exists():
-            archivos_mtime[d["qmd"]] = d["qmd"].stat().st_mtime
-            archivos_hash[d["qmd"]] = calcular_hash_archivo(d["qmd"])
-        if d.get("qmd_entrega") and d["qmd_entrega"].exists():
-            archivos_mtime[d["qmd_entrega"]] = d["qmd_entrega"].stat().st_mtime
-            archivos_hash[d["qmd_entrega"]] = calcular_hash_archivo(d["qmd_entrega"])
+        
+        # Registrar archivo maestro y submódulos en secciones/
+        qmd_list = [d["qmd"]]
+        if d.get("qmd_entrega") and d["qmd_entrega"].exists() and d["qmd"].resolve() != d["qmd_entrega"].resolve():
+            qmd_list.append(d["qmd_entrega"])
+        
+        # Agregar submódulos .qmd de la carpeta o subcarpetas
+        sec_dir = d["qmd"].parent / "secciones"
+        if sec_dir.exists():
+            for sq in sec_dir.glob("*.qmd"):
+                qmd_list.append(sq)
+        
+        for qf in qmd_list:
+            if qf.exists():
+                archivos_mtime[qf] = qf.stat().st_mtime
+                archivos_hash[qf] = calcular_hash_archivo(qf)
 
     compilar_todo(solo_pdf=solo_pdf, solo_word=solo_word)
     ultimo_disparo = time.time()
@@ -941,9 +981,15 @@ def modo_vigilante(solo_pdf=False, solo_word=False):
                                 shutil.copy2(str(c), str(doc["qmd_entrega"]))
                                 print(f"  [SYNC ▶] {doc['qmd'].parent.name}/{c.name} → Entregas/")
 
-                            if not solo_word:
+                            if not solo_word and not solo_pdf:
+                                with ThreadPoolExecutor(max_workers=2) as executor:
+                                    f_p = executor.submit(compilar_quarto_pdf, doc)
+                                    f_w = executor.submit(compilar_quarto_word, doc)
+                                    f_p.result()
+                                    f_w.result()
+                            elif not solo_word:
                                 compilar_quarto_pdf(doc)
-                            if not solo_pdf:
+                            elif not solo_pdf:
                                 compilar_quarto_word(doc)
 
                             # Refrescar estado para evitar rebotes
