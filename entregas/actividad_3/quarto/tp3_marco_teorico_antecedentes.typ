@@ -410,7 +410,7 @@
 
 
 #align(center)[
-  #image("assets/img/CURZAS.png", width: 110pt)
+  #image("assets/img/curzas.png", width: 110pt)
 
   #v(1.2em)
 

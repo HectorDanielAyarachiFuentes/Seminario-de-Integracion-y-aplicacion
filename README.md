@@ -36,7 +36,7 @@ IA - Humano - TESINA/
 │       ├── supreme_guidelines.md            # Directrices de estilo APA 7 y diseño CURZAS
 │       └── notebooklm.md                    # Parámetros para uso de NotebookLM MCP
 ├── assets/                                  # Recursos gráficos e identidad visual
-│   └── img/                                 # Logotipo oficial (CURZAS.png)
+│   └── img/                                 # Logotipo oficial (curzas.png)
 ├── bibliografia/                            # Repositorio documental y artículos base
 ├── compilar_todos.py                        # Pipeline automatizado de compilación dual
 ├── entregas/                                # Carpeta unificada para PDFs y Word finales consolidados
@@ -106,7 +106,7 @@ quarto render "Seminario de Integración y Aplicación/1 - Introducción/Trabajo
 ## 🎓 Pautas de Estilo y Normas APA 7ma Edición
 
 * **Márgenes:** 2,54 cm en todos los márgenes.
-* **Carátula Institucional:** Respetando la estructura de `Seminario de Integración y Aplicación/Recursos TFG/Modelo de Carátula SIA 2025.docx` con el logotipo oficial de CURZAS (`assets/img/CURZAS.png`).
+* **Carátula Institucional:** Respetando la estructura de `seminario_integracion/recursos_tfg/modelo_de_caratula_sia_2025.docx` con el logotipo oficial de CURZAS (`assets/img/curzas.png`).
 * **Citas en el texto:**
   * Menos de 40 palabras: Entrecomillado dentro del flujo del texto.
   * Más de 40 palabras: Bloque sangrado independiente a 1,27 cm (0,5 pulg), sin comillas.

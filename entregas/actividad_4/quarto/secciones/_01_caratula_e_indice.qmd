@@ -1,7 +1,7 @@
 ::: {.content-visible when-format="typst"}
 ```{=typst}
 #align(center)[
-  #image("assets/img/CURZAS.png", width: 110pt)
+  #image("assets/img/curzas.png", width: 110pt)
 
   #v(1.2em)
 
@@ -41,7 +41,7 @@
 
 ::: {.content-visible when-format="docx"}
 ::: {align="center"}
-![](assets/img/CURZAS.png){width=115px}
+![](assets/img/curzas.png){width=115px}
 
 <br>
 

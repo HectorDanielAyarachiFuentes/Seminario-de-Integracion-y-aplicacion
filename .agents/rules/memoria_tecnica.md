@@ -10,7 +10,7 @@ Este documento reúne las soluciones de ingeniería de documentos, trucos de maq
   Para evitar que Pandoc interprete la imagen como figura y le inserte automáticamente leyendas no deseadas (como *"Figura 1"*), se emplea un bloque de alineación limpio:
   ```markdown
   ::: {align="center"}
-  ![](../../assets/img/CURZAS.png){width=135px}
+  ![](../../assets/img/curzas.png){width=135px}
   :::
   ```
 * **Post-procesamiento en Word (`.docx`):**

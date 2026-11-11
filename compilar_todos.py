@@ -171,7 +171,7 @@ def compilar_quarto_pdf(doc):
                                         (cover.rect.width + img_bbox.width) / 2,
                                         img_bbox.y1
                                     )
-                                    logo_path = ROOT_DIR / "assets" / "img" / "CURZAS.png"
+                                    logo_path = ROOT_DIR / "assets" / "img" / "curzas.png"
                                     if logo_path.exists():
                                         cover.insert_image(new_rect, filename=str(logo_path))
 

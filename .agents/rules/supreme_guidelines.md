@@ -28,7 +28,7 @@ Todos los agentes y procesos que generen documentos, plantillas o código en est
   * **Gris Neutro / Fondos de Cajas:** `#f8fafc`
   * **Bordes y Separadores:** `#e2e8f0`
 * **Carátula Oficial y Portada APA 7:**
-  * Logotipo oficial de CURZAS (`assets/img/CURZAS.png`) centrado en portada (sin leyendas de figura).
+  * Logotipo oficial de CURZAS (`assets/img/curzas.png`) centrado en portada (sin leyendas de figura).
   * Sin encabezados ni numeración visible en la carátula.
   * El cuerpo del documento (página siguiente) comienza a numerarse visiblemente desde el número **1**.
 

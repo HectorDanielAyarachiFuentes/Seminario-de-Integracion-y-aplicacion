@@ -20,7 +20,7 @@ Presentacion/
 ├── index.html                   # Interfaz semántica con visor modal SVG y puntos WebGL
 ├── README.md                    # Manual de uso, atajos y catálogo de diagramas
 ├── assets/
-│   ├── CURZAS.png               # Emblema oficial en alta resolución
+│   ├── curzas.png               # Emblema oficial en alta resolución
 │   ├── Sistemas-longo.svg       # Diagrama oficial de subsistemas (Francisco Longo, 2006)
 │   ├── subsistemas_longo.svg    # Desglose operativo de estrategia y subsistemas de RRHH
 │   ├── modelo_360.svg           # Arquitectura circular del modelo 360° en CURZAS

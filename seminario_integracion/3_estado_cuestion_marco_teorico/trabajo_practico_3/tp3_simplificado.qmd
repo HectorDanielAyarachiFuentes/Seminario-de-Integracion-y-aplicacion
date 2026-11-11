@@ -28,7 +28,7 @@ format:
 ```{=typst}
 #set page(numbering: none)
 #align(center)[
-  #image("assets/img/CURZAS.png", width: 105pt)
+  #image("assets/img/curzas.png", width: 105pt)
 
   #v(1em)
 
@@ -68,7 +68,7 @@ format:
 
 ::: {.content-visible when-format="docx"}
 ::: {align="center"}
-![](../../../assets/img/CURZAS.png){width=110px}
+![](../../../assets/img/curzas.png){width=110px}
 
 <br>
 

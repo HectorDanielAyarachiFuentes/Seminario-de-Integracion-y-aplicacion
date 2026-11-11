@@ -28,7 +28,7 @@ Este archivo define la estructura, estándares y pautas operativas obligatorias 
 IA - Humano - TESINA/
 ├── .agents/                                 # Reglas, skills y configuración del agente
 │   └── rules/                               # AGENTS.md, gitnexus.md, notebooklm.md, supreme_guidelines.md, git_commits.md
-├── assets/img/CURZAS.png                    # Logotipo oficial CURZAS para carátulas
+├── assets/img/curzas.png                    # Logotipo oficial CURZAS para carátulas
 ├── bibliografia/                            # Repositorio documental y artículos base
 ├── compilar_todos.py                        # Pipeline automatizado de compilación dual
 ├── entregas/                                # Entregas finales (.qmd, .docx, .pdf por actividad)
@@ -84,7 +84,7 @@ Todos los documentos deben cumplir estrictamente el estándar (ampliado en [.age
 2. **Tablas APA 7:** Sin líneas verticales ni cuadrícula enrejada. Solo 3 líneas horizontales: borde superior (1pt), divisor de encabezado (0.5-0.75pt) y borde inferior (1pt).
 3. **Referencias Bibliográficas:** Orden alfabético, sangría francesa (*hanging indent*) de 1,27 cm y enlaces DOI/URL activos.
 4. **Reglas de Oro de Portada y Paginación:**
-   * La carátula ocupa **exactamente 1 página** con el logotipo de CURZAS (`assets/img/CURZAS.png`) centrado (sin rótulo de figura).
+   * La carátula ocupa **exactamente 1 página** con el logotipo de CURZAS (`assets/img/curzas.png`) centrado (sin rótulo de figura).
    * **La portada jamás muestra número de página visible.**
    * **El cuerpo del trabajo (página siguiente) inicia visiblemente en el número 1.**
    * El Índice de Contenidos se ubica en su propia hoja tras la portada y antes de la introducción.
@@ -94,7 +94,7 @@ Todos los documentos deben cumplir estrictamente el estándar (ampliado en [.age
 
 ## 🧠 6. Lecciones Técnicas Aprendidas (Memoria Operativa)
 
-1. **Logo Centrado en Quarto:** Usar bloque limpio `::: {align="center"}` con `![](assets/img/CURZAS.png){width=135px}` para evitar rótulos de figura automáticos de Pandoc.
+1. **Logo Centrado en Quarto:** Usar bloque limpio `::: {align="center"}` con `![](assets/img/curzas.png){width=135px}` para evitar rótulos de figura automáticos de Pandoc.
 2. **Paginación Word vs PDF:** En Word, `compilar_todos.py` activa `different_first_page_header_footer = True`, campo `{PAGE}` y `w:start="0"`. En PDF, la primera página queda desprovista de pie de página y las siguientes se enumeran desde 1.
 3. **Tablas OpenXML en Word:** `compilar_todos.py` limpia bordes internos (`w:insideH="none"`, `w:insideV="none"`) e inyecta la línea inferior al encabezado automáticamente.
 
