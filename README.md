@@ -37,37 +37,27 @@ IA - Humano - TESINA/
 │       └── notebooklm.md                    # Parámetros para uso de NotebookLM MCP
 ├── assets/                                  # Recursos gráficos e identidad visual
 │   └── img/                                 # Logotipo oficial (CURZAS.png)
-├── Entregas/                                # Carpeta unificada para PDFs y Word finales consolidados
-├── IA-HERRAMIENTAS-QUANTO-TYPS/             # Ecosistema técnico y utilidades de automatización
+├── bibliografia/                            # Repositorio documental y artículos base
+├── compilar_todos.py                        # Pipeline automatizado de compilación dual
+├── entregas/                                # Carpeta unificada para PDFs y Word finales consolidados
+│   ├── actividad_1/
+│   ├── actividad_2/
+│   ├── actividad_3/
+│   └── actividad_4/
+├── herramientas_quarto/                     # Ecosistema técnico y utilidades de automatización
 │   ├── plantillas_pdf/                      # Motores y plantillas (1_typst, 2_playwright, etc.)
 │   ├── herramientas/notebooklm/             # Scripts y documentación de NotebookLM
 │   └── pruebas/                             # Entorno de pruebas y validaciones técnicas
-└── Seminario de Integración y Aplicación/   # Módulos académicos y recursos oficiales
-    ├── 1 - Introducción/                    # Fase 1: Introducción a la Investigación
-    │   ├── Bibliografía - Introducción/
-    │   ├── Bibliografía Metodológica General/
-    │   ├── Líneas Temáticas de Investigación/
-    │   ├── Presentación de Clase 1/
-    │   └── Trabajo Práctico 1/
-    ├── 2 - El problema/                     # Fase 2: Delimitación del Problema
-    │   ├── Bibliografía - Formulación del Problema/
-    │   ├── Bibliografía - Objetivos/
-    │   ├── EJEMPLOS de Esquema 1° (LAP - RRHH)/
-    │   ├── Material - Selección del tema/
-    │   └── Trabajo Práctico n° 2/
-    ├── 3 - Estado de la cuestión y marco teórico/ # Fase 3: Antecedentes y Marco Conceptual
-    │   ├── Bibliografía - Estado del Arte/
-    │   ├── Bibliografía - Marco Teórico/
-    │   ├── Ejemplo Marco de Referencia (AP-RRHH)/
-    │   ├── MOTORES de Búsqueda de Información/
-    │   └── Trabajo Práctico n° 3/
-    ├── 4 - Metodología/                     # Fase 4: Diseño Metodológico y Proyecto Integral
-    │   ├── Bibliografia - Metodologia/
-    │   └── Trabajo Práctico n° 4/
-    └── Recursos TFG/                        # Normativa institucional, resoluciones y estilo
-        ├── Modelo de Carátula SIA 2025.docx
-        ├── Estructura de Proyecto de TFG.pdf
-        └── Normas de estilo que deberán usar en el proyecto/
+├── presentacion/                            # Recursos para defensas y presentaciones
+├── pruebas/                                 # Entorno aislado para pruebas técnicas y scripts temporales
+└── seminario_integracion/                   # Módulos académicos y recursos oficiales
+    ├── 1_introduccion/                      # Fase 1: Introducción a la Investigación
+    ├── 2_el_problema/                       # Fase 2: Delimitación del Problema
+    ├── 3_estado_cuestion_marco_teorico/     # Fase 3: Antecedentes y Marco Conceptual
+    ├── 4_metodologia/                       # Fase 4: Diseño Metodológico y Proyecto Integral
+    ├── bases/                               # Normativa, resoluciones y digestos
+    ├── recursos_tfg/                        # Normativa institucional, resoluciones y estilo
+    └── redaccion_documento_final/           # Conectores, guías de estilo y defensa
 ```
 
 ---

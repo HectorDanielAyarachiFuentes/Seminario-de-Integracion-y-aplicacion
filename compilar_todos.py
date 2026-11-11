@@ -54,17 +54,17 @@ except ImportError:
 # RUTAS Y CONFIGURACIÓN DE ENTREGAS
 # =============================================================================
 ROOT_DIR = Path(__file__).resolve().parent
-ENTREGAS_DIR = ROOT_DIR / "Entregas"
-ACTIVIDAD1_DIR = ENTREGAS_DIR / "Actividad 1"
-ACTIVIDAD2_DIR = ENTREGAS_DIR / "Actividad 2"
-ACTIVIDAD3_DIR = ENTREGAS_DIR / "Actividad 3"
-ACTIVIDAD4_DIR = ENTREGAS_DIR / "Actividad 4"
+ENTREGAS_DIR = ROOT_DIR / "entregas"
+ACTIVIDAD1_DIR = ENTREGAS_DIR / "actividad_1"
+ACTIVIDAD2_DIR = ENTREGAS_DIR / "actividad_2"
+ACTIVIDAD3_DIR = ENTREGAS_DIR / "actividad_3"
+ACTIVIDAD4_DIR = ENTREGAS_DIR / "actividad_4"
 
 DOCUMENTOS = [
     {
         "id": "TP1",
         "nombre": "Trabajo Práctico N° 1 (Análisis Metodológico)",
-        "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "1 - Introducción" / "Trabajo Práctico 1" / "tp1_analisis_articulos.qmd",
+        "qmd": ROOT_DIR / "seminario_integracion" / "1_introduccion" / "trabajo_practico_1" / "tp1_analisis_articulos.qmd",
         "pdf_entrega": ACTIVIDAD1_DIR / "TP1_Ayarachi_Fuentes.pdf",
         "docx_entrega": ACTIVIDAD1_DIR / "TP1_Ayarachi_Fuentes.docx",
         "qmd_entrega": ACTIVIDAD1_DIR / "tp1_analisis_articulos.qmd",
@@ -73,7 +73,7 @@ DOCUMENTOS = [
     {
         "id": "TP2",
         "nombre": "Trabajo Práctico N° 2 (Tema, Problema y Objetivos)",
-        "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "2 - El problema" / "Trabajo Práctico n° 2" / "tp2_diseno_problema.qmd",
+        "qmd": ROOT_DIR / "seminario_integracion" / "2_el_problema" / "trabajo_practico_2" / "tp2_diseno_problema.qmd",
         "pdf_entrega": ACTIVIDAD2_DIR / "TP2_Ayarachi_Fuentes.pdf",
         "docx_entrega": ACTIVIDAD2_DIR / "TP2_Ayarachi_Fuentes.docx",
         "qmd_entrega": ACTIVIDAD2_DIR / "quarto" / "tp2_diseno_problema.qmd",
@@ -82,7 +82,7 @@ DOCUMENTOS = [
     {
         "id": "TP3",
         "nombre": "Trabajo Práctico N° 3 (Marco Teórico y Antecedentes)",
-        "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "3 - Estado de la cuestión y marco teórico" / "Trabajo Práctico n° 3" / "tp3_marco_teorico_antecedentes.qmd",
+        "qmd": ROOT_DIR / "seminario_integracion" / "3_estado_cuestion_marco_teorico" / "trabajo_practico_3" / "tp3_marco_teorico_antecedentes.qmd",
         "pdf_entrega": ACTIVIDAD3_DIR / "TP3_Ayarachi_Fuentes.pdf",
         "docx_entrega": ACTIVIDAD3_DIR / "TP3_Ayarachi_Fuentes.docx",
         "qmd_entrega": ACTIVIDAD3_DIR / "quarto" / "tp3_marco_teorico_antecedentes.qmd",
@@ -91,16 +91,16 @@ DOCUMENTOS = [
     {
         "id": "TP3_CORREGIDO",
         "nombre": "Trabajo Práctico N° 3 (Marco Teórico y Antecedentes — Versión Corregida)",
-        "qmd": ACTIVIDAD3_DIR / "Correcion" / "quarto" / "tp3_marco_teorico_corregido.qmd",
-        "pdf_entrega": ACTIVIDAD3_DIR / "Correcion" / "TP3_Ayarachi_Fuentes_Corregido.pdf",
-        "docx_entrega": ACTIVIDAD3_DIR / "Correcion" / "TP3_Ayarachi_Fuentes_Corregido.docx",
-        "qmd_entrega": ACTIVIDAD3_DIR / "Correcion" / "quarto" / "tp3_marco_teorico_corregido.qmd",
+        "qmd": ACTIVIDAD3_DIR / "correccion" / "quarto" / "tp3_marco_teorico_corregido.qmd",
+        "pdf_entrega": ACTIVIDAD3_DIR / "correccion" / "TP3_Ayarachi_Fuentes_Corregido.pdf",
+        "docx_entrega": ACTIVIDAD3_DIR / "correccion" / "TP3_Ayarachi_Fuentes_Corregido.docx",
+        "qmd_entrega": ACTIVIDAD3_DIR / "correccion" / "quarto" / "tp3_marco_teorico_corregido.qmd",
         "activo": False
     },
     {
         "id": "TP3_SIMPLIFICADO",
         "nombre": "Trabajo Práctico N° 3 (Marco Teórico y Antecedentes — Versión Simplificada)",
-        "qmd": ROOT_DIR / "Seminario de Integración y Aplicación" / "3 - Estado de la cuestión y marco teórico" / "Trabajo Práctico n° 3" / "tp3_simplificado.qmd",
+        "qmd": ROOT_DIR / "seminario_integracion" / "3_estado_cuestion_marco_teorico" / "trabajo_practico_3" / "tp3_simplificado.qmd",
         "pdf_entrega": ACTIVIDAD3_DIR / "TP3_Ayarachi_Fuentes_Simplificado.pdf",
         "docx_entrega": ACTIVIDAD3_DIR / "TP3_Ayarachi_Fuentes_Simplificado.docx",
         "qmd_entrega": ACTIVIDAD3_DIR / "quarto" / "tp3_simplificado.qmd",

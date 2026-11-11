@@ -29,10 +29,24 @@ IA - Humano - TESINA/
 ├── .agents/                                 # Reglas, skills y configuración del agente
 │   └── rules/                               # AGENTS.md, gitnexus.md, notebooklm.md, supreme_guidelines.md, git_commits.md
 ├── assets/img/CURZAS.png                    # Logotipo oficial CURZAS para carátulas
-├── Entregas/                                # Entregas finales (.qmd, .docx, .pdf por actividad)
+├── bibliografia/                            # Repositorio documental y artículos base
 ├── compilar_todos.py                        # Pipeline automatizado de compilación dual
-├── Seminario de Integración y Aplicación/   # Módulos académicos 1 a 4 y recursos oficiales
-└── pruebas/                                 # Entorno aislado para pruebas técnicas y scripts temporales
+├── entregas/                                # Entregas finales (.qmd, .docx, .pdf por actividad)
+│   ├── actividad_1/
+│   ├── actividad_2/
+│   ├── actividad_3/
+│   └── actividad_4/
+├── herramientas_quarto/                     # Ecosistema técnico y utilidades de automatización
+├── presentacion/                            # Recursos para defensas y presentaciones
+├── pruebas/                                 # Entorno aislado para pruebas técnicas y scripts temporales
+└── seminario_integracion/                   # Módulos académicos 1 a 4 y recursos oficiales
+    ├── 1_introduccion/
+    ├── 2_el_problema/
+    ├── 3_estado_cuestion_marco_teorico/
+    ├── 4_metodologia/
+    ├── bases/
+    ├── recursos_tfg/
+    └── redaccion_documento_final/
 ```
 
 ---
@@ -41,10 +55,10 @@ IA - Humano - TESINA/
 
 | Actividad | Ubicación de Trabajo | Contenido Requerido | Extensión |
 | :--- | :--- | :--- | :--- |
-| **TP N° 1** | `Seminario de Integración y Aplicación/1 - Introducción/` | Análisis crítico de 2 artículos científicos disciplinares. Cuadro comparativo con 11 variables metodológicas y carátula institucional. | 4 a 6 págs. |
-| **TP N° 2** | `Seminario de Integración y Aplicación/2 - El problema/` | **Parte 1 del TFG:** Carátula oficial, delimitación del tema (área, contexto, período, personas/organización), objeto problema, justificación y objetivos (general y específicos). | ~5 págs. |
-| **TP N° 3** | `Seminario de Integración y Aplicación/3 - Estado de la cuestión.../` | **Parte 2 acumulativa:** Integra TP2 + Marco Teórico (posicionamiento teórico y conceptos centrales) + Antecedentes (estado del arte). | Hasta 15 págs. |
-| **TP N° 4** | `Seminario de Integración y Aplicación/4 - Metodología/` | **Proyecto Integral (Res. 266/23):** Integra Partes 1 y 2 + Estrategia Metodológica + Cronograma + Viabilidad + Bibliografía completa APA 7. | ~25 págs. |
+| **TP N° 1** | `seminario_integracion/1_introduccion/` | Análisis crítico de 2 artículos científicos disciplinares. Cuadro comparativo con 11 variables metodológicas y carátula institucional. | 4 a 6 págs. |
+| **TP N° 2** | `seminario_integracion/2_el_problema/` | **Parte 1 del TFG:** Carátula oficial, delimitación del tema (área, contexto, período, personas/organización), objeto problema, justificación y objetivos (general y específicos). | ~5 págs. |
+| **TP N° 3** | `seminario_integracion/3_estado_cuestion_marco_teorico/` | **Parte 2 acumulativa:** Integra TP2 + Marco Teórico (posicionamiento teórico y conceptos centrales) + Antecedentes (estado del arte). | Hasta 15 págs. |
+| **TP N° 4** | `seminario_integracion/4_metodologia/` | **Proyecto Integral (Res. 266/23):** Integra Partes 1 y 2 + Estrategia Metodológica + Cronograma + Viabilidad + Bibliografía completa APA 7. | ~25 págs. |
 
 ---
 
@@ -112,7 +126,7 @@ El proyecto opera bajo un modelo de colaboración simbiótica:
 ## 🧹 8. Higiene del Repositorio y Commits
 
 1. **Higiene de Raíz:** No dejar borradores en la raíz. Toda prueba va en `pruebas/`.
-2. **Entregables:** Cada actividad debe compilarse en `Entregas/Actividad X/` con sus 3 archivos (`.qmd`, `.docx`, `.pdf`).
+2. **Entregables:** Cada actividad debe compilarse en `entregas/actividad_X/` con sus 3 archivos (`.qmd`, `.docx`, `.pdf`).
 3. **Commits en Español:** Seguir *Conventional Commits* en español (`feat:`, `fix:`, `docs:`, `refactor:`, `chore:`). Ver [.agents/rules/git_commits.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/git_commits.md).
 
 ---
