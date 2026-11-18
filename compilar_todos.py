@@ -647,6 +647,7 @@ def insertar_tabla_contenidos_word(doc_word, doc):
     for texto, nivel, num_pag in final_items:
         style_name = f"TOC{min(nivel, 3)}"
         left_indent = "0" if nivel <= 1 else ("280" if nivel == 2 else ("560" if nivel == 3 else "840"))
+        bold_tag = '<w:b/>' if nivel == 1 else ''
 
         item_xml = (
             f'<w:p {nsdecls("w")}>'
@@ -661,6 +662,7 @@ def insertar_tabla_contenidos_word(doc_word, doc):
             f'<w:r>'
             f'<w:rPr>'
             f'<w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>'
+            f'{bold_tag}'
             f'<w:sz w:val="22"/>'
             f'</w:rPr>'
             f'<w:t>{texto}</w:t>'
@@ -671,6 +673,7 @@ def insertar_tabla_contenidos_word(doc_word, doc):
             f'<w:r>'
             f'<w:rPr>'
             f'<w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>'
+            f'{bold_tag}'
             f'<w:sz w:val="22"/>'
             f'</w:rPr>'
             f'<w:t>{num_pag}</w:t>'

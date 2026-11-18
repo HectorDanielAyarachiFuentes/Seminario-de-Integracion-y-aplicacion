@@ -4,6 +4,9 @@
 // ─── Párrafos con sangría reglamentaria APA 7 (1.27 cm) ─────────────────
 #set par(justify: true, leading: 0.75em, first-line-indent: 1.27cm)
 
+// ─── Índice de Contenidos (TOC): Nivel 1 en negrita ─────────────────────
+#show outline.entry.where(level: 1): set text(weight: "bold")
+
 // ─── Encabezados (con par[] para asegurar sangría obligatoria APA 7 en el primer párrafo) ───
 #show heading.where(level: 1): it => block(spacing: 14pt)[
   #set align(center)

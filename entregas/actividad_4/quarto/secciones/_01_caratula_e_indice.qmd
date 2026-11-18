@@ -86,6 +86,7 @@ Año 2026
 ```{=typst}
 #set page(numbering: none)
 #show outline.entry: set text(size: 9.2pt)
+#show outline.entry.where(level: 1): set text(weight: "bold")
 #outline(title: [Índice de Contenidos], indent: auto)
 ```
 
