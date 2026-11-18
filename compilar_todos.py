@@ -208,7 +208,7 @@ def compilar_quarto_pdf(doc):
         return False
 
 def aplicar_estilos_base_apa7(doc_word):
-    """Configura márgenes de 2.54 cm, tipografía Arial 12pt e interlineado 1.5 en Word (Normas APA 7)."""
+    """Configura márgenes de 2.54 cm, tipografía Arial 12pt, interlineado 1.5 y sangría 1.27 cm en Word (Normas APA 7)."""
     if doc_word is None or Cm is None:
         return
 
@@ -219,22 +219,25 @@ def aplicar_estilos_base_apa7(doc_word):
         sec.left_margin = Cm(2.54)
         sec.right_margin = Cm(2.54)
 
-    # 2. Estilos de texto corrido
+    # 2. Estilos de texto corrido con sangría reglamentaria APA 7 (1.27 cm / 0.5 in)
     for s_name in ['Normal', 'Body Text', 'First Paragraph', 'Compact']:
         try:
             st = doc_word.styles[s_name]
             st.font.name = 'Arial'
             st.font.size = Pt(12)
             st.paragraph_format.line_spacing = 1.5
+            st.paragraph_format.first_line_indent = Inches(0.5)
         except (KeyError, AttributeError):
             pass
 
-    # 3. Heading 1 (# ...): 14pt negrita
+    # 3. Heading 1 (# ...): Centrado, 14pt negrita (APA 7 Nivel 1)
     try:
         h1 = doc_word.styles['Heading 1']
         h1.font.name = 'Arial'
         h1.font.size = Pt(14)
         h1.font.bold = True
+        h1.paragraph_format.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+        h1.paragraph_format.first_line_indent = Inches(0)
         h1.paragraph_format.space_before = Pt(20)
         h1.paragraph_format.space_after = Pt(10)
         h1.paragraph_format.line_spacing = 1.2
@@ -242,12 +245,14 @@ def aplicar_estilos_base_apa7(doc_word):
     except (KeyError, AttributeError):
         pass
 
-    # 4. Heading 2 (## ...): 12pt negrita
+    # 4. Heading 2 (## ...): Alineado a la izquierda, 12pt negrita (APA 7 Nivel 2)
     try:
         h2 = doc_word.styles['Heading 2']
         h2.font.name = 'Arial'
         h2.font.size = Pt(12)
         h2.font.bold = True
+        h2.paragraph_format.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
+        h2.paragraph_format.first_line_indent = Inches(0)
         h2.paragraph_format.space_before = Pt(14)
         h2.paragraph_format.space_after = Pt(6)
         h2.paragraph_format.line_spacing = 1.2
@@ -255,13 +260,15 @@ def aplicar_estilos_base_apa7(doc_word):
     except (KeyError, AttributeError):
         pass
 
-    # 5. Heading 3 (### ...): 12pt negrita y cursiva
+    # 5. Heading 3 (### ...): Alineado a la izquierda, 12pt negrita y cursiva (APA 7 Nivel 3)
     try:
         h3 = doc_word.styles['Heading 3']
         h3.font.name = 'Arial'
         h3.font.size = Pt(12)
         h3.font.bold = True
         h3.font.italic = True
+        h3.paragraph_format.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
+        h3.paragraph_format.first_line_indent = Inches(0)
         h3.paragraph_format.space_before = Pt(10)
         h3.paragraph_format.space_after = Pt(4)
         h3.paragraph_format.line_spacing = 1.2
@@ -277,8 +284,10 @@ def formatear_parrafos_y_encabezados(doc_word):
     for p in doc_word.paragraphs:
         sname = p.style.name if p.style else ""
         if sname in ['Heading 1', 'Encabezado 1']:
-            p.paragraph_format.space_before = Pt(12)
-            p.paragraph_format.space_after = Pt(6)
+            p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+            p.paragraph_format.first_line_indent = Inches(0)
+            p.paragraph_format.space_before = Pt(16)
+            p.paragraph_format.space_after = Pt(8)
             p.paragraph_format.line_spacing = 1.25
             p.paragraph_format.keep_with_next = True
             for r in p.runs:
@@ -286,7 +295,9 @@ def formatear_parrafos_y_encabezados(doc_word):
                 r.font.size = Pt(14)
                 r.font.bold = True
         elif sname in ['Heading 2', 'Encabezado 2']:
-            p.paragraph_format.space_before = Pt(10)
+            p.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
+            p.paragraph_format.first_line_indent = Inches(0)
+            p.paragraph_format.space_before = Pt(12)
             p.paragraph_format.space_after = Pt(4)
             p.paragraph_format.line_spacing = 1.25
             p.paragraph_format.keep_with_next = True
@@ -295,7 +306,9 @@ def formatear_parrafos_y_encabezados(doc_word):
                 r.font.size = Pt(12)
                 r.font.bold = True
         elif sname in ['Heading 3', 'Encabezado 3']:
-            p.paragraph_format.space_before = Pt(8)
+            p.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
+            p.paragraph_format.first_line_indent = Inches(0)
+            p.paragraph_format.space_before = Pt(10)
             p.paragraph_format.space_after = Pt(2)
             p.paragraph_format.line_spacing = 1.25
             p.paragraph_format.keep_with_next = True
@@ -304,6 +317,16 @@ def formatear_parrafos_y_encabezados(doc_word):
                 r.font.size = Pt(12)
                 r.font.bold = True
                 r.font.italic = True
+        else:
+            txt_clean = p.text.strip()
+            if txt_clean.startswith(("Nota.", "*Nota.*")):
+                p.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
+                p.paragraph_format.first_line_indent = Inches(0)
+                p.paragraph_format.space_before = Pt(2)
+                p.paragraph_format.space_after = Pt(6)
+                p.paragraph_format.line_spacing = 1.15
+                for r in p.runs:
+                    r.font.size = Pt(10)
 
     # Formatear y centrar el bloque del Título Principal y Subtítulo al inicio del cuerpo (Página 3)
     for p in doc_word.paragraphs:
@@ -552,6 +575,20 @@ def formatear_tablas_apa7(doc_word):
                 )
                 tcPr.append(tcBorders)
 
+        # Formatear celdas de la tabla (Arial 9pt, sin sangría, interlineado compacto)
+        for row_idx, row in enumerate(table.rows):
+            for cell in row.cells:
+                for cp in cell.paragraphs:
+                    cp.paragraph_format.first_line_indent = Inches(0)
+                    cp.paragraph_format.line_spacing = 1.15
+                    cp.paragraph_format.space_before = Pt(1)
+                    cp.paragraph_format.space_after = Pt(1)
+                    for cr in cp.runs:
+                        cr.font.name = 'Arial'
+                        cr.font.size = Pt(9)
+                        if row_idx == 0:
+                            cr.bold = True
+
 def insertar_tabla_contenidos_word(doc_word, doc):
     """Genera e inserta el Índice de Contenidos nativo OpenXML con tabulaciones de puntos guía."""
     if doc_word is None or parse_xml is None:
@@ -714,6 +751,9 @@ def aplicar_sangria_francesa_referencias(doc_word):
             is_ref = True
             p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
             continue
+        if is_ref and txt.startswith(("Anexo", "Anexos")):
+            is_ref = False
+            continue
         if is_ref and txt:
             p.paragraph_format.left_indent = Inches(0.5)
             p.paragraph_format.first_line_indent = Inches(-0.5)
@@ -732,6 +772,15 @@ def postprocesar_documento_word(tmp_docx, doc):
     formatear_tablas_apa7(doc_word)
     insertar_tabla_contenidos_word(doc_word, doc)
     aplicar_sangria_francesa_referencias(doc_word)
+
+    # Reasegurar márgenes reglamentarios APA 7 (2.54 cm) en todas las secciones generadas
+    if Cm is not None:
+        for sec in doc_word.sections:
+            sec.top_margin = Cm(2.54)
+            sec.bottom_margin = Cm(2.54)
+            sec.left_margin = Cm(2.54)
+            sec.right_margin = Cm(2.54)
+
     doc_word.save(str(tmp_docx))
 
 def compilar_quarto_word(doc):

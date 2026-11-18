@@ -86,6 +86,9 @@ La investigación se justifica en tres planos complementarios:
 
 ### Matriz de Consistencia Metodológica y Articulación con Longo (2006)
 
+**Tabla 1**  
+*Matriz de Consistencia Metodológica y Articulación con el Modelo de Francisco Longo (2006)*
+
 | Nivel de Objetivo | Dimensión Analítica | Subsistema de RR.HH. (Longo, 2006) | Fuentes e Instrumentos Previstos |
 | :--- | :--- | :--- | :--- |
 | **General** | **Factibilidad integral:** Determinación de condiciones normativas, técnicas, organizacionales y de gobernanza para la retroalimentación 360°. | **Gestión del rendimiento** (*Evaluación formativa y desarrollo continuo*) | Comunidad académica del Departamento de Administración Pública (CURZAS-UNCo). |

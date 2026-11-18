@@ -72,6 +72,9 @@ Se articulan tres técnicas complementarias:
 
 ### Matriz de Operacionalización
 
+**Tabla 2**  
+*Matriz de Operacionalización de Variables y Dimensiones de Factibilidad*
+
 | Dimensión | Variable | Definición Operacional | Indicadores Empíricos | Fuentes e Instrumentos |
 | :--- | :--- | :--- | :--- | :--- |
 | **1. Normativa y Estatutaria** | Compatibilidad jurídica | Adecuación al Estatuto UNCo, Carrera Docente y CCT Docente (Decreto N° 1246/2015). | • Articulación con informes anuales y evaluaciones cuatrienales.<br>• Preservación de la estabilidad y libertad de cátedra. | Estatuto UNCo, Ord. CS N° 0910/1997 y CCT.<br>*Ficha de análisis documental.* |
@@ -122,6 +125,9 @@ El estudio se rige por las siguientes garantías institucionales y éticas:
 
 El proyecto se planifica en un lapso de 7 meses continuos distribuidos en etapas mensuales articuladas con las seis fases de investigación para su desarrollo durante el año 2027:
 
+**Tabla 3**  
+*Cronograma de Actividades y Fases de Investigación (Ciclo Lectivo 2027)*
+
 | Etapa / Actividad Metodológica | Mes 1 (May 27) | Mes 2 (Jun 27) | Mes 3 (Jul 27) | Mes 4 (Ago 27) | Mes 5 (Sep 27) | Mes 6 (Oct 27) | Mes 7 (Nov 27) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1. Aprobación del Proyecto de TFG (SIA) | **X** | | | | | | |
@@ -144,6 +150,9 @@ Conforme a la Resolución CD-CURZAS N° 266/23, se especifican los recursos econ
 ### Recursos Económicos y Presupuesto
 
 La investigación no requiere financiamiento institucional ni subsidios externos, asumiéndose íntegramente bajo régimen de autofinanciamiento por el tesista:
+
+**Tabla 4**  
+*Presupuesto Estimado y Recursos Económicos Requeridos*
 
 | Rubro | Descripción | Monto Estimado (ARS) | Fuente |
 | :--- | :--- | :---: | :--- |

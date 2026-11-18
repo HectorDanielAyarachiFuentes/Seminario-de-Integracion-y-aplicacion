@@ -40,6 +40,9 @@
 
 *Instrucciones:* Indique su nivel de acuerdo marcando del 1 al 5 (1: Totalmente en desacuerdo; 2: En desacuerdo; 3: Ni de acuerdo ni en desacuerdo; 4: De acuerdo; 5: Totalmente de acuerdo).
 
+**Tabla 5**  
+*Reactivos del Cuestionario Exploratorio de Factibilidad (Escala Likert)*
+
 | N° | Reactivo | 1 | 2 | 3 | 4 | 5 |
 |:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|
 | 1 | La evaluación docente debería orientarse prioritariamente al aprendizaje pedagógico continuo y no al control formal. | [ ] | [ ] | [ ] | [ ] | [ ] |
@@ -143,6 +146,9 @@ Departamento de Administración Pública — CURZAS-UNCo
    - Se me informa que los resultados no afectarán mi situación laboral estatutaria ni mi condición académica.
 
 <br>
+
+**Tabla 6**  
+*Registro de Consentimiento y Validación del Participante*
 
 | Campo | Registro del Participante |
 | :--- | :--- |
