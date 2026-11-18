@@ -6,13 +6,13 @@ El presente proyecto de investigación se inscribe en la intersección entre la 
 
 ### Encuadre Conceptual en el Modelo de Francisco Longo
 
-A nivel teórico, el proyecto toma como marco de referencia el modelo de gestión estratégica del empleo y los recursos humanos en el sector público formulado por Francisco @longo2006. Dicho enfoque estructura la gestión de personas en subsistemas interdependientes:
+A nivel teórico, el proyecto toma como marco de referencia el modelo de gestión estratégica del empleo y los recursos humanos en el sector público formulado por Francisco @longo2006. Dicho enfoque estructura la gestión de personas en un conjunto de subsistemas interdependientes y articulados a partir de la estrategia institucional.
+
+En el marco de este modelo, la investigación focaliza de forma prioritaria en el subsistema de *gestión del rendimiento* (evaluación del desempeño), articulándolo analíticamente con tres subsistemas complementarios: *gestión del desarrollo* (capacitación docente y planes de carrera), *organización del trabajo* (diseño de perfiles y funciones académicas presenciales e híbridas) y *gestión de las relaciones humanas y sociales* (clima institucional, cultura participativa y diálogo paritario). La investigación se orienta a explorar las condiciones organizacionales, técnicas, normativas y políticas requeridas para dotar a la evaluación docente de un sentido formativo [@obando2014; @sifuentes2016], capaz de articular la retroalimentación del propio docente, sus colegas de cátedra, los estudiantes y la conducción académica (ver Figura 1).
 
 ::: {align="center"}
-![*Subsistemas de la Gestión de Recursos Humanos en el Sector Público [@longo2006].*](assets/Sistemas-longo.svg){width=95%}
+![*Subsistemas de la Gestión de Recursos Humanos en el Sector Público [@longo2006].*](assets/Sistemas-longo.svg){width=90%}
 :::
-
-En el marco de este modelo, la investigación focaliza de forma prioritaria en el subsistema de *gestión del rendimiento* (evaluación del desempeño), articulándolo analíticamente con tres subsistemas complementarios: *gestión del desarrollo* (capacitación docente y planes de carrera), *organización del trabajo* (diseño de perfiles y funciones académicas presenciales e híbridas) y *gestión de las relaciones humanas y sociales* (clima institucional, cultura participativa y diálogo paritario). La investigación se orienta a explorar las condiciones organizacionales, técnicas, normativas y políticas requeridas para dotar a la evaluación docente de un sentido formativo [@obando2014; @sifuentes2016], capaz de articular la retroalimentación del propio docente, sus colegas de cátedra, los estudiantes y la conducción académica.
 
 ### Contexto Institucional y Normativo
 
