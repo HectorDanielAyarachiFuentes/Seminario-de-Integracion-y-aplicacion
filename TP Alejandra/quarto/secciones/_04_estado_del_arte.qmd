@@ -1,0 +1,33 @@
+## Estado del Arte: Antecedentes de Investigación
+
+El presente estado del arte sistematiza investigaciones previas sobre transformaciones de la escuela secundaria, reformas educativas y sus implicancias en la organización del trabajo y la gestión institucional, organizadas en tres escalas geográficas:
+
+### Antecedentes Regionales y Locales (Río Negro y Viedma)
+
+En el plano provincial y local, las investigaciones permiten comprender el contexto socio-histórico y comunicacional de la implementación de la ESRN en la comarca:
+
+* **@camperi2019** examinaron en su tesis de grado las estrategias y actores intervinientes en la reforma de nivel medio en Viedma (período 2014-2017). Analizaron los factores que obstaculizaron y facilitaron la puesta en marcha del modelo, recurriendo a encuestas, entrevistas y análisis documental. Su aporte resulta clave al estudiar el proceso en la misma ciudad donde se emplaza la ESRN N° 154.
+* **@fattorel2020** abordó la reforma desde la teoría del *framing*, analizando las noticias y crónicas del diario *Río Negro* entre 2016 y 2017. Su investigación permite reconstruir el clima social, las tensiones gremiales y el discurso público que acompañó la transición de los CEM a la ESRN.
+* **@belloso2026** analizó la implementación de la ESRN en el Valle Medio rionegrino a partir de entrevistas a directivos, docentes y supervisores, identificando tensiones entre las pretensiones innovadoras del nuevo formato institucional y la inercia de las prácticas tradicionales del nivel medio.
+
+### Antecedentes Nacionales (Argentina)
+
+A escala nacional, los estudios analizan cómo las políticas educativas reconfiguran el puesto de trabajo docente y la dinámica de las instituciones:
+
+* **@tobena2021** compararon la reconfiguración del trabajo docente en dos experiencias provinciales recientes: las escuelas PROA de Córdoba y la reforma ESRN de Río Negro. Demostraron que las modificaciones en los formatos de contratación, la concentración horaria y el trabajo interdisciplinario impactan directamente en la matriz laboral de los profesores.
+* **@ojeda2015** indagaron sobre la implementación de políticas de inclusión en escuelas secundarias públicas del nordeste argentino, recuperando los sentidos que los docentes asignan a las transformaciones organizacionales y a la sobrecarga de tareas.
+* **@acosta2025**, en un informe para el Banco Interamericano de Desarrollo, examinaron los desafíos contemporáneos de la educación secundaria en Argentina, señalando la necesidad de redefinir roles escolares y profesionalizar la gestión institucional para acompañar los cambios curriculares.
+
+### Antecedentes Internacionales
+
+En el ámbito internacional, los antecedentes brindan herramientas comparativas para examinar la conducción escolar y la división de tareas ante reformas de gran escala:
+
+* **@hansen2014** analizaron en Dinamarca la construcción de consensos y conflictos entre directivos, profesores y estudiantes tras la reforma de la secundaria superior, evidenciando que los cambios estructurales modifican las formas de coordinación cotidiana del trabajo escolar.
+* **@ragnarsdottir2023** investigó en Islandia las respuestas de los equipos directivos frente a las resistencias docentes ante innovaciones organizacionales, aportando categorías para comprender la gestión del cambio en burocracias profesionales.
+* **@jeong2018** analizaron datos de PISA en 33 países entre 2000 y 2015, documentando una tendencia global a la reconfiguración de responsabilidades y autoridad decisional entre los gobiernos escolares y los cuerpos docentes.
+
+### Síntesis Comparativa y Vacancia de Investigación
+
+El balance de los antecedentes revela que, si bien la literatura ha estudiado la ESRN como política pública provincial y se han analizado las tensiones generales del trabajo docente en el país, **no existen investigaciones que reconstruyan de manera empírica y comparativa las transformaciones concretas en los puestos de trabajo, las funciones, las responsabilidades y la estructura organizativa (articulando los enfoques de Longo y Mintzberg) en una escuela secundaria específica de la ciudad de Viedma**. En dicha área de vacancia institucional y disciplinar se fundamenta el aporte de la presente investigación.
+
+{{< pagebreak >}}

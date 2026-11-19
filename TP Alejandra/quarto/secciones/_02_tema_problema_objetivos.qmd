@@ -1,0 +1,58 @@
+# Primera parte de la estructura del Proyecto de investigación de TFG
+
+## Tema de Investigación
+
+El presente trabajo de investigación se centra en el análisis de las transformaciones producidas en la organización del trabajo de la Escuela Secundaria Río Negro (ESRN) N° 154 de la ciudad de Viedma, a partir de la implementación del modelo educativo ESRN en reemplazo del antiguo modelo de Centro de Educación Media (CEM).
+
+El estudio se aborda desde el campo disciplinar de la Gestión de Recursos Humanos, específicamente desde el subsistema de *Organización del Trabajo* [@longo2002], considerando como dimensiones centrales de análisis los cambios producidos en los puestos de trabajo, las funciones y perfiles asociados a estos y la estructura organizativa de la institución [@mintzberg1989].
+
+El propósito central de la investigación es analizar de qué manera el cambio de modelo educativo incidió en la forma en que se organiza el trabajo dentro de la institución y cómo dichas transformaciones se manifiestan en los puestos, las funciones, las responsabilidades, los perfiles requeridos y la estructura organizativa durante el período 2016-2026.
+
+## Delimitación del Objeto Problema
+
+El objeto de estudio de la presente investigación comprende las transformaciones producidas en la organización del trabajo de la ESRN N° 154 de Viedma a partir del cambio del modelo educativo CEM al modelo ESRN.
+
+La investigación se centrará en analizar cómo dicho cambio de modelo educativo modificó la forma de organización del trabajo institucional, considerando como principales dimensiones de análisis las transformaciones producidas en los puestos de trabajo, las funciones y perfiles asociados a dichos puestos y la estructura organizativa de la institución. En este sentido, los puestos de trabajo, las funciones, las responsabilidades y la estructura organizativa no serán considerados como objetos de estudio independientes, sino como dimensiones complementarias a través de las cuales se analizarán las transformaciones producidas en la organización del trabajo.
+
+El objeto se delimita en cuatro coordenadas metodológicas:
+
+* **Delimitación Espacial:** La investigación se delimita a la ESRN N° 154, ubicada en la ciudad de Viedma, provincia de Río Negro.
+* **Delimitación Temporal:** Abarca el período comprendido entre 2016 y 2026, considerando el proceso de transición del modelo CEM al modelo ESRN y las transformaciones producidas posteriormente en la organización del trabajo institucional.
+* **Delimitación Temática y Conceptual:** El análisis se inscribe en el campo disciplinar de la Gestión de Recursos Humanos, específicamente en el subsistema de Organización del Trabajo, tomando como referencia los aportes de Francisco @longo2002 y, complementariamente, las categorías propuestas por Henry @mintzberg1989 para el análisis de la estructura organizativa.
+* **Delimitación Poblacional:** Comprende a los actores institucionales de la institución (docentes, integrantes del Personal de Servicio de Apoyo - PSA y equipo directivo).
+
+## Planteamiento del Problema
+
+La implementación del modelo educativo Escuela Secundaria de Río Negro (ESRN) implicó una profunda transformación en la organización y el funcionamiento de las instituciones de nivel medio de la provincia. Este proceso no se limitó a modificaciones curriculares y pedagógicas, sino que también contempló cambios sustantivos en aspectos vinculados con la organización del trabajo institucional.
+
+Entre los aspectos que caracterizan el nuevo modelo se encuentran las modificaciones en los criterios de organización y concentración horaria de los cargos docentes, el trabajo por áreas de conocimiento y la incorporación de horas institucionales destinadas a actividades colegiadas y de acompañamiento pedagógico. Estos componentes plantean nuevas formas de distribuir, articular y coordinar el trabajo, que inciden directamente en los puestos existentes, las funciones asignadas, las responsabilidades estatutarias y los perfiles requeridos para su desempeño.
+
+En este contexto, la transición del antiguo CEM N° 154 de Viedma constituye un caso de genuino interés para analizar cómo se desarrolló este proceso de transformación en una institución educativa concreta. Desde la perspectiva de la Gestión de Recursos Humanos, y particularmente del subsistema de Organización del Trabajo, resulta necesario reconstruir cómo estaba organizada la institución antes de la implementación del nuevo modelo y contrastar esa configuración histórica con la organización actual.
+
+Sin embargo, las disposiciones normativas que establecieron el modelo ESRN no permiten conocer por sí solas cómo se concretaron efectivamente los cambios en cada establecimiento. Por ello, resulta indispensable analizar la documentación institucional disponible y recuperar los testimonios y experiencias de quienes participaron en el proceso, a fin de identificar las transformaciones efectivamente producidas, así como las continuidades y modificaciones en los puestos de trabajo, las funciones, las responsabilidades, los perfiles y la estructura organizativa.
+
+A partir de esta problemática, se formula la siguiente pregunta general de investigación:
+
+> ¿Qué transformaciones produjo la implementación del modelo ESRN en la organización del trabajo de la ESRN N° 154 de Viedma y cómo se manifiestan dichas transformaciones en los puestos de trabajo, las funciones y perfiles y la estructura organizativa de la institución durante el período 2016-2026?
+
+## Justificación y Relevancia
+
+La presente investigación resulta relevante para el campo de la Gestión de Recursos Humanos en tres planos fundamentales:
+
+* **Relevancia Disciplinar y Teórica:** Permite analizar, desde el subsistema de Organización del Trabajo, las transformaciones producidas en una institución educativa pública a partir de un cambio estructural de modelo educativo, identificando cómo impacta la reorganización del trabajo en los puestos, perfiles y estructuras organizacionales.
+* **Relevancia Institucional y Aplicada:** Genera conocimiento situado sobre la distribución, coordinación y organización del trabajo en una escuela secundaria rionegrina concreta (ESRN N° 154 de Viedma), aportando elementos de análisis para comprender los desafíos de adaptación y las demandas sobre los roles y responsabilidades de los trabajadores escolares.
+* **Relevancia Social y Local:** Aborda una problemática concreta dentro de una institución pública de la capital provincial, vinculando los marcos conceptuales de la administración pública y los recursos humanos con la realidad educativa y sociolaboral de la comarca.
+
+## Definición de Objetivos del TFG
+
+### Objetivo General
+
+* Analizar las transformaciones producidas en la organización del trabajo de la ESRN N° 154 de Viedma a partir de la implementación del modelo educativo ESRN, considerando los cambios en los puestos de trabajo, las funciones, las responsabilidades, los perfiles asociados y la estructura organizativa durante el período 2016-2026.
+
+### Objetivos Específicos
+
+1. Reconstruir las características de la organización del trabajo y de la estructura organizativa del antiguo CEM N° 154, considerando los puestos de trabajo, las funciones, las responsabilidades y los perfiles asociados, a partir de la normativa y los documentos institucionales correspondientes al período previo a la implementación del modelo ESRN.
+2. Describir la organización del trabajo y la estructura organizativa de la ESRN N° 154 de Viedma a partir de la implementación del modelo educativo ESRN, identificando los puestos de trabajo existentes, las funciones y responsabilidades asignadas y los perfiles asociados.
+3. Comparar la organización del trabajo y la estructura organizativa del antiguo CEM N° 154 con la de la actual ESRN N° 154 de Viedma, identificando las continuidades y transformaciones en los puestos de trabajo, las funciones, las responsabilidades y los perfiles asociados.
+
+{{< pagebreak >}}

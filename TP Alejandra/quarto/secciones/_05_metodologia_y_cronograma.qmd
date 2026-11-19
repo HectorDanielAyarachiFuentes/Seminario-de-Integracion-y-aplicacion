@@ -1,0 +1,86 @@
+# Tercera parte de la estructura del Proyecto de investigación de TFG
+
+## Metodología, Materiales, Técnicas y Métodos
+
+### Enfoque y Tipo de Investigación
+
+La investigación se desarrollará desde un **enfoque cualitativo**, orientado a comprender en profundidad las transformaciones producidas en la organización del trabajo de la ESRN N° 154 de Viedma a partir del cambio del modelo educativo CEM al modelo ESRN durante el período 2016-2026.
+
+El estudio asume un **alcance descriptivo**, debido a que se propone identificar, caracterizar y comparar las continuidades y cambios en los puestos de trabajo, las funciones, las responsabilidades, los perfiles requeridos y la estructura organizativa.
+
+Asimismo, se adopta la estrategia metodológica del **estudio de caso instrumental y situado** [@mintzberg1989], tomando como unidad de análisis institucional a la ESRN N° 154 de Viedma. El diseño posee carácter **retrospectivo y comparativo**, en tanto reconstruye la configuración organizativa del antiguo CEM N° 154 (año base 2016) y la contrasta sistemáticamente con la configuración de la actual ESRN N° 154 (2026).
+
+### Materiales y Fuentes de Información
+
+Para el desarrollo del trabajo de campo se recurrirá a fuentes primarias y secundarias:
+
+* **Fuentes Primarias:**
+  * Testimonios cualitativos recabados a través de entrevistas a actores clave que transitaron el proceso de transformación o se desempeñan actualmente en la institución.
+  * Documentación institucional interna: Planta Orgánica Funcional (POF) histórica y actual, Plan de Estudios del antiguo CEM N° 154, Proyecto Educativo Institucional (PEI) y registros de asignación de horas institucionales de la ESRN N° 154.
+* **Fuentes Secundarias:**
+  * Normativa nacional (Ley N° 26.206) y provincial (Ley F N° 4819 y Resoluciones del CPE de Río Negro).
+  * Bibliografía teórica de Gestión de Recursos Humanos y sociología de las organizaciones [@longo2002; @mintzberg1989].
+
+*Nota de resguardo metodológico:* En caso de no obtener acceso público o institucional a la POF histórica del año 2016 del antiguo CEM N° 154, la reconstrucción de los cargos y puestos se apoyará en los testimonios contrastados de los informantes clave y en la normativa provincial de pase, explicitando con prudencia epistemológica los alcances y límites de los datos obtenidos sin realizar inferencias numéricas infundadas.
+
+### Técnicas de Recolección de Datos
+
+Se articulan dos técnicas cualitativas principales:
+
+1. **Análisis Documental Normativo e Institucional:** Revisión crítica y fichaje temático de resoluciones ministeriales, planes de estudio, regímenes académicos y organigramas escolares para identificar las pautas formales de organización del trabajo.
+2. **Entrevistas Semiestructuradas en Profundidad:** Se llevarán a cabo cuatro (4) entrevistas semiestructuradas a informantes clave seleccionados mediante muestreo intencional o por criterios teóricos:
+   * Dos (2) docentes de cátedra con trayectoria en la transición institucional.
+   * Un (1) integrante del Personal de Servicio de Apoyo (PSA).
+   * Un (1) directivo que se haya desempeñado recientemente en la conducción escolar de la ESRN.
+
+*Resguardos éticos:* Se solicitará el correspondiente aval ante el equipo directivo de la ESRN N° 154 y la Supervisión de Nivel Medio. La participación será libre y voluntaria mediante la suscripción de un formulario de consentimiento informado, garantizando el anonimato técnico y la estricta confidencialidad de las opiniones personales expresadas.
+
+### Método de Análisis de la Información
+
+La información obtenida del análisis documental y las entrevistas transcriptas se procesará mediante **análisis de contenido temático**, estructurando los datos cualitativos en torno a cinco dimensiones operacionales:
+
+1. **Puestos de trabajo:** Continuidades, supresiones, adecuaciones y nuevos puestos creados tras la reforma.
+2. **Funciones:** Distribución de actividades académicas, institucionales y de apoyo.
+3. **Responsabilidades:** Compromisos, obligaciones formales y demandas laborales asumidas por cada actor.
+4. **Perfiles asociados:** Capacidades pedagógicas, saberes requeridos y competencias de trabajo colaborativo.
+5. **Estructura organizativa:** Mecanismos de coordinación (estandarización, ajuste mutuo y supervisión) y relaciones de dependencia formal entre las partes de la organización escolar.
+
+Finalmente, se procederá a la **triangulación cualitativa de fuentes** (normas, documentos de planta y testimonios orales) para contrastar las prescripciones formales del modelo ESRN con las prácticas laborales reales desarrolladas en la institución.
+
+{{< pagebreak >}}
+
+## Cronograma de Actividades
+
+El proyecto se planifica en un período estimativo de seis (6) meses de trabajo intensivo, comprendido entre septiembre de 2026 y febrero de 2027, articulando las etapas ya transitadas de diseño con las fases de recolección empírica y redacción final:
+
+**Tabla 1**  
+*Cronograma de Actividades del Proyecto de Investigación (Septiembre 2026 – Febrero 2027)*
+
+| Etapa / Actividad Metodológica | Sep 26 | Oct 26 | Nov 26 | Dic 26 | Ene 27 | Feb 27 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1. Tema de investigación, delimitación del objeto problema y objetivos | **X** | | | | | |
+| 2. Búsqueda de antecedentes, elaboración de marco teórico y estado del arte | | **X** | | | | |
+| 3. Definición del diseño metodológico, cronograma y análisis de viabilidad | | | **X** | | | |
+| 4. Solicitud y recopilación de documentación institucional (POF y planes) | | | | **X** | | |
+| 5. Diseño y validación de las pautas para entrevistas semiestructuradas | | | | **X** | | |
+| 6. Realización de las entrevistas a docentes, directivo y PSA | | | | | **X** | |
+| 7. Transcripción, codificación y organización de testimonios | | | | | **X** | |
+| 8. Análisis documental y triangulación de entrevistas | | | | | **X** | |
+| 9. Análisis comparativo entre la organización del antiguo CEM y la ESRN | | | | | | **X** |
+| 10. Elaboración de resultados, conclusiones y redacción del borrador de TFG | | | | | | **X** |
+| 11. Revisión final del trabajo y presentación formal para defensa de grado | | | | | | **X** |
+
+*Nota.* Elaboración propia. Las actividades desarrolladas entre septiembre y noviembre de 2026 corresponden a la elaboración y aprobación del proyecto en el SIA; las actividades previstas entre diciembre de 2026 y febrero de 2027 corresponden a la ejecución del trabajo de campo y la redacción final de la Tesina.
+
+{{< pagebreak >}}
+
+## Viabilidad del Proyecto
+
+La investigación resulta plenamente viable en función de cuatro condiciones institucionales y operativas:
+
+* **Delimitación y Alcance:** El objeto de estudio se circunscribe a un único establecimiento educativo público de la ciudad de Viedma (ESRN N° 154), permitiendo un abordaje exhaustivo y factible para una investigadora individual.
+* **Recursos de Información:** Se cuenta con acceso garantizado a bibliografía especializada, repositorios universitarios (UNCo y UNLP) y compendios normativos oficiales de la provincia de Río Negro.
+* **Acceso al Campo Institucional:** Se gestionarán las autorizaciones formales ante la Dirección de la institución y la Supervisión Escolar de Nivel Medio, contando con la predisposición favorable de los actores escolares para brindar sus testimonios.
+* **Recursos Técnicos y Materiales:** La tesista dispone de los medios informáticos propios (computadora personal, conectividad a internet, software de edición y almacenamiento en la nube) para procesar las transcripciones y documentos sin necesidad de financiamiento externo ni traslados extraordinarios.
+
+{{< pagebreak >}}

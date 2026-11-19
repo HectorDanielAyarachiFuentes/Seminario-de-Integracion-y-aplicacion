@@ -389,6 +389,17 @@ def reconstruir_caratula_oficial(doc_word, doc):
     for p in doc_word.paragraphs:
         if len(p._element.xpath('.//w:drawing')) > 0:
             p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+            p.paragraph_format.first_line_indent = Inches(0)
+            p.paragraph_format.left_indent = Inches(0)
+            p.paragraph_format.right_indent = Inches(0)
+            if parse_xml is not None:
+                pPr = p._p.get_or_add_pPr()
+                for jc in pPr.findall(docx.oxml.ns.qn('w:jc')):
+                    pPr.remove(jc)
+                pPr.append(parse_xml(f'<w:jc {nsdecls("w")} w:val="center"/>'))
+                for ind in pPr.findall(docx.oxml.ns.qn('w:ind')):
+                    pPr.remove(ind)
+                pPr.append(parse_xml(f'<w:ind {nsdecls("w")} w:left="0" w:right="0" w:firstLine="0"/>'))
             p_logo = p
             break
 

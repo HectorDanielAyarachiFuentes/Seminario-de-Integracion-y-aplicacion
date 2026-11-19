@@ -1,0 +1,36 @@
+---
+lang: es
+bibliography: referencias.bib
+csl: apa.csl
+citeproc: true
+format:
+  docx:
+    toc: false
+    number-sections: false
+    highlight-style: github
+
+  typst:
+    paper: a4
+    toc: false
+    margin:
+      top: 2.54cm
+      bottom: 2.54cm
+      left: 2.54cm
+      right: 2.54cm
+    mainfont: "Arial"
+    fontsize: 12pt
+    include-before-body:
+      - estilos.typ
+---
+
+{{< include secciones/_01_caratula_e_indice.qmd >}}
+
+{{< include secciones/_02_tema_problema_objetivos.qmd >}}
+
+{{< include secciones/_03_marco_teorico_y_normativo.qmd >}}
+
+{{< include secciones/_04_estado_del_arte.qmd >}}
+
+{{< include secciones/_05_metodologia_y_cronograma.qmd >}}
+
+{{< include secciones/_06_referencias.qmd >}}

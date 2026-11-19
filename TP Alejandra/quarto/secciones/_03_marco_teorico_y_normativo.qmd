@@ -1,0 +1,89 @@
+# Segunda parte de la estructura del Proyecto de investigación de TFG
+
+## Marco Teórico: Posicionamiento Conceptual
+
+El presente marco teórico tiene como finalidad establecer los conceptos y enfoques analíticos que permitirán examinar los cambios producidos en la estructura organizativa y en la organización del trabajo a partir de la transformación del CEM N° 154 en ESRN N° 154 de la ciudad de Viedma (Río Negro).
+
+Para ello, se articulan los aportes de la Gestión de Recursos Humanos formulados por Francisco @longo2002, haciendo especial énfasis en el subsistema de organización del trabajo, los puestos, las funciones y las responsabilidades, con los conceptos de estructura organizativa y coordinación propuestos por Henry @mintzberg1989.
+
+### Gestión de Recursos Humanos en el Sector Público: Enfoque Sistémico
+
+Para @longo2002, la gestión de recursos humanos en las organizaciones públicas debe ser comprendida como un sistema integrado en el cual los diferentes subsistemas se encuentran estrechamente relacionados entre sí. Esto significa que las decisiones que se adoptan respecto de la organización del trabajo tienen efectos inmediatos sobre los demás procesos de gestión de personas (planificación, empleo, rendimiento, compensación, desarrollo y relaciones laborales).
+
+En este sentido, la gestión de personas no puede analizarse de manera aislada de la estructura y de las finalidades institucionales. La manera en que se distribuyen las tareas, se definen los puestos y se establecen las responsabilidades constituye un aspecto estructurante para comprender cómo se organiza el trabajo cotidiano. Dentro de este marco, la presente investigación se sitúa específicamente en el subsistema de Organización del Trabajo, orientándose a analizar las transformaciones producidas en la ESRN N° 154 a partir del pasaje del modelo CEM al modelo ESRN.
+
+### El Subsistema de Organización del Trabajo
+
+Según @longo2002, la organización del trabajo constituye uno de los subsistemas centrales de la gestión de recursos humanos. Se vincula de forma directa con la manera en que se estructuran las actividades, procesos y responsabilidades requeridas para el cumplimiento de los fines organizacionales. Permite definir qué debe hacerse, cómo se distribuyen las tareas, qué obligaciones corresponden a cada puesto y cómo se articulan los diferentes roles entre sí.
+
+Longo distingue analíticamente la organización del trabajo de otros procesos de recursos humanos: mientras subsistemas como la gestión del desarrollo o del empleo se orientan a seleccionar, capacitar o retribuir a las personas, la organización del trabajo se focaliza en la configuración formal y real de los puestos y en la delimitación de las funciones desde las cuales se llevan adelante las actividades. En consecuencia, cualquier reforma educativa que modifique los criterios de agrupamiento curricular y de carga horaria produce reconfiguraciones inmediatas en este subsistema.
+
+### Puestos de Trabajo, Funciones, Responsabilidades y Perfiles
+
+Dentro del subsistema de Organización del Trabajo, el puesto constituye la unidad elemental de análisis:
+
+* **Puesto de trabajo:** Siguiendo a @longo2002, el diseño de puestos implica determinar las actividades, responsabilidades y finalidades que la institución asigna a una determinada posición. No se reduce a una denominación formal en el organigrama, sino que constituye un conjunto interrelacionado de funciones orientadas a un fin determinado.
+* **Funciones y responsabilidades:** Las funciones corresponden a las tareas asignadas al puesto y a su articulación con los demás integrantes de la institución. Las responsabilidades definen los compromisos, obligaciones y resultados esperados que asume quien lo ocupa. En la transición de CEM a ESRN, estos componentes pudieron verse alterados no solo en su denominación, sino en el alcance cotidiano de sus prácticas.
+* **Perfil del puesto:** Define el conjunto de conocimientos, capacidades, habilidades, experiencias y competencias necesarias para desempeñar satisfactoriamente las funciones y responsabilidades requeridas. Permite examinar si la reforma curricular e institucional demandó nuevas destrezas pedagógicas, tecnológicas y de trabajo en equipo.
+
+#### Dimensiones de Análisis Operativas
+
+A partir de este marco, la investigación estructura la indagación empírica en cinco dimensiones:
+
+1. *Puestos de trabajo:* Relevamiento de qué puestos existían en el antiguo CEM y cuáles se conservan, modifican o crean en la ESRN N° 154.
+2. *Funciones:* Delimitación de las actividades asignadas a cada puesto y su distribución institucional.
+3. *Responsabilidades:* Obligaciones y compromisos asociados al ejercicio de cada función.
+4. *Perfiles asociados:* Saberes, capacidades y competencias requeridos para su desempeño.
+5. *Relaciones inter-puestos:* Mecanismos de comunicación, articulación y trabajo colaborativo entre las distintas áreas y actores escolares.
+
+### Estructura Organizativa y Aportes de Henry Mintzberg
+
+Para profundizar en la trama institucional donde operan los puestos, se incorporan los aportes de Henry @mintzberg1989. El autor concibe la estructura como la suma total de las formas en que el trabajo se divide en tareas diferenciadas y se logra la coordinación entre ellas.
+
+#### Las Partes Fundamentales de la Organización
+
+Mintzberg identifica cinco componentes estructurales básicos, que en el contexto escolar de la ESRN N° 154 se analizan con criterios adaptados a la administración pública educativa:
+
+* **Ápice estratégico:** Responsable de la conducción general y supervisión institucional. En la escuela secundaria, corresponde al equipo directivo (Dirección y Vicedirección).
+* **Línea media:** Niveles que vinculan la dirección con el trabajo directo de prestación. En la institución educativa comprende los roles de coordinación de ciclo, áreas curriculares y secretaría escolar.
+* **Núcleo operativo:** Agentes que realizan las actividades sustantivas que constituyen la razón de ser de la institución: en este caso, el cuerpo de docentes frente a curso y de acompañamiento pedagógico.
+* **Tecnoestructura:** Quienes diseñan, planifican y estandarizan procesos. En el sistema educativo rionegrino, estas funciones operan primordialmente en instancias externas a la escuela: el Consejo Provincial de Educación (CPE), las direcciones de nivel y las supervisiones pedagógicas.
+* **Personal de apoyo (Staff):** Áreas que brindan servicios de soporte al funcionamiento escolar: personal administrativo, preceptores y Personal de Servicio de Apoyo (PSA).
+
+#### Mecanismos de Coordinación y la Escuela como Burocracia Profesional
+
+@mintzberg1989 clasifica a las instituciones educativas dentro de la configuración de **burocracia profesional**. En ella, el núcleo operativo adquiere un protagonismo central debido a que sus tareas son complejas y requieren saberes especializados. El principal mecanismo de coordinación radica en la *estandarización de destrezas* (los saberes y títulos adquiridos en la formación docente), articulado con instancias de *ajuste mutuo* (comunicación directa y acuerdos entre colegas) y *supervisión directa* del equipo directivo.
+
+En la ESRN, la reforma introdujo el trabajo por áreas disciplinares y horas institucionales compartidas, incentivando mecanismos de ajuste mutuo que tensionan las formas tradicionales de aislamiento celular del trabajo docente en el aula.
+
+### Articulación Conceptual entre Longo y Mintzberg
+
+Ambos enfoques resultan complementarios y mutuamente enriquecedores: mientras @longo2002 aporta las herramientas específicas de la Gestión de Recursos Humanos para desentrañar el diseño de puestos, perfiles y funciones, @mintzberg1989 proporciona el encuadre macroestructural para comprender cómo esos puestos se insertan en la división del trabajo, en los niveles de autoridad y en los mecanismos de coordinación de una burocracia profesional pública.
+
+## Marco Normativo Institucional
+
+El marco normativo contextualiza el proceso de transición de los antiguos Centros de Educación Media (CEM) a las Escuelas Secundarias de Río Negro (ESRN), prestando particular atención al caso de la ESRN N° 154 de Viedma.
+
+### Marco General de la Educación Secundaria
+
+* **Ley de Educación Nacional N° 26.206 [@ley26206]:** Consagra la obligatoriedad del nivel secundario y fija la responsabilidad del Estado en garantizar el acceso, permanencia y egreso escolar.
+* **Ley Orgánica de Educación de Río Negro F N° 4819 [@ley4819]:** Regula los principios, derechos y estructura del sistema educativo provincial, estableciendo las bases para la transformación de la educación media.
+
+### Proceso de Transformación CEM a ESRN
+
+* **Resolución CPE N° 1386/1996 [@res1386]:** Estableció la denominación histórica de Centros de Educación Media (CEM) para los establecimientos provinciales, marco en el cual operó originariamente el CEM N° 154.
+* **Resolución CPE N° 3035/2016 [@res3035]:** Implementó el dispositivo para la elección de orientaciones de la ESRN en los CEM diurnos de la provincia.
+* **Resolución CPE N° 3991/2016 [@res3991]:** Aprobó las estructuras curriculares del Ciclo Básico y Ciclo Orientado de la ESRN y formalizó el cambio de denominación institucional a ESRN N° 154, conservando el Código Único de Establecimiento (CUE).
+* **Resolución CPE N° 3992/2016 [@res3992]:** Determinó la entrada en vigencia del nuevo plan a partir del 1° de marzo de 2017, complementada por las **Resoluciones CPE N° 1010/2017 y 1011/2017** [@res1010; @res1011] para la adecuación de las escuelas secundarias.
+
+### Organización de Cargos, Trabajo Docente y Régimen Académico
+
+* **Resoluciones CPE N° 4400/2016 y N° 4404/2016 [@res4400; @res4404]:** Fijaron el régimen de compatibilidades horarias y regularon las Asambleas Soberanas de concentración y acrecentamiento de cargos docentes para viabilizar el nuevo modelo.
+* **Resolución CPE N° 945/2017 [@res945]:** Aprobó el Diseño Curricular de la ESRN para Ciclo Básico y Ciclo Orientado. En la ESRN N° 154, la oferta se consolidó bajo la orientación en *Lenguas*.
+* **Resolución CPE N° 4617/2017 [@res4617]:** Instituyó el Régimen Académico de la ESRN (vigente desde 2018), normando la convivencia escolar, los criterios de evaluación y acreditación, y las responsabilidades pedagógicas institucionales.
+
+### Síntesis Integradora del Marco Normativo
+
+El relevamiento normativo delimita las transformaciones formales e institucionales prescritas por el Estado provincial. No obstante, las ordenanzas y resoluciones no informan por sí solas cómo se reconfiguraron las rutinas de trabajo cotidianas dentro de la ESRN N° 154. Por ende, este marco normativo opera como una referencia de contraste para cotejar lo prescrito formalmente con lo relevado en la documentación institucional (POF, planes de estudio) y los testimonios de los trabajadores escolares.
+
+{{< pagebreak >}}
