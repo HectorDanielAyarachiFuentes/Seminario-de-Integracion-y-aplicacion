@@ -1,23 +1,31 @@
 ::: {.content-visible when-format="typst"}
 ```{=typst}
 #align(center)[
-  #image("assets/img/curzas.png", width: 110pt)
+  #image("assets/img/curzas.png", width: 95pt)
+
+  #v(0.8em)
+
+  Universidad Nacional del Comahue \
+  Complejo Universitario Regional Zona Atlántica y Sur \
+  Departamento de Administración Pública
+
+  #v(1em)
+
+  Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos \
 
   #v(1.2em)
 
-  #text(weight: "bold")[Universidad Nacional del Comahue] \
-  #text(weight: "bold")[Complejo Universitario Regional Zona Atlántica y Sur] \
-  #text(weight: "bold")[Departamento de Administración Pública]
-
-  #v(3.5em)
-
-  #text(weight: "bold")[Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos]
+  #text(weight: "bold", size: 12pt)[Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)] \
+  #v(0.4em)
+  #text(style: "italic", size: 10.5pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23] \
+  #v(0.3em)
+  #text(size: 10pt)[Versión 1.0.0 (Corregida)]
 ]
 
-#v(3.5em)
+#v(1.2em)
 
 #block(inset: (left: 0cm))[
-  #set par(justify: false, first-line-indent: 0pt, leading: 0.8em)
+  #set par(justify: false, first-line-indent: 0pt, leading: 0.75em)
   Materia: Seminario de Integración y Aplicación \
   Profesores: Dra. Deborah Noguera \
   #h(5.8em) Esp. Federico Abeiro \
@@ -31,7 +39,7 @@
   Codirector/a: (A designar antes de finalizar el cursado del SIA)
 ]
 
-#v(4em)
+#v(1.2em)
 
 #align(center)[
   Año 2026
@@ -45,19 +53,21 @@
 
 <br>
 
-**Universidad Nacional del Comahue**  
-**Complejo Universitario Regional Zona Atlántica y Sur**  
-**Departamento de Administración Pública**
+Universidad Nacional del Comahue  
+Complejo Universitario Regional Zona Atlántica y Sur  
+Departamento de Administración Pública
 
 <br>
-<br>
+
+Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos
+
 <br>
 
-**Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos**
+**Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)**  
+*(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación — Res. CD-CURZAS N° 266/23)*  
+*Versión 1.0.0 (Corregida)*
 :::
 
-<br>
-<br>
 <br>
 
 Materia: Seminario de Integración y Aplicación  
@@ -72,8 +82,6 @@ Email: hectordanielayarachifuentes@gmail.com
 Director/a: (A designar antes de finalizar el cursado del SIA)  
 Codirector/a: (A designar antes de finalizar el cursado del SIA)  
 
-<br>
-<br>
 <br>
 
 ::: {align="center"}
@@ -116,7 +124,7 @@ Año 2026
   #set par(first-line-indent: 0pt)
   #text(weight: "bold", size: 12pt)[Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)] \
   #v(0.4em)
-  #text(style: "italic", size: 11pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23]
+  #text(style: "italic", size: 11pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23 — Versión 1.0.0 (Corregida)]
 ]
 #v(0.3em)
 ```
@@ -124,7 +132,7 @@ Año 2026
 ::: {.content-visible when-format="docx"}
 ::: {align="center"}
 **Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)**  
-*(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23)*
+*(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23 — Versión 1.0.0 Corregida)*
 :::
 
 <br>
