@@ -41,11 +41,11 @@ Para evitar ambigüedades metodológicas [@wainerman2011], se establece una clar
 
 Tratándose de una investigación con diseño mixto de predominio cualitativo (CUAL → cuan) ejecutada por un único tesista, se implementa un muestreo no probabilístico orientado a la representatividad sustantiva y teórica [@sautu2005; @glaser1967]:
 
-* *Submuestra Cualitativa (n = 8 informantes clave):* Muestreo intencional o por criterios teóricos [@sautu2005], cuyo tamaño se ajustará durante el trabajo de campo bajo el principio de saturación temática [@glaser1967]:
+* *Submuestra Cualitativa (n = 9 informantes clave):* Muestreo intencional o por criterios teóricos [@sautu2005], cuyo tamaño se ajustará durante el trabajo de campo bajo el principio de saturación temática [@glaser1967]:
   - 4 docentes de cátedra (seleccionados buscando heterogeneidad: cátedras unipersonales vs. colegiadas, dedicaciones simples vs. exclusivas, y modalidad presencial Viedma vs. tutoría virtual en Nodos).
   - 2 autoridades académicas (Dirección del Departamento y Coordinación de Carrera).
   - 1 representante paritario de ADUNC.
-  - 1 estudiante avanzado con experiencia transitada en cursadas presenciales y virtuales.
+  - 2 estudiantes avanzados con trayectoria académica acreditada: 1 estudiante regular de cursada presencial en Sede Central Viedma y 1 estudiante regular cursante bajo modalidad híbrida en Nodos Territoriales, garantizando la contrastación situada entre ambas realidades de cursada.
 * *Submuestra Cuantitativa Diagnóstica (n = 45 participantes):* Muestreo por accesibilidad y participación voluntaria [@hernandezsampieri2014] para el cuestionario exploratorio autoadministrado:
   - 15 docentes del Departamento (representa aproximadamente el 40% de la población docente departamental).
   - 30 estudiantes regulares de tramos avanzados (representa cerca del 23% de la matrícula activa de ciclos superiores).
@@ -99,11 +99,11 @@ Se articulan tres técnicas complementarias:
 Las actividades de investigación se estructuran en seis fases secuenciales coordinadas a lo largo de un lapso intensivo y viable de 7 meses de ejecución proyectados para el año 2027:
 
 * *Fase 1: Preparación, diseño y avales (Mes 1 / Mayo 2027):* Aprobación del proyecto en el SIA; solicitud formal de aval académico ante la Dirección del Departamento y el Decanato del CURZAS; contacto informativo con ADUNC y Centro de Estudiantes; calibración de instrumentos y prueba piloto con 2 docentes y 5 estudiantes. *Entregable:* Aval institucional e instrumentos validados.
-* *Fase 2: Relevamiento normativo y entrevistas (Mes 2 / Junio 2027):* Sistematización documental de estatutos, ordenanzas y CCT; concreción de las 8 entrevistas semiestructuradas a docentes, autoridades y dirigentes gremiales; transcripción y codificación temática preliminar. *Entregable:* Fichas normativas y transcripciones codificadas.
+* *Fase 2: Relevamiento normativo y entrevistas (Mes 2 / Junio 2027):* Sistematización documental de estatutos, ordenanzas y CCT; concreción de las 9 entrevistas semiestructuradas a docentes, autoridades, dirigentes gremiales y estudiantes de sede y nodos; transcripción y codificación temática preliminar. *Entregable:* Fichas normativas y transcripciones codificadas.
 * *Fase 3: Aplicación del sondeo exploratorio (Mes 3 / Julio 2027):* Parametrización y lanzamiento del cuestionario digital a docentes y estudiantes de Viedma y Nodos Territoriales; seguimiento de participación; cierre y depuración de la base de datos. *Entregable:* Base de datos anonimizada y depurada.
 * *Fase 4: Procesamiento analítico y triangulación (Mes 4 / Agosto 2027):* Procesamiento descriptivo del sondeo y análisis de contenido temático de las entrevistas; contrastación cruzada de fuentes normativas, testimoniales y cuantitativas. *Entregable:* Informe diagnóstico integrado de factibilidad.
 * *Fase 5: Formulación de lineamientos y redacción (Meses 5–6 / Septiembre–Octubre 2027):* Elaboración de lineamientos orientativos para el Departamento; reunión de consulta y devolución con docentes; redacción integral del borrador de TFG. *Entregable:* Borrador completo de Tesina.
-* *Fase 6: Revisión final, tramitación y defensa oral (Mes 7 / Noviembre 2027):* Supervisión y visto bueno final de la Dirección de TFG; presentación formal ante mesa de entradas del CURZAS; designación de jurados y defensa oral del TFG. *Entregable:* Trabajo Final de Graduación aprobado.
+* *Fase 6: Revisión final y presentación formal del TFG (Mes 7 / Noviembre 2027):* Supervisión y visto bueno final de la Dirección de TFG; presentación formal del documento de Tesina por mesa de entradas del CURZAS-UNCo para el inicio del circuito reglamentario de evaluación (designación de tribunal evaluador y dictámenes conforme a la Res. CD-CURZAS N° 266/23), quedando la instancia de defensa oral sujeta a los plazos administrativos del tribunal evaluador. *Entregable:* Trabajo Final de Graduación formalmente presentado y tramitado.
 
 ### Procesamiento y Análisis de Datos
 
@@ -137,9 +137,9 @@ El proyecto se planifica en un lapso de 7 meses continuos distribuidos en etapas
 | 5. Trabajo de campo: sondeo en Viedma y Nodos (Fase 3) | | | **X** | | | | |
 | 6. Procesamiento de datos y triangulación (Fase 4) | | | | **X** | | | |
 | 7. Redacción de Tesina y lineamientos (Fase 5) | | | | | **X** | **X** | |
-| 8. Revisión final, tramitación y defensa de TFG (Fase 6) | | | | | | | **X** |
+| 8. Revisión final y presentación formal del TFG (Fase 6) | | | | | | | **X** |
 
-*Nota.* Elaboración propia. La planificación mensual de 7 meses proyectada para el año 2027 se adecua a la escala operativa de un investigador individual y a los plazos académicos reglamentados por el CURZAS-UNCo.
+*Nota.* Elaboración propia. La planificación de 7 meses proyectada para el ciclo lectivo 2027 contempla las etapas de diseño, trabajo de campo, procesamiento analítico y presentación formal de la Tesina ante mesa de entradas del CURZAS-UNCo; los plazos de dictamen y la posterior fijación de fecha de defensa oral quedan supeditados a los tiempos reglamentarios del tribunal evaluador (Res. CD-CURZAS N° 266/23).
 
 {{< pagebreak >}}
 
