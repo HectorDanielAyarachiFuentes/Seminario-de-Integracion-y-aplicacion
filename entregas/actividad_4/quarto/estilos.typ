@@ -3,15 +3,17 @@
 
 // ─── Párrafos con sangría reglamentaria APA 7 (1.27 cm) e interlineado ──
 #set par(justify: true, leading: 0.75em, first-line-indent: 1.27cm)
+#set text(hyphenate: false)
 
 // ─── Índice de Contenidos (TOC): Nivel 1 en negrita ─────────────────────
 #show outline.entry.where(level: 1): set text(weight: "bold")
 
 // ─── Encabezados APA 7ma Edición ─────────────────────────────────────────
 // Nivel 1: Centrado, Negrita
-#show heading.where(level: 1): it => block(spacing: 14pt)[
-  #set align(center)
-  #text(weight: "bold", size: 12pt)[#it.body]
+#show heading.where(level: 1): it => align(center)[
+  #block(width: 100%, spacing: 14pt)[
+    #text(weight: "bold", size: 12pt)[#it.body]
+  ]
 ] + par[]
 
 // Nivel 2: Alineado a la izquierda, Negrita

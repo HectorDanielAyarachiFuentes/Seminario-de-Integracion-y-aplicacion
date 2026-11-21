@@ -117,7 +117,7 @@ Año 2026
 
 ```{=typst}
 #counter(page).update(1)
-#set page(numbering: "1")
+#set page(numbering: "1", number-align: top + right)
 #set par(first-line-indent: 1.27cm)
 
 #align(center)[
