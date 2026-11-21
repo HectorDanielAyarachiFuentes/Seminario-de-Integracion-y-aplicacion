@@ -441,7 +441,7 @@ Se articulan tres técnicas complementarias:
 
 1. *Análisis documental normativo:* Relevamiento del Estatuto UNCo (Ord. CS N° 0988/2025), el Reglamento de Carrera Docente (Ord. CS N° 0910/1997), el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015) y la Resolución CD-CURZA N° 196/2022. *Instrumento:* Ficha de registro documental para sistematizar prescripciones reglamentarias y cláusulas de estabilidad laboral.
 2. *Entrevistas semiestructuradas en profundidad:* Diálogo cualitativo sobre la evaluación vigente, la disposición a la coevaluación y las condiciones de viabilidad gremial e institucional. *Instrumento:* Guía de entrevista temática adaptada al rol del entrevistado (Anexo I).
-3. *Cuestionario exploratorio autoadministrado:* Consulta estructurada sobre dimensiones de factibilidad técnica, cultural y procedimental. Consta de 15 reactivos en escala Likert de 5 puntos (desde 1: *Totalmente en desacuerdo* hasta 5: *Totalmente de acuerdo*) y 2 preguntas abiertas breves. *Instrumento:* Cuestionario de factibilidad (Anexo II).
+3. *Cuestionario exploratorio autoadministrado:* Consulta estructurada sobre dimensiones de factibilidad técnica, cultural y procedimental. Consta de 15 reactivos en escala Likert de 5 puntos (desde 1: *Totalmente en desacuerdo* hasta 5: *Totalmente de acuerdo*), opción independiente de *No sabe / No contesta* (NS/NC) y 2 preguntas abiertas breves. *Instrumento:* Cuestionario de factibilidad (Anexo II).
 
 {{< pagebreak >}}
 
@@ -475,7 +475,7 @@ Las actividades de investigación se estructuran en seis fases secuenciales coor
 
 * *Fase 1: Preparación, diseño y avales (Mes 1 / Mayo 2027):* Aprobación del proyecto en el SIA; solicitud formal de aval académico ante la Dirección del Departamento y el Decanato del CURZAS; contacto informativo con ADUNC y Centro de Estudiantes; calibración de instrumentos y prueba piloto con 2 docentes y 5 estudiantes. *Entregable:* Aval institucional e instrumentos validados.
 * *Fase 2: Relevamiento normativo y entrevistas (Mes 2 / Junio 2027):* Sistematización documental de estatutos, ordenanzas y CCT; concreción de las 9 entrevistas semiestructuradas a docentes, autoridades, dirigentes gremiales y estudiantes de sede y nodos; transcripción y codificación temática preliminar. *Entregable:* Fichas normativas y transcripciones codificadas.
-* *Fase 3: Aplicación del sondeo exploratorio (Meses 2–3 / Junio–Julio 2027):* Parametrización y lanzamiento del cuestionario digital a docentes y estudiantes de Viedma y Nodos Territoriales; apertura formal a mediados de junio previo a mesas de examen, ventana de respuesta extendida y seguimiento tras el receso invernal para optimizar la tasa de respuesta en ambas sedes; cierre y depuración de la base de datos. *Entregable:* Base de datos anonimizada y depurada.
+* *Fase 3: Aplicación del sondeo exploratorio (Meses 2–3 / Junio–Julio 2027):* Parametrización y lanzamiento del cuestionario digital a docentes y estudiantes de Viedma y Nodos Territoriales; apertura formal a mediados de junio previo a mesas de examen, ventana de respuesta extendida y seguimiento tras el receso invernal para optimizar la tasa de respuesta en la sede central y los Nodos Territoriales; cierre y depuración de la base de datos. *Entregable:* Base de datos anonimizada y depurada.
 * *Fase 4: Procesamiento analítico y triangulación (Mes 4 / Agosto 2027):* Procesamiento descriptivo del sondeo y análisis de contenido temático de las entrevistas; contrastación cruzada de fuentes normativas, testimoniales y cuantitativas. *Entregable:* Informe diagnóstico integrado de factibilidad.
 * *Fase 5: Formulación de lineamientos y redacción (Meses 5–6 / Septiembre–Octubre 2027):* Elaboración de lineamientos orientativos para el Departamento; reunión de consulta y devolución con docentes; redacción integral del borrador de TFG. *Entregable:* Borrador completo de Tesina.
 * *Fase 6: Revisión final y presentación formal del TFG (Mes 7 / Noviembre 2027):* Supervisión y visto bueno final de la Dirección de TFG; presentación formal del documento de Tesina por mesa de entradas del CURZAS-UNCo para el inicio del circuito reglamentario de evaluación (designación de tribunal evaluador y dictámenes conforme a la Res. CD-CURZAS N° 266/23), quedando la instancia de defensa oral sujeta a los plazos administrativos del tribunal evaluador. *Entregable:* Trabajo Final de Graduación formalmente presentado y tramitado.
@@ -483,7 +483,7 @@ Las actividades de investigación se estructuran en seis fases secuenciales coor
 ### Procesamiento y Análisis de Datos
 
 * *Análisis de datos cualitativos:* Las entrevistas transcriptas y los documentos normativos se analizan mediante análisis de contenido temático [@bardin2002; @sautu2005], agrupando los fragmentos discursivos en categorías correspondientes a las cinco dimensiones de factibilidad para identificar patrones, tensiones y condiciones señaladas por los informantes.
-* *Análisis de datos cuantitativos:* Los resultados del cuestionario digital se procesan mediante estadística descriptiva básica (distribuciones de frecuencias, porcentajes y medias por reactivo) empleando planillas estructuradas o paquetes de código abierto (R / PSPP). Se sintetizan tendencias generales sin inferencias probabilísticas desproporcionadas para la muestra diagnóstica.
+* *Análisis de datos cuantitativos:* Los resultados del cuestionario digital se procesan mediante estadística descriptiva básica (distribuciones de frecuencias, porcentajes y medias por reactivo, excluyendo las respuestas NS/NC del cómputo de promedios para preservar la métrica psicométrica de la escala) empleando planillas estructuradas o paquetes de código abierto (R / PSPP). Se sintetizan tendencias generales sin inferencias probabilísticas desproporcionadas para la muestra diagnóstica.
 * *Triangulación de datos:* Siguiendo a @denzin1978 y @sautu2005, se contrastan de manera sistemática los tres corpus de datos: las prescripciones estatutarias, los testimonios en profundidad y las frecuencias del sondeo. El propósito consiste en ponderar la coherencia entre lo normado, lo viable técnicamente y lo aceptado culturalmente por la comunidad académica.
 
 ### Consideraciones Éticas
@@ -599,38 +599,35 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 
 ## Anexo II: Cuestionario Exploratorio de Factibilidad (Escala Likert) {.unnumbered}
 
-*Instrucciones:* Indique su nivel de acuerdo marcando del 1 al 5 (1: Totalmente en desacuerdo; 2: En desacuerdo; 3: Ni de acuerdo ni en desacuerdo; 4: De acuerdo; 5: Totalmente de acuerdo).
+*Instrucciones:* Marque su nivel de acuerdo de 1 a 5 (1: *Totalmente en desacuerdo*; 2: *En desacuerdo*; 3: *Neutral*; 4: *De acuerdo*; 5: *Totalmente de acuerdo*) o la opción NS/NC (*No sabe / No contesta*).
 
 **Tabla 5**  
 *Reactivos del Cuestionario Exploratorio de Factibilidad (Escala Likert)*
 
-| N° | Reactivo | 1 | 2 | 3 | 4 | 5 |
-|:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|
-| 1 | La evaluación docente debería orientarse principalmente a la mejora de la enseñanza y no al control formal. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 2 | Considero indispensable que los reportes individuales no integren legajos de permanencia ni concursos laborales. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios anónimos. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 4 | Confío en que el sistema informático puede garantizar el anonimato técnico de las respuestas. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 5 | Un cuestionario breve (hasta 15 preguntas) es suficiente para evaluar la labor docente sin generar sobrecarga. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 6 | El Departamento dispone de capacidad organizativa para coordinar devoluciones diagnósticas oportunas. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 7 | Los resultados consolidados deberían alimentar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 9 | Considero enriquecedor recibir comentarios constructivos de colegas de cátedra sobre la labor docente. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 10 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 11 | En el Departamento existe un clima de confianza que permite dialogar sobre fortalezas y dificultades didácticas. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 12 | Una propuesta evaluativa formativa debe ser debatida previamente en el Consejo Departamental. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 13 | El acuerdo de la representación gremial docente (ADUNC) es un requisito central para su viabilidad. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | [ ] | [ ] | [ ] | [ ] | [ ] |
+| N° | Reactivo | 1 | 2 | 3 | 4 | 5 | NS/NC |
+|:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | La evaluación docente debería orientarse principalmente a la mejora de la enseñanza y no al control formal. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 2 | Considero indispensable que los reportes individuales no integren legajos de permanencia ni concursos laborales. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios anónimos. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 4 | Confío en que el sistema informático puede garantizar el anonimato técnico de las respuestas. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 5 | Un cuestionario breve (hasta 15 preguntas) es suficiente para evaluar la labor docente sin generar sobrecarga. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 6 | El Departamento dispone de capacidad organizativa para coordinar devoluciones diagnósticas oportunas. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 7 | Los resultados consolidados deberían alimentar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 9 | Considero enriquecedor recibir comentarios constructivos de colegas de cátedra sobre la labor docente. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 10 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 11 | En el Departamento existe un clima de confianza que permite dialogar sobre fortalezas y dificultades didácticas. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 12 | Una propuesta evaluativa formativa debe ser debatida previamente en el Consejo Departamental. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 13 | El acuerdo de la representación gremial docente (ADUNC) es un requisito central para su viabilidad. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 
-*Nota.* En el formulario administrado a los estudiantes, los reactivos 8 y 9 se adaptan consultando sobre la utilidad percibida de la autoevaluación y coevaluación docente. Asimismo, para los reactivos relativos a gobernanza institucional y carrera docente (ítems 6 y 7), la opción central (3) opera formalmente con el sentido de *No sabe / No contesta*.
+*Nota.* En estudiantes, los ítems 8 y 9 consultan sobre la utilidad percibida de la autoevaluación y coevaluación docente. La categoría NS/NC se procesa como porcentaje y se excluye del cómputo de medias para preservar la escala de 1 a 5.
 
 *Preguntas Abiertas Complementarias:*
 
-* *Pregunta 1:* ¿Qué condiciones considera prioritarias garantizar para participar con confianza en una eventual instancia de retroalimentación docente?  
-  *[Espacio para respuesta abierta]*
-
-* *Pregunta 2:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por las encuestas actuales?  
-  *[Espacio para respuesta abierta]*
+* *Pregunta 1:* ¿Qué condiciones considera prioritarias garantizar para participar con confianza en una eventual instancia de retroalimentación docente? *[Espacio para respuesta abierta]*
+* *Pregunta 2:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por las encuestas actuales? *[Espacio para respuesta abierta]*
 
 {{< pagebreak >}}
 
@@ -686,10 +683,6 @@ Departamento de Administración Pública — CURZAS-UNCo
 {{< pagebreak >}}
 
 ## Anexo IV: Formulario de Consentimiento Informado {.unnumbered}
-
-::: {align="center"}
-**FORMULARIO DE CONSENTIMIENTO INFORMADO**
-:::
 
 1. *Proyecto:* *Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)*.
 2. *Investigador:* Tec. Sup. Héctor Daniel Ayarachi Fuentes (CURZAS-UNCo).
