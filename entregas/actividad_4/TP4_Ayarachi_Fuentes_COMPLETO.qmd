@@ -166,7 +166,6 @@ Año 2026
 <br>
 :::
 
-
 # Primera parte de la estructura del Proyecto de investigación de TFG
 
 ## Tema de Investigación
@@ -261,7 +260,7 @@ La investigación se justifica en tres planos complementarios. Cada uno de ellos
 | Nivel de Objetivo | Dimensión Analítica | Subsistema de RR.HH. (Longo, 2006) | Fuentes e Instrumentos Previstos |
 | :--- | :--- | :--- | :--- |
 | **General** | **Factibilidad integral:** Determinación de condiciones normativas, técnicas, organizacionales y de gobernanza para la retroalimentación 360°. | **Gestión del rendimiento** (*Evaluación formativa y desarrollo continuo*) | Comunidad académica del Departamento de Administración Pública (CURZAS-UNCo). |
-| **Específico 1** | **Dimensión normativa-institucional:** Relevamiento de ordenanzas, reglamentos de carrera docente y prácticas efectivas de evaluación. | **Gestión del rendimiento y Organización del trabajo** (*Perfiles y funciones docentes según Estatuto y Ord. 0910/1997*) | Estatuto UNCo (Ord. CS N° 0988/2025), Ord. CS N° 0910/1997 y CCT Docente (Decreto N° 1246/2015). *Ficha documental.* |
+| **Específico 1** | **Dimensión normativa-institucional:** Relevamiento de ordenanzas, reglamentos de carrera docente y prácticas efectivas de evaluación. | **Gestión del rendimiento y Organización del trabajo** (*Perfiles y funciones docentes según Estatuto y Ord. 0910/1997*) | Estatuto UNCo (Ord. CS N° 0988/2025), Ord. CS N° 0910/1997 y CCT Docente (Decreto N° 1246/2015). *Ficha documental y entrevistas a actores clave.* |
 | **Específico 2** | **Dimensión intersubjetiva-cultural:** Exploración de percepciones, disposiciones y expectativas ante la autoevaluación y la mirada de pares y estudiantes. | **Gestión de las relaciones humanas y sociales** (*Clima laboral, confianza intersubjetiva y diálogo institucional*) | Docentes, estudiantes y autoridades del Departamento. *Entrevistas y cuestionarios.* |
 | **Específico 3** | **Dimensión de gobernanza multinivel:** Identificación de condicionantes de cogobierno, acuerdos paritarios y resguardos técnicos de confidencialidad. | **Gestión del empleo y Relaciones laborales** (*Condiciones de trabajo, estabilidad y negociación paritaria*) | Representantes docentes y paritarios gremiales (ADUNC). *Entrevistas temáticas y actas de cogobierno.* |
 | **Específico 4** | **Dimensión propositiva-orientativa:** Elaboración de lineamientos para una eventual aplicación formativa adaptada al caso. | **Gestión del desarrollo** (*Capacitación continua y articulación con el Art. 76 del Estatuto*) | Síntesis analítica del proyecto articulada con las demandas diagnosticadas. *Propuesta de lineamientos.* |
@@ -269,7 +268,6 @@ La investigación se justifica en tres planos complementarios. Cada uno de ellos
 *Nota.* Elaboración propia a partir de Longo (2006) y la normativa del CURZAS-UNCo.
 
 {{< pagebreak >}}
-
 
 # Segunda parte de la estructura del Proyecto de investigación de TFG
 
@@ -375,7 +373,6 @@ El análisis de antecedentes revela que, si bien la literatura ha explorado la v
 
 {{< pagebreak >}}
 
-
 # Tercera parte de la estructura del Proyecto de investigación de TFG
 
 ## Metodología / Materiales, Técnicas y Métodos
@@ -384,7 +381,7 @@ Este capítulo define el diseño metodológico, la muestra, los instrumentos de 
 
 ### Enfoque y Diseño de la Investigación
 
-La investigación adopta un enfoque metodológico mixto con predominio cualitativo y un componente cuantitativo descriptivo ($CUAL \rightarrow cuan$) [@hernandezsampieri2014]. La prioridad cualitativa permite profundizar en las percepciones, disposiciones y condiciones de acuerdo de los actores universitarios, mientras que el componente cuantitativo aporta un sondeo estructurado sobre las dimensiones específicas de viabilidad.
+La investigación adopta un enfoque metodológico mixto con predominio cualitativo y un componente cuantitativo descriptivo (CUAL → cuan) [@hernandezsampieri2014]. La prioridad cualitativa permite profundizar en las percepciones, disposiciones y condiciones de acuerdo de los actores universitarios, mientras que el componente cuantitativo aporta un sondeo estructurado sobre las dimensiones específicas de viabilidad.
 
 El estudio presenta un alcance descriptivo, exploratorio y propositivo:
 
@@ -478,7 +475,7 @@ Las actividades de investigación se estructuran en seis fases secuenciales coor
 
 * *Fase 1: Preparación, diseño y avales (Mes 1 / Mayo 2027):* Aprobación del proyecto en el SIA; solicitud formal de aval académico ante la Dirección del Departamento y el Decanato del CURZAS; contacto informativo con ADUNC y Centro de Estudiantes; calibración de instrumentos y prueba piloto con 2 docentes y 5 estudiantes. *Entregable:* Aval institucional e instrumentos validados.
 * *Fase 2: Relevamiento normativo y entrevistas (Mes 2 / Junio 2027):* Sistematización documental de estatutos, ordenanzas y CCT; concreción de las 9 entrevistas semiestructuradas a docentes, autoridades, dirigentes gremiales y estudiantes de sede y nodos; transcripción y codificación temática preliminar. *Entregable:* Fichas normativas y transcripciones codificadas.
-* *Fase 3: Aplicación del sondeo exploratorio (Mes 3 / Julio 2027):* Parametrización y lanzamiento del cuestionario digital a docentes y estudiantes de Viedma y Nodos Territoriales; seguimiento de participación; cierre y depuración de la base de datos. *Entregable:* Base de datos anonimizada y depurada.
+* *Fase 3: Aplicación del sondeo exploratorio (Meses 2–3 / Junio–Julio 2027):* Parametrización y lanzamiento del cuestionario digital a docentes y estudiantes de Viedma y Nodos Territoriales; apertura formal a mediados de junio previo a mesas de examen, ventana de respuesta extendida y seguimiento tras el receso invernal para optimizar la tasa de respuesta en ambas sedes; cierre y depuración de la base de datos. *Entregable:* Base de datos anonimizada y depurada.
 * *Fase 4: Procesamiento analítico y triangulación (Mes 4 / Agosto 2027):* Procesamiento descriptivo del sondeo y análisis de contenido temático de las entrevistas; contrastación cruzada de fuentes normativas, testimoniales y cuantitativas. *Entregable:* Informe diagnóstico integrado de factibilidad.
 * *Fase 5: Formulación de lineamientos y redacción (Meses 5–6 / Septiembre–Octubre 2027):* Elaboración de lineamientos orientativos para el Departamento; reunión de consulta y devolución con docentes; redacción integral del borrador de TFG. *Entregable:* Borrador completo de Tesina.
 * *Fase 6: Revisión final y presentación formal del TFG (Mes 7 / Noviembre 2027):* Supervisión y visto bueno final de la Dirección de TFG; presentación formal del documento de Tesina por mesa de entradas del CURZAS-UNCo para el inicio del circuito reglamentario de evaluación (designación de tribunal evaluador y dictámenes conforme a la Res. CD-CURZAS N° 266/23), quedando la instancia de defensa oral sujeta a los plazos administrativos del tribunal evaluador. *Entregable:* Trabajo Final de Graduación formalmente presentado y tramitado.
@@ -512,7 +509,7 @@ El proyecto se planifica en un lapso de 7 meses continuos distribuidos en etapas
 | 2. Gestión de avales y diseño de instrumentos (Fase 1) | **X** | | | | | | |
 | 3. Prueba piloto de instrumentos (Fase 1) | **X** | | | | | | |
 | 4. Trabajo de campo: normativa y entrevistas (Fase 2) | | **X** | | | | | |
-| 5. Trabajo de campo: sondeo en Viedma y Nodos (Fase 3) | | | **X** | | | | |
+| 5. Trabajo de campo: sondeo en Viedma y Nodos (Fase 3) | | **X** | **X** | | | | |
 | 6. Procesamiento de datos y triangulación (Fase 4) | | | | **X** | | | |
 | 7. Redacción de Tesina y lineamientos (Fase 5) | | | | | **X** | **X** | |
 | 8. Revisión final y presentación formal del TFG (Fase 6) | | | | | | | **X** |
@@ -541,7 +538,7 @@ La investigación no requiere financiamiento institucional ni subsidios externos
 | **Edición y encuadernación** | Impresión de ejemplares requeridos para la entrega formal y defensa. | $ 35.000 | Autofinanciamiento |
 | **Total** | **Presupuesto total estimado** | **$ 160.000** | **100% Propio** |
 
-*Nota.* El relevamiento en los 10 Nodos Universitarios de la red territorial se realizará mediante formularios digitales autoadministrados y salas de videoconferencia institucionales, sin generar costos extraordinarios de traslado físico.
+*Nota.* Valores presupuestarios estimados a pesos constantes de noviembre de 2026. El relevamiento en los 10 Nodos Universitarios de la red territorial se realizará mediante formularios digitales autoadministrados y salas de videoconferencia institucionales, sin generar costos extraordinarios de traslado físico.
 
 ### Recursos Humanos y Dedicación
 
@@ -562,7 +559,6 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 
 {{< pagebreak >}}
 
-
 # Referencias Bibliográficas {.unnumbered}
 
 ::: {#refs}
@@ -572,14 +568,14 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 
 # Anexos Metodológicos {.unnumbered}
 
-### Anexo I: Guía Temática de Entrevista Semiestructurada {.unnumbered}
+## Anexo I: Guía Temática de Entrevista Semiestructurada {.unnumbered}
 
 *Proyecto:* *Evaluación del Desempeño Docente y Factibilidad de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)*  
 *Investigador:* Tec. Sup. Héctor Daniel Ayarachi Fuentes  
 
 *Objetivo:* Relevar opiniones, percepciones y experiencias sobre los mecanismos actuales de evaluación docente y las condiciones que podrían facilitar o limitar una eventual retroalimentación multiactoral en el Departamento de Administración Pública del CURZAS-UNCo.
 
-#### Bloque A: Guía Temática para Docentes de Cátedra y Autoridades Académicas {.unnumbered}
+### Bloque A: Guía Temática para Docentes de Cátedra y Autoridades Académicas {.unnumbered}
 
 1. *Evaluación vigente:* ¿Cómo describe su experiencia con los instrumentos actuales de evaluación docente (informes anuales, encuestas estudiantiles y evaluaciones cuatrienales de permanencia)?
 2. *Uso pedagógico:* ¿Cómo percibe que las opiniones estudiantiles actuales se vinculan con posibles mejoras en la enseñanza o en planes de capacitación docente?
@@ -589,19 +585,19 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 6. *Resguardos necesarios:* ¿Qué condiciones (por ejemplo, participación voluntaria o reserva de identidad) considera necesarias para que los docentes participen con tranquilidad en una propuesta de este tipo?
 7. *Articulación departamental:* ¿Considera que los resultados de una eventual retroalimentación podrían orientar las propuestas del Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo)?
 
-#### Bloque B: Preguntas Específicas para la Representación Gremial Paritaria (ADUNC) {.unnumbered}
+### Bloque B: Preguntas Específicas para la Representación Gremial Paritaria (ADUNC) {.unnumbered}
 
 1. *Compatibilidad normativa y estabilidad laboral:* Desde su experiencia en la representación gremial, ¿qué aspectos considera relevantes para resguardar la estabilidad laboral y la normativa estatutaria (CCT y Estatuto UNCo) ante una eventual propuesta de retroalimentación formativa?
 2. *Veeduría y custodia de datos:* ¿Qué mecanismos considera necesarios para garantizar la transparencia, confidencialidad y custodia de la información diagnóstica, asegurando que no se transfiera a legajos ni sea utilizada con fines sumativos?
 
-#### Bloque C: Preguntas Específicas para Estudiantes Avanzados {.unnumbered}
+### Bloque C: Preguntas Específicas para Estudiantes Avanzados {.unnumbered}
 
 1. *Experiencia con la evaluación actual:* En base a su trayectoria, ¿cómo describe su experiencia con las encuestas de evaluación docente que se completan en SIU-Guaraní al término de cada cursada? ¿Percibe que sus opiniones inciden efectivamente en cambios o mejoras en la enseñanza?
 2. *Condiciones para la participación:* ¿Qué condiciones considera necesarias para que una retroalimentación estudiantil sea sincera y constructiva? ¿Qué aspectos de la enseñanza (ej. claridad didáctica, acompañamiento tutorial virtual en Nodos, criterios de evaluación y devoluciones) considera más relevantes de incorporar?
 
 {{< pagebreak >}}
 
-### Anexo II: Cuestionario Exploratorio de Factibilidad (Escala Likert) {.unnumbered}
+## Anexo II: Cuestionario Exploratorio de Factibilidad (Escala Likert) {.unnumbered}
 
 *Instrucciones:* Indique su nivel de acuerdo marcando del 1 al 5 (1: Totalmente en desacuerdo; 2: En desacuerdo; 3: Ni de acuerdo ni en desacuerdo; 4: De acuerdo; 5: Totalmente de acuerdo).
 
@@ -616,7 +612,7 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 | 4 | Confío en que el sistema informático puede garantizar el anonimato técnico de las respuestas. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 5 | Un cuestionario breve (hasta 15 preguntas) es suficiente para evaluar la labor docente sin generar sobrecarga. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 6 | El Departamento dispone de capacidad organizativa para coordinar devoluciones diagnósticas oportunas. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 7 | Los resultados consolidados deberían alimentar el Programa Anual de Capacitación Docente (Art. 76). | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 7 | Los resultados consolidados deberían alimentar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 9 | Considero enriquecedor recibir comentarios constructivos de colegas de cátedra sobre la labor docente. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 10 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | [ ] | [ ] | [ ] | [ ] | [ ] |
@@ -626,7 +622,7 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 | 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | [ ] | [ ] | [ ] | [ ] | [ ] |
 
-*Nota.* En el formulario administrado al claustro estudiantil, los reactivos 8 y 9 se adaptan consultando sobre la utilidad percibida de la autoevaluación y coevaluación docente.
+*Nota.* En el formulario administrado a los estudiantes, los reactivos 8 y 9 se adaptan consultando sobre la utilidad percibida de la autoevaluación y coevaluación docente. Asimismo, para los reactivos relativos a gobernanza institucional y carrera docente (ítems 6 y 7), la opción central (3) opera formalmente con el sentido de *No sabe / No contesta*.
 
 *Preguntas Abiertas Complementarias:*
 
@@ -638,11 +634,7 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 
 {{< pagebreak >}}
 
-### Anexo III: Modelo de Nota Institucional de Solicitud de Aval Académico {.unnumbered}
-
-::: {align="center"}
-**SOLICITUD DE AVAL ACADÉMICO PARA INVESTIGACIÓN DE TFG**
-:::
+## Anexo III: Modelo de Nota Institucional de Solicitud de Aval Académico {.unnumbered}
 
 Viedma, Río Negro, ______ de ________________ de 202___
 
@@ -667,10 +659,10 @@ Agradeciendo su atención, saludo a Usted atentamente.
 
 ::: {.content-visible when-format="typst"}
 ```{=typst}
-#v(0.2cm)
+#v(0.1cm)
 #align(center)[
   #line(length: 65%, stroke: 0.5pt + black)
-  #v(0.3em)
+  #v(0.2em)
   #text(weight: "bold")[Tec. Sup. Héctor Daniel Ayarachi Fuentes] \
   Legajo N° 8252 — DNI N° 35.492.138 \
   Estudiante del CCC de la Licenciatura en Gestión de Recursos Humanos \
@@ -693,7 +685,7 @@ Departamento de Administración Pública — CURZAS-UNCo
 
 {{< pagebreak >}}
 
-### Anexo IV: Formulario de Consentimiento Informado {.unnumbered}
+## Anexo IV: Formulario de Consentimiento Informado {.unnumbered}
 
 ::: {align="center"}
 **FORMULARIO DE CONSENTIMIENTO INFORMADO**
@@ -722,5 +714,4 @@ Departamento de Administración Pública — CURZAS-UNCo
 | *Lugar y Fecha:* | __________________________________________________ |
 | *Firma (o validación digital):* | __________________________________________________ |
 | *Aclaración de Firma:* | __________________________________________________ |
-| *Estamento / Rol:* | [ ] Docente &nbsp;&nbsp;&nbsp;&nbsp; [ ] Estudiante &nbsp;&nbsp;&nbsp;&nbsp; [ ] Autoridad &nbsp;&nbsp;&nbsp;&nbsp; [ ] Representante Gremial |
-
+| *Rol / Actor institucional:* | [ ] Docente &nbsp;&nbsp;&nbsp;&nbsp; [ ] Estudiante &nbsp;&nbsp;&nbsp;&nbsp; [ ] Autoridad &nbsp;&nbsp;&nbsp;&nbsp; [ ] Representante Gremial |

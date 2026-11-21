@@ -7,14 +7,14 @@
 
 # Anexos Metodológicos {.unnumbered}
 
-### Anexo I: Guía Temática de Entrevista Semiestructurada {.unnumbered}
+## Anexo I: Guía Temática de Entrevista Semiestructurada {.unnumbered}
 
 *Proyecto:* *Evaluación del Desempeño Docente y Factibilidad de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)*  
 *Investigador:* Tec. Sup. Héctor Daniel Ayarachi Fuentes  
 
 *Objetivo:* Relevar opiniones, percepciones y experiencias sobre los mecanismos actuales de evaluación docente y las condiciones que podrían facilitar o limitar una eventual retroalimentación multiactoral en el Departamento de Administración Pública del CURZAS-UNCo.
 
-#### Bloque A: Guía Temática para Docentes de Cátedra y Autoridades Académicas {.unnumbered}
+### Bloque A: Guía Temática para Docentes de Cátedra y Autoridades Académicas {.unnumbered}
 
 1. *Evaluación vigente:* ¿Cómo describe su experiencia con los instrumentos actuales de evaluación docente (informes anuales, encuestas estudiantiles y evaluaciones cuatrienales de permanencia)?
 2. *Uso pedagógico:* ¿Cómo percibe que las opiniones estudiantiles actuales se vinculan con posibles mejoras en la enseñanza o en planes de capacitación docente?
@@ -24,19 +24,19 @@
 6. *Resguardos necesarios:* ¿Qué condiciones (por ejemplo, participación voluntaria o reserva de identidad) considera necesarias para que los docentes participen con tranquilidad en una propuesta de este tipo?
 7. *Articulación departamental:* ¿Considera que los resultados de una eventual retroalimentación podrían orientar las propuestas del Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo)?
 
-#### Bloque B: Preguntas Específicas para la Representación Gremial Paritaria (ADUNC) {.unnumbered}
+### Bloque B: Preguntas Específicas para la Representación Gremial Paritaria (ADUNC) {.unnumbered}
 
 1. *Compatibilidad normativa y estabilidad laboral:* Desde su experiencia en la representación gremial, ¿qué aspectos considera relevantes para resguardar la estabilidad laboral y la normativa estatutaria (CCT y Estatuto UNCo) ante una eventual propuesta de retroalimentación formativa?
 2. *Veeduría y custodia de datos:* ¿Qué mecanismos considera necesarios para garantizar la transparencia, confidencialidad y custodia de la información diagnóstica, asegurando que no se transfiera a legajos ni sea utilizada con fines sumativos?
 
-#### Bloque C: Preguntas Específicas para Estudiantes Avanzados {.unnumbered}
+### Bloque C: Preguntas Específicas para Estudiantes Avanzados {.unnumbered}
 
 1. *Experiencia con la evaluación actual:* En base a su trayectoria, ¿cómo describe su experiencia con las encuestas de evaluación docente que se completan en SIU-Guaraní al término de cada cursada? ¿Percibe que sus opiniones inciden efectivamente en cambios o mejoras en la enseñanza?
 2. *Condiciones para la participación:* ¿Qué condiciones considera necesarias para que una retroalimentación estudiantil sea sincera y constructiva? ¿Qué aspectos de la enseñanza (ej. claridad didáctica, acompañamiento tutorial virtual en Nodos, criterios de evaluación y devoluciones) considera más relevantes de incorporar?
 
 {{< pagebreak >}}
 
-### Anexo II: Cuestionario Exploratorio de Factibilidad (Escala Likert) {.unnumbered}
+## Anexo II: Cuestionario Exploratorio de Factibilidad (Escala Likert) {.unnumbered}
 
 *Instrucciones:* Indique su nivel de acuerdo marcando del 1 al 5 (1: Totalmente en desacuerdo; 2: En desacuerdo; 3: Ni de acuerdo ni en desacuerdo; 4: De acuerdo; 5: Totalmente de acuerdo).
 
@@ -51,7 +51,7 @@
 | 4 | Confío en que el sistema informático puede garantizar el anonimato técnico de las respuestas. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 5 | Un cuestionario breve (hasta 15 preguntas) es suficiente para evaluar la labor docente sin generar sobrecarga. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 6 | El Departamento dispone de capacidad organizativa para coordinar devoluciones diagnósticas oportunas. | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 7 | Los resultados consolidados deberían alimentar el Programa Anual de Capacitación Docente (Art. 76). | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 7 | Los resultados consolidados deberían alimentar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 9 | Considero enriquecedor recibir comentarios constructivos de colegas de cátedra sobre la labor docente. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 10 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | [ ] | [ ] | [ ] | [ ] | [ ] |
@@ -61,7 +61,7 @@
 | 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | [ ] | [ ] | [ ] | [ ] | [ ] |
 
-*Nota.* En el formulario administrado al claustro estudiantil, los reactivos 8 y 9 se adaptan consultando sobre la utilidad percibida de la autoevaluación y coevaluación docente.
+*Nota.* En el formulario administrado a los estudiantes, los reactivos 8 y 9 se adaptan consultando sobre la utilidad percibida de la autoevaluación y coevaluación docente. Asimismo, para los reactivos relativos a gobernanza institucional y carrera docente (ítems 6 y 7), la opción central (3) opera formalmente con el sentido de *No sabe / No contesta*.
 
 *Preguntas Abiertas Complementarias:*
 
@@ -73,11 +73,7 @@
 
 {{< pagebreak >}}
 
-### Anexo III: Modelo de Nota Institucional de Solicitud de Aval Académico {.unnumbered}
-
-::: {align="center"}
-**SOLICITUD DE AVAL ACADÉMICO PARA INVESTIGACIÓN DE TFG**
-:::
+## Anexo III: Modelo de Nota Institucional de Solicitud de Aval Académico {.unnumbered}
 
 Viedma, Río Negro, ______ de ________________ de 202___
 
@@ -102,10 +98,10 @@ Agradeciendo su atención, saludo a Usted atentamente.
 
 ::: {.content-visible when-format="typst"}
 ```{=typst}
-#v(0.2cm)
+#v(0.1cm)
 #align(center)[
   #line(length: 65%, stroke: 0.5pt + black)
-  #v(0.3em)
+  #v(0.2em)
   #text(weight: "bold")[Tec. Sup. Héctor Daniel Ayarachi Fuentes] \
   Legajo N° 8252 — DNI N° 35.492.138 \
   Estudiante del CCC de la Licenciatura en Gestión de Recursos Humanos \
@@ -128,7 +124,7 @@ Departamento de Administración Pública — CURZAS-UNCo
 
 {{< pagebreak >}}
 
-### Anexo IV: Formulario de Consentimiento Informado {.unnumbered}
+## Anexo IV: Formulario de Consentimiento Informado {.unnumbered}
 
 ::: {align="center"}
 **FORMULARIO DE CONSENTIMIENTO INFORMADO**
@@ -157,5 +153,5 @@ Departamento de Administración Pública — CURZAS-UNCo
 | *Lugar y Fecha:* | __________________________________________________ |
 | *Firma (o validación digital):* | __________________________________________________ |
 | *Aclaración de Firma:* | __________________________________________________ |
-| *Estamento / Rol:* | [ ] Docente &nbsp;&nbsp;&nbsp;&nbsp; [ ] Estudiante &nbsp;&nbsp;&nbsp;&nbsp; [ ] Autoridad &nbsp;&nbsp;&nbsp;&nbsp; [ ] Representante Gremial |
+| *Rol / Actor institucional:* | [ ] Docente &nbsp;&nbsp;&nbsp;&nbsp; [ ] Estudiante &nbsp;&nbsp;&nbsp;&nbsp; [ ] Autoridad &nbsp;&nbsp;&nbsp;&nbsp; [ ] Representante Gremial |
   
