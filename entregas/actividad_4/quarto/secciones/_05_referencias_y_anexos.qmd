@@ -28,45 +28,49 @@
 
 1. *Compatibilidad normativa y estabilidad laboral:* Desde su experiencia en la representación gremial, ¿qué aspectos considera relevantes para resguardar la estabilidad laboral y la normativa estatutaria (CCT y Estatuto UNCo) ante una eventual propuesta de retroalimentación formativa?
 2. *Veeduría y custodia de datos:* ¿Qué mecanismos considera necesarios para garantizar la transparencia, confidencialidad y custodia de la información diagnóstica, asegurando que no se transfiera a legajos ni sea utilizada con fines sumativos?
+3. *Condiciones para una prueba piloto voluntaria:* ¿Qué acuerdos paritarios o garantías institucionales previas considera indispensables para que la representación gremial avale un eventual pilotaje experimental voluntario y no vinculante?
+4. *Articulación paritaria y carrera docente:* En el marco de la paritaria local, ¿cómo visualiza el papel del sindicato para asegurar que la retroalimentación formativa no interfiera con los concursos ni con las evaluaciones reglamentarias de permanencia?
 
 ### Bloque C: Preguntas Específicas para Estudiantes Avanzados {.unnumbered}
 
 1. *Experiencia con la evaluación actual:* En base a su trayectoria, ¿cómo describe su experiencia con las encuestas de evaluación docente que se completan en SIU-Guaraní al término de cada cursada? ¿Percibe que sus opiniones inciden efectivamente en cambios o mejoras en la enseñanza?
 2. *Condiciones para la participación:* ¿Qué condiciones considera necesarias para que una retroalimentación estudiantil sea sincera y constructiva? ¿Qué aspectos de la enseñanza (ej. claridad didáctica, acompañamiento tutorial virtual en Nodos, criterios de evaluación y devoluciones) considera más relevantes de incorporar?
+3. *Confianza en el anonimato digital:* Al responder encuestas en plataformas universitarias (SIU o Moodle), ¿sienten plena seguridad sobre la reserva de su identidad o perciben temores a posibles consecuencias académicas?
+4. *Fatiga de respuesta y devolución pedagógica:* ¿Qué factores desmotivan la participación en encuestas al cierre de cursada y de qué manera una devolución institucional de los resultados incentivaría un mayor compromiso estudiantil?
 
 {{< pagebreak >}}
 
 ## Anexo II: Cuestionario Exploratorio de Factibilidad (Escala Likert) {.unnumbered}
 
-*Instrucciones:* Marque su nivel de acuerdo de 1 a 5 (1: *Totalmente en desacuerdo*; 2: *En desacuerdo*; 3: *Neutral*; 4: *De acuerdo*; 5: *Totalmente de acuerdo*) o la opción NS/NC (*No sabe / No contesta*).
+*Instrucciones:* Valore su nivel de acuerdo de 1 a 5 (1: *Totalmente en desacuerdo*; 2: *En desacuerdo*; 3: *Neutral*; 4: *De acuerdo*; 5: *Totalmente de acuerdo*) o NS/NC (*No sabe / No contesta*).
 
 **Tabla 5**  
 *Reactivos del Cuestionario Exploratorio de Factibilidad (Escala Likert)*
 
 | N° | Reactivo | 1 | 2 | 3 | 4 | 5 | NS/NC |
 |:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | La evaluación docente debería orientarse principalmente a la mejora de la enseñanza y no al control formal. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 2 | Considero indispensable que los reportes individuales no integren legajos de permanencia ni concursos laborales. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios anónimos. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 4 | Confío en que el sistema informático puede garantizar el anonimato técnico de las respuestas. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 5 | Un cuestionario breve (hasta 15 preguntas) es suficiente para evaluar la labor docente sin generar sobrecarga. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 6 | El Departamento dispone de capacidad organizativa para coordinar devoluciones diagnósticas oportunas. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 7 | Los resultados consolidados deberían alimentar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 9 | Considero enriquecedor recibir comentarios constructivos de colegas de cátedra sobre la labor docente. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 10 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 11 | En el Departamento existe un clima de confianza que permite dialogar sobre fortalezas y dificultades didácticas. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 12 | Una propuesta evaluativa formativa debe ser debatida previamente en el Consejo Departamental. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 13 | El acuerdo de la representación gremial docente (ADUNC) es un requisito central para su viabilidad. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 1 | La evaluación docente debería orientarse principalmente a la mejora de la enseñanza y no al control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2 | Considero indispensable que los reportes individuales no integren legajos de permanencia ni concursos laborales. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios anónimos. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4 | Confío en que el sistema informático puede garantizar el anonimato técnico de las respuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 5 | Un cuestionario breve (hasta 15 preguntas) es suficiente para evaluar la labor docente sin generar sobrecarga. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 6 | El Departamento dispone de capacidad organizativa para coordinar devoluciones diagnósticas oportunas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 7 | Los resultados consolidados deberían alimentar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 9 | Considero enriquecedor recibir comentarios constructivos de colegas de cátedra sobre la labor docente. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 10 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 11 | En el Departamento existe un clima de confianza que permite dialogar sobre fortalezas y dificultades didácticas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 12 | Una propuesta evaluativa formativa debe ser debatida previamente en el Consejo Departamental. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 13 | El acuerdo de la representación gremial docente (ADUNC) es un requisito central para su viabilidad. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
-*Nota.* En estudiantes, los ítems 8 y 9 consultan sobre la utilidad percibida de la autoevaluación y coevaluación docente. La categoría NS/NC se procesa como porcentaje y se excluye del cómputo de medias para preservar la escala de 1 a 5.
+*Nota.* En el formulario para estudiantes, los reactivos 8 y 9 se adaptan: 8: «Considero valioso que los docentes autoevalúen sus prácticas»; 9: «Considero positivo que los docentes reciban comentarios de colegas». La opción NS/NC se procesa como porcentaje y se excluye de las medias para preservar la escala de 1 a 5.
 
 *Preguntas Abiertas Complementarias:*
 
-* *Pregunta 1:* ¿Qué condiciones considera prioritarias garantizar para participar con confianza en una eventual instancia de retroalimentación docente? *[Espacio para respuesta abierta]*
-* *Pregunta 2:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por las encuestas actuales? *[Espacio para respuesta abierta]*
+1. *Condiciones de confianza:* ¿Qué aspectos considera prioritarios garantizar para participar con tranquilidad en una eventual instancia de retroalimentación docente? *[Espacio para respuesta abierta]*
+2. *Alcance territorial:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por las encuestas actuales? *[Espacio para respuesta abierta]*
 
 {{< pagebreak >}}
 
@@ -146,5 +150,5 @@ Departamento de Administración Pública — CURZAS-UNCo
 | *Lugar y Fecha:* | __________________________________________________ |
 | *Firma (o validación digital):* | __________________________________________________ |
 | *Aclaración de Firma:* | __________________________________________________ |
-| *Rol / Actor institucional:* | [ ] Docente &nbsp;&nbsp;&nbsp;&nbsp; [ ] Estudiante &nbsp;&nbsp;&nbsp;&nbsp; [ ] Autoridad &nbsp;&nbsp;&nbsp;&nbsp; [ ] Representante Gremial |
+| *Rol / Actor institucional:* | ☐ Docente &nbsp;&nbsp;&nbsp;&nbsp; ☐ Estudiante &nbsp;&nbsp;&nbsp;&nbsp; ☐ Autoridad &nbsp;&nbsp;&nbsp;&nbsp; ☐ Representante Gremial |
   

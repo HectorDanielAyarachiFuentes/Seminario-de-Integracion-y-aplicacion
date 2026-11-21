@@ -34,7 +34,7 @@ La población comprende a la totalidad de los agentes que integran la comunidad 
 
 Para evitar ambigüedades metodológicas [@wainerman2011], se establece una clara diferenciación analítica:
 
-* *Unidad de Análisis (objeto central de estudio):* El sistema de evaluación del desempeño docente y las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la eventual implementación de un modelo de retroalimentación multiactoral (360°) en el Departamento de Administración Pública del CURZAS-UNCo.
+* *Unidad de Análisis (objeto central de estudio):* El sistema de evaluación del desempeño docente y las condiciones de factibilidad organizacional, técnica, normativa, cultural y de gobernanza multinivel para la eventual implementación de un modelo de retroalimentación multiactoral (360°) en el Departamento de Administración Pública del CURZAS-UNCo.
 * *Unidades de Observación (fuentes de recolección y respuesta):* Los actores situados individuales y colectivos que experimentan cotidianamente la práctica formativa y de gestión (docentes en ejercicio, directivos académicos, estudiantes avanzados y dirigentes paritarios).
 
 #### Muestra y Tipos de Muestreo (*n*)
@@ -73,7 +73,7 @@ Se articulan tres técnicas complementarias:
 ### Matriz de Operacionalización
 
 **Tabla 2**  
-*Matriz de Operacionalización de Variables y Dimensiones de Factibilidad*
+*Matriz de Operacionalización de Variables y Dimensiones de Factibilidad (Parte 1: Dimensiones 1 a 3)*
 
 | Dimensión | Variable | Definición Operacional | Indicadores Empíricos | Fuentes e Instrumentos |
 | :--- | :--- | :--- | :--- | :--- |
@@ -84,6 +84,14 @@ Se articulan tres técnicas complementarias:
 | | Mitigación de fatiga | Criterios de brevedad para evitar sobrecarga en asignaturas compartidas. | • Límite estricto de reactivos (hasta 15 ítems).<br>• Frecuencia diagnóstica anual. | Respondientes en prueba piloto.<br>*Cuestionario exploratorio.* |
 | **3. Organizacional y Procedimental** | Capacidad departamental | Circuitos y tiempos de gestión para procesar información y coordinar devoluciones. | • Circuitos internos de procesamiento.<br>• Plazos de emisión de reportes globales. | Dirección departamental y docentes.<br>*Entrevistas y revisión de circuitos.* |
 | | Articulación con Art. 76 | Canalización de demandas hacia el Programa Anual de Capacitación Docente. | • Registro temático de necesidades prioritarias.<br>• Transferencia formal de insumos al plan anual. | Programas anuales de formación y actas.<br>*Ficha documental y entrevistas.* |
+
+{{< pagebreak >}}
+
+*Tabla 2 (Continuación)*  
+*Matriz de Operacionalización de Variables y Dimensiones de Factibilidad (Parte 2: Dimensiones 4 y 5)*
+
+| Dimensión | Variable | Definición Operacional | Indicadores Empíricos | Fuentes e Instrumentos |
+| :--- | :--- | :--- | :--- | :--- |
 | **4. Cultural y Actitudinal** | Confianza institucional | Predisposición favorable y percepción de seguridad frente a la retroalimentación. | • Nivel de confianza declarado en el fin formativo.<br>• Disposición a recibir comentarios de pares. | Docentes del Departamento.<br>*Cuestionario exploratorio y entrevistas.* |
 | | Autorreflexión docente | Valoración de la autoevaluación como herramienta de perfeccionamiento pedagógico. | • Práctica habitual de reflexión sobre la enseñanza.<br>• Interés en confrontar autopercepción con pares. | Docentes del Departamento.<br>*Cuestionario exploratorio y entrevistas.* |
 | | Pertinencia del juicio estudiantil | Criterio y seriedad en la valoración estudiantil del acompañamiento pedagógico. | • Percepción docente sobre el juicio estudiantil.<br>• Valoración estudiantil de su propio rol. | Estudiantes regulares y docentes.<br>*Cuestionario a estudiantes y entrevistas.* |
@@ -123,12 +131,12 @@ El estudio se rige por las siguientes garantías institucionales y éticas:
 
 ## Cronograma de Actividades
 
-El proyecto se planifica en un lapso de 7 meses continuos distribuidos en etapas mensuales articuladas con las seis fases de investigación para su desarrollo durante el año 2027. Dicha programación asegura un ritmo de trabajo viable y compatible con la escala operativa de un investigador individual:
+El proyecto se planifica en un lapso de 7 meses continuos articulados con las seis fases de investigación (ciclo 2027), asegurando un ritmo viable y compatible con la escala operativa de un investigador individual:
 
 **Tabla 3**  
 *Cronograma de Actividades y Fases de Investigación (Ciclo Lectivo 2027)*
 
-| Etapa / Actividad Metodológica | Mes 1 (May 27) | Mes 2 (Jun 27) | Mes 3 (Jul 27) | Mes 4 (Ago 27) | Mes 5 (Sep 27) | Mes 6 (Oct 27) | Mes 7 (Nov 27) |
+| Etapa / Actividad Metodológica | May 27 | Jun 27 | Jul 27 | Ago 27 | Sep 27 | Oct 27 | Nov 27 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1. Aprobación del Proyecto de TFG (SIA) | **X** | | | | | | |
 | 2. Gestión de avales y diseño de instrumentos (Fase 1) | **X** | | | | | | |
@@ -163,7 +171,7 @@ La investigación no requiere financiamiento institucional ni subsidios externos
 | **Edición y encuadernación** | Impresión de ejemplares requeridos para la entrega formal y defensa. | $ 35.000 | Autofinanciamiento |
 | **Total** | **Presupuesto total estimado** | **$ 160.000** | **100% Propio** |
 
-*Nota.* Valores presupuestarios estimados a pesos constantes de noviembre de 2026. El relevamiento en los 10 Nodos Universitarios de la red territorial se realizará mediante formularios digitales autoadministrados y salas de videoconferencia institucionales, sin generar costos extraordinarios de traslado físico.
+*Nota.* Valores presupuestarios estimados a pesos constantes de noviembre de 2026. El rubro de traslados locales comprende exclusivamente la movilidad urbana en la ciudad de Viedma para entrevistas presenciales y trámites en la sede central del CURZAS. El relevamiento en los 10 Nodos Universitarios de la red territorial y con informantes residentes fuera de la comarca se realizará mediante formularios digitales autoadministrados y salas de videoconferencia institucionales (o durante estancias académicas habituales del tesista), sin generar costos extraordinarios de traslado de larga distancia.
 
 ### Recursos Humanos y Dedicación
 

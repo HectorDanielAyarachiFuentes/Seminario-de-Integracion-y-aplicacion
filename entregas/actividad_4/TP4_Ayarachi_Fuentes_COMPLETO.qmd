@@ -45,9 +45,7 @@ format:
 
   #text(weight: "bold", size: 12pt)[Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)] \
   #v(0.4em)
-  #text(style: "italic", size: 10.5pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23] \
-  #v(0.3em)
-  #text(size: 10pt)[Versión 1.0.0 (Corregida)]
+  #text(style: "italic", size: 10.5pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23]
 ]
 
 #v(1.2em)
@@ -92,8 +90,7 @@ Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos 
 <br>
 
 **Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)**  
-*(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación — Res. CD-CURZAS N° 266/23)*  
-*Versión 1.0.0 (Corregida)*
+*(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación — Res. CD-CURZAS N° 266/23)*
 :::
 
 <br>
@@ -121,9 +118,10 @@ Año 2026
 
 ```{=typst}
 #set page(numbering: none)
-#show outline.entry: set text(size: 9.2pt)
+#show outline.entry: set text(size: 8.5pt)
+#show outline.entry: set block(spacing: 0.45em)
 #show outline.entry.where(level: 1): set text(weight: "bold")
-#outline(title: [Índice de Contenidos], indent: auto)
+#outline(title: [Índice de Contenidos], indent: 1.2em, depth: 3)
 ```
 
 ::: {.content-visible when-format="docx"}
@@ -152,7 +150,7 @@ Año 2026
   #set par(first-line-indent: 0pt)
   #text(weight: "bold", size: 12pt)[Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)] \
   #v(0.4em)
-  #text(style: "italic", size: 11pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23 — Versión 1.0.0 (Corregida)]
+  #text(style: "italic", size: 11pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23]
 ]
 #v(0.3em)
 ```
@@ -160,7 +158,7 @@ Año 2026
 ::: {.content-visible when-format="docx"}
 ::: {align="center"}
 **Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)**  
-*(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23 — Versión 1.0.0 Corregida)*
+*(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23)*
 :::
 
 <br>
@@ -178,17 +176,27 @@ A nivel teórico, el proyecto toma como marco de referencia el modelo de gestió
 
 En el marco de este modelo, la investigación focaliza de forma prioritaria en el subsistema de *gestión del rendimiento* (evaluación del desempeño), articulándolo analíticamente con tres subsistemas complementarios: *gestión del desarrollo* (capacitación docente y planes de carrera), *organización del trabajo* (diseño de perfiles y funciones académicas presenciales e híbridas) y *gestión de las relaciones humanas y sociales* (clima institucional, cultura participativa y diálogo paritario). La investigación se orienta a explorar las condiciones organizacionales, técnicas, normativas y políticas requeridas para dotar a la evaluación docente de un sentido formativo [@obando2014; @sifuentes2016], capaz de articular la retroalimentación del propio docente, sus colegas de cátedra, los estudiantes y la conducción académica (ver Figura 1).
 
+**Figura 1**  
+*Subsistemas de la Gestión de Recursos Humanos en el Sector Público*  
+
 ::: {align="center"}
-![*Subsistemas de la Gestión de Recursos Humanos en el Sector Público [@longo2006].*](assets/Sistemas-longo.svg){width=90%}
+![](assets/Sistemas-longo.svg){width=90%}
 :::
+
+*Nota.* Adaptado de Longo (2006).
 
 ### Contexto Institucional y Normativo
 
 El estudio se desarrolla en el Departamento de Administración Pública del CURZAS-UNCo, unidad académica con sede central en la ciudad de Viedma (Río Negro). El Departamento coordina la Licenciatura en Administración Pública, el Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos y diversos trayectos formativos para el sector público provincial y municipal. Su población estudiantil comprende tanto jóvenes de la comarca Viedma-Patagones como trabajadores estatales insertos en administraciones públicas. A ello se suma la expansión territorial a través de la Red Territorial de Nodos Universitarios distribuida en 10 localidades rionegrinas (Valcheta, Ramos Mexía, Sierra Colorada, Los Menucos, Maquinchao, Ingeniero Jacobacci, San Antonio Oeste / Las Grutas, Sierra Grande, General Conesa y Río Colorado), articuladas desde la sede central de Viedma bajo modalidades de cursada híbrida reguladas por la Resolución CD-CURZA N° 196/2022 [@curza2022] (ver Figura 2).
 
+**Figura 2**  
+*Red Territorial de Nodos Universitarios del CURZAS-UNCo*  
+
 ::: {align="center"}
-![*Red Territorial de Nodos Universitarios del CURZAS-UNCo (Resolución CD-CURZA N° 196/2022). Elaboración propia.*](assets/red_territorial.svg){width=92%}
+![](assets/red_territorial.svg){width=92%}
 :::
+
+*Nota.* Elaboración propia sobre la base de la Resolución CD-CURZA N° 196/2022.
 
 En el plano regulatorio, la labor docente en la institución se encuentra regida por tres cuerpos normativos fundamentales. Dichos instrumentos articulan las garantías de estabilidad laboral con las obligaciones académicas y pedagógicas de la docencia universitaria:
 
@@ -227,7 +235,7 @@ En el marco de la gestión pública [@longo2006; @matus1993], la factibilidad re
 
 ### Pregunta General de Investigación
 
-> ¿Cuáles son las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo durante el año 2027?
+> ¿Cuáles son las condiciones de factibilidad organizacional, técnica, normativa, cultural y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo durante el año 2027?
 
 ## Justificación y Relevancia de la Investigación
 
@@ -241,7 +249,7 @@ La investigación se justifica en tres planos complementarios. Cada uno de ellos
 
 ### Objetivo General
 
-* Determinar las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo (2027).
+* Determinar las condiciones de factibilidad organizacional, técnica, normativa, cultural y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo (2027).
 
 ### Objetivos Específicos
 
@@ -369,7 +377,7 @@ Conforme a las pautas metodológicas de @torraco2016 y @jimenez2008, el relevami
 
 ### Síntesis Integradora y Vacancia de la Investigación
 
-El análisis de antecedentes revela que, si bien la literatura ha explorado la validez métrica del modelo 360° en ámbitos privados y se han estudiado las dinámicas de la carrera académica en grandes centros urbanos, no se identifican investigaciones empíricas focalizadas en la factibilidad integral (normativa, técnica, organizacional y de gobernanza) de un modelo de retroalimentación multiactoral (360°) en una unidad académica pública, descentralizada y patagónica, gobernada por cuerpos colegiados y con presencia territorial bajo modalidades híbridas de enseñanza. En dicha área de vacancia se inscribe el aporte del presente proyecto.
+El análisis de antecedentes revela que, si bien la literatura ha explorado la validez métrica del modelo 360° en ámbitos privados y se han estudiado las dinámicas de la carrera académica en grandes centros urbanos, no se identifican investigaciones empíricas focalizadas en la factibilidad integral (normativa, técnica, organizacional, cultural y de gobernanza) de un modelo de retroalimentación multiactoral (360°) en una unidad académica pública, descentralizada y patagónica, gobernada por cuerpos colegiados y con presencia territorial bajo modalidades híbridas de enseñanza. En dicha área de vacancia se inscribe el aporte del presente proyecto.
 
 {{< pagebreak >}}
 
@@ -409,7 +417,7 @@ La población comprende a la totalidad de los agentes que integran la comunidad 
 
 Para evitar ambigüedades metodológicas [@wainerman2011], se establece una clara diferenciación analítica:
 
-* *Unidad de Análisis (objeto central de estudio):* El sistema de evaluación del desempeño docente y las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la eventual implementación de un modelo de retroalimentación multiactoral (360°) en el Departamento de Administración Pública del CURZAS-UNCo.
+* *Unidad de Análisis (objeto central de estudio):* El sistema de evaluación del desempeño docente y las condiciones de factibilidad organizacional, técnica, normativa, cultural y de gobernanza multinivel para la eventual implementación de un modelo de retroalimentación multiactoral (360°) en el Departamento de Administración Pública del CURZAS-UNCo.
 * *Unidades de Observación (fuentes de recolección y respuesta):* Los actores situados individuales y colectivos que experimentan cotidianamente la práctica formativa y de gestión (docentes en ejercicio, directivos académicos, estudiantes avanzados y dirigentes paritarios).
 
 #### Muestra y Tipos de Muestreo (*n*)
@@ -448,7 +456,7 @@ Se articulan tres técnicas complementarias:
 ### Matriz de Operacionalización
 
 **Tabla 2**  
-*Matriz de Operacionalización de Variables y Dimensiones de Factibilidad*
+*Matriz de Operacionalización de Variables y Dimensiones de Factibilidad (Parte 1: Dimensiones 1 a 3)*
 
 | Dimensión | Variable | Definición Operacional | Indicadores Empíricos | Fuentes e Instrumentos |
 | :--- | :--- | :--- | :--- | :--- |
@@ -459,6 +467,14 @@ Se articulan tres técnicas complementarias:
 | | Mitigación de fatiga | Criterios de brevedad para evitar sobrecarga en asignaturas compartidas. | • Límite estricto de reactivos (hasta 15 ítems).<br>• Frecuencia diagnóstica anual. | Respondientes en prueba piloto.<br>*Cuestionario exploratorio.* |
 | **3. Organizacional y Procedimental** | Capacidad departamental | Circuitos y tiempos de gestión para procesar información y coordinar devoluciones. | • Circuitos internos de procesamiento.<br>• Plazos de emisión de reportes globales. | Dirección departamental y docentes.<br>*Entrevistas y revisión de circuitos.* |
 | | Articulación con Art. 76 | Canalización de demandas hacia el Programa Anual de Capacitación Docente. | • Registro temático de necesidades prioritarias.<br>• Transferencia formal de insumos al plan anual. | Programas anuales de formación y actas.<br>*Ficha documental y entrevistas.* |
+
+{{< pagebreak >}}
+
+*Tabla 2 (Continuación)*  
+*Matriz de Operacionalización de Variables y Dimensiones de Factibilidad (Parte 2: Dimensiones 4 y 5)*
+
+| Dimensión | Variable | Definición Operacional | Indicadores Empíricos | Fuentes e Instrumentos |
+| :--- | :--- | :--- | :--- | :--- |
 | **4. Cultural y Actitudinal** | Confianza institucional | Predisposición favorable y percepción de seguridad frente a la retroalimentación. | • Nivel de confianza declarado en el fin formativo.<br>• Disposición a recibir comentarios de pares. | Docentes del Departamento.<br>*Cuestionario exploratorio y entrevistas.* |
 | | Autorreflexión docente | Valoración de la autoevaluación como herramienta de perfeccionamiento pedagógico. | • Práctica habitual de reflexión sobre la enseñanza.<br>• Interés en confrontar autopercepción con pares. | Docentes del Departamento.<br>*Cuestionario exploratorio y entrevistas.* |
 | | Pertinencia del juicio estudiantil | Criterio y seriedad en la valoración estudiantil del acompañamiento pedagógico. | • Percepción docente sobre el juicio estudiantil.<br>• Valoración estudiantil de su propio rol. | Estudiantes regulares y docentes.<br>*Cuestionario a estudiantes y entrevistas.* |
@@ -498,12 +514,12 @@ El estudio se rige por las siguientes garantías institucionales y éticas:
 
 ## Cronograma de Actividades
 
-El proyecto se planifica en un lapso de 7 meses continuos distribuidos en etapas mensuales articuladas con las seis fases de investigación para su desarrollo durante el año 2027. Dicha programación asegura un ritmo de trabajo viable y compatible con la escala operativa de un investigador individual:
+El proyecto se planifica en un lapso de 7 meses continuos articulados con las seis fases de investigación (ciclo 2027), asegurando un ritmo viable y compatible con la escala operativa de un investigador individual:
 
 **Tabla 3**  
 *Cronograma de Actividades y Fases de Investigación (Ciclo Lectivo 2027)*
 
-| Etapa / Actividad Metodológica | Mes 1 (May 27) | Mes 2 (Jun 27) | Mes 3 (Jul 27) | Mes 4 (Ago 27) | Mes 5 (Sep 27) | Mes 6 (Oct 27) | Mes 7 (Nov 27) |
+| Etapa / Actividad Metodológica | May 27 | Jun 27 | Jul 27 | Ago 27 | Sep 27 | Oct 27 | Nov 27 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1. Aprobación del Proyecto de TFG (SIA) | **X** | | | | | | |
 | 2. Gestión de avales y diseño de instrumentos (Fase 1) | **X** | | | | | | |
@@ -538,7 +554,7 @@ La investigación no requiere financiamiento institucional ni subsidios externos
 | **Edición y encuadernación** | Impresión de ejemplares requeridos para la entrega formal y defensa. | $ 35.000 | Autofinanciamiento |
 | **Total** | **Presupuesto total estimado** | **$ 160.000** | **100% Propio** |
 
-*Nota.* Valores presupuestarios estimados a pesos constantes de noviembre de 2026. El relevamiento en los 10 Nodos Universitarios de la red territorial se realizará mediante formularios digitales autoadministrados y salas de videoconferencia institucionales, sin generar costos extraordinarios de traslado físico.
+*Nota.* Valores presupuestarios estimados a pesos constantes de noviembre de 2026. El rubro de traslados locales comprende exclusivamente la movilidad urbana en la ciudad de Viedma para entrevistas presenciales y trámites en la sede central del CURZAS. El relevamiento en los 10 Nodos Universitarios de la red territorial y con informantes residentes fuera de la comarca se realizará mediante formularios digitales autoadministrados y salas de videoconferencia institucionales (o durante estancias académicas habituales del tesista), sin generar costos extraordinarios de traslado de larga distancia.
 
 ### Recursos Humanos y Dedicación
 
@@ -589,45 +605,49 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 
 1. *Compatibilidad normativa y estabilidad laboral:* Desde su experiencia en la representación gremial, ¿qué aspectos considera relevantes para resguardar la estabilidad laboral y la normativa estatutaria (CCT y Estatuto UNCo) ante una eventual propuesta de retroalimentación formativa?
 2. *Veeduría y custodia de datos:* ¿Qué mecanismos considera necesarios para garantizar la transparencia, confidencialidad y custodia de la información diagnóstica, asegurando que no se transfiera a legajos ni sea utilizada con fines sumativos?
+3. *Condiciones para una prueba piloto voluntaria:* ¿Qué acuerdos paritarios o garantías institucionales previas considera indispensables para que la representación gremial avale un eventual pilotaje experimental voluntario y no vinculante?
+4. *Articulación paritaria y carrera docente:* En el marco de la paritaria local, ¿cómo visualiza el papel del sindicato para asegurar que la retroalimentación formativa no interfiera con los concursos ni con las evaluaciones reglamentarias de permanencia?
 
 ### Bloque C: Preguntas Específicas para Estudiantes Avanzados {.unnumbered}
 
 1. *Experiencia con la evaluación actual:* En base a su trayectoria, ¿cómo describe su experiencia con las encuestas de evaluación docente que se completan en SIU-Guaraní al término de cada cursada? ¿Percibe que sus opiniones inciden efectivamente en cambios o mejoras en la enseñanza?
 2. *Condiciones para la participación:* ¿Qué condiciones considera necesarias para que una retroalimentación estudiantil sea sincera y constructiva? ¿Qué aspectos de la enseñanza (ej. claridad didáctica, acompañamiento tutorial virtual en Nodos, criterios de evaluación y devoluciones) considera más relevantes de incorporar?
+3. *Confianza en el anonimato digital:* Al responder encuestas en plataformas universitarias (SIU o Moodle), ¿sienten plena seguridad sobre la reserva de su identidad o perciben temores a posibles consecuencias académicas?
+4. *Fatiga de respuesta y devolución pedagógica:* ¿Qué factores desmotivan la participación en encuestas al cierre de cursada y de qué manera una devolución institucional de los resultados incentivaría un mayor compromiso estudiantil?
 
 {{< pagebreak >}}
 
 ## Anexo II: Cuestionario Exploratorio de Factibilidad (Escala Likert) {.unnumbered}
 
-*Instrucciones:* Marque su nivel de acuerdo de 1 a 5 (1: *Totalmente en desacuerdo*; 2: *En desacuerdo*; 3: *Neutral*; 4: *De acuerdo*; 5: *Totalmente de acuerdo*) o la opción NS/NC (*No sabe / No contesta*).
+*Instrucciones:* Valore su nivel de acuerdo de 1 a 5 (1: *Totalmente en desacuerdo*; 2: *En desacuerdo*; 3: *Neutral*; 4: *De acuerdo*; 5: *Totalmente de acuerdo*) o NS/NC (*No sabe / No contesta*).
 
 **Tabla 5**  
 *Reactivos del Cuestionario Exploratorio de Factibilidad (Escala Likert)*
 
 | N° | Reactivo | 1 | 2 | 3 | 4 | 5 | NS/NC |
 |:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | La evaluación docente debería orientarse principalmente a la mejora de la enseñanza y no al control formal. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 2 | Considero indispensable que los reportes individuales no integren legajos de permanencia ni concursos laborales. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios anónimos. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 4 | Confío en que el sistema informático puede garantizar el anonimato técnico de las respuestas. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 5 | Un cuestionario breve (hasta 15 preguntas) es suficiente para evaluar la labor docente sin generar sobrecarga. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 6 | El Departamento dispone de capacidad organizativa para coordinar devoluciones diagnósticas oportunas. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 7 | Los resultados consolidados deberían alimentar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 9 | Considero enriquecedor recibir comentarios constructivos de colegas de cátedra sobre la labor docente. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 10 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 11 | En el Departamento existe un clima de confianza que permite dialogar sobre fortalezas y dificultades didácticas. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 12 | Una propuesta evaluativa formativa debe ser debatida previamente en el Consejo Departamental. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 13 | El acuerdo de la representación gremial docente (ADUNC) es un requisito central para su viabilidad. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 1 | La evaluación docente debería orientarse principalmente a la mejora de la enseñanza y no al control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2 | Considero indispensable que los reportes individuales no integren legajos de permanencia ni concursos laborales. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios anónimos. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4 | Confío en que el sistema informático puede garantizar el anonimato técnico de las respuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 5 | Un cuestionario breve (hasta 15 preguntas) es suficiente para evaluar la labor docente sin generar sobrecarga. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 6 | El Departamento dispone de capacidad organizativa para coordinar devoluciones diagnósticas oportunas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 7 | Los resultados consolidados deberían alimentar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 9 | Considero enriquecedor recibir comentarios constructivos de colegas de cátedra sobre la labor docente. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 10 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 11 | En el Departamento existe un clima de confianza que permite dialogar sobre fortalezas y dificultades didácticas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 12 | Una propuesta evaluativa formativa debe ser debatida previamente en el Consejo Departamental. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 13 | El acuerdo de la representación gremial docente (ADUNC) es un requisito central para su viabilidad. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
-*Nota.* En estudiantes, los ítems 8 y 9 consultan sobre la utilidad percibida de la autoevaluación y coevaluación docente. La categoría NS/NC se procesa como porcentaje y se excluye del cómputo de medias para preservar la escala de 1 a 5.
+*Nota.* En el formulario para estudiantes, los reactivos 8 y 9 se adaptan: 8: «Considero valioso que los docentes autoevalúen sus prácticas»; 9: «Considero positivo que los docentes reciban comentarios de colegas». La opción NS/NC se procesa como porcentaje y se excluye de las medias para preservar la escala de 1 a 5.
 
 *Preguntas Abiertas Complementarias:*
 
-* *Pregunta 1:* ¿Qué condiciones considera prioritarias garantizar para participar con confianza en una eventual instancia de retroalimentación docente? *[Espacio para respuesta abierta]*
-* *Pregunta 2:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por las encuestas actuales? *[Espacio para respuesta abierta]*
+1. *Condiciones de confianza:* ¿Qué aspectos considera prioritarios garantizar para participar con tranquilidad en una eventual instancia de retroalimentación docente? *[Espacio para respuesta abierta]*
+2. *Alcance territorial:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por las encuestas actuales? *[Espacio para respuesta abierta]*
 
 {{< pagebreak >}}
 
@@ -707,4 +727,4 @@ Departamento de Administración Pública — CURZAS-UNCo
 | *Lugar y Fecha:* | __________________________________________________ |
 | *Firma (o validación digital):* | __________________________________________________ |
 | *Aclaración de Firma:* | __________________________________________________ |
-| *Rol / Actor institucional:* | [ ] Docente &nbsp;&nbsp;&nbsp;&nbsp; [ ] Estudiante &nbsp;&nbsp;&nbsp;&nbsp; [ ] Autoridad &nbsp;&nbsp;&nbsp;&nbsp; [ ] Representante Gremial |
+| *Rol / Actor institucional:* | ☐ Docente &nbsp;&nbsp;&nbsp;&nbsp; ☐ Estudiante &nbsp;&nbsp;&nbsp;&nbsp; ☐ Autoridad &nbsp;&nbsp;&nbsp;&nbsp; ☐ Representante Gremial |

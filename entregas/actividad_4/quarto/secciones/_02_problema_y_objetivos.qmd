@@ -10,17 +10,27 @@ A nivel teórico, el proyecto toma como marco de referencia el modelo de gestió
 
 En el marco de este modelo, la investigación focaliza de forma prioritaria en el subsistema de *gestión del rendimiento* (evaluación del desempeño), articulándolo analíticamente con tres subsistemas complementarios: *gestión del desarrollo* (capacitación docente y planes de carrera), *organización del trabajo* (diseño de perfiles y funciones académicas presenciales e híbridas) y *gestión de las relaciones humanas y sociales* (clima institucional, cultura participativa y diálogo paritario). La investigación se orienta a explorar las condiciones organizacionales, técnicas, normativas y políticas requeridas para dotar a la evaluación docente de un sentido formativo [@obando2014; @sifuentes2016], capaz de articular la retroalimentación del propio docente, sus colegas de cátedra, los estudiantes y la conducción académica (ver Figura 1).
 
+**Figura 1**  
+*Subsistemas de la Gestión de Recursos Humanos en el Sector Público*  
+
 ::: {align="center"}
-![*Subsistemas de la Gestión de Recursos Humanos en el Sector Público [@longo2006].*](assets/Sistemas-longo.svg){width=90%}
+![](assets/Sistemas-longo.svg){width=90%}
 :::
+
+*Nota.* Adaptado de Longo (2006).
 
 ### Contexto Institucional y Normativo
 
 El estudio se desarrolla en el Departamento de Administración Pública del CURZAS-UNCo, unidad académica con sede central en la ciudad de Viedma (Río Negro). El Departamento coordina la Licenciatura en Administración Pública, el Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos y diversos trayectos formativos para el sector público provincial y municipal. Su población estudiantil comprende tanto jóvenes de la comarca Viedma-Patagones como trabajadores estatales insertos en administraciones públicas. A ello se suma la expansión territorial a través de la Red Territorial de Nodos Universitarios distribuida en 10 localidades rionegrinas (Valcheta, Ramos Mexía, Sierra Colorada, Los Menucos, Maquinchao, Ingeniero Jacobacci, San Antonio Oeste / Las Grutas, Sierra Grande, General Conesa y Río Colorado), articuladas desde la sede central de Viedma bajo modalidades de cursada híbrida reguladas por la Resolución CD-CURZA N° 196/2022 [@curza2022] (ver Figura 2).
 
+**Figura 2**  
+*Red Territorial de Nodos Universitarios del CURZAS-UNCo*  
+
 ::: {align="center"}
-![*Red Territorial de Nodos Universitarios del CURZAS-UNCo (Resolución CD-CURZA N° 196/2022). Elaboración propia.*](assets/red_territorial.svg){width=92%}
+![](assets/red_territorial.svg){width=92%}
 :::
+
+*Nota.* Elaboración propia sobre la base de la Resolución CD-CURZA N° 196/2022.
 
 En el plano regulatorio, la labor docente en la institución se encuentra regida por tres cuerpos normativos fundamentales. Dichos instrumentos articulan las garantías de estabilidad laboral con las obligaciones académicas y pedagógicas de la docencia universitaria:
 
@@ -59,7 +69,7 @@ En el marco de la gestión pública [@longo2006; @matus1993], la factibilidad re
 
 ### Pregunta General de Investigación
 
-> ¿Cuáles son las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo durante el año 2027?
+> ¿Cuáles son las condiciones de factibilidad organizacional, técnica, normativa, cultural y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo durante el año 2027?
 
 ## Justificación y Relevancia de la Investigación
 
@@ -73,7 +83,7 @@ La investigación se justifica en tres planos complementarios. Cada uno de ellos
 
 ### Objetivo General
 
-* Determinar las condiciones de factibilidad organizacional, técnica, normativa y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo (2027).
+* Determinar las condiciones de factibilidad organizacional, técnica, normativa, cultural y de gobernanza multinivel para la implementación de un modelo de retroalimentación multiactoral (360°) en la evaluación del desempeño docente en el Departamento de Administración Pública del CURZAS-UNCo (2027).
 
 ### Objetivos Específicos
 
