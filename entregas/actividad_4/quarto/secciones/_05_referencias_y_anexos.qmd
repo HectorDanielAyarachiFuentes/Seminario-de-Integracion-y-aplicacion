@@ -65,13 +65,11 @@
 
 *Preguntas Abiertas Complementarias:*
 
-* *Pregunta abierta 1:* ¿Qué condiciones considera prioritarias garantizar para participar con confianza en una eventual instancia de retroalimentación docente?  
-  *Respuesta:* `...........................................................................................................................................................`  
-  `...........................................................................................................................................................`
+* *Pregunta 1:* ¿Qué condiciones considera prioritarias garantizar para participar con confianza en una eventual instancia de retroalimentación docente?  
+  *[Espacio para respuesta abierta]*
 
-* *Pregunta abierta 2:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por las encuestas actuales?  
-  *Respuesta:* `...........................................................................................................................................................`  
-  `...........................................................................................................................................................`
+* *Pregunta 2:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por las encuestas actuales?  
+  *[Espacio para respuesta abierta]*
 
 {{< pagebreak >}}
 
@@ -102,24 +100,25 @@ Se garantiza que toda la información se tratará bajo estricto secreto estadís
 
 Agradeciendo su atención, saludo a Usted atentamente.
 
-
 ::: {.content-visible when-format="typst"}
 ```{=typst}
-#v(1.4cm)
+#v(0.2cm)
 #align(center)[
   #line(length: 65%, stroke: 0.5pt + black)
-  #v(0.6em)
-  #text(weight: "bold")[Tec. Sup. Héctor Daniel Ayarachi Fuentes]   Legajo N° 8252 — DNI N° 35.492.138   Estudiante del CCC de la Licenciatura en Gestión de Recursos Humanos   Departamento de Administración Pública — CURZAS-UNCo
+  #v(0.3em)
+  #text(weight: "bold")[Tec. Sup. Héctor Daniel Ayarachi Fuentes] \
+  Legajo N° 8252 — DNI N° 35.492.138 \
+  Estudiante del CCC de la Licenciatura en Gestión de Recursos Humanos \
+  Departamento de Administración Pública — CURZAS-UNCo
 ]
 ```
 :::
 
 ::: {.content-visible when-format="docx"}
 <br>
-<br>
 
 ::: {align="center"}
-................................................................................................................  
+__________________________________________________  
 **Tec. Sup. Héctor Daniel Ayarachi Fuentes**  
 Legajo N° 8252 — DNI N° 35.492.138  
 Estudiante del CCC de la Licenciatura en Gestión de Recursos Humanos  
@@ -137,24 +136,18 @@ Departamento de Administración Pública — CURZAS-UNCo
 
 1. *Proyecto:* *Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)*.
 2. *Investigador:* Tec. Sup. Héctor Daniel Ayarachi Fuentes (CURZAS-UNCo).
-3. *Propósito:* El propósito de esta investigación es conocer las percepciones y experiencias de docentes, estudiantes, autoridades y representantes institucionales sobre la evaluación del desempeño docente y las condiciones organizacionales, técnicas, normativas, culturales y de gobernanza que podrían facilitar o limitar una eventual implementación de una retroalimentación multiactoral (360°) en el Departamento de Administración Pública del CURZAS-UNCo.
-4. *Procedimientos:* Si acepta participar, se le solicitará completar un cuestionario digital de aproximadamente 15 minutos y/o participar en una entrevista semiestructurada de aproximadamente 30 a 45 minutos. La entrevista podrá grabarse en audio únicamente con su autorización expresa.
+3. *Propósito:* Conocer percepciones y experiencias de la comunidad académica sobre la evaluación del desempeño docente y las condiciones de viabilidad para una eventual retroalimentación multiactoral (360°).
+4. *Procedimientos:* Cuestionario digital (~15 minutos) y/o entrevista semiestructurada (~30 a 45 minutos; grabación en audio opcional bajo consentimiento expreso).
 5. *Constancia y Declaración del Participante:*
-
-   - Declaro haber recibido información clara y suficiente sobre los objetivos y procedimientos de la investigación.
-   - Mi participación es libre, voluntaria y no remunerada, pudiendo retirarme en cualquier momento sin perjuicio alguno.
-   - Se me garantiza el anonimato estricto y la confidencialidad de mis respuestas (Ley N° 25.326 de Protección de los Datos Personales).
-   - Se me informa que los resultados revisten fines estrictamente académicos y diagnósticos, y no afectarán mi situación laboral estatutaria ni mi condición académica.
-
-<br>
+   - Participación libre, voluntaria y no remunerada, pudiendo desistir en cualquier momento.
+   - Anonimato estricto y confidencialidad garantizados (Ley N° 25.326 de Protección de los Datos Personales).
+   - Fines estrictamente diagnósticos y académicos, sin consecuencias laborales estatutarias ni sumativas.
 
 *Declaración de Consentimiento:*
 
 * Consiento participar en el cuestionario: &nbsp;&nbsp;&nbsp;&nbsp; Sí [ &nbsp; ] &nbsp;&nbsp;&nbsp;&nbsp; No [ &nbsp; ]  
 * Consiento participar en la entrevista: &nbsp;&nbsp;&nbsp;&nbsp; Sí [ &nbsp; ] &nbsp;&nbsp;&nbsp;&nbsp; No [ &nbsp; ]  
 * Consiento que la entrevista sea grabada en audio: &nbsp;&nbsp;&nbsp;&nbsp; Sí [ &nbsp; ] &nbsp;&nbsp;&nbsp;&nbsp; No [ &nbsp; ]  
-
-<br>
 
 **Tabla 6**  
 *Registro de Consentimiento y Validación del Participante*

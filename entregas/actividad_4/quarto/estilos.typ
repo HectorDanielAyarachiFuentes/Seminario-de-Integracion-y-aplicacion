@@ -51,7 +51,7 @@
 }
 #set table(
   stroke: (x, y) => none,
-  inset: 2.8pt
+  inset: (x: 2.5pt, y: 1.8pt)
 )
 #show table.cell: set par(first-line-indent: 0pt, leading: 0.45em, justify: false)
 #show table.cell.where(y: 0): set text(weight: "bold")
