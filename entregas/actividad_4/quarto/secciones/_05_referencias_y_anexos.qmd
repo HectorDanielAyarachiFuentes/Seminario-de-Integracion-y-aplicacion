@@ -48,7 +48,7 @@
 *Reactivos del Cuestionario Exploratorio de Factibilidad (Escala Likert)*
 
 | N° | Reactivo | 1 | 2 | 3 | 4 | 5 | NS/NC |
-|:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:---:|
+|:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:--------:|
 | 1 | La evaluación docente debería orientarse principalmente a la mejora de la enseñanza y no al control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 2 | Considero indispensable que los reportes individuales no integren legajos de permanencia ni concursos laborales. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios anónimos. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
@@ -138,9 +138,9 @@ Departamento de Administración Pública — CURZAS-UNCo
 
 *Declaración de Consentimiento:*
 
-* Consiento participar en el cuestionario: &nbsp;&nbsp;&nbsp;&nbsp; Sí [ &nbsp; ] &nbsp;&nbsp;&nbsp;&nbsp; No [ &nbsp; ]  
-* Consiento participar en la entrevista: &nbsp;&nbsp;&nbsp;&nbsp; Sí [ &nbsp; ] &nbsp;&nbsp;&nbsp;&nbsp; No [ &nbsp; ]  
-* Consiento que la entrevista sea grabada en audio: &nbsp;&nbsp;&nbsp;&nbsp; Sí [ &nbsp; ] &nbsp;&nbsp;&nbsp;&nbsp; No [ &nbsp; ]  
+* Consiento participar en el cuestionario: &nbsp;&nbsp;&nbsp;&nbsp; Sí ☐ &nbsp;&nbsp;&nbsp;&nbsp; No ☐  
+* Consiento participar en la entrevista: &nbsp;&nbsp;&nbsp;&nbsp; Sí ☐ &nbsp;&nbsp;&nbsp;&nbsp; No ☐  
+* Consiento que la entrevista sea grabada en audio: &nbsp;&nbsp;&nbsp;&nbsp; Sí ☐ &nbsp;&nbsp;&nbsp;&nbsp; No ☐  
 
 **Tabla 6**  
 *Registro de Consentimiento y Validación del Participante*

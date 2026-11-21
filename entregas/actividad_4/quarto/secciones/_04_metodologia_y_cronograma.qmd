@@ -87,7 +87,7 @@ Se articulan tres técnicas complementarias:
 
 {{< pagebreak >}}
 
-*Tabla 2 (Continuación)*  
+**Tabla 2 (Continuación)**  
 *Matriz de Operacionalización de Variables y Dimensiones de Factibilidad (Parte 2: Dimensiones 4 y 5)*
 
 | Dimensión | Variable | Definición Operacional | Indicadores Empíricos | Fuentes e Instrumentos |
@@ -137,7 +137,7 @@ El proyecto se planifica en un lapso de 7 meses continuos articulados con las se
 *Cronograma de Actividades y Fases de Investigación (Ciclo Lectivo 2027)*
 
 | Etapa / Actividad Metodológica | May 27 | Jun 27 | Jul 27 | Ago 27 | Sep 27 | Oct 27 | Nov 27 |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :-------------------------------------------- | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | 1. Aprobación del Proyecto de TFG (SIA) | **X** | | | | | | |
 | 2. Gestión de avales y diseño de instrumentos (Fase 1) | **X** | | | | | | |
 | 3. Prueba piloto de instrumentos (Fase 1) | **X** | | | | | | |
