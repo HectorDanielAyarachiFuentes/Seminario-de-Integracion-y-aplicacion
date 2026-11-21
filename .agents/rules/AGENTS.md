@@ -97,6 +97,11 @@ Todos los documentos deben cumplir estrictamente el estándar (ampliado en [.age
 1. **Logo Centrado en Quarto:** Usar bloque limpio `::: {align="center"}` con `![](assets/img/curzas.png){width=135px}` para evitar rótulos de figura automáticos de Pandoc.
 2. **Paginación Word vs PDF:** En Word, `compilar_todos.py` activa `different_first_page_header_footer = True`, campo `{PAGE}` y `w:start="0"`. En PDF, la primera página queda desprovista de pie de página y las siguientes se enumeran desde 1.
 3. **Tablas OpenXML en Word:** `compilar_todos.py` limpia bordes internos (`w:insideH="none"`, `w:insideV="none"`) e inyecta la línea inferior al encabezado automáticamente.
+4. **Desacoplamiento Estricto (No tocar Python para formato):** Los estilos, tipografía, silabación, márgenes, encabezados y paginación se configuran **exclusivamente en los archivos de autoría y plantillas** (`estilos.typ`, `.qmd`, `referencias.bib`). `compilar_todos.py` es un pipeline de automatización que NO debe modificarse para cambios visuales ni de contenido.
+5. **Silabación APA 7 (Sin guiones al final de línea):** En Typst, se desactiva explícitamente con `#set text(hyphenate: false)` en `estilos.typ` para cumplir con la prohibición de división silábica de APA 7.
+6. **Paginación APA 7 (Superior Derecha):** El número de página debe posicionarse en la esquina superior derecha (`number-align: top + right`), sin número en carátula ni índice, arrancando visiblemente en 1 desde la primera página del cuerpo.
+7. **Formato Metodológico de Anexos (Sin puntos ASCII):** En instrumentos de recolección de datos y cuestionarios, jamás usar líneas de puntos artesanales (`....`). Utilizar etiquetas metodológicas formales: `[Espacio para respuesta abierta]`.
+8. **Citas de Normativa en BibTeX (APA 7):** Para que las leyes y decretos se rendericen en cursiva según el CSL de APA 7, deben tiparse como `@misc` con `author = {{Organismo}}` y `title = {Ley N° ...}`.
 
 ---
 

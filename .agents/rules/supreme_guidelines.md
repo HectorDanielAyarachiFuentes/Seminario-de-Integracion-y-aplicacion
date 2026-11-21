@@ -9,14 +9,21 @@ Todos los agentes y procesos que generen documentos, plantillas o código en est
 * **Tipografía Académica:**
   * Para documentos formales: *Segoe UI*, *Times New Roman* o *Arial* (cuerpo 10pt a 11pt).
   * Interlineado: 1.5 a doble espacio, con espaciado entre párrafos limpio.
+  * **Sin división silábica (Hyphenation):** APA 7 prohíbe cortar palabras con guiones al final de línea (`#set text(hyphenate: false)` en Typst).
+* **Paginación APA 7:**
+  * Número de página ubicado en la **esquina superior derecha** (*top-right*).
+  * La portada y el índice no muestran número visible. El cuerpo arranca visiblemente numerado con el **1**.
 * **Jerarquía Visual de Títulos (APA 7):**
-  * **Nivel 1:** Encabezado centrado, en negrita.
-  * **Nivel 2:** Alineado a la izquierda, en negrita.
-  * **Nivel 3:** Alineado a la izquierda, en negrita y cursiva.
+  * **Nivel 1:** Encabezado centrado, en negrita (sin punto final).
+  * **Nivel 2:** Alineado a la izquierda, en negrita (sin punto final).
+  * **Nivel 3:** Alineado a la izquierda, en negrita y cursiva (sin punto final).
 * **Citación y Citas Textuales:**
   * Citas de <40 palabras: Entre comillas, integradas en el texto.
   * Citas de >40 palabras: Bloque independiente con sangría de 1,27 cm (0,5 pulg), sin comillas.
   * Referencias finales con sangría francesa (*hanging indent*) y orden alfabético estricto.
+  * Normativa legal (leyes y decretos): En `.bib` usar `@misc` para que el título se renderice en cursiva según APA 7.
+* **Instrumentos de Recolección y Anexos:**
+  * Prohibido usar líneas de puntos ASCII artesanales (`....`). Emplear etiquetas metodológicas formales: `[Espacio para respuesta abierta]`.
 
 ---
 
@@ -34,6 +41,7 @@ Todos los agentes y procesos que generen documentos, plantillas o código en est
 
 ---
 
-## ⚙️ 3. Ecosistema Tecnológico Unificado: Quarto (`.qmd`)
+## ⚙️ 3. Ecosistema Tecnológico Unificado: Quarto (`.qmd`) y Desacoplamiento
 * Se utiliza **Quarto (`.qmd`)** como código fuente único y central.
 * Desde un solo archivo Quarto se generan automáticamente las versiones de entrega en `Entregas/` (Word editable `.docx` y PDF institucional `.pdf`).
+* **Regla de Desacoplamiento Estricto:** Los estilos, tipografías, encabezados, paginación y diseño visual se gobiernan **exclusivamente desde las plantillas y archivos de autoría** (`estilos.typ`, `.qmd`, `referencias.bib`). Jamás tocar scripts de Python (`compilar_todos.py`) para resolver cuestiones de formato o estética.
