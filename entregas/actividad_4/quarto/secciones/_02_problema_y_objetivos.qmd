@@ -22,7 +22,7 @@ El estudio se desarrolla en el Departamento de Administración Pública del CURZ
 ![*Red Territorial de Nodos Universitarios del CURZAS-UNCo (Resolución CD-CURZA N° 196/2022). Elaboración propia.*](assets/red_territorial.svg){width=92%}
 :::
 
-En el plano regulatorio, la labor docente en la institución se encuentra regida por:
+En el plano regulatorio, la labor docente en la institución se encuentra regida por tres cuerpos normativos fundamentales. Dichos instrumentos articulan las garantías de estabilidad laboral con las obligaciones académicas y pedagógicas de la docencia universitaria:
 
 1. El Estatuto de la Universidad Nacional del Comahue (Ordenanza CS N° 0988/2025, texto ordenado) [@unco2025], que en sus artículos 17 y Disposición Transitoria Cuarta define al CURZAS como Complejo Universitario Regional, y en su Título X regula la Carrera Docente (Arts. 65 a 76).
 2. El Reglamento General de Carrera Docente de la UNCo (Ordenanza CS N° 0910/1997 y modificatorias) [@unco1997], que fija las pautas para informes anuales y evaluaciones periódicas cuatrienales.
@@ -40,12 +40,12 @@ No obstante, los mecanismos estatutarios vigentes no proveen devoluciones pedag�
 
 ### Delimitaciones Metodológicas
 
-Siguiendo las pautas del SIA, el objeto de estudio se delimita en cuatro dimensiones analíticas:
+Siguiendo las pautas del SIA, el objeto de estudio se delimita en cuatro dimensiones analíticas. Esta delimitación multidimensional permite circunscribir con exactitud el alcance espacial, temporal, conceptual y organizacional de la investigación:
 
-* **Delimitación Temática y Conceptual:** Factibilidad de implementación de un modelo de retroalimentación 360° en la evaluación docente, analizado desde cuatro subsistemas de recursos humanos [@longo2006]: rendimiento, desarrollo, organización del trabajo y relaciones humanas.
-* **Delimitación Espacial:** Sede central del CURZAS (Viedma) y Red Territorial de Nodos Universitarios en sus 10 localidades (Valcheta, Ramos Mexía, Sierra Colorada, Los Menucos, Maquinchao, Ingeniero Jacobacci, San Antonio Oeste / Las Grutas, Sierra Grande, General Conesa y Río Colorado), donde el Departamento dicta asignaturas bajo modalidades presenciales e híbridas con mediación tecnológica y presencialidad distribuida.
-* **Delimitación Temporal:** Ciclo lectivo 2027 (mayo a noviembre de 2027), período en el que se llevará a cabo el trabajo de campo empírico, la recolección y análisis de datos y la redacción final del TFG, bajo la plena vigencia del nuevo Estatuto UNCo (Ord. CS N° 0988/2025).
-* **Delimitación Poblacional y Organizacional:** La unidad institucional es el Departamento de Administración Pública. Los actores involucrados comprenden docentes (regulares e interinos), estudiantes regulares, autoridades académicas (Dirección departamental y miembros del Consejo Departamental) y representantes gremiales paritarios (ADUNC).
+* *Delimitación Temática y Conceptual:* Factibilidad de implementación de un modelo de retroalimentación 360° en la evaluación docente, analizado desde cuatro subsistemas de recursos humanos [@longo2006]: rendimiento, desarrollo, organización del trabajo y relaciones humanas.
+* *Delimitación Espacial:* Sede central del CURZAS (Viedma) y Red Territorial de Nodos Universitarios en sus 10 localidades (Valcheta, Ramos Mexía, Sierra Colorada, Los Menucos, Maquinchao, Ingeniero Jacobacci, San Antonio Oeste / Las Grutas, Sierra Grande, General Conesa y Río Colorado), donde el Departamento dicta asignaturas bajo modalidades presenciales e híbridas con mediación tecnológica y presencialidad distribuida.
+* *Delimitación Temporal:* Ciclo lectivo 2027 (mayo a noviembre de 2027), período en el que se llevará a cabo el trabajo de campo empírico, la recolección y análisis de datos y la redacción final del TFG, bajo la plena vigencia del nuevo Estatuto UNCo (Ord. CS N° 0988/2025).
+* *Delimitación Poblacional y Organizacional:* La unidad institucional es el Departamento de Administración Pública. Los actores involucrados comprenden docentes (regulares e interinos), estudiantes regulares, autoridades académicas (Dirección departamental y miembros del Consejo Departamental) y representantes gremiales paritarios (ADUNC).
 
 ### Enfoque Analítico de las Dimensiones de Factibilidad
 
@@ -63,11 +63,11 @@ En el marco de la gestión pública [@longo2006; @matus1993], la factibilidad re
 
 ## Justificación y Relevancia de la Investigación
 
-La investigación se justifica en tres planos complementarios:
+La investigación se justifica en tres planos complementarios. Cada uno de ellos fundamenta la relevancia del caso desde una perspectiva disciplinar, institucional y profesional:
 
-* **Plano Cognitivo y Disciplinar:** Aporta evidencia empírica situada sobre la evaluación del rendimiento en universidades públicas patagónicas. La literatura sobre modelos 360° proviene predominantemente del ámbito corporativo o de universidades privadas [@lepsinger2009]; investigar su adaptación a una universidad pública cogobernada y con docencia híbrida contribuye al análisis de las capacidades estatales y la gestión de personas en el sector público [@longo2006; @oszlak2020].
-* **Plano Social e Institucional:** Proporciona al Departamento de Administración Pública un diagnóstico riguroso sobre las percepciones y demandas formativas de su comunidad académica. Permite indagar cómo los docentes valoran el intercambio reflexivo con colegas, cómo los estudiantes pueden aportar juicios pedagógicos constructivos más allá de la encuesta sumativa de fin de curso, y qué capacidades de procesamiento requiere la conducción institucional.
-* **Plano Personal y Profesional:** Consolida la trayectoria del tesista integrando la formación de base como Técnico Superior en Recursos Humanos con el Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos, aplicando herramientas de diagnóstico organizacional al fortalecimiento de la educación pública regional.
+* *Plano Cognitivo y Disciplinar:* Aporta evidencia empírica situada sobre la evaluación del rendimiento en universidades públicas patagónicas. La literatura sobre modelos 360° proviene predominantemente del ámbito corporativo o de universidades privadas [@lepsinger2009]; investigar su adaptación a una universidad pública cogobernada y con docencia híbrida contribuye al análisis de las capacidades estatales y la gestión de personas en el sector público [@longo2006; @oszlak2020].
+* *Plano Social e Institucional:* Proporciona al Departamento de Administración Pública un diagnóstico riguroso sobre las percepciones y demandas formativas de su comunidad académica. Permite indagar cómo los docentes valoran el intercambio reflexivo con colegas, cómo los estudiantes pueden aportar juicios pedagógicos constructivos más allá de la encuesta sumativa de fin de curso, y qué capacidades de procesamiento requiere la conducción institucional.
+* *Plano Personal y Profesional:* Consolida la trayectoria del tesista integrando la formación de base como Técnico Superior en Recursos Humanos con el Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos, aplicando herramientas de diagnóstico organizacional al fortalecimiento de la educación pública regional.
 
 ## Definición de Objetivos del TFG
 

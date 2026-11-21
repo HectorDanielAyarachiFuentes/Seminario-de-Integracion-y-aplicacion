@@ -1,0 +1,413 @@
+{
+  "TP3_Ayarachi_Fuentes.pdf": {
+    "total_paginas": 32,
+    "total_anotaciones": 0,
+    "comentarios": []
+  },
+  "TP4_Ayarachi_Fuentes.pdf": {
+    "total_paginas": 38,
+    "total_anotaciones": 25,
+    "comentarios": [
+      {
+        "pagina": 1,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Daniel asegúrate de construir el documento en base a los criterios que rigen las Normas Apa 7a Edición. Por ejemplo: quita el formato negrita a toda palabra que no cumpla con estos criterios.",
+        "asunto": "",
+        "fecha_creacion": "D:20261119053436-08'00'",
+        "fecha_mod": "D:20261119053436-08'00'",
+        "rect": [
+          277.7000732421875,
+          484.1249694824219,
+          415.2999267578125,
+          499.8749694824219
+        ],
+        "texto_referenciado": "r Daniel Ayarachi Fuentes"
+      },
+      {
+        "pagina": 19,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "se recomienda utilizar el término: población o conjunto de casos potenciales.",
+        "asunto": "",
+        "fecha_creacion": "D:20261118064151-08'00'",
+        "fecha_mod": "D:20261118064151-08'00'",
+        "rect": [
+          82.46436309814453,
+          621.0625,
+          136.53564453125,
+          637.9375
+        ],
+        "texto_referenciado": "l universo p"
+      },
+      {
+        "pagina": 19,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "quitar y agregar: se delimitarán la población, las unidades de análisis, las unidades de observación y las estrategias de selección de participantes.",
+        "asunto": "",
+        "fecha_creacion": "D:20261118062952-08'00'",
+        "fecha_mod": "D:20261118062952-08'00'",
+        "rect": [
+          265.46435546875,
+          560.0625,
+          289.53564453125,
+          576.9375
+        ],
+        "texto_referenciado": "los c"
+      },
+      {
+        "pagina": 29,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "La Resolución CD-CURZAS N.º 266/2023 es correcta como reglamento del TFG, pero esa norma no necesariamente prescribe un presupuesto de investigación.",
+        "asunto": "",
+        "fecha_creacion": "D:20261119034421-08'00'",
+        "fecha_mod": "D:20261119034421-08'00'",
+        "rect": [
+          67.46434783935547,
+          69.0625,
+          208.53564453125,
+          85.9375
+        ],
+        "texto_referenciado": "Viabilidad del Proyecto"
+      },
+      {
+        "pagina": 31,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Verificar cada referencia y ajustar a las Normas Apa 7a Edición",
+        "asunto": "",
+        "fecha_creacion": "D:20261119033519-08'00'",
+        "fecha_mod": "D:20261119033519-08'00'",
+        "rect": [
+          67.46434783935547,
+          69.0625,
+          227.53564453125,
+          85.9375
+        ],
+        "texto_referenciado": "Referencias Bibliográficas"
+      },
+      {
+        "pagina": 34,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Quitar y agregar: En asignaturas de docente único, ¿ve viable",
+        "asunto": "",
+        "fecha_creacion": "D:20261119042604-08'00'",
+        "fecha_mod": "D:20261119042604-08'00'",
+        "rect": [
+          83.46435546875,
+          399.1150817871094,
+          543.7633666992188,
+          428.9375
+        ],
+        "texto_referenciado": "Mirada de pares y cátedras unipersonales: ¿Qué condiciones de confianza institu­\ncional considera necesarias para que la coevaluación entre colegas sea constructiva?"
+      },
+      {
+        "pagina": 34,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Considerar que nuestro estudio es indagar no estamos con la certeza, buscamos los resultados. Volver a redactar y agregar:  ¿Considera que los resultados de una eventual retroalimentación....",
+        "asunto": "",
+        "fecha_creacion": "D:20261119043613-08'00'",
+        "fecha_mod": "D:20261119043613-08'00'",
+        "rect": [
+          246.70005798339844,
+          571.125,
+          521.2999267578125,
+          586.875
+        ],
+        "texto_referenciado": ": ¿De qué forma deberían vincularse los resultados c"
+      },
+      {
+        "pagina": 34,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Quitar y agregar: Cómo percibe....",
+        "asunto": "",
+        "fecha_creacion": "D:20261119040721-08'00'",
+        "fecha_mod": "D:20261119040721-08'00'",
+        "rect": [
+          207.46435546875,
+          324.0625,
+          278.53564453125,
+          340.9375
+        ],
+        "texto_referenciado": "n qué medida c"
+      },
+      {
+        "pagina": 34,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Leer nuevamente y agregar modificaciones de escritura teniendo presente las recomendaciones realizadas en laentrevista anterior.\n¿Qué mecanismos considera necesarios para ...",
+        "asunto": "",
+        "fecha_creacion": "D:20261119043902-08'00'",
+        "fecha_mod": "D:20261119044029-08'00'",
+        "rect": [
+          355.7000732421875,
+          632.125,
+          460.2998962402344,
+          647.875
+        ],
+        "texto_referenciado": ": ¿Qué condiciones y"
+      },
+      {
+        "pagina": 34,
+        "tipo": "Text",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "1. Desde su experiencia en la representación gremial, ¿qué aspectos considera relevantes para",
+        "asunto": "",
+        "fecha_creacion": "D:20261119044029-08'00'",
+        "fecha_mod": "D:20261119044029-08'00'",
+        "rect": [
+          359.0,
+          633.0,
+          375.0,
+          649.0
+        ],
+        "texto_referenciado": "¿Q"
+      },
+      {
+        "pagina": 34,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Volver a redactar porque se considera muy técnica.",
+        "asunto": "",
+        "fecha_creacion": "D:20261119043257-08'00'",
+        "fecha_mod": "D:20261119043257-08'00'",
+        "rect": [
+          83.70006561279297,
+          522.2850341796875,
+          543.7633666992188,
+          551.875
+        ],
+        "texto_referenciado": "Resguardos necesarios: ¿Qué salvaguardas (anonimato, voluntariedad, desvincu­\nlación de legajos sumativos) considera indispensables para legitimar una propuesta"
+      },
+      {
+        "pagina": 34,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Reveer las palabras juicios críticos y circuito formativo 360° porque la primera expresa negatividad y la segunda, señala la implementación de la acción formativa. En realidad la entrevista esta indagando.",
+        "asunto": "",
+        "fecha_creacion": "D:20261119040201-08'00'",
+        "fecha_mod": "D:20261119040201-08'00'",
+        "rect": [
+          104.70005798339844,
+          211.125,
+          160.29994201660156,
+          226.875
+        ],
+        "texto_referenciado": "Objetivo: R"
+      },
+      {
+        "pagina": 34,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Quitar. Y agregar: Cómo describe (primero indagamos con una pregunta general y después buscamos los instrumentos).",
+        "asunto": "",
+        "fecha_creacion": "D:20261119040600-08'00'",
+        "fecha_mod": "D:20261119040600-08'00'",
+        "rect": [
+          237.46434020996094,
+          289.0624694824219,
+          288.53564453125,
+          305.9375
+        ],
+        "texto_referenciado": "balance"
+      },
+      {
+        "pagina": 34,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "demasiado técnica. rehacerla.",
+        "asunto": "",
+        "fecha_creacion": "D:20261119042505-08'00'",
+        "fecha_mod": "D:20261119042505-08'00'",
+        "rect": [
+          177.46435546875,
+          377.0625305175781,
+          464.5356750488281,
+          393.9375
+        ],
+        "texto_referenciado": "? ¿Qué utilidad le asigna a formalizar dicha instancia?"
+      },
+      {
+        "pagina": 35,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "¿cómo describe su experiencia con las encuestas de evaluación docente...",
+        "asunto": "",
+        "fecha_creacion": "D:20261119044254-08'00'",
+        "fecha_mod": "D:20261119044254-08'00'",
+        "rect": [
+          462.46435546875,
+          165.0625,
+          544.53564453125,
+          181.9375
+        ],
+        "texto_referenciado": ", ¿qué balance"
+      },
+      {
+        "pagina": 35,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "¿Qué condiciones considera necesarias para que una retroalimentación...",
+        "asunto": "",
+        "fecha_creacion": "D:20261119044434-08'00'",
+        "fecha_mod": "D:20261119044434-08'00'",
+        "rect": [
+          486.7000732421875,
+          236.125,
+          542.2999267578125,
+          251.875
+        ],
+        "texto_referenciado": "s de anoni­"
+      },
+      {
+        "pagina": 36,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Utilizar la palabra: Considero",
+        "asunto": "",
+        "fecha_creacion": "D:20261119045001-08'00'",
+        "fecha_mod": "D:20261119045001-08'00'",
+        "rect": [
+          102.40718841552734,
+          195.3125,
+          185.59280395507812,
+          207.6875
+        ],
+        "texto_referenciado": "Es indispensable que l\nni concursos laborales"
+      },
+      {
+        "pagina": 36,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "principalmente a la mejora de la enseñanza.",
+        "asunto": "",
+        "fecha_creacion": "D:20261119044832-08'00'",
+        "fecha_mod": "D:20261119044832-08'00'",
+        "rect": [
+          251.6428985595703,
+          175.375,
+          314.35711669921875,
+          186.625
+        ],
+        "texto_referenciado": "e prioritariamente a"
+      },
+      {
+        "pagina": 36,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Son términos distintos. Reescribir nuevamente la pregunta utilizando un término o otro.",
+        "asunto": "",
+        "fecha_creacion": "D:20261119045418-08'00'",
+        "fecha_mod": "D:20261119045418-08'00'",
+        "rect": [
+          223.70005798339844,
+          560.125,
+          351.2999572753906,
+          575.875
+        ],
+        "texto_referenciado": "é condición o resguardo c"
+      },
+      {
+        "pagina": 37,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "semiestructuradas a informantes clave, previa invitación y consentimiento informado de las personas que acepten participar.",
+        "asunto": "",
+        "fecha_creacion": "D:20261119051026-08'00'",
+        "fecha_mod": "D:20261119051026-08'00'",
+        "rect": [
+          84.70008087158203,
+          422.1250305175781,
+          154.2999267578125,
+          437.8749694824219
+        ],
+        "texto_referenciado": "Realización d"
+      },
+      {
+        "pagina": 37,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Difusión y administración de un cuestionario digital voluntario a docentes y estudiantes de la sede Viedma y de los Nodos Territoriales, previa autorización institucional y conforme a las condiciones de confidencialidad que resulten aplicables",
+        "asunto": "",
+        "fecha_creacion": "D:20261119051200-08'00'",
+        "fecha_mod": "D:20261119051200-08'00'",
+        "rect": [
+          83.70006561279297,
+          457.125,
+          171.29995727539062,
+          472.875
+        ],
+        "texto_referenciado": "Administración d"
+      },
+      {
+        "pagina": 37,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Agregar: ,normativa y ...vinculados con la evaluación del desempeño docente, sujetos a la autorización y a las condiciones de confidencialidad que correspondan.",
+        "asunto": "",
+        "fecha_creacion": "D:20261119050833-08'00'",
+        "fecha_mod": "D:20261119050833-08'00'",
+        "rect": [
+          84.70006561279297,
+          404.125,
+          140.29994201660156,
+          419.875
+        ],
+        "texto_referenciado": "Consulta d"
+      },
+      {
+        "pagina": 38,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Quitar y agregar: El propósito de esta investigación es conocer las percepciones y experiencias de docentes, estudiantes, autoridades y representantes institucionales sobre la evaluación del desempeño docente y las condiciones organizacionales, técnicas, normativas, culturales y de gobernanza que podrían facilitar o limitar una eventual implementación de una retroalimentación multiactoral (360°) en el Departamento de Administración Pública del CURZAS-UNCo.",
+        "asunto": "",
+        "fecha_creacion": "D:20261119051633-08'00'",
+        "fecha_mod": "D:20261119051633-08'00'",
+        "rect": [
+          147.46435546875,
+          206.0625,
+          223.53564453125,
+          222.9375
+        ],
+        "texto_referenciado": ": Diagnosticar l"
+      },
+      {
+        "pagina": 38,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "En el siguiente reglón agregar: \nconsiento participar en el cuestionario:  Sí  No\n\nConsiento participar en la entrevista: Sí No\n\nConsiento que la entrevista sea grabada en audio: Sí No",
+        "asunto": "",
+        "fecha_creacion": "D:20261119052231-08'00'",
+        "fecha_mod": "D:20261119052231-08'00'",
+        "rect": [
+          71.4072036743164,
+          487.3125305175781,
+          119.5927963256836,
+          499.6874694824219
+        ],
+        "texto_referenciado": "Estamento /"
+      },
+      {
+        "pagina": 38,
+        "tipo": "Highlight",
+        "autor": "María Cecilia Aguirre",
+        "contenido": "Agregar, 4 Procedimientos: Si acepta participar, se le solicitará completar un cuestionario digital de aproximadamente [__] minutos y/o participar en una entrevista semiestructurada de aproximadamente [__] minutos. La entrevista podrá grabarse en audio únicamente con su autorización expresa.",
+        "asunto": "",
+        "fecha_creacion": "D:20261119052054-08'00'",
+        "fecha_mod": "D:20261119052054-08'00'",
+        "rect": [
+          83.70006561279297,
+          247.125,
+          157.29995727539062,
+          262.875
+        ],
+        "texto_referenciado": "Constancia y"
+      }
+    ]
+  }
+}
