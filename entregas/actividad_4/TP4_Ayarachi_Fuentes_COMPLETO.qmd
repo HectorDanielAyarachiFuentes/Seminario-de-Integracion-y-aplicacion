@@ -25,7 +25,6 @@ format:
       - estilos.typ
 ---
 
-
 ::: {.content-visible when-format="typst"}
 ```{=typst}
 #align(center)[
@@ -268,7 +267,7 @@ La investigación se justifica en tres planos complementarios. Cada uno de ellos
 | Nivel de Objetivo | Dimensión Analítica | Subsistema de RR.HH. (Longo, 2006) | Fuentes e Instrumentos Previstos |
 | :--- | :--- | :--- | :--- |
 | **General** | **Factibilidad integral:** Determinación de condiciones normativas, técnicas, organizacionales, culturales y de gobernanza para la retroalimentación 360°. | **Gestión del rendimiento** (*Evaluación formativa y desarrollo continuo*) | Comunidad académica del Departamento de Administración Pública (CURZAS-UNCo). |
-| **Específico 1** | **Dimensión normativa-institucional:** Relevamiento de ordenanzas, reglamentos de carrera docente y prácticas efectivas de evaluación. | **Gestión del rendimiento y Organización del trabajo** (*Perfiles y funciones docentes según Estatuto y Ord. 0910/1997*) | Estatuto UNCo (Ord. CS N° 0988/2025), Ord. CS N° 0910/1997 y CCT Docente (Decreto N° 1246/2015). *Ficha documental y entrevistas a actores clave.* |
+| **Específico 1** | **Dimensión normativa-institucional:** Relevamiento de ordenanzas, reglamentos de carrera docente y prácticas efectivas de evaluación. | **Gestión del rendimiento y Organización del trabajo** (*Perfiles y funciones docentes según Estatuto y Ord. 0910/1997*) | Estatuto UNCo (Ord. CS N° 0988/2025), Ord. CS N° 0910/1997, CCT Docente (Decreto N° 1246/2015), modelos de informes anuales de cátedra, encuestas en SIU-Guaraní y planes ejecutados de capacitación. *Fichas documentales y entrevistas a actores clave.* |
 | **Específico 2** | **Dimensión intersubjetiva-cultural:** Exploración de percepciones, disposiciones y expectativas ante la autoevaluación y la mirada de pares y estudiantes. | **Gestión de las relaciones humanas y sociales** (*Clima laboral, confianza intersubjetiva y diálogo institucional*) | Docentes, estudiantes y autoridades del Departamento. *Entrevistas y cuestionarios.* |
 | **Específico 3** | **Dimensión de gobernanza multinivel:** Identificación de condicionantes de cogobierno, acuerdos paritarios y resguardos técnicos de confidencialidad. | **Gestión del empleo y Relaciones laborales** (*Condiciones de trabajo, estabilidad y negociación paritaria*) | Representantes docentes y paritarios gremiales (ADUNC). *Entrevistas temáticas y actas de cogobierno.* |
 | **Específico 4** | **Dimensión propositiva-orientativa:** Elaboración de lineamientos para una eventual aplicación formativa adaptada al caso. | **Gestión del desarrollo** (*Capacitación continua y articulación con el Art. 76 del Estatuto*) | Síntesis analítica del proyecto articulada con las demandas diagnosticadas. *Propuesta de lineamientos.* |
@@ -353,23 +352,26 @@ Para asegurar precisión analítica, la investigación distingue explícitamente
 
 La investigación evita postular deductivamente las condiciones definitivas de viabilidad. Por el contrario, se formulan como hipótesis preliminares abiertas a contrastación empírica: corresponderá al trabajo de campo relevar en qué medida las garantías de voluntariedad, anonimato y finalidad formativa son valoradas como indispensables por la comunidad del CURZAS, o si emergen otros condicionantes culturales (como la visibilidad en cátedras unipersonales) o técnicos (fatiga evaluativa) que deban considerarse en la formulación de los lineamientos finales.
 
-## Antecedentes: Estado del Arte de la Cuestión
+## Antecedentes de Investigación Empírica y Estado del Arte
 
-Conforme a las pautas metodológicas de @torraco2016 y @jimenez2008, el relevamiento de antecedentes sistematiza la evidencia empírica acumulada y delimita la vacancia de conocimiento que justifica el proyecto, organizándose en tres escalas geográficas:
+Conforme a las pautas metodológicas de @torraco2016 y @jimenez2008, el relevamiento de antecedentes sistematiza la evidencia empírica acumulada y delimita la vacancia de conocimiento que justifica el proyecto, organizándose en estudios internacionales, investigaciones nacionales en universidades públicas y el encuadre normativo situado:
 
-### Antecedentes Internacionales
+### Antecedentes Internacionales de Investigación Empírica
 
 * @sifuentes2016 evaluaron en México la aceptación de un instrumento 360° en docentes de educación superior mediante encuestas a profesores, directivos y alumnos. Concluyeron que el modelo alcanza una aceptación docente superior al 85% siempre que se asegure el estricto anonimato, la entrega de reportes individuales y la ausencia de sanciones administrativas.
 * @obando2014 investigaron en Cuba un sistema de evaluación 360° articulado con portafolios electrónicos. Demostraron que la triangulación multiactoral mitiga sesgos de complacencia o desquite propios de las encuestas estudiantiles aisladas y estimula la autorreflexión docente, evidenciando la viabilidad técnica de procesar evaluaciones multidireccionales en entornos virtuales.
 * @reyes2020 examinaron mediante metodología mixta el sistema de evaluación docente de una universidad pública mexicana. Constataron que las evaluaciones sumativas generan un cumplimiento meramente formal y desconfianza en el profesorado, advirtiendo que toda innovación evaluativa en la universidad pública requiere legitimación gremial y orientación explícita a la mejora formativa.
 * @alvarado2019 desarrollaron en la UNAM una propuesta 360° que pondera docencia, tutoría y gestión institucional, aportando criterios para operacionalizar cuestionarios estructurados y articularlos con planes de actualización pedagógica.
 
-### Antecedentes Nacionales
+### Antecedentes Nacionales sobre Evaluación Docente Universitaria
 
 * @marquina2012 analizó cualitativamente las tensiones de la profesión académica en universidades públicas argentinas, constatando que los mecanismos tradicionales de permanencia suelen privilegiar la acreditación de posgrados y la producción científica en detrimento de la calidad didáctica en las aulas de grado. Este hallazgo fundamenta la necesidad de dispositivos orientados específicamente a la retroalimentación de la enseñanza.
+* @garciadefanelli2009 examinó la estructura de la carrera académica y los sistemas de incentivos en las universidades nacionales argentinas, demostrando empíricamente que los regímenes periódicos de permanencia basados en jurados y concursos estables garantizan solidez jurídica pero carecen de canales formativos que orienten el perfeccionamiento pedagógico continuo de los docentes en ejercicio.
 * @perez2021 evaluaron la aplicación de la metodología 360° en tutorías presenciales y virtuales de universidades públicas. Concluyeron que el modelo multidireccional capta competencias pedagógicas y tutoriales (comunicación asertiva, acompañamiento digital) con mayor precisión que las rúbricas estandarizadas, aportando un antecedente relevante para entornos de enseñanza híbridos.
 
-### Antecedentes Regionales e Institucionales (UNCo y CURZAS)
+### Marco Normativo e Institucional Situado (UNCo y CURZAS)
+
+A diferencia de las investigaciones empíricas precedentes, la dimensión situada del problema se sustenta en tres antecedentes normativo-institucionales de la propia universidad:
 
 * *Estatuto UNCo (Ordenanza CS N° 0988/2025):* Define al CURZAS como Complejo Universitario Regional y consolida en su Título X la Carrera Docente mediante informes anuales (Art. 74) y evaluaciones cuatrienales de permanencia ante jurados externos (Art. 75), instituyendo en el Art. 76 la formulación de programas anuales de capacitación departamental [@unco2025].
 * *Reglamento de Carrera Docente (Ordenanza CS N° 0910/1997 y modif.):* Norma los procedimientos de presentación de informes docentes y encuestas estudiantiles en armonía con el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015) [@unco1997; @pen2015]. Si bien asegura solvencia jurídica en la acreditación de permanencia, los registros evidencian la ausencia de circuitos sistemáticos de retroalimentación formativa y confidencial.
@@ -447,9 +449,9 @@ Tratándose de una investigación con diseño mixto de predominio cualitativo (C
 
 Se articulan tres técnicas complementarias:
 
-1. *Análisis documental normativo:* Relevamiento del Estatuto UNCo (Ord. CS N° 0988/2025), el Reglamento de Carrera Docente (Ord. CS N° 0910/1997), el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015) y la Resolución CD-CURZA N° 196/2022. *Instrumento:* Ficha de registro documental para sistematizar prescripciones reglamentarias y cláusulas de estabilidad laboral.
+1. *Análisis documental normativo y de prácticas efectivas:* Relevamiento estructurado en dos niveles complementarios: a) *Prescripciones estatutarias y regulatorias:* Estatuto UNCo (Ord. CS N° 0988/2025), Reglamento de Carrera Docente (Ord. CS N° 0910/1997), CCT Docente (Decreto N° 1246/2015) y Resolución CD-CURZA N° 196/2022; b) *Documentación de prácticas efectivas:* Modelos vigentes de informes anuales de cátedra, batería de reactivos de encuestas a estudiantes administradas en SIU-Guaraní y programas ejecutados de capacitación docente (Art. 76). *Instrumento:* Ficha de registro documental comparativa entre prescripción formal e implementación efectiva.
 2. *Entrevistas semiestructuradas en profundidad:* Diálogo cualitativo sobre la evaluación vigente, la disposición a la coevaluación y las condiciones de viabilidad gremial e institucional. *Instrumento:* Guía de entrevista temática adaptada al rol del entrevistado (Anexo I).
-3. *Cuestionario exploratorio autoadministrado:* Consulta estructurada sobre dimensiones de factibilidad técnica, cultural y procedimental. Consta de 15 reactivos en escala Likert de 5 puntos (desde 1: *Totalmente en desacuerdo* hasta 5: *Totalmente de acuerdo*), opción independiente de *No sabe / No contesta* (NS/NC) y 2 preguntas abiertas breves. *Instrumento:* Cuestionario de factibilidad (Anexo II).
+3. *Cuestionario exploratorio autoadministrado:* Consulta estructurada sobre dimensiones de factibilidad técnica, cultural y procedimental, administrada mediante dos versiones adaptadas por rol: a) *Versión para docentes y autoridades (Formulario A):* 15 reactivos en escala Likert (1 a 5) y opción independiente NS/NC; b) *Versión para estudiantes avanzados (Formulario B):* 12 reactivos adaptados a su experiencia pedagógica formativa y opción NS/NC. Ambas versiones incorporan 2 preguntas abiertas breves. *Instrumento:* Cuestionario exploratorio de factibilidad (Anexo II: Formulario A y Formulario B).
 
 {{< pagebreak >}}
 
@@ -463,7 +465,7 @@ Se articulan tres técnicas complementarias:
 | **1. Normativa y Estatutaria** | Compatibilidad jurídica | Adecuación al Estatuto UNCo, Carrera Docente y CCT Docente (Decreto N° 1246/2015). | • Articulación con informes anuales y evaluaciones cuatrienales.<br>• Preservación de la estabilidad y libertad de cátedra. | Estatuto UNCo, Ord. CS N° 0910/1997 y CCT.<br>*Ficha de análisis documental.* |
 | | No sumatividad estatutaria | Resguardo de que el dispositivo carezca de consecuencias punitivas o contractuales. | • Cláusula de destino formativo exclusivo.<br>• Desvinculación de jurados de permanencia. | Normativa de carrera y actas paritarias.<br>*Ficha documental y entrevista gremial.* |
 | **2. Técnica e Instrumental** | Plataforma y usabilidad | Accesibilidad de plataformas institucionales (Moodle/SIU) para formularios estructurados. | • Disponibilidad de servidores en Viedma y Nodos.<br>• Tiempo de respuesta menor a 15 minutos. | Personal informático y usuarios.<br>*Ficha técnica y sondeo exploratorio.* |
-| | Confidencialidad y anonimato | Medidas de diseño para evitar la reidentificación de los participantes. | • Inhabilitación de registro de IP y metadatos.<br>• Agrupamiento de variables sociodemográficas.<br>• Protocolo de anonimización en origen (tokens aleatorios de un solo uso).<br>• Custodia técnica neutral: procesamiento a cargo de una comisión ad-hoc o área pedagógica neutral externa a la Dirección, que entrega al Departamento reportes consolidados y al docente su reporte individual confidencial. | Plataforma digital y prueba piloto.<br>*Auditoría técnica de formulario.* |
+| | Confidencialidad y anonimato | Medidas de diseño para evitar la reidentificación de los participantes. | • Inhabilitación de registro de IP y metadatos.<br>• Protocolo de anonimización en origen (tokens aleatorios de un solo uso) en sondeos.<br>• Seudonimización estricta (claves alfanuméricas) en entrevistas cualitativas.<br>• Custodia técnica neutral externa a la Dirección ejecutiva.<br>• Regla de umbral mínimo de protección: emisión de reportes individuales únicamente en asignaturas con 5 o más respuestas ($n \ge 5$); en cursos con menor participación se suprimen reportes desagregados y los datos se integran exclusivamente al informe agregado del área. | Plataforma digital, prueba piloto y protocolos éticos.<br>*Auditoría técnica y matriz de resguardo.* |
 | | Mitigación de fatiga | Criterios de brevedad para evitar sobrecarga en asignaturas compartidas. | • Límite estricto de reactivos (hasta 15 ítems).<br>• Frecuencia diagnóstica anual. | Respondientes en prueba piloto.<br>*Cuestionario exploratorio.* |
 | **3. Organizacional y Procedimental** | Capacidad departamental | Circuitos y tiempos de gestión para procesar información y coordinar devoluciones. | • Circuitos internos de procesamiento.<br>• Plazos de emisión de reportes globales. | Dirección departamental y docentes.<br>*Entrevistas y revisión de circuitos.* |
 | | Articulación con Art. 76 | Canalización de demandas hacia el Programa Anual de Capacitación Docente. | • Registro temático de necesidades prioritarias.<br>• Transferencia formal de insumos al plan anual. | Programas anuales de formación y actas.<br>*Ficha documental y entrevistas.* |
@@ -506,9 +508,13 @@ Las actividades de investigación se estructuran en seis fases secuenciales coor
 
 El estudio se rige por las siguientes garantías institucionales y éticas:
 
-1. *Protección de datos y resguardo de identidad (Custodia del Anonimato):* Conforme a la Ley Nacional N° 25.326 de Protección de los Datos Personales [@ley25326], se garantiza la estricta disociación entre las respuestas y la identidad de los participantes. El cuestionario digital se administra bajo un protocolo de anonimización en origen mediante tokens aleatorios de un solo uso, sin registrar correos electrónicos ni direcciones IP. Para disipar cualquier incertidumbre sobre cruce de horarios o permisos de administrador en servidores institucionales, la custodia y administración técnica del instrumento será gestionada por un área pedagógica neutral o comisión técnica ad-hoc independiente de la conducción ejecutiva del Departamento. Dicha custodia garantiza que el Departamento solo reciba informes diagnósticos agregados y globales, mientras que cada docente recibe de forma directa y confidencial su reporte individual de retroalimentación pedagógica, impidiendo cualquier reidentificación por deducción en cátedras unipersonales o con reducida matrícula.
-2. *Consentimiento informado:* La participación en entrevistas y sondeos es libre y voluntaria. Cada participante valida digitalmente el formulario de consentimiento informado (Anexo IV) previo a responder.
-3. *Garantía de no afectación laboral:* En concordancia con el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015), los datos obtenidos se destinan exclusivamente a fines diagnósticos y académicos del TFG. Bajo ninguna circunstancia los reportes integrarán legajos, evaluaciones de permanencia ni concursos laborales.
+1. *Diferenciación ética entre anonimato técnico y confidencialidad:* Conforme a la Ley Nacional N° 25.326 de Protección de los Datos Personales [@ley25326], se establece un tratamiento metodológico diferenciado según el tipo de dato:
+   a) *Sondeo digital cuantitativo (Anonimato técnico en origen):* Se garantiza la estricta disociación informática entre respuestas e identidad mediante tokens aleatorios de un solo uso, inhabilitando registros de dirección IP, correos electrónicos o marcas temporales que permitan deducciones cruzadas.
+   b) *Entrevistas semiestructuradas (Confidencialidad y seudonimización):* Dado el contacto directo entre investigador e informantes y la grabación voluntaria de audio, no se predica anonimato ante el tesista sino estricta confidencialidad profesional. La identidad se resguarda mediante seudonimización con claves alfanuméricas disociadas (ej. `DOC-01`, `EST-01`, `AUT-01`, `GREM-01`). Las transcripciones se almacenan en archivos locales cifrados, mientras que las declaraciones de consentimiento informado firmadas (Anexo IV) se archivan de manera física y segregada, sin relación visible con los textos transcriptos.
+   c) *Custodia técnica neutral y regla de umbral mínimo de protección:* La administración técnica de los formularios informáticos se delega en un área pedagógica neutral o comisión técnica ad-hoc externa a la Dirección del Departamento. Dicha custodia aplica taxativamente la *regla de umbral mínimo de protección*: solo se emitirán reportes pedagógicos individuales a los docentes en asignaturas que alcancen un piso de al menos cinco estudiantes respondientes ($n \ge 5$). En comisiones reducidas o cátedras unipersonales con menor número de respuestas, se suprime formalmente el reporte individual para impedir cualquier identificación por descarte o estilo discursivo, integrándose los datos únicamente a los informes analíticos consolidados por área curricular o tramo formativo.
+   d) *Difusión académica de resultados:* El documento de Tesina final presentará los hallazgos en forma agregada, garantizando que ninguna cita textual o dato descriptivo permita la reidentificación de los participantes.
+2. *Consentimiento informado:* La participación en entrevistas y sondeos es libre y voluntaria. Cada participante valida formalmente la declaración de consentimiento informado (Anexo IV) previo a su intervención.
+3. *Garantía de no afectación laboral:* En concordancia con el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015), los datos obtenidos se destinan exclusivamente a fines diagnósticos y formativos del TFG. Bajo ninguna circunstancia los reportes integrarán legajos, evaluaciones de permanencia ni concursos laborales.
 
 {{< pagebreak >}}
 
@@ -617,12 +623,14 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 
 {{< pagebreak >}}
 
-## Anexo II: Cuestionario Exploratorio de Factibilidad (Escala Likert) {.unnumbered}
+## Anexo II: Cuestionarios Exploratorios de Factibilidad (Escala Likert) {.unnumbered}
 
-*Instrucciones:* Valore su nivel de acuerdo de 1 a 5 (1: *Totalmente en desacuerdo*; 2: *En desacuerdo*; 3: *Neutral*; 4: *De acuerdo*; 5: *Totalmente de acuerdo*) o NS/NC (*No sabe / No contesta*).
+### Formulario A: Cuestionario para Docentes y Autoridades Académicas {.unnumbered}
+
+*Instrucciones:* Valore su nivel de acuerdo de 1 a 5 (1: *Totalmente en desacuerdo*; 2: *En desacuerdo*; 3: *Neutral*; 4: *De acuerdo*; 5: *Totalmente de acuerdo*) o la opción NS/NC (*No sabe / No contesta*).
 
 **Tabla 5**  
-*Reactivos del Cuestionario Exploratorio de Factibilidad (Escala Likert)*
+*Reactivos del Cuestionario para Docentes y Autoridades Académicas (Formulario A)*
 
 | N° | Reactivo | 1 | 2 | 3 | 4 | 5 | NS/NC |
 |:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:--------:|
@@ -642,12 +650,43 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 | 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
-*Nota.* En el formulario para estudiantes, los reactivos 8 y 9 se adaptan: 8: «Considero valioso que los docentes autoevalúen sus prácticas»; 9: «Considero positivo que los docentes reciban comentarios de colegas». La opción NS/NC se procesa como porcentaje y se excluye de las medias para preservar la escala de 1 a 5.
+*Nota.* La categoría NS/NC se procesa como porcentaje de desconocimiento/no respuesta y se excluye del cómputo de medias para preservar la escala de 1 a 5.
 
-*Preguntas Abiertas Complementarias:*
+*Preguntas Abiertas para Docentes y Autoridades:*
 
 1. *Condiciones de confianza:* ¿Qué aspectos considera prioritarios garantizar para participar con tranquilidad en una eventual instancia de retroalimentación docente? *[Espacio para respuesta abierta]*
-2. *Alcance territorial:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por las encuestas actuales? *[Espacio para respuesta abierta]*
+2. *Alcance territorial:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por los instrumentos actuales? *[Espacio para respuesta abierta]*
+
+{{< pagebreak >}}
+
+### Formulario B: Cuestionario Adaptado para Estudiantes Avanzados {.unnumbered}
+
+*Instrucciones:* Valore su nivel de acuerdo de 1 a 5 (1: *Totalmente en desacuerdo*; 2: *En desacuerdo*; 3: *Neutral*; 4: *De acuerdo*; 5: *Totalmente de acuerdo*) o la opción NS/NC (*No sabe / No contesta*).
+
+**Tabla 6**  
+*Reactivos del Cuestionario para Estudiantes Avanzados (Formulario B)*
+
+| N° | Reactivo Adaptado para Estudiantes | 1 | 2 | 3 | 4 | 5 | NS/NC |
+|:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:--------:|
+| 1 | La evaluación docente debería orientarse a la mejora de la enseñanza y no a un control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2 | Las plataformas institucionales (Moodle/SIU) son adecuadas para responder encuestas académicas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 3 | Confío en que el sistema informático de la universidad garantiza el anonimato técnico de mis respuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4 | Un cuestionario breve (hasta 15 preguntas) favorece una mayor participación estudiantil. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 5 | Los estudiantes contamos con criterio y seriedad suficientes para opinar sobre la enseñanza recibida. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 6 | Considero valioso que los docentes realicen una autoevaluación reflexiva sobre sus prácticas de enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 7 | Considero positivo que los docentes reciban miradas constructivas de sus colegas de cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 8 | En la carrera existe un clima de confianza que permite dialogar con los profesores sobre dificultades didácticas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 9 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 10 | Sería positivo que el Departamento comparta con los estudiantes devoluciones globales sobre las encuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 11 | Las opiniones estudiantiles deberían orientar cursos de capacitación pedagógica para los profesores. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 12 | Estaría dispuesto/a a responder con compromiso una encuesta formativa sobre el desempeño de la cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+
+*Nota.* Formulario adaptado a la posición situada del estudiante. Se preservan reactivos comunes para triangulación y se omiten aspectos estatutarios paritarios ajenos al rol. La opción NS/NC se procesa como porcentaje y se excluye de las medias para preservar la escala métrica de 1 a 5.
+
+*Preguntas Abiertas para Estudiantes:*
+
+1. *Confianza y participación:* ¿Qué condiciones considera indispensables para que los estudiantes respondan con sinceridad y sin temor sobre la labor docente? *[Espacio para respuesta abierta]*
+2. *Experiencia en cursadas:* ¿Qué aspectos de la enseñanza (ej. claridad explicativa, seguimiento tutorial en Nodos o devoluciones de exámenes) no captan las encuestas actuales? *[Espacio para respuesta abierta]*
 
 {{< pagebreak >}}
 
@@ -719,7 +758,7 @@ Departamento de Administración Pública — CURZAS-UNCo
 * Consiento participar en la entrevista: &nbsp;&nbsp;&nbsp;&nbsp; Sí ☐ &nbsp;&nbsp;&nbsp;&nbsp; No ☐  
 * Consiento que la entrevista sea grabada en audio: &nbsp;&nbsp;&nbsp;&nbsp; Sí ☐ &nbsp;&nbsp;&nbsp;&nbsp; No ☐  
 
-**Tabla 6**  
+**Tabla 7**  
 *Registro de Consentimiento y Validación del Participante*
 
 | Campo | Registro del Participante |
@@ -728,3 +767,4 @@ Departamento de Administración Pública — CURZAS-UNCo
 | *Firma (o validación digital):* | __________________________________________________ |
 | *Aclaración de Firma:* | __________________________________________________ |
 | *Rol / Actor institucional:* | ☐ Docente &nbsp;&nbsp;&nbsp;&nbsp; ☐ Estudiante &nbsp;&nbsp;&nbsp;&nbsp; ☐ Autoridad &nbsp;&nbsp;&nbsp;&nbsp; ☐ Representante Gremial |
+

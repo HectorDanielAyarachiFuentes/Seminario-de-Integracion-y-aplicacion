@@ -40,12 +40,14 @@
 
 {{< pagebreak >}}
 
-## Anexo II: Cuestionario Exploratorio de Factibilidad (Escala Likert) {.unnumbered}
+## Anexo II: Cuestionarios Exploratorios de Factibilidad (Escala Likert) {.unnumbered}
 
-*Instrucciones:* Valore su nivel de acuerdo de 1 a 5 (1: *Totalmente en desacuerdo*; 2: *En desacuerdo*; 3: *Neutral*; 4: *De acuerdo*; 5: *Totalmente de acuerdo*) o NS/NC (*No sabe / No contesta*).
+### Formulario A: Cuestionario para Docentes y Autoridades Académicas {.unnumbered}
+
+*Instrucciones:* Valore su nivel de acuerdo de 1 a 5 (1: *Totalmente en desacuerdo*; 2: *En desacuerdo*; 3: *Neutral*; 4: *De acuerdo*; 5: *Totalmente de acuerdo*) o la opción NS/NC (*No sabe / No contesta*).
 
 **Tabla 5**  
-*Reactivos del Cuestionario Exploratorio de Factibilidad (Escala Likert)*
+*Reactivos del Cuestionario para Docentes y Autoridades Académicas (Formulario A)*
 
 | N° | Reactivo | 1 | 2 | 3 | 4 | 5 | NS/NC |
 |:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:--------:|
@@ -65,12 +67,43 @@
 | 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
-*Nota.* En el formulario para estudiantes, los reactivos 8 y 9 se adaptan: 8: «Considero valioso que los docentes autoevalúen sus prácticas»; 9: «Considero positivo que los docentes reciban comentarios de colegas». La opción NS/NC se procesa como porcentaje y se excluye de las medias para preservar la escala de 1 a 5.
+*Nota.* La categoría NS/NC se procesa como porcentaje de desconocimiento/no respuesta y se excluye del cómputo de medias para preservar la escala de 1 a 5.
 
-*Preguntas Abiertas Complementarias:*
+*Preguntas Abiertas para Docentes y Autoridades:*
 
 1. *Condiciones de confianza:* ¿Qué aspectos considera prioritarios garantizar para participar con tranquilidad en una eventual instancia de retroalimentación docente? *[Espacio para respuesta abierta]*
-2. *Alcance territorial:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por las encuestas actuales? *[Espacio para respuesta abierta]*
+2. *Alcance territorial:* ¿Qué aspectos específicos de la cursada (presencial en sede o híbrida en Nodos Territoriales) cree que no están siendo captados por los instrumentos actuales? *[Espacio para respuesta abierta]*
+
+{{< pagebreak >}}
+
+### Formulario B: Cuestionario Adaptado para Estudiantes Avanzados {.unnumbered}
+
+*Instrucciones:* Valore su nivel de acuerdo de 1 a 5 (1: *Totalmente en desacuerdo*; 2: *En desacuerdo*; 3: *Neutral*; 4: *De acuerdo*; 5: *Totalmente de acuerdo*) o la opción NS/NC (*No sabe / No contesta*).
+
+**Tabla 6**  
+*Reactivos del Cuestionario para Estudiantes Avanzados (Formulario B)*
+
+| N° | Reactivo Adaptado para Estudiantes | 1 | 2 | 3 | 4 | 5 | NS/NC |
+|:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:--------:|
+| 1 | La evaluación docente debería orientarse a la mejora de la enseñanza y no a un control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2 | Las plataformas institucionales (Moodle/SIU) son adecuadas para responder encuestas académicas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 3 | Confío en que el sistema informático de la universidad garantiza el anonimato técnico de mis respuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4 | Un cuestionario breve (hasta 15 preguntas) favorece una mayor participación estudiantil. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 5 | Los estudiantes contamos con criterio y seriedad suficientes para opinar sobre la enseñanza recibida. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 6 | Considero valioso que los docentes realicen una autoevaluación reflexiva sobre sus prácticas de enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 7 | Considero positivo que los docentes reciban miradas constructivas de sus colegas de cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 8 | En la carrera existe un clima de confianza que permite dialogar con los profesores sobre dificultades didácticas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 9 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 10 | Sería positivo que el Departamento comparta con los estudiantes devoluciones globales sobre las encuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 11 | Las opiniones estudiantiles deberían orientar cursos de capacitación pedagógica para los profesores. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 12 | Estaría dispuesto/a a responder con compromiso una encuesta formativa sobre el desempeño de la cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+
+*Nota.* Formulario adaptado a la posición situada del estudiante. Se preservan reactivos comunes para triangulación y se omiten aspectos estatutarios paritarios ajenos al rol. La opción NS/NC se procesa como porcentaje y se excluye de las medias para preservar la escala métrica de 1 a 5.
+
+*Preguntas Abiertas para Estudiantes:*
+
+1. *Confianza y participación:* ¿Qué condiciones considera indispensables para que los estudiantes respondan con sinceridad y sin temor sobre la labor docente? *[Espacio para respuesta abierta]*
+2. *Experiencia en cursadas:* ¿Qué aspectos de la enseñanza (ej. claridad explicativa, seguimiento tutorial en Nodos o devoluciones de exámenes) no captan las encuestas actuales? *[Espacio para respuesta abierta]*
 
 {{< pagebreak >}}
 
@@ -142,7 +175,7 @@ Departamento de Administración Pública — CURZAS-UNCo
 * Consiento participar en la entrevista: &nbsp;&nbsp;&nbsp;&nbsp; Sí ☐ &nbsp;&nbsp;&nbsp;&nbsp; No ☐  
 * Consiento que la entrevista sea grabada en audio: &nbsp;&nbsp;&nbsp;&nbsp; Sí ☐ &nbsp;&nbsp;&nbsp;&nbsp; No ☐  
 
-**Tabla 6**  
+**Tabla 7**  
 *Registro de Consentimiento y Validación del Participante*
 
 | Campo | Registro del Participante |

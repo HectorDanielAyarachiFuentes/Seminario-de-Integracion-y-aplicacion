@@ -74,23 +74,26 @@ Para asegurar precisión analítica, la investigación distingue explícitamente
 
 La investigación evita postular deductivamente las condiciones definitivas de viabilidad. Por el contrario, se formulan como hipótesis preliminares abiertas a contrastación empírica: corresponderá al trabajo de campo relevar en qué medida las garantías de voluntariedad, anonimato y finalidad formativa son valoradas como indispensables por la comunidad del CURZAS, o si emergen otros condicionantes culturales (como la visibilidad en cátedras unipersonales) o técnicos (fatiga evaluativa) que deban considerarse en la formulación de los lineamientos finales.
 
-## Antecedentes: Estado del Arte de la Cuestión
+## Antecedentes de Investigación Empírica y Estado del Arte
 
-Conforme a las pautas metodológicas de @torraco2016 y @jimenez2008, el relevamiento de antecedentes sistematiza la evidencia empírica acumulada y delimita la vacancia de conocimiento que justifica el proyecto, organizándose en tres escalas geográficas:
+Conforme a las pautas metodológicas de @torraco2016 y @jimenez2008, el relevamiento de antecedentes sistematiza la evidencia empírica acumulada y delimita la vacancia de conocimiento que justifica el proyecto, organizándose en estudios internacionales, investigaciones nacionales en universidades públicas y el encuadre normativo situado:
 
-### Antecedentes Internacionales
+### Antecedentes Internacionales de Investigación Empírica
 
 * @sifuentes2016 evaluaron en México la aceptación de un instrumento 360° en docentes de educación superior mediante encuestas a profesores, directivos y alumnos. Concluyeron que el modelo alcanza una aceptación docente superior al 85% siempre que se asegure el estricto anonimato, la entrega de reportes individuales y la ausencia de sanciones administrativas.
 * @obando2014 investigaron en Cuba un sistema de evaluación 360° articulado con portafolios electrónicos. Demostraron que la triangulación multiactoral mitiga sesgos de complacencia o desquite propios de las encuestas estudiantiles aisladas y estimula la autorreflexión docente, evidenciando la viabilidad técnica de procesar evaluaciones multidireccionales en entornos virtuales.
 * @reyes2020 examinaron mediante metodología mixta el sistema de evaluación docente de una universidad pública mexicana. Constataron que las evaluaciones sumativas generan un cumplimiento meramente formal y desconfianza en el profesorado, advirtiendo que toda innovación evaluativa en la universidad pública requiere legitimación gremial y orientación explícita a la mejora formativa.
 * @alvarado2019 desarrollaron en la UNAM una propuesta 360° que pondera docencia, tutoría y gestión institucional, aportando criterios para operacionalizar cuestionarios estructurados y articularlos con planes de actualización pedagógica.
 
-### Antecedentes Nacionales
+### Antecedentes Nacionales sobre Evaluación Docente Universitaria
 
 * @marquina2012 analizó cualitativamente las tensiones de la profesión académica en universidades públicas argentinas, constatando que los mecanismos tradicionales de permanencia suelen privilegiar la acreditación de posgrados y la producción científica en detrimento de la calidad didáctica en las aulas de grado. Este hallazgo fundamenta la necesidad de dispositivos orientados específicamente a la retroalimentación de la enseñanza.
+* @garciadefanelli2009 examinó la estructura de la carrera académica y los sistemas de incentivos en las universidades nacionales argentinas, demostrando empíricamente que los regímenes periódicos de permanencia basados en jurados y concursos estables garantizan solidez jurídica pero carecen de canales formativos que orienten el perfeccionamiento pedagógico continuo de los docentes en ejercicio.
 * @perez2021 evaluaron la aplicación de la metodología 360° en tutorías presenciales y virtuales de universidades públicas. Concluyeron que el modelo multidireccional capta competencias pedagógicas y tutoriales (comunicación asertiva, acompañamiento digital) con mayor precisión que las rúbricas estandarizadas, aportando un antecedente relevante para entornos de enseñanza híbridos.
 
-### Antecedentes Regionales e Institucionales (UNCo y CURZAS)
+### Marco Normativo e Institucional Situado (UNCo y CURZAS)
+
+A diferencia de las investigaciones empíricas precedentes, la dimensión situada del problema se sustenta en tres antecedentes normativo-institucionales de la propia universidad:
 
 * *Estatuto UNCo (Ordenanza CS N° 0988/2025):* Define al CURZAS como Complejo Universitario Regional y consolida en su Título X la Carrera Docente mediante informes anuales (Art. 74) y evaluaciones cuatrienales de permanencia ante jurados externos (Art. 75), instituyendo en el Art. 76 la formulación de programas anuales de capacitación departamental [@unco2025].
 * *Reglamento de Carrera Docente (Ordenanza CS N° 0910/1997 y modif.):* Norma los procedimientos de presentación de informes docentes y encuestas estudiantiles en armonía con el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015) [@unco1997; @pen2015]. Si bien asegura solvencia jurídica en la acreditación de permanencia, los registros evidencian la ausencia de circuitos sistemáticos de retroalimentación formativa y confidencial.
