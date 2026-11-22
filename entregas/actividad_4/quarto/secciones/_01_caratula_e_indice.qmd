@@ -33,8 +33,8 @@
   DNI y LEGAJO: DNI N° 35.492.138 — Legajo N° 8252 \
   Email: hectordanielayarachifuentes\@gmail.com \
   \
-  Director/a: (A designar antes de finalizar el cursado del SIA) \
-  Codirector/a: (A designar antes de finalizar el cursado del SIA)
+  Director/a: (A designar) \
+  Codirector/a: (A designar)
 ]
 
 #v(1.2em)
@@ -76,8 +76,8 @@ Estudiante: Tec. Sup. en RRHH Héctor Daniel Ayarachi Fuentes
 DNI y LEGAJO: DNI N° 35.492.138 — Legajo N° 8252  
 Email: hectordanielayarachifuentes@gmail.com  
 
-Director/a: (A designar antes de finalizar el cursado del SIA)  
-Codirector/a: (A designar antes de finalizar el cursado del SIA)  
+Director/a: (A designar)  
+Codirector/a: (A designar)  
 
 <br>
 
