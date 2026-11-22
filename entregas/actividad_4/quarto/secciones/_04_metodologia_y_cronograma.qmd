@@ -101,7 +101,7 @@ Se articulan tres técnicas complementarias:
 
 | Dimensión | Variable | Definición Operacional | Indicadores Empíricos | Fuentes e Instrumentos |
 | :--- | :--- | :--- | :--- | :--- |
-| **3. Organizacional y Procedimental** | Capacidad departamental y de gestión de personas | Circuitos y capacidades tecno-organizacionales para procesar diagnósticos y coordinar devoluciones formativas [@oszlak2020; @longo2006]. | • Circuitos internos de procesamiento.<br>• Plazos de emisión de reportes globales. | Dirección departamental y docentes.<br>*Entrevistas y revisión de circuitos.* |
+| **3. Organizacional y Procedimental** | Capacidad departamental y de gestión de personas | Circuitos y capacidades tecno-organizacionales para procesar diagnósticos y coordinar devoluciones formativas [@oszlak2020; @longo2004]. | • Circuitos internos de procesamiento.<br>• Plazos de emisión de reportes globales. | Dirección departamental y docentes.<br>*Entrevistas y revisión de circuitos.* |
 | | Articulación con Art. 76 | Canalización de demandas hacia el Programa Anual de Capacitación Docente. | • Registro temático de necesidades prioritarias.<br>• Transferencia formal de insumos al plan anual. | Programas anuales de formación y actas.<br>*Ficha documental y entrevistas.* |
 | **4. Cultural y Actitudinal** | Confianza institucional | Predisposición favorable y percepción de seguridad frente a la retroalimentación. | • Nivel de confianza declarado en el fin formativo.<br>• Disposición a recibir comentarios de pares. | Docentes del Departamento.<br>*Cuestionario exploratorio y entrevistas.* |
 | | Autorreflexión docente | Valoración de la autoevaluación como herramienta de perfeccionamiento pedagógico. | • Práctica habitual de reflexión sobre la enseñanza.<br>• Interés en confrontar autopercepción con pares. | Docentes del Departamento.<br>*Cuestionario exploratorio y entrevistas.* |
@@ -109,7 +109,7 @@ Se articulan tres técnicas complementarias:
 | **5. Gobernanza Multinivel** | Legitimación en cogobierno | Viabilidad política y deliberación en órganos colegiados en el marco de la poligobernanza institucional [@aguilar2006; @cao2023]. | • Tratamiento en Consejo Departamental y Directivo.<br>• Búsqueda de consensos interclaustros. | Consejeros departamentales y directivos.<br>*Entrevistas y actas de cogobierno.* |
 | | Concertación paritaria | Negociación con la representación gremial (ADUNC) sobre variables de control compartido y viabilidad situacional [@matus1993]. | • Criterios gremiales sobre voluntariedad.<br>• Previsión de acuerdos paritarios para pilotaje. | Representantes paritarios de ADUNC.<br>*Guía de entrevista paritaria.* |
 
-*Nota.* Elaboración propia a partir de Longo (2006), Cao y Blutman (2023), Matus (1993) y la normativa institucional del CURZAS-UNCo.
+*Nota.* Elaboración propia a partir de Longo (2004), Cao y Blutman (2023), Matus (1993) y la normativa institucional del CURZAS-UNCo.
 
 {{< pagebreak >}}
 

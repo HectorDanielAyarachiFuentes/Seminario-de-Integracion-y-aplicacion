@@ -2,11 +2,11 @@
 
 ## Tema de Investigación
 
-El presente proyecto de investigación se inscribe en la intersección entre la Administración Pública y la Gestión de Recursos Humanos, orientándose al análisis de capacidades estatales y modernización de la gestión en el ámbito universitario público [@longo2006; @oszlak2020]. Conforme a las pautas de la Resolución CD-CURZA N° 266/23 [@uncocurzas2023] y al criterio metodológico de pirámide invertida [@sautu2005], la indagación aborda la evaluación del rendimiento docente en el nivel superior y delimita como objeto de estudio la factibilidad de incorporar un modelo de retroalimentación multiactoral (360°) en el Departamento de Administración Pública del Complejo Universitario Regional Zona Atlántica y Sur (CURZAS) de la Universidad Nacional del Comahue (UNCo).
+El presente proyecto de investigación se inscribe en la intersección entre la Administración Pública y la Gestión de Recursos Humanos, orientándose al análisis de capacidades estatales y modernización de la gestión en el ámbito universitario público [@longo2004; @oszlak2020]. Conforme a las pautas de la Resolución CD-CURZA N° 266/23 [@uncocurzas2023] y al criterio metodológico de pirámide invertida [@sautu2005], la indagación aborda la evaluación del rendimiento docente en el nivel superior y delimita como objeto de estudio la factibilidad de incorporar un modelo de retroalimentación multiactoral (360°) en el Departamento de Administración Pública del Complejo Universitario Regional Zona Atlántica y Sur (CURZAS) de la Universidad Nacional del Comahue (UNCo).
 
 ### Encuadre Conceptual en el Modelo de Francisco Longo
 
-A nivel teórico, el proyecto toma como marco de referencia el modelo de gestión estratégica del empleo y los recursos humanos en el sector público formulado por Francisco @longo2006. Dicho enfoque estructura la gestión de personas en un conjunto de subsistemas interdependientes y articulados a partir de la estrategia institucional.
+A nivel teórico, el proyecto toma como marco de referencia el modelo de gestión estratégica del empleo y los recursos humanos en el sector público formulado por Francisco @longo2004. Dicho enfoque estructura la gestión de personas en un conjunto de subsistemas interdependientes y articulados a partir de la estrategia institucional.
 
 En el marco de este modelo, la investigación focaliza de forma prioritaria en el subsistema de *gestión del rendimiento* (evaluación del desempeño), articulándolo analíticamente con cuatro subsistemas complementarios: *gestión del desarrollo* (capacitación docente y planes de carrera), *organización del trabajo* (diseño de perfiles y funciones académicas presenciales e híbridas), *gestión del empleo* (estabilidad y condiciones laborales) y *gestión de las relaciones humanas y sociales* (clima institucional, cultura participativa y diálogo paritario). La investigación se orienta a explorar las condiciones organizacionales, técnicas, normativas y políticas requeridas para dotar a la evaluación docente de un sentido formativo [@obando2014; @sifuentes2016], capaz de articular la retroalimentación del propio docente, sus colegas de cátedra, los estudiantes y la conducción académica (ver Figura 1).
 
@@ -17,7 +17,7 @@ En el marco de este modelo, la investigación focaliza de forma prioritaria en e
 ![](assets/Sistemas-longo.svg){width=90%}
 :::
 
-*Nota.* Adaptado de Longo (2006).
+*Nota.* Adaptado de Longo (2004).
 
 ### Contexto Institucional y Normativo
 
@@ -52,14 +52,14 @@ No obstante, los mecanismos estatutarios vigentes no proveen devoluciones pedag�
 
 Siguiendo las pautas del SIA, el objeto de estudio se delimita en cuatro dimensiones analíticas. Esta delimitación multidimensional permite circunscribir con exactitud el alcance espacial, temporal, conceptual y organizacional de la investigación:
 
-* *Delimitación Temática y Conceptual:* Factibilidad de implementación de un modelo de retroalimentación 360° en la evaluación docente, analizado desde los subsistemas de recursos humanos [@longo2006]: rendimiento, desarrollo, organización del trabajo, gestión del empleo y relaciones humanas.
+* *Delimitación Temática y Conceptual:* Factibilidad de implementación de un modelo de retroalimentación 360° en la evaluación docente, analizado desde los subsistemas de recursos humanos [@longo2004]: rendimiento, desarrollo, organización del trabajo, gestión del empleo y relaciones humanas.
 * *Delimitación Espacial:* Sede central del CURZAS (Viedma) y Red Territorial de Nodos Universitarios en sus 10 localidades de la provincia de Río Negro, donde el Departamento dicta asignaturas bajo modalidades presenciales e híbridas con mediación tecnológica y presencialidad distribuida.
 * *Delimitación Temporal:* Ciclo lectivo 2027 (mayo a noviembre de 2027), período en el que se llevará a cabo el trabajo de campo empírico, la recolección y análisis de datos y la redacción final del TFG, bajo la plena vigencia del nuevo Estatuto UNCo (Ord. CS N° 0988/2025).
 * *Delimitación Poblacional y Organizacional:* La unidad institucional es el Departamento de Administración Pública. Los actores involucrados comprenden docentes (regulares e interinos), estudiantes regulares, autoridades académicas (Dirección departamental y miembros del Consejo Departamental) y representantes gremiales paritarios (ADUNC).
 
 ### Enfoque Analítico de las Dimensiones de Factibilidad
 
-En el marco de la gestión pública [@longo2006; @matus1993], la factibilidad representa el grado de adecuación y compatibilidad real entre una innovación propuesta y las condiciones contextuales donde pretende operar. En el CURZAS-UNCo, esta evaluación preliminar abarca cinco dimensiones analíticas:
+En el marco de la gestión pública [@longo2004; @matus1993], la factibilidad representa el grado de adecuación y compatibilidad real entre una innovación propuesta y las condiciones contextuales donde pretende operar. En el CURZAS-UNCo, esta evaluación preliminar abarca cinco dimensiones analíticas:
 
 1. *Factibilidad normativa y estatutaria:* Compatibilidad con el Estatuto UNCo, el Reglamento de Carrera Docente y el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015), asegurando la no sumatividad y la preservación de la estabilidad laboral.
 2. *Factibilidad técnica e instrumental:* Disponibilidad de plataformas digitales institucionales (Moodle, SIU-Guaraní) e instrumentos breves capaces de procesar la retroalimentación multiactoral resguardando rigurosamente el anonimato técnico.
@@ -75,7 +75,7 @@ En el marco de la gestión pública [@longo2006; @matus1993], la factibilidad re
 
 La investigación se justifica en tres planos complementarios. Cada uno de ellos fundamenta la relevancia del caso desde una perspectiva disciplinar, institucional y profesional:
 
-* *Plano Cognitivo y Disciplinar:* Aporta evidencia empírica situada sobre la evaluación del rendimiento en universidades públicas patagónicas. La literatura sobre modelos 360° se originó predominantemente en el ámbito corporativo [@lepsinger2009] y se ha extendido a universidades latinoamericanas; investigar su adaptación y factibilidad en una universidad pública argentina con cogobierno y docencia híbrida contribuye al análisis de las capacidades estatales y la gestión de personas en el sector público [@longo2006; @oszlak2020].
+* *Plano Cognitivo y Disciplinar:* Aporta evidencia empírica situada sobre la evaluación del rendimiento en universidades públicas patagónicas. La literatura sobre modelos 360° se originó predominantemente en el ámbito corporativo [@lepsinger2009] y se ha extendido a universidades latinoamericanas; investigar su adaptación y factibilidad en una universidad pública argentina con cogobierno y docencia híbrida contribuye al análisis de las capacidades estatales y la gestión de personas en el sector público [@longo2004; @oszlak2020].
 * *Plano Social e Institucional:* Proporciona al Departamento de Administración Pública un diagnóstico riguroso sobre las percepciones y demandas formativas de su comunidad académica. Permite indagar cómo los docentes valoran el intercambio reflexivo con colegas, cómo los estudiantes pueden aportar juicios pedagógicos constructivos más allá de la encuesta sumativa de fin de curso, y qué capacidades de procesamiento requiere la conducción institucional.
 * *Plano Personal y Profesional:* Consolida la trayectoria del tesista integrando la formación de base como Técnico Superior en Recursos Humanos con el Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos, aplicando herramientas de diagnóstico organizacional al fortalecimiento de la educación pública regional.
 
@@ -94,12 +94,12 @@ La investigación se justifica en tres planos complementarios. Cada uno de ellos
 
 {{< pagebreak >}}
 
-## Matriz de Consistencia Metodológica y Articulación con Longo (2006)
+## Matriz de Consistencia Metodológica y Articulación con Longo (2004)
 
 **Tabla 1**  
-*Matriz de Consistencia Metodológica y Articulación con el Modelo de Francisco Longo (2006)*
+*Matriz de Consistencia Metodológica y Articulación con el Modelo de Francisco Longo (2004)*
 
-| Nivel de Objetivo | Dimensión Analítica | Subsistema de RR.HH. (Longo, 2006) | Fuentes e Instrumentos Previstos |
+| Nivel de Objetivo | Dimensión Analítica | Subsistema de RR.HH. (Longo, 2004) | Fuentes e Instrumentos Previstos |
 | :--- | :--- | :--- | :--- |
 | **General** | **Factibilidad integral:** Análisis de las condiciones normativas, técnicas, organizacionales, culturales y de gobernanza para la retroalimentación 360°. | **Gestión del rendimiento** (*Evaluación formativa y desarrollo continuo*) | Comunidad académica del Departamento de Administración Pública (CURZAS-UNCo). |
 | **Específico 1** | **Dimensión normativa-institucional:** Relevamiento de ordenanzas, reglamentos de carrera docente y prácticas efectivas de evaluación. | **Gestión del rendimiento y Organización del trabajo** (*Perfiles y funciones docentes según Estatuto y Ord. 0910/1997*) | Estatuto UNCo (Ord. CS N° 0988/2025), Ord. CS N° 0910/1997, CCT Docente (Decreto N° 1246/2015), modelos de informes anuales de cátedra, encuestas en SIU-Guaraní y planes ejecutados de capacitación. *Fichas documentales y entrevistas a actores clave.* |
@@ -107,7 +107,7 @@ La investigación se justifica en tres planos complementarios. Cada uno de ellos
 | **Específico 3** | **Dimensión de gobernanza multinivel:** Identificación de condicionantes de cogobierno, acuerdos paritarios y resguardos técnicos de confidencialidad. | **Gestión del empleo y Gestión de las relaciones humanas y sociales** (*Condiciones de trabajo, estabilidad y negociación paritaria*) | Representantes docentes y paritarios gremiales (ADUNC). *Entrevistas temáticas y actas de cogobierno.* |
 | **Específico 4** | **Dimensión propositiva-orientativa:** Elaboración de lineamientos para una eventual aplicación formativa adaptada al caso. | **Gestión del desarrollo** (*Capacitación continua y articulación con el Art. 76 del Estatuto*) | Síntesis analítica del proyecto articulada con las demandas diagnosticadas. *Propuesta de lineamientos.* |
 
-*Nota.* Elaboración propia a partir de Longo (2006) y la normativa del CURZAS-UNCo.
+*Nota.* Elaboración propia a partir de Longo (2004) y la normativa del CURZAS-UNCo.
 
 {{< pagebreak >}}
 
