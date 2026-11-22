@@ -139,6 +139,7 @@ El proyecto opera bajo un modelo de colaboración simbiótica:
 ## 📚 9. Mapeo de Reglas Específicas del Proyecto
 
 Para consultar las reglas especializadas cargadas en el entorno:
+* **Prompt Madre y Sistema Rector Integral (SIA):** [.agents/rules/AGENTS_MADRE.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/AGENTS_MADRE.md)
 * **Control Bibliográfico y Antialucinación:** [.agents/rules/control_bibliografico.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/control_bibliografico.md)
 * **Código y Arquitectura:** [.agents/rules/gitnexus.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/gitnexus.md)
 * **Investigación y MCP:** [.agents/rules/notebooklm.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/notebooklm.md)
