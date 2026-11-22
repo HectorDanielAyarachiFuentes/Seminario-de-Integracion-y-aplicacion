@@ -7,16 +7,32 @@ Este directorio reúne y organiza todos los documentos científicos, metodológi
 ## 📂 Estructura del Acervo
 
 ### 1. Estado del Arte (`1_estado_del_arte/`)
+
+Organizado formalmente en los tres niveles geográficos requeridos por la cátedra del Seminario de Integración y Aplicación:
+
+#### A. Nivel Internacional (`1_estado_del_arte/1_internacional/`)
 * **Sifuentes Ocegueda, A. T., Suárez Flores, M., & Lara González, L. M. (2016).** *La evaluación de 360° aplicada al personal docente de nivel superior.* Revista de Investigación en Tecnologías de la Información (RITI), 4(7), 17–26.  
   `Sifuentes Ocegueda et al. (2016) - Evaluacion 360 personal docente superior (RITI).pdf`
 * **Obando Freire, F., López Fernández, R., Luna Álvarez, D., Luna Álvarez, E., Luna Álvarez, W., & Alpizar Fernández, R. (2014).** *Sistema de evaluación docente mediante el modelo 360 grados y el portafolio electrónico.* Medisur, 12(1), 334–339.  
   `Obando Freire et al. (2014) - Evaluacion docente modelo 360 y portafolio (Medisur).pdf`
 * **Hernández-Villafaña, A. D., & Luna Serrano, E. (2023).** *Metaevaluación del sistema de evaluación docente en una universidad pública mexicana.* Archivos Analíticos de Políticas Educativas, 31(11). DOI: `10.14507/epaa.31.7501`.  
   `Hernandez-Villafana & Luna Serrano (2023) - Metaevaluacion docente universidad publica (EPAA).pdf`
-* **Vázquez Cid de León, C., Domínguez Herrera, J. E., Aguilar Cruz, C., Ramírez Castillo, E. A., & Vázquez Arango, M. de L. (2021).** *Evaluación 360° de las tutorías presenciales y en línea en universidades públicas.* UNACIENCIA: Revista de Estudios e Investigaciones, 14(27), 103–120.  
-  `Vazquez Cid de Leon et al. (2021) - Evaluacion 360 tutorias presenciales y en linea (UNACIENCIA).pdf`
+
+#### B. Nivel Nacional (`1_estado_del_arte/2_nacional/`)
 * **Marquina, M. (2013).** *¿Hay una profesión académica argentina? Avances y reflexiones sobre un objeto en construcción.* Pensamiento Universitario, 15(15), 35–58.  
   `Marquina (2013) - Profesion academica argentina (Pensamiento Universitario).pdf`
+* **Vázquez Cid de León, C., Domínguez Herrera, J. E., Aguilar Cruz, C., Ramírez Castillo, E. A., & Vázquez Arango, M. de L. (2021).** *Evaluación 360° de las tutorías presenciales y en línea en universidades públicas.* UNACIENCIA: Revista de Estudios e Investigaciones, 14(27), 103–120.  
+  `Vazquez Cid de Leon et al. (2021) - Evaluacion 360 tutorias presenciales y en linea (UNACIENCIA).pdf`
+
+#### C. Nivel Regional y Local (`1_estado_del_arte/3_regional_y_local/`)
+* **Ordenanza CS N° 0988/2025 (UNCo):** *Texto ordenado del Estatuto de la Universidad Nacional del Comahue — Título X: De la Carrera Docente (Arts. 64 a 78).*  
+  `Ordenanza CS 0988-2025 - Estatuto UNCo Titulo X Carrera Docente.pdf`
+* **Ordenanza CS N° 0910/1997 (UNCo):** *Reglamento de Carrera Docente de la Universidad Nacional del Comahue.*  
+  `Ordenanza CS 0910-1997 - Reglamento de Carrera Docente UNCo.pdf`
+* **Resolución CD-CURZA N° 196/2022:** *Definiciones del CURZA sobre la incorporación de mediaciones tecnológicas dentro de las carreras presenciales y semipresenciales.*  
+  `Resolucion CD-CURZA 196-2022 (Compilacion resoluciones 2022).pdf`
+* **Guía Institucional CURZAS 2026:** *Red de Nodos Territoriales y Aulas Híbridas.*  
+  `CURZAS UNCo - Nodos Territoriales y Modalidad Hibrida (Guia 2026).pdf`
 
 ---
 
@@ -62,5 +78,3 @@ Este directorio reúne y organiza todos los documentos científicos, metodológi
   `Resolucion CD-CURZA 266-23 - Reglamento TFG.pdf`
 * **Resolución CD-CURZA N° 196/2022:** *Definiciones del CURZA sobre la incorporación de mediaciones tecnológicas dentro de las carreras presenciales y semipresenciales.*  
   `Resolucion CD-CURZA 196-2022 (Compilacion resoluciones 2022).pdf`
-* **Guía Institucional CURZAS 2026:** *Red de Nodos Territoriales y Aulas Híbridas.*  
-  `CURZAS UNCo - Nodos Territoriales y Modalidad Hibrida (Guia 2026).pdf`
