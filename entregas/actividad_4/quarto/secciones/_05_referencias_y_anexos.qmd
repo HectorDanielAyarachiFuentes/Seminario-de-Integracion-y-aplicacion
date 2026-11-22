@@ -58,12 +58,12 @@
 | 5 | La administración de cuestionarios breves no generaría una sobrecarga en las tareas habituales de cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 6 | La incorporación de un dispositivo evaluativo adicional aumentaría innecesariamente la sobrecarga de trabajo del Departamento. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 7 | Los resultados diagnósticos consolidados deberían orientar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 8 | Estaría dispuesto/a a participar voluntariamente de una prueba piloto experimental de autoevaluación y retroalimentación 360° en mi cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 9 | El intercambio pedagógico entre docentes de cátedras afines generaría tensiones en el equipo de trabajo. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 10 | Los estudiantes carecen de criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 11 | Considero enriquecedor recibir comentarios constructivos de colegas sobre la labor pedagógica cotidiana. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 12 | Una propuesta evaluativa formativa debe ser deliberada y consensuada con la representación gremial docente (ADUNC). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 13 | El clima institucional del Departamento dificulta el diálogo sincero sobre las dificultades didácticas en la enseñanza. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 12 | Las particularidades pedagógicas de las aulas híbridas y Nodos Territoriales no ameritan dimensiones evaluativas específicas respecto a la sede central. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 13 | Una propuesta evaluativa formativa debe ser deliberada y consensuada con la representación gremial docente (ADUNC). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
 *Nota.* La batería comprende 13 reactivos estructurados (8 en sentido directo y 5 en sentido invertido para neutralizar el sesgo de aquiescencia) y 2 preguntas abiertas cualitativas (total: 15 ítems). La opción NS/NC se procesa como porcentaje independiente de no respuesta y se excluye del cálculo de medias.
 

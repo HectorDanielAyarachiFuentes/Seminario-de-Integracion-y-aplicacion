@@ -124,7 +124,7 @@ El proyecto opera bajo un modelo de colaboración simbiótica:
 ### Protocolo Operativo y Guardarraíles:
 * **Antes de editar código (`compilar_todos.py` o scripts):** Ejecutar análisis de impacto con `node .gitnexus/run.cjs impact "<simbolo>" --direction upstream --repo .`. Nunca editar a ciegas ni omitir riesgos HIGH/CRITICAL.
 * **Antes de hacer commit:** Validar con `node .gitnexus/run.cjs detect-changes --scope all --repo .`.
-* **Consultas Académicas:** Validar siempre marcos conceptuales y citas con NotebookLM. Prohibido inventar citas o fuentes.
+* **Consultas Académicas y Control Bibliográfico:** Validar siempre marcos conceptuales y citas con fuentes reales. **ESTRICTAMENTE PROHIBIDO inventar autores, títulos, metodologías o fuentes.** Antes de incorporar cualquier autor, verificar en `bibliografia/` y `seminario_integracion/` o preguntar primero al usuario. Ver [.agents/rules/control_bibliografico.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/control_bibliografico.md).
 
 ---
 
@@ -139,6 +139,7 @@ El proyecto opera bajo un modelo de colaboración simbiótica:
 ## 📚 9. Mapeo de Reglas Específicas del Proyecto
 
 Para consultar las reglas especializadas cargadas en el entorno:
+* **Control Bibliográfico y Antialucinación:** [.agents/rules/control_bibliografico.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/control_bibliografico.md)
 * **Código y Arquitectura:** [.agents/rules/gitnexus.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/gitnexus.md)
 * **Investigación y MCP:** [.agents/rules/notebooklm.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/notebooklm.md)
 * **Estilo Visual y APA 7:** [.agents/rules/supreme_guidelines.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/supreme_guidelines.md)

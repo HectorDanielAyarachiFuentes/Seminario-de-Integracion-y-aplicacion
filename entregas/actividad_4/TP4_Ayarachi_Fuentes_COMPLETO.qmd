@@ -1,30 +1,3 @@
----
-lang: es
-bibliography: referencias.bib
-csl: apa.csl
-citeproc: true
-filters:
-  - ../../../.agents/filtros/linebreak_filter.lua
-format:
-  docx:
-    toc: false
-    number-sections: false
-    highlight-style: github
-
-  typst:
-    paper: a4
-    toc: false
-    margin:
-      top: 2.54cm
-      bottom: 2.54cm
-      left: 2.54cm
-      right: 2.54cm
-    mainfont: "Arial"
-    fontsize: 12pt
-    include-before-body:
-      - estilos.typ
----
-
 ::: {.content-visible when-format="typst"}
 ```{=typst}
 #align(center)[
@@ -163,6 +136,8 @@ Año 2026
 <br>
 :::
 
+
+
 # Primera parte de la estructura del Proyecto de investigación de TFG
 
 ## Tema de Investigación
@@ -276,6 +251,8 @@ La investigación se justifica en tres planos complementarios. Cada uno de ellos
 
 {{< pagebreak >}}
 
+
+
 # Segunda parte de la estructura del Proyecto de investigación de TFG
 
 ## Marco Teórico: Posicionamiento Teórico y Conceptos Centrales
@@ -359,22 +336,21 @@ Conforme a las pautas metodológicas de @torraco2016 y @jimenez2008, el relevami
 
 ### Antecedentes Internacionales y Regionales de Investigación Empírica
 
-* @sifuentes2016 desarrollaron una propuesta metodológica para la aplicación de la evaluación de 360° al personal docente de nivel superior en México. Su modelo adapta los principios de la gestión de recursos humanos al contexto universitario articulando cuatro fuentes de valoración (autoevaluación, coordinación académica, estudiantes y pares docentes), y fundamenta las condiciones operativas necesarias para su viabilidad: confidencialidad estricta en el manejo de resultados, elección concertada de evaluadores y capacitación previa para evitar sesgos en la retroalimentación.
-* @obando2014 investigaron en Cuba un sistema de evaluación 360° articulado con portafolios electrónicos. Demostraron que la triangulación multiactoral mitiga sesgos de complacencia o desquite propios de las encuestas estudiantiles aisladas y estimula la autorreflexión docente, evidenciando la viabilidad técnica de procesar evaluaciones multidireccionales en entornos virtuales.
-* @reyes2020 examinaron mediante metodología mixta el sistema de evaluación docente de una universidad pública mexicana. Constataron que las evaluaciones sumativas generan un cumplimiento meramente formal y desconfianza en el profesorado, advirtiendo que toda innovación evaluativa en la universidad pública requiere legitimación gremial y orientación explícita a la mejora formativa.
-* @alvarado2019 desarrollaron en la UNAM una propuesta 360° que pondera docencia, tutoría y gestión institucional, aportando criterios para operacionalizar cuestionarios estructurados y articularlos con planes de actualización pedagógica.
-* @perez2021 analizaron la aplicación de la metodología de 360° a los programas de tutoría presencial y en línea en universidades públicas (publicado en la revista *Unaciencia*). Concluyeron que la retroalimentación multiactoral permite valorar competencias de acompañamiento pedagógico y comunicación digital con mayor riqueza diagnóstica que los instrumentos estandarizados unidireccionales, aportando un antecedente relevante para la docencia en entornos híbridos.
+* @sifuentes2016 desarrollaron una propuesta metodológica para la aplicación de la evaluación de 360° al personal docente de nivel superior en México. Su modelo adapta los principios de la gestión de recursos humanos al contexto universitario articulando cuatro fuentes de valoración (autoevaluación, coordinación de la unidad de aprendizaje, alumnos y pares), y fundamenta las condiciones operativas necesarias para su viabilidad: evaluación formativa por competencias observables, confidencialidad en el procesamiento, elección concertada de evaluadores, capacitación previa con manual de instrucciones y un compromiso sincero de los participantes para el desarrollo profesional y no para esquemas de sanción.
+* @obando2014, en una revisión pedagógica sobre educación médica superior en Cuba, sostienen que un sistema de evaluación docente 360° articulado con portafolios electrónicos permite que la triangulación multiactoral mitigue los sesgos de complacencia o animadversión propios de las encuestas estudiantiles aisladas. Señalan que este enfoque estimula la autorreflexión docente y demuestra la viabilidad técnica de procesar evaluaciones multidireccionales en entornos virtuales.
+* @hernandezvillafana2023 examinaron mediante metodología mixta (análisis univariado y análisis cualitativo de contenido sobre una muestra de 1.431 docentes) el sistema de evaluación docente de una universidad pública mexicana (Universidad Autónoma de Baja California). Constataron que las evaluaciones sumativas tradicionales suelen generar un cumplimiento meramente burocrático y desconfianza en el profesorado frente al uso punitivo de los resultados, advirtiendo que toda innovación evaluativa en la universidad pública requiere legitimación colegiada, capacitación a los evaluadores y una orientación explícita hacia la retroalimentación constructiva y la mejora formativa.
+* @vazquezciddeleon2021 analizaron la aplicación de la metodología de 360° a los programas de tutoría presencial y en línea en universidades públicas tecnológicas (publicado en la revista *UNACIENCIA*). Concluyeron que la retroalimentación multiactoral permite valorar competencias de acompañamiento pedagógico y comunicación digital con mayor riqueza diagnóstica que los instrumentos estandarizados unidireccionales, aportando un antecedente relevante para la docencia en entornos mediados por tecnología y aulas híbridas.
 
-### Antecedentes Nacionales sobre Evaluación Docente Universitaria
+### Antecedentes en el Contexto Universitario Nacional y Delimitación de Vacancia
 
-* @marquina2012 analizó las transformaciones de la profesión académica en las universidades públicas argentinas, señalando que los mecanismos tradicionales de ingreso y permanencia suelen focalizarse en la acreditación de posgrados y la productividad en investigación, coexistiendo con una relativa vacancia de dispositivos colegiados orientados específicamente a la retroalimentación y al fortalecimiento de las prácticas pedagógicas en el aula universitaria.
-* En el contexto universitario nacional, la producción académica ha abordado ampliamente las regulaciones estatutarias y los concursos docentes, pero se constata una marcada escasez de antecedentes empíricos sobre la aplicación de modelos de retroalimentación 360° en universidades públicas argentinas, confirmando la pertinencia del caso de estudio en el CURZAS-UNCo.
+* @marquina2013 analizó las transformaciones de la profesión académica en las universidades públicas argentinas, señalando que las regulaciones tradicionales de ingreso y permanencia suelen focalizarse en la acreditación de posgrados y la productividad en investigación, coexistiendo con una relativa vacancia de dispositivos colegiados orientados específicamente a la retroalimentación formativa y al perfeccionamiento continuo de las prácticas de enseñanza en las aulas.
+* A nivel nacional, la exploración documental sistemática realizada en las bases científicas SciELO Argentina, Redalyc, Dialnet, en el Portal de Publicaciones Científicas de la UNCo y en el Repositorio Digital Institucional de la Universidad Nacional del Comahue (mediante descriptores como "evaluación docente 360°", "evaluación formativa universitaria" y "desempeño docente universidad pública") constató una marcada ausencia de investigaciones empíricas sobre modelos de retroalimentación 360° aplicados a la docencia en universidades nacionales argentinas. La literatura nacional se concentra casi exclusivamente en encuestas unidireccionales de satisfacción estudiantil y regímenes de carrera docente por jurados de pares, lo que confirma con rigor metodológico el área de vacancia y la originalidad del caso de estudio en el CURZAS-UNCo.
 
-### Marco Normativo e Institucional Situado (UNCo y CURZAS)
+### Marco Normativo e Institucional Situado (UNCo y CURZA)
 
 A diferencia de las investigaciones empíricas precedentes, la dimensión situada del problema se sustenta en tres antecedentes normativo-institucionales de la propia universidad:
 
-* *Estatuto UNCo (Ordenanza CS N° 0988/2025):* Define al CURZAS como Complejo Universitario Regional y consolida en su Título X la Carrera Docente mediante informes anuales (Art. 74) y evaluaciones cuatrienales de permanencia ante jurados externos (Art. 75), instituyendo en el Art. 76 la formulación de programas anuales de capacitación departamental [@unco2025].
+* *Estatuto UNCo (Ordenanza CS N° 0988/2025):* Define al CURZA como Complejo Universitario Regional y consolida en su Título X (De la Carrera Docente, Arts. 64 a 78) la permanencia mediante informes periódicos (Art. 74) y evaluaciones cuatrienales ante jurados externos (Art. 75), garantizando en su Art. 76 la formación y perfeccionamiento gratuito mediante programas anuales departamentales [@unco2025].
 * *Reglamento de Carrera Docente (Ordenanza CS N° 0910/1997 y modif.):* Norma los procedimientos de presentación de informes docentes y encuestas estudiantiles en armonía con el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015) [@unco1997; @pen2015]. Si bien asegura solvencia jurídica en la acreditación de permanencia, no se identifican, en los cuerpos normativos y reglamentarios analizados preliminarmente, circuitos sistemáticos de retroalimentación formativa y confidencial, aspecto que el trabajo de campo empírico indagará en profundidad.
 * *Red de Nodos y Docencia Híbrida (Resolución CD-CURZA N° 196/2022):* Valida las mediaciones pedagógicas híbridas en la red de 10 Nodos Territoriales de la provincia de Río Negro [@curza2022], demandando competencias de tutoría virtual que actualmente no son ponderadas formativamente por los instrumentos evaluativos vigentes.
 
@@ -383,6 +359,8 @@ A diferencia de las investigaciones empíricas precedentes, la dimensión situad
 El análisis de antecedentes revela que, si bien la literatura ha explorado el modelo de retroalimentación 360° en el ámbito corporativo [@lepsinger2009] y en diversas universidades públicas latinoamericanas (como las experiencias analizadas en México y Cuba), no se identifican investigaciones empíricas focalizadas en la factibilidad integral (normativa, técnica, organizacional, cultural y de gobernanza) de este dispositivo en una unidad académica pública, descentralizada y patagónica como el CURZAS-UNCo, gobernada por cuerpos colegiados y con presencia territorial bajo modalidades híbridas de enseñanza. En dicha área de vacancia se inscribe el aporte del presente proyecto.
 
 {{< pagebreak >}}
+
+
 
 # Tercera parte de la estructura del Proyecto de investigación de TFG
 
@@ -513,7 +491,7 @@ Las actividades de investigación se estructuran en seis fases secuenciales coor
 ### Procesamiento y Análisis de Datos
 
 * *Análisis de datos cualitativos:* Las entrevistas transcriptas y los documentos normativos se analizan mediante análisis de contenido temático [@bardin2002; @sautu2005], agrupando los fragmentos discursivos en categorías correspondientes a las cinco dimensiones de factibilidad para identificar patrones, tensiones y condiciones señaladas por los informantes.
-* *Análisis de datos cuantitativos:* Los resultados del cuestionario digital se procesan mediante estadística descriptiva básica (distribuciones de frecuencias, porcentajes y medias por reactivo, excluyendo las respuestas NS/NC del cómputo de promedios para preservar la métrica psicométrica de la escala) empleando planillas estructuradas o paquetes de código abierto (R / PSPP). Se sintetizan tendencias generales sin inferencias probabilísticas desproporcionadas para la muestra diagnóstica.
+* *Análisis de datos cuantitativos:* Los resultados del cuestionario digital se procesan mediante estadística descriptiva básica (distribuciones de frecuencias, porcentajes, medidas de tendencia central y dispersión) empleando planillas estructuradas o paquetes estadísticos de código abierto (R / PSPP). Con el objeto de preservar la coherencia métrica e interpretar homogéneamente las medias por dimensión, los reactivos formulados en sentido inverso (negativo o restrictivo) son previamente recodificados de manera automatizada invirtiendo su escala (puntuación recodificada = 6 − puntuación original; donde 1 equivale a 5 y 5 equivale a 1) antes del cálculo de promedios, excluyendo las opciones NS/NC del cómputo de medias para salvaguardar la escala psicométrica. Se sintetizan tendencias generales sin inferencias probabilísticas desproporcionadas para la muestra diagnóstica.
 * *Triangulación de datos:* Siguiendo a @denzin1978 y @sautu2005, se contrastan de manera sistemática los tres corpus de datos: las prescripciones estatutarias, los testimonios en profundidad y las frecuencias del sondeo. El propósito consiste en ponderar la coherencia entre lo normado, lo viable técnicamente y lo aceptado culturalmente por la comunidad académica.
 
 ### Consideraciones Éticas
@@ -593,6 +571,8 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 
 {{< pagebreak >}}
 
+
+
 # Referencias Bibliográficas {.unnumbered}
 
 ::: {#refs}
@@ -653,12 +633,12 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 | 5 | La administración de cuestionarios breves no generaría una sobrecarga en las tareas habituales de cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 6 | La incorporación de un dispositivo evaluativo adicional aumentaría innecesariamente la sobrecarga de trabajo del Departamento. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 7 | Los resultados diagnósticos consolidados deberían orientar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 8 | Estaría dispuesto/a a participar voluntariamente de una prueba piloto experimental de autoevaluación y retroalimentación 360° en mi cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 9 | El intercambio pedagógico entre docentes de cátedras afines generaría tensiones en el equipo de trabajo. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 10 | Los estudiantes carecen de criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 11 | Considero enriquecedor recibir comentarios constructivos de colegas sobre la labor pedagógica cotidiana. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 12 | Una propuesta evaluativa formativa debe ser deliberada y consensuada con la representación gremial docente (ADUNC). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 13 | El clima institucional del Departamento dificulta el diálogo sincero sobre las dificultades didácticas en la enseñanza. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 12 | Las particularidades pedagógicas de las aulas híbridas y Nodos Territoriales no ameritan dimensiones evaluativas específicas respecto a la sede central. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 13 | Una propuesta evaluativa formativa debe ser deliberada y consensuada con la representación gremial docente (ADUNC). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
 *Nota.* La batería comprende 13 reactivos estructurados (8 en sentido directo y 5 en sentido invertido para neutralizar el sesgo de aquiescencia) y 2 preguntas abiertas cualitativas (total: 15 ítems). La opción NS/NC se procesa como porcentaje independiente de no respuesta y se excluye del cálculo de medias.
 
@@ -775,4 +755,3 @@ Departamento de Administración Pública — CURZAS-UNCo
 | *Firma (o validación digital):* | __________________________________________________ |
 | *Aclaración de Firma:* | __________________________________________________ |
 | *Rol / Actor institucional:* | ☐ Docente &nbsp;&nbsp;&nbsp;&nbsp; ☐ Estudiante &nbsp;&nbsp;&nbsp;&nbsp; ☐ Autoridad &nbsp;&nbsp;&nbsp;&nbsp; ☐ Representante Gremial |
-

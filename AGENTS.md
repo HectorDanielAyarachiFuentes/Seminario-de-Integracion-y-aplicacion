@@ -79,6 +79,7 @@ El proyecto opera bajo un modelo de colaboración simbiótica entre dos motores 
 
 ### 1. Documentación Normativa y Reglas Específicas
 * **Reglas Académicas y Estándar Operativo Integral:** Ver [.agents/rules/AGENTS.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/AGENTS.md).
+* **Control Bibliográfico y Antialucinación:** Ver [.agents/rules/control_bibliografico.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/control_bibliografico.md).
 * **Pautas Específicas de GitNexus (Código):** Ver [.agents/rules/gitnexus.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/gitnexus.md).
 * **Pautas Específicas de NotebookLM (Investigación):** Ver [.agents/rules/notebooklm.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/notebooklm.md).
 * **Pautas de Estilo Visual y Normas APA 7ma Edición:** Ver [.agents/rules/supreme_guidelines.md](file:///c:/Users/Ramoncito/.antigravity-ide/Seminario%20de%20Integraci%C3%B3n%20y%20Aplicaci%C3%B3n/.agents/rules/supreme_guidelines.md).
