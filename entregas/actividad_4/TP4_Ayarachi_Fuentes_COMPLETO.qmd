@@ -117,10 +117,10 @@ Año 2026
 
 ```{=typst}
 #set page(numbering: none)
-#show outline.entry: set text(size: 8.5pt)
-#show outline.entry: set block(spacing: 0.45em)
+#show outline.entry: set text(size: 11pt)
+#show outline.entry: set block(spacing: 0.75em)
 #show outline.entry.where(level: 1): set text(weight: "bold")
-#outline(title: [Índice de Contenidos], indent: 1.2em, depth: 3)
+#outline(title: [Índice de Contenidos], indent: 1.5em, depth: 2)
 ```
 
 ::: {.content-visible when-format="docx"}
@@ -130,7 +130,7 @@ Año 2026
 <w:p>
   <w:r>
     <w:fldChar w:fldCharType="begin"/>
-    <w:instrText xml:space="preserve"> TOC \o "1-3" \h \z \u </w:instrText>
+    <w:instrText xml:space="preserve"> TOC \o "1-2" \h \z \u </w:instrText>
     <w:fldChar w:fldCharType="separate"/>
     <w:fldChar w:fldCharType="end"/>
   </w:r>
@@ -259,7 +259,7 @@ La investigación se justifica en tres planos complementarios. Cada uno de ellos
 
 {{< pagebreak >}}
 
-### Matriz de Consistencia Metodológica y Articulación con Longo (2006)
+## Matriz de Consistencia Metodológica y Articulación con Longo (2006)
 
 **Tabla 1**  
 *Matriz de Consistencia Metodológica y Articulación con el Modelo de Francisco Longo (2006)*
@@ -376,7 +376,7 @@ A diferencia de las investigaciones empíricas precedentes, la dimensión situad
 * *Reglamento de Carrera Docente (Ordenanza CS N° 0910/1997 y modif.):* Norma los procedimientos de presentación de informes docentes y encuestas estudiantiles en armonía con el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015) [@unco1997; @pen2015]. Si bien asegura solvencia jurídica en la acreditación de permanencia, los registros evidencian la ausencia de circuitos sistemáticos de retroalimentación formativa y confidencial.
 * *Red de Nodos y Docencia Híbrida (Resolución CD-CURZA N° 196/2022):* Valida las mediaciones pedagógicas híbridas en las 10 localidades que integran la red territorial en la Línea Sur, Valle Medio y Costa Atlántica rionegrina [@curza2022], demandando competencias de tutoría virtual que actualmente no son ponderadas formativamente por los instrumentos evaluativos vigentes.
 
-### Síntesis Integradora y Vacancia de la Investigación
+## Síntesis Integradora y Vacancia de la Investigación
 
 El análisis de antecedentes revela que, si bien la literatura ha explorado la validez métrica del modelo 360° en ámbitos privados y se han estudiado las dinámicas de la carrera académica en grandes centros urbanos, no se identifican investigaciones empíricas focalizadas en la factibilidad integral (normativa, técnica, organizacional, cultural y de gobernanza) de un modelo de retroalimentación multiactoral (360°) en una unidad académica pública, descentralizada y patagónica, gobernada por cuerpos colegiados y con presencia territorial bajo modalidades híbridas de enseñanza. En dicha área de vacancia se inscribe el aporte del presente proyecto.
 
