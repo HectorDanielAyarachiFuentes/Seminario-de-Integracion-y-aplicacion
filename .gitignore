@@ -49,3 +49,6 @@ auth.json
 # Dependencias y herramientas externas
 node_modules/
 .claude/
+
+# Skills de auditoría externos
+auditor/
