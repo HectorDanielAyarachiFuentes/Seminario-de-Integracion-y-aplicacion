@@ -73,7 +73,7 @@ Se articulan tres técnicas complementarias:
 ### Matriz de Operacionalización
 
 **Tabla 2**  
-*Matriz de Operacionalización de Variables y Dimensiones de Factibilidad (Parte 1: Dimensiones 1 a 3)*
+*Matriz de Operacionalización de Variables y Dimensiones de Factibilidad (Parte 1: Dimensiones 1 y 2)*
 
 | Dimensión | Variable | Definición Operacional | Indicadores Empíricos | Fuentes e Instrumentos |
 | :--- | :--- | :--- | :--- | :--- |
@@ -82,16 +82,16 @@ Se articulan tres técnicas complementarias:
 | **2. Técnica e Instrumental** | Plataforma y usabilidad | Accesibilidad de plataformas institucionales (Moodle/SIU) para formularios estructurados. | • Disponibilidad de servidores en Viedma y Nodos.<br>• Tiempo de respuesta menor a 15 minutos. | Personal informático y usuarios.<br>*Ficha técnica y sondeo exploratorio.* |
 | | Confidencialidad y anonimato | Medidas de diseño para evitar la reidentificación de los participantes. | • Inhabilitación de registro de IP y metadatos.<br>• Protocolo de anonimización en origen (tokens aleatorios de un solo uso) en sondeos.<br>• Seudonimización estricta (claves alfanuméricas) en entrevistas cualitativas.<br>• Custodia técnica neutral externa a la Dirección ejecutiva.<br>• Regla de umbral mínimo de protección: emisión de reportes individuales únicamente en asignaturas con 5 o más respuestas ($n \ge 5$); en cursos con menor participación se suprimen reportes desagregados y los datos se integran exclusivamente al informe agregado del área. | Plataforma digital, prueba piloto y protocolos éticos.<br>*Auditoría técnica y matriz de resguardo.* |
 | | Mitigación de fatiga | Criterios de brevedad para evitar sobrecarga en asignaturas compartidas. | • Límite estricto de reactivos (hasta 15 ítems).<br>• Frecuencia diagnóstica anual. | Respondientes en prueba piloto.<br>*Cuestionario exploratorio.* |
-| **3. Organizacional y Procedimental** | Capacidad departamental | Circuitos y tiempos de gestión para procesar información y coordinar devoluciones. | • Circuitos internos de procesamiento.<br>• Plazos de emisión de reportes globales. | Dirección departamental y docentes.<br>*Entrevistas y revisión de circuitos.* |
-| | Articulación con Art. 76 | Canalización de demandas hacia el Programa Anual de Capacitación Docente. | • Registro temático de necesidades prioritarias.<br>• Transferencia formal de insumos al plan anual. | Programas anuales de formación y actas.<br>*Ficha documental y entrevistas.* |
 
 {{< pagebreak >}}
 
 **Tabla 2 (Continuación)**  
-*Matriz de Operacionalización de Variables y Dimensiones de Factibilidad (Parte 2: Dimensiones 4 y 5)*
+*Matriz de Operacionalización de Variables y Dimensiones de Factibilidad (Parte 2: Dimensiones 3 a 5)*
 
 | Dimensión | Variable | Definición Operacional | Indicadores Empíricos | Fuentes e Instrumentos |
 | :--- | :--- | :--- | :--- | :--- |
+| **3. Organizacional y Procedimental** | Capacidad departamental | Circuitos y tiempos de gestión para procesar información y coordinar devoluciones. | • Circuitos internos de procesamiento.<br>• Plazos de emisión de reportes globales. | Dirección departamental y docentes.<br>*Entrevistas y revisión de circuitos.* |
+| | Articulación con Art. 76 | Canalización de demandas hacia el Programa Anual de Capacitación Docente. | • Registro temático de necesidades prioritarias.<br>• Transferencia formal de insumos al plan anual. | Programas anuales de formación y actas.<br>*Ficha documental y entrevistas.* |
 | **4. Cultural y Actitudinal** | Confianza institucional | Predisposición favorable y percepción de seguridad frente a la retroalimentación. | • Nivel de confianza declarado en el fin formativo.<br>• Disposición a recibir comentarios de pares. | Docentes del Departamento.<br>*Cuestionario exploratorio y entrevistas.* |
 | | Autorreflexión docente | Valoración de la autoevaluación como herramienta de perfeccionamiento pedagógico. | • Práctica habitual de reflexión sobre la enseñanza.<br>• Interés en confrontar autopercepción con pares. | Docentes del Departamento.<br>*Cuestionario exploratorio y entrevistas.* |
 | | Pertinencia del juicio estudiantil | Criterio y seriedad en la valoración estudiantil del acompañamiento pedagógico. | • Percepción docente sobre el juicio estudiantil.<br>• Valoración estudiantil de su propio rol. | Estudiantes regulares y docentes.<br>*Cuestionario a estudiantes y entrevistas.* |
