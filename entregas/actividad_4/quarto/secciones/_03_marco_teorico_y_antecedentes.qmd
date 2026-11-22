@@ -102,7 +102,7 @@ A diferencia de las investigaciones empíricas precedentes, la dimensión situad
 
 ## Síntesis Integradora y Vacancia de la Investigación
 
-El análisis de antecedentes revela que, si bien la literatura ha explorado la validez métrica del modelo 360° en ámbitos privados y se han estudiado las dinámicas de la carrera académica en grandes centros urbanos, no se identifican investigaciones empíricas focalizadas en la factibilidad integral (normativa, técnica, organizacional, cultural y de gobernanza) de un modelo de retroalimentación multiactoral (360°) en una unidad académica pública, descentralizada y patagónica, gobernada por cuerpos colegiados y con presencia territorial bajo modalidades híbridas de enseñanza. En dicha área de vacancia se inscribe el aporte del presente proyecto.
+El análisis de antecedentes revela que, si bien la literatura ha explorado el modelo de retroalimentación 360° en el ámbito corporativo [@lepsinger2009] y en diversas universidades públicas latinoamericanas (como las experiencias analizadas en México y Cuba), no se identifican investigaciones empíricas focalizadas en la factibilidad integral (normativa, técnica, organizacional, cultural y de gobernanza) de este dispositivo en una unidad académica pública, descentralizada y patagónica como el CURZAS-UNCo, gobernada por cuerpos colegiados y con presencia territorial bajo modalidades híbridas de enseñanza. En dicha área de vacancia se inscribe el aporte del presente proyecto.
 
 {{< pagebreak >}}
 

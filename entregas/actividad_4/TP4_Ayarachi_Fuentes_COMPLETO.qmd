@@ -240,7 +240,7 @@ En el marco de la gestión pública [@longo2006; @matus1993], la factibilidad re
 
 La investigación se justifica en tres planos complementarios. Cada uno de ellos fundamenta la relevancia del caso desde una perspectiva disciplinar, institucional y profesional:
 
-* *Plano Cognitivo y Disciplinar:* Aporta evidencia empírica situada sobre la evaluación del rendimiento en universidades públicas patagónicas. La literatura sobre modelos 360° proviene predominantemente del ámbito corporativo o de universidades privadas [@lepsinger2009]; investigar su adaptación a una universidad pública cogobernada y con docencia híbrida contribuye al análisis de las capacidades estatales y la gestión de personas en el sector público [@longo2006; @oszlak2020].
+* *Plano Cognitivo y Disciplinar:* Aporta evidencia empírica situada sobre la evaluación del rendimiento en universidades públicas patagónicas. La literatura sobre modelos 360° se originó predominantemente en el ámbito corporativo [@lepsinger2009] y se ha extendido a universidades latinoamericanas; investigar su adaptación y factibilidad en una universidad pública argentina con cogobierno y docencia híbrida contribuye al análisis de las capacidades estatales y la gestión de personas en el sector público [@longo2006; @oszlak2020].
 * *Plano Social e Institucional:* Proporciona al Departamento de Administración Pública un diagnóstico riguroso sobre las percepciones y demandas formativas de su comunidad académica. Permite indagar cómo los docentes valoran el intercambio reflexivo con colegas, cómo los estudiantes pueden aportar juicios pedagógicos constructivos más allá de la encuesta sumativa de fin de curso, y qué capacidades de procesamiento requiere la conducción institucional.
 * *Plano Personal y Profesional:* Consolida la trayectoria del tesista integrando la formación de base como Técnico Superior en Recursos Humanos con el Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos Humanos, aplicando herramientas de diagnóstico organizacional al fortalecimiento de la educación pública regional.
 
@@ -380,7 +380,7 @@ A diferencia de las investigaciones empíricas precedentes, la dimensión situad
 
 ## Síntesis Integradora y Vacancia de la Investigación
 
-El análisis de antecedentes revela que, si bien la literatura ha explorado la validez métrica del modelo 360° en ámbitos privados y se han estudiado las dinámicas de la carrera académica en grandes centros urbanos, no se identifican investigaciones empíricas focalizadas en la factibilidad integral (normativa, técnica, organizacional, cultural y de gobernanza) de un modelo de retroalimentación multiactoral (360°) en una unidad académica pública, descentralizada y patagónica, gobernada por cuerpos colegiados y con presencia territorial bajo modalidades híbridas de enseñanza. En dicha área de vacancia se inscribe el aporte del presente proyecto.
+El análisis de antecedentes revela que, si bien la literatura ha explorado el modelo de retroalimentación 360° en el ámbito corporativo [@lepsinger2009] y en diversas universidades públicas latinoamericanas (como las experiencias analizadas en México y Cuba), no se identifican investigaciones empíricas focalizadas en la factibilidad integral (normativa, técnica, organizacional, cultural y de gobernanza) de este dispositivo en una unidad académica pública, descentralizada y patagónica como el CURZAS-UNCo, gobernada por cuerpos colegiados y con presencia territorial bajo modalidades híbridas de enseñanza. En dicha área de vacancia se inscribe el aporte del presente proyecto.
 
 {{< pagebreak >}}
 
@@ -539,9 +539,9 @@ El proyecto se planifica en un lapso de 7 meses continuos articulados con las se
 
 | Etapa / Actividad Metodológica | May 27 | Jun 27 | Jul 27 | Ago 27 | Sep 27 | Oct 27 | Nov 27 |
 | :-------------------------------------------- | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-| 1. Presentación formal del Proyecto y trámite de avales (Fase 1) | **X** | | | | | | |
-| 2. Gestión de avales y diseño de instrumentos (Fase 1) | **X** | | | | | | |
-| 3. Prueba piloto de instrumentos (Fase 1) | **X** | | | | | | |
+| 1. Presentación formal del Proyecto y solicitud de aval (Fase 1) | **X** | | | | | | |
+| 2. Calibración y parametrización de instrumentos (Fase 1) | **X** | | | | | | |
+| 3. Prueba piloto de instrumentos con docentes y estudiantes (Fase 1) | **X** | | | | | | |
 | 4. Trabajo de campo: normativa y entrevistas (Fase 2) | | **X** | | | | | |
 | 5. Trabajo de campo: sondeo en Viedma y Nodos (Fase 3) | | **X** | **X** | | | | |
 | 6. Procesamiento de datos y triangulación (Fase 4) | | | | **X** | | | |
