@@ -51,21 +51,21 @@
 
 | N° | Reactivo | 1 | 2 | 3 | 4 | 5 | NS/NC |
 |:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:--------:|
-| 1 | La evaluación docente debería orientarse prioritariamente a la retroalimentación formativa y no al control administrativo formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 2 | Considero indispensable que los reportes individuales no integren legajos de permanencia ni concursos laborales. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1 | La evaluación docente debería orientarse prioritariamente a la retroalimentación formativa y no al control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2 | Los reportes de retroalimentación docente no deben utilizarse con consecuencias de permanencia laboral. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios confidenciales. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 4 | Confío en que los dispositivos informáticos del CURZAS pueden garantizar la reserva técnica de las respuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4 | Desconfío de que los sistemas informáticos del CURZAS puedan garantizar la reserva técnica de las respuestas. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 5 | La administración de cuestionarios breves no generaría una sobrecarga en las tareas habituales de cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 6 | La incorporación de nuevos instrumentos evaluativos aumentaría innecesariamente la sobrecarga burocrática del Departamento. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 6 | La incorporación de un dispositivo evaluativo adicional aumentaría innecesariamente la sobrecarga de trabajo del Departamento. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 7 | Los resultados diagnósticos consolidados deberían orientar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 9 | La retroalimentación entre docentes de cátedras afines podría generar tensiones o desconfianza en el equipo docente. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 10 | Considero enriquecedor recibir comentarios constructivos de colegas sobre la labor pedagógica cotidiana. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 11 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 9 | El intercambio pedagógico entre docentes de cátedras afines generaría tensiones en el equipo de trabajo. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 10 | Los estudiantes carecen de criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 11 | Considero enriquecedor recibir comentarios constructivos de colegas sobre la labor pedagógica cotidiana. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 12 | Una propuesta evaluativa formativa debe ser deliberada y consensuada con la representación gremial docente (ADUNC). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 13 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y mediación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 13 | El clima institucional del Departamento dificulta el diálogo sincero sobre las dificultades didácticas en la enseñanza. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
-*Nota.* La batería comprende 13 reactivos estructurados (incluyendo ítems en sentido directo e invertido para mitigar el sesgo de aquiescencia) y 2 preguntas abiertas cualitativas (total: 15 ítems). La opción NS/NC se procesa como porcentaje independiente de no respuesta y se excluye del cálculo de medias.
+*Nota.* La batería comprende 13 reactivos estructurados (8 en sentido directo y 5 en sentido invertido para neutralizar el sesgo de aquiescencia) y 2 preguntas abiertas cualitativas (total: 15 ítems). La opción NS/NC se procesa como porcentaje independiente de no respuesta y se excluye del cálculo de medias.
 
 *Preguntas Abiertas para Docentes y Autoridades:*
 
@@ -84,17 +84,17 @@
 | N° | Reactivo Adaptado para Estudiantes | 1 | 2 | 3 | 4 | 5 | NS/NC |
 |:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:--------:|
 | 1 | La evaluación docente debería orientarse a la mejora de la enseñanza y no a un mero control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 2 | Las plataformas institucionales (Moodle/SIU) son adecuadas para responder consultas pedagógicas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 3 | Confío en que el sistema informático de la universidad garantiza el anonimato técnico de mis respuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 4 | Los cuestionarios evaluativos habituales resultan extensos y desmotivan la participación del estudiantado. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 5 | Los estudiantes contamos con criterio y seriedad para opinar sobre el acompañamiento pedagógico recibido. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2 | Las plataformas institucionales (Moodle/SIU) resultan accesibles para responder consultas pedagógicas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 3 | Desconfío de que el sistema informático de la universidad garantice la reserva de mis respuestas. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4 | Los cuestionarios evaluativos habituales resultan extensos y desmotivan la participación estudiantil. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 5 | Los estudiantes contamos con criterio para opinar con seriedad sobre el acompañamiento pedagógico recibido. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 6 | Considero valioso que los docentes realicen una autoevaluación reflexiva sobre sus prácticas de enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 7 | La opinión del estudiantado suele ser desestimada o carece de impacto real en la mejora de las cátedras. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 8 | En la carrera existe un clima de confianza que permite dialogar con los profesores sobre dificultades didácticas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 9 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 7 | Las opiniones del estudiantado suelen ser desestimadas en las decisiones de mejora de las cátedras. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 8 | En la carrera existe un clima adecuado para dialogar con los profesores sobre dificultades de aprendizaje. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 9 | En las cursadas híbridas, la comunicación tutorial virtual resulta distante e insuficiente. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 10 | Estaría dispuesto/a a responder con compromiso una consulta formativa sobre el desempeño de la cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
-*Nota.* Formulario adaptado a la posición situada del estudiante (10 reactivos Likert directos e invertidos más 2 preguntas abiertas cualitativas, total: 12 ítems). La opción NS/NC se procesa como porcentaje independiente y se excluye del cómputo de medias.
+*Nota.* Formulario adaptado a la posición situada del estudiante (6 reactivos directos y 4 invertidos para equilibrar la escala psicométrica, más 2 preguntas abiertas, total: 12 ítems). La opción NS/NC se procesa como porcentaje independiente y se excluye del cómputo de medias.
 
 *Preguntas Abiertas para Estudiantes:*
 

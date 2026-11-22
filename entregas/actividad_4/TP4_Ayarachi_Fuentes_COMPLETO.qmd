@@ -149,7 +149,7 @@ Año 2026
   #set par(first-line-indent: 0pt)
   #text(weight: "bold", size: 12pt)[Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)] \
   #v(0.4em)
-  #text(style: "italic", size: 11pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23]
+  #text(style: "italic", size: 11pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZA N° 266/23]
 ]
 #v(0.3em)
 ```
@@ -157,7 +157,7 @@ Año 2026
 ::: {.content-visible when-format="docx"}
 ::: {align="center"}
 **Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)**  
-*(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23)*
+*(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZA N° 266/23)*
 :::
 
 <br>
@@ -359,17 +359,16 @@ Conforme a las pautas metodológicas de @torraco2016 y @jimenez2008, el relevami
 
 ### Antecedentes Internacionales y Regionales de Investigación Empírica
 
-* @sifuentes2016 evaluaron en México la aceptación de un instrumento 360° en docentes de educación superior mediante encuestas a profesores, directivos y alumnos. Concluyeron que el modelo alcanza una amplia aceptación mayoritaria entre el profesorado y los equipos directivos (superior al 80%), siempre que se asegure el estricto anonimato, la entrega de reportes individuales y la ausencia de sanciones administrativas.
+* @sifuentes2016 desarrollaron una propuesta metodológica para la aplicación de la evaluación de 360° al personal docente de nivel superior en México. Su modelo adapta los principios de la gestión de recursos humanos al contexto universitario articulando cuatro fuentes de valoración (autoevaluación, coordinación académica, estudiantes y pares docentes), y fundamenta las condiciones operativas necesarias para su viabilidad: confidencialidad estricta en el manejo de resultados, elección concertada de evaluadores y capacitación previa para evitar sesgos en la retroalimentación.
 * @obando2014 investigaron en Cuba un sistema de evaluación 360° articulado con portafolios electrónicos. Demostraron que la triangulación multiactoral mitiga sesgos de complacencia o desquite propios de las encuestas estudiantiles aisladas y estimula la autorreflexión docente, evidenciando la viabilidad técnica de procesar evaluaciones multidireccionales en entornos virtuales.
 * @reyes2020 examinaron mediante metodología mixta el sistema de evaluación docente de una universidad pública mexicana. Constataron que las evaluaciones sumativas generan un cumplimiento meramente formal y desconfianza en el profesorado, advirtiendo que toda innovación evaluativa en la universidad pública requiere legitimación gremial y orientación explícita a la mejora formativa.
 * @alvarado2019 desarrollaron en la UNAM una propuesta 360° que pondera docencia, tutoría y gestión institucional, aportando criterios para operacionalizar cuestionarios estructurados y articularlos con planes de actualización pedagógica.
-* @perez2021 evaluaron en Colombia la aplicación de la metodología 360° en tutorías presenciales y virtuales de educación superior (*Revista Unaciencia*). Concluyeron que el modelo multidireccional capta competencias pedagógicas y tutoriales (comunicación asertiva, acompañamiento digital) con mayor precisión que las rúbricas estandarizadas, aportando un antecedente relevante para entornos de enseñanza híbridos.
+* @perez2021 analizaron la aplicación de la metodología de 360° a los programas de tutoría presencial y en línea en universidades públicas (publicado en la revista *Unaciencia*). Concluyeron que la retroalimentación multiactoral permite valorar competencias de acompañamiento pedagógico y comunicación digital con mayor riqueza diagnóstica que los instrumentos estandarizados unidireccionales, aportando un antecedente relevante para la docencia en entornos híbridos.
 
 ### Antecedentes Nacionales sobre Evaluación Docente Universitaria
 
-* @marquina2007 y @marquina2012 analizaron las tensiones de la profesión académica y de los dispositivos evaluativos en universidades públicas argentinas. Constatan que los mecanismos tradicionales de permanencia y concursos periódicos suelen priorizar la acreditación formal de posgrados y la producción científica por sobre la calidad didáctica en las aulas de grado, y advierten que los regímenes burocrático-sumativos garantizan solvencia jurídica pero carecen de canales formativos que orienten el perfeccionamiento pedagógico continuo de los docentes en ejercicio. Este diagnóstico fundamenta la necesidad de dispositivos orientados específicamente a la retroalimentación formativa de la enseñanza.
-* @chiroleu2003 examinó las políticas de regulación y evaluación del trabajo académico en las universidades nacionales argentinas, subrayando cómo las exigencias evaluativas externas e internas reconfiguran la autonomía docente y demandan resguardos institucionales para no desvirtuar el sentido colegiado de la labor universitaria.
-* @rinesi2015 reflexionó sobre la universidad pública argentina concebida como un derecho individual y colectivo, planteando que la democratización de la enseñanza superior exige superar la evaluación entendida como mero control punitivo o fiscalización administrativa, para transformarla en una práctica reflexiva y compartida de fortalecimiento pedagógico ante la comunidad.
+* @marquina2012 analizó las transformaciones de la profesión académica en las universidades públicas argentinas, señalando que los mecanismos tradicionales de ingreso y permanencia suelen focalizarse en la acreditación de posgrados y la productividad en investigación, coexistiendo con una relativa vacancia de dispositivos colegiados orientados específicamente a la retroalimentación y al fortalecimiento de las prácticas pedagógicas en el aula universitaria.
+* En el contexto universitario nacional, la producción académica ha abordado ampliamente las regulaciones estatutarias y los concursos docentes, pero se constata una marcada escasez de antecedentes empíricos sobre la aplicación de modelos de retroalimentación 360° en universidades públicas argentinas, confirmando la pertinencia del caso de estudio en el CURZAS-UNCo.
 
 ### Marco Normativo e Institucional Situado (UNCo y CURZAS)
 
@@ -428,7 +427,7 @@ Para evitar ambigüedades metodológicas [@wainerman2011], se establece una clar
 
 Tratándose de una investigación con diseño mixto de predominio cualitativo (CUAL → cuan) ejecutada por un único tesista, se implementa un muestreo no probabilístico orientado a la representatividad sustantiva y teórica [@sautu2005; @glaser1967]:
 
-* *Submuestra Cualitativa (n = 9 informantes clave):* Muestreo intencional y por criterios teóricos [@sautu2005]. El principio de saturación teórica [@glaser1967] se aplicará estrictamente al subgrupo de docentes de cátedra ($n = 4$), hasta constatar que no emergen nuevas dimensiones sobre la práctica de enseñanza y la disposición a la coevaluación. Los informantes de gestión académica ($n = 2$), la representación paritaria gremial ($n = 1$) y los estudiantes ($n = 2$) operan como *casos ilustrativos de contraste y qualified institutional informants*, aportando criterios institucionales y perspectivas situadas diferenciadas:
+* *Submuestra Cualitativa (n = 9 informantes clave):* Muestreo intencional y por criterios teóricos [@sautu2005]. El principio de saturación teórica [@glaser1967] se aplicará estrictamente al subgrupo de docentes de cátedra ($n = 4$), hasta constatar que no emergen nuevas dimensiones sobre la práctica de enseñanza y la disposición a la coevaluación. Los informantes de gestión académica ($n = 2$), la representación paritaria gremial ($n = 1$) y los estudiantes ($n = 2$) operan como *casos ilustrativos de contraste e informantes institucionales calificados*, aportando criterios institucionales y perspectivas situadas diferenciadas:
   - 4 docentes de cátedra (cátedras unipersonales vs. colegiadas, dedicación simple vs. exclusiva, y sede Viedma vs. Nodos).
   - 2 autoridades académicas (Dirección del Departamento y Coordinación de Carrera).
   - 1 representante paritario de ADUNC.
@@ -456,7 +455,7 @@ Esta condición de pertenencia institucional brinda ventajas analíticas signifi
 1. *Sesgo de deseabilidad social:* La posibilidad de que tanto los docentes como los estudiantes modulen sus respuestas ante el temor de emitir juicios críticos sobre la institución o ante la presunción de que el estudio persigue fines fiscalizadores.
 2. *Asimetrías de poder y conflicto de rol:* La tensión intrínseca a que un estudiante indague sobre el desempeño, la evaluación y las prácticas formativas de quienes ejercen la docencia o la gestión departamental.
 
-Para mitigar estas tensiones y garantizar la *vigilancia epistemológica* [@bourdieu2003; @wainerman2011], la estrategia metodológica incorpora salvaguardas explícitas: a) despersonalización institucional mediante pautas de entrevista estrictamente centradas en dimensiones conceptuales y normativas; b) administración de consentimientos informados escritos que garantizan la reserva absoluta de la identidad y la ausencia de consecuencias evaluativas o académicas; c) anonimato técnico informático en el sondeo cuantitativo y seudonimización con códigos alfanuméricos disociados en las entrevistas; d) triangulación de datos normativos, cualitativos y cuantitativos para contrastar juicios individuales con evidencias documentales independientes; y e) adopción de una actitud de extrañamiento reflexivo [@guber2004], suspendiendo prejuicios originados en la propia trayectoria como estudiante.
+Para mitigar estas tensiones y garantizar la *vigilancia epistemológica* [@bourdieu2003; @wainerman2011], la estrategia metodológica incorpora salvaguardas explícitas: a) despersonalización institucional mediante pautas de entrevista estrictamente centradas en dimensiones conceptuales y normativas; b) administración de consentimientos informados escritos que garantizan la reserva de la identidad y la ausencia de consecuencias evaluativas o académicas; c) anonimato técnico informático en el sondeo cuantitativo y seudonimización con códigos alfanuméricos disociados en las entrevistas; d) triangulación de datos normativos, cualitativos y cuantitativos para contrastar juicios individuales con evidencias documentales independientes; y e) adopción de una actitud de extrañamiento reflexivo [@guber2004], suspendiendo prejuicios originados en la propia trayectoria como estudiante.
 
 ### Técnicas e Instrumentos de Recolección de Datos
 
@@ -478,7 +477,7 @@ Se articulan tres técnicas complementarias:
 | **1. Normativa y Estatutaria** | Compatibilidad jurídica | Adecuación al Estatuto UNCo, Carrera Docente y CCT Docente (Decreto N° 1246/2015). | • Articulación con informes anuales y evaluaciones cuatrienales.<br>• Preservación de la estabilidad y libertad de cátedra. | Estatuto UNCo, Ord. CS N° 0910/1997 y CCT.<br>*Ficha de análisis documental.* |
 | | No sumatividad estatutaria | Resguardo de que el dispositivo carezca de consecuencias punitivas o contractuales. | • Cláusula de destino formativo exclusivo.<br>• Desvinculación de jurados de permanencia. | Normativa de carrera y actas paritarias.<br>*Ficha documental y entrevista gremial.* |
 | **2. Técnica e Instrumental** | Plataforma y usabilidad | Accesibilidad de plataformas institucionales (Moodle/SIU) para formularios estructurados. | • Disponibilidad de servidores en Viedma y Nodos.<br>• Tiempo de respuesta menor a 15 minutos. | Personal informático y usuarios.<br>*Ficha técnica y sondeo exploratorio.* |
-| | Confidencialidad y anonimato | Medidas de diseño para evitar la reidentificación de los participantes. | • Inhabilitación de registro de IP y metadatos.<br>• Protocolo de anonimización en origen (tokens aleatorios de un solo uso) en sondeos.<br>• Seudonimización estricta (claves alfanuméricas) en entrevistas cualitativas.<br>• Custodia técnica neutral externa a la Dirección ejecutiva.<br>• Regla de umbral mínimo de protección: emisión de reportes individuales únicamente en asignaturas con 5 o más respuestas ($n \ge 5$); en cursos con menor participación se suprimen reportes desagregados y los datos se integran exclusivamente al informe agregado del área. | Plataforma digital, prueba piloto y protocolos éticos.<br>*Auditoría técnica y matriz de resguardo.* |
+| | Confidencialidad y reserva de identidad | Salvaguardas del estudio y criterios ético-técnicos para el modelo futuro. | *Protocolos de la investigación:*<br>• Anonimización en origen (tokens sin IP) en sondeos.<br>• Seudonimización alfanumérica y atribución funcional agregada en entrevistas.<br>*Criterios para el diseño del modelo 360° futuro:*<br>• Custodia técnica neutral externa a la Dirección.<br>• Umbral mínimo de reportes por curso ($n \ge 5$). | Plataforma digital, prueba piloto y protocolos éticos.<br>*Auditoría técnica y matriz de resguardo.* |
 | | Mitigación de fatiga | Criterios de brevedad para evitar sobrecarga en asignaturas compartidas. | • Límite estricto de reactivos (hasta 15 ítems).<br>• Frecuencia diagnóstica anual. | Respondientes en prueba piloto.<br>*Cuestionario exploratorio.* |
 
 {{< pagebreak >}}
@@ -504,7 +503,7 @@ Se articulan tres técnicas complementarias:
 
 Las actividades de investigación se estructuran en seis fases secuenciales coordinadas a lo largo de un lapso intensivo y viable de 7 meses de ejecución proyectados para el año 2027:
 
-* *Fase 1: Preparación, diseño y avales (Mes 1 / Mayo 2027):* Apertura formal del trabajo de campo tras la aprobación previa del Proyecto en el SIA (2026); solicitud formal de aval académico ante la Dirección del Departamento y el Decanato del CURZAS; delimitación censal nominal de la población docente y estudiantil; contacto informativo con ADUNC y Centro de Estudiantes; calibración de instrumentos y prueba piloto con 2 docentes y 5 estudiantes (quienes quedan formalmente excluidos de la muestra diagnóstica final). *Entregable:* Aval institucional e instrumentos validados.
+* *Fase 1: Presentación formal del Proyecto y avales (Mes 1 / Mayo 2027):* Presentación formal del Proyecto ante la Dirección departamental para la designación de Director/a (Art. 4°, Res. CD-CURZA N° 266/23) tras la aprobación del plan en el SIA (2026); tramitación del aval institucional de acceso al campo (Anexo III); delimitación censal nominal de las poblaciones; contacto con ADUNC y Centro de Estudiantes; calibración de instrumentos y prueba piloto con 2 docentes y 5 estudiantes (excluidos de la muestra final). *Entregable:* Nota de aval institucional e instrumentos calibrados.
 * *Fase 2: Relevamiento normativo y entrevistas (Mes 2 / Junio 2027):* Sistematización documental de estatutos, ordenanzas y CCT; concreción de las 9 entrevistas semiestructuradas a docentes, autoridades, dirigentes gremiales y estudiantes de sede y nodos; transcripción y codificación temática preliminar. *Entregable:* Fichas normativas y transcripciones codificadas.
 * *Fase 3: Aplicación del sondeo exploratorio (Meses 2–3 / Junio–Julio 2027):* Parametrización y lanzamiento del cuestionario digital a docentes y estudiantes de Viedma y Nodos Territoriales; apertura formal a mediados de junio previo a mesas de examen, ventana de respuesta extendida y seguimiento tras el receso invernal para optimizar la tasa de respuesta en la sede central y los Nodos Territoriales; cierre y depuración de la base de datos. *Entregable:* Base de datos anonimizada y depurada.
 * *Fase 4: Procesamiento analítico y triangulación (Mes 4 / Agosto 2027):* Procesamiento descriptivo del sondeo y análisis de contenido temático de las entrevistas; contrastación cruzada de fuentes normativas, testimoniales y cuantitativas. *Entregable:* Informe diagnóstico integrado de factibilidad.
@@ -540,7 +539,7 @@ El proyecto se planifica en un lapso de 7 meses continuos articulados con las se
 
 | Etapa / Actividad Metodológica | May 27 | Jun 27 | Jul 27 | Ago 27 | Sep 27 | Oct 27 | Nov 27 |
 | :-------------------------------------------- | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-| 1. Inscripción formal y consolidación operativa de campo (Fase 1) | **X** | | | | | | |
+| 1. Presentación formal del Proyecto y trámite de avales (Fase 1) | **X** | | | | | | |
 | 2. Gestión de avales y diseño de instrumentos (Fase 1) | **X** | | | | | | |
 | 3. Prueba piloto de instrumentos (Fase 1) | **X** | | | | | | |
 | 4. Trabajo de campo: normativa y entrevistas (Fase 2) | | **X** | | | | | |
@@ -549,7 +548,7 @@ El proyecto se planifica en un lapso de 7 meses continuos articulados con las se
 | 7. Redacción de Tesina y lineamientos (Fase 5) | | | | | **X** | **X** | |
 | 8. Revisión final y presentación formal del TFG (Fase 6) | | | | | | | **X** |
 
-*Nota.* Elaboración propia. La aprobación académica del Proyecto de TFG se consolida en el marco del cursado del SIA (2026); la planificación de 7 meses proyectada para el ciclo lectivo 2027 contempla la apertura formal de campo, diseño definitivo, recolección empírica, procesamiento y presentación formal de la Tesina ante mesa de entradas del CURZAS-UNCo (Res. CD-CURZA N° 266/23); los plazos de dictamen y la posterior fijación de fecha de defensa oral quedan supeditados a los tiempos reglamentarios del tribunal evaluador.
+*Nota.* Elaboración propia. La aprobación académica del Proyecto de TFG se consolida en el marco del cursado regular del SIA (2026); la planificación de 7 meses proyectada para el ciclo lectivo 2027 contempla la presentación formal del Proyecto ante el Departamento para el trámite de designación de Director/a (Art. 4°, Res. CD-CURZA N° 266/23), tramitación de avales institucionales, recolección empírica, procesamiento y presentación formal de la Tesina ante mesa de entradas del CURZAS-UNCo; los plazos de dictamen y la posterior fijación de fecha de defensa oral quedan supeditados a los tiempos reglamentarios del tribunal evaluador.
 
 {{< pagebreak >}}
 
@@ -647,21 +646,21 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 
 | N° | Reactivo | 1 | 2 | 3 | 4 | 5 | NS/NC |
 |:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:--------:|
-| 1 | La evaluación docente debería orientarse prioritariamente a la retroalimentación formativa y no al control administrativo formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 2 | Considero indispensable que los reportes individuales no integren legajos de permanencia ni concursos laborales. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1 | La evaluación docente debería orientarse prioritariamente a la retroalimentación formativa y no al control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2 | Los reportes de retroalimentación docente no deben utilizarse con consecuencias de permanencia laboral. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios confidenciales. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 4 | Confío en que los dispositivos informáticos del CURZAS pueden garantizar la reserva técnica de las respuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4 | Desconfío de que los sistemas informáticos del CURZAS puedan garantizar la reserva técnica de las respuestas. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 5 | La administración de cuestionarios breves no generaría una sobrecarga en las tareas habituales de cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 6 | La incorporación de nuevos instrumentos evaluativos aumentaría innecesariamente la sobrecarga burocrática del Departamento. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 6 | La incorporación de un dispositivo evaluativo adicional aumentaría innecesariamente la sobrecarga de trabajo del Departamento. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 7 | Los resultados diagnósticos consolidados deberían orientar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 9 | La retroalimentación entre docentes de cátedras afines podría generar tensiones o desconfianza en el equipo docente. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 10 | Considero enriquecedor recibir comentarios constructivos de colegas sobre la labor pedagógica cotidiana. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 11 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 9 | El intercambio pedagógico entre docentes de cátedras afines generaría tensiones en el equipo de trabajo. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 10 | Los estudiantes carecen de criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 11 | Considero enriquecedor recibir comentarios constructivos de colegas sobre la labor pedagógica cotidiana. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 12 | Una propuesta evaluativa formativa debe ser deliberada y consensuada con la representación gremial docente (ADUNC). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 13 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y mediación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 13 | El clima institucional del Departamento dificulta el diálogo sincero sobre las dificultades didácticas en la enseñanza. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
-*Nota.* La batería comprende 13 reactivos estructurados (incluyendo ítems en sentido directo e invertido para mitigar el sesgo de aquiescencia) y 2 preguntas abiertas cualitativas (total: 15 ítems). La opción NS/NC se procesa como porcentaje independiente de no respuesta y se excluye del cálculo de medias.
+*Nota.* La batería comprende 13 reactivos estructurados (8 en sentido directo y 5 en sentido invertido para neutralizar el sesgo de aquiescencia) y 2 preguntas abiertas cualitativas (total: 15 ítems). La opción NS/NC se procesa como porcentaje independiente de no respuesta y se excluye del cálculo de medias.
 
 *Preguntas Abiertas para Docentes y Autoridades:*
 
@@ -680,17 +679,17 @@ El tesista es alumno regular del Ciclo de Complementación Curricular de la Lice
 | N° | Reactivo Adaptado para Estudiantes | 1 | 2 | 3 | 4 | 5 | NS/NC |
 |:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:--------:|
 | 1 | La evaluación docente debería orientarse a la mejora de la enseñanza y no a un mero control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 2 | Las plataformas institucionales (Moodle/SIU) son adecuadas para responder consultas pedagógicas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 3 | Confío en que el sistema informático de la universidad garantiza el anonimato técnico de mis respuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 4 | Los cuestionarios evaluativos habituales resultan extensos y desmotivan la participación del estudiantado. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 5 | Los estudiantes contamos con criterio y seriedad para opinar sobre el acompañamiento pedagógico recibido. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2 | Las plataformas institucionales (Moodle/SIU) resultan accesibles para responder consultas pedagógicas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 3 | Desconfío de que el sistema informático de la universidad garantice la reserva de mis respuestas. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4 | Los cuestionarios evaluativos habituales resultan extensos y desmotivan la participación estudiantil. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 5 | Los estudiantes contamos con criterio para opinar con seriedad sobre el acompañamiento pedagógico recibido. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 6 | Considero valioso que los docentes realicen una autoevaluación reflexiva sobre sus prácticas de enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 7 | La opinión del estudiantado suele ser desestimada o carece de impacto real en la mejora de las cátedras. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 8 | En la carrera existe un clima de confianza que permite dialogar con los profesores sobre dificultades didácticas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 9 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 7 | Las opiniones del estudiantado suelen ser desestimadas en las decisiones de mejora de las cátedras. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 8 | En la carrera existe un clima adecuado para dialogar con los profesores sobre dificultades de aprendizaje. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 9 | En las cursadas híbridas, la comunicación tutorial virtual resulta distante e insuficiente. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 10 | Estaría dispuesto/a a responder con compromiso una consulta formativa sobre el desempeño de la cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
-*Nota.* Formulario adaptado a la posición situada del estudiante (10 reactivos Likert directos e invertidos más 2 preguntas abiertas cualitativas, total: 12 ítems). La opción NS/NC se procesa como porcentaje independiente y se excluye del cómputo de medias.
+*Nota.* Formulario adaptado a la posición situada del estudiante (6 reactivos directos y 4 invertidos para equilibrar la escala psicométrica, más 2 preguntas abiertas, total: 12 ítems). La opción NS/NC se procesa como porcentaje independiente y se excluye del cómputo de medias.
 
 *Preguntas Abiertas para Estudiantes:*
 
