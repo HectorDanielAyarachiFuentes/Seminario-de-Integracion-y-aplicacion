@@ -51,23 +51,21 @@
 
 | N° | Reactivo | 1 | 2 | 3 | 4 | 5 | NS/NC |
 |:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:--------:|
-| 1 | La evaluación docente debería orientarse principalmente a la mejora de la enseñanza y no al control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1 | La evaluación docente debería orientarse prioritariamente a la retroalimentación formativa y no al control administrativo formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 2 | Considero indispensable que los reportes individuales no integren legajos de permanencia ni concursos laborales. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios anónimos. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 4 | Confío en que el sistema informático puede garantizar el anonimato técnico de las respuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 5 | Un cuestionario breve (hasta 15 preguntas) es suficiente para evaluar la labor docente sin generar sobrecarga. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 6 | El Departamento dispone de capacidad organizativa para coordinar devoluciones diagnósticas oportunas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 7 | Los resultados consolidados deberían alimentar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 3 | Las plataformas institucionales (Moodle/SIU) son adecuadas para administrar cuestionarios confidenciales. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4 | Confío en que los dispositivos informáticos del CURZAS pueden garantizar la reserva técnica de las respuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 5 | La administración de cuestionarios breves no generaría una sobrecarga en las tareas habituales de cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 6 | La incorporación de nuevos instrumentos evaluativos aumentaría innecesariamente la sobrecarga burocrática del Departamento. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 7 | Los resultados diagnósticos consolidados deberían orientar el Programa Anual de Capacitación Docente (Art. 76 del Estatuto UNCo). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 8 | Estaría dispuesto/a a participar voluntariamente de una autoevaluación reflexiva sobre mi enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 9 | Considero enriquecedor recibir comentarios constructivos de colegas de cátedra sobre la labor docente. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 10 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 11 | En el Departamento existe un clima de confianza que permite dialogar sobre fortalezas y dificultades didácticas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 12 | Una propuesta evaluativa formativa debe ser debatida previamente en el Consejo Departamental. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 13 | El acuerdo de la representación gremial docente (ADUNC) es un requisito central para su viabilidad. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 14 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 15 | Estaría dispuesto/a a participar de una experiencia piloto voluntaria de retroalimentación multiactoral. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 9 | La retroalimentación entre docentes de cátedras afines podría generar tensiones o desconfianza en el equipo docente. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 10 | Considero enriquecedor recibir comentarios constructivos de colegas sobre la labor pedagógica cotidiana. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 11 | Los estudiantes cuentan con criterio suficiente para opinar con seriedad sobre el acompañamiento pedagógico. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 12 | Una propuesta evaluativa formativa debe ser deliberada y consensuada con la representación gremial docente (ADUNC). | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 13 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y mediación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
-*Nota.* La categoría NS/NC se procesa como porcentaje de desconocimiento/no respuesta y se excluye del cómputo de medias para preservar la escala de 1 a 5.
+*Nota.* La batería comprende 13 reactivos estructurados (incluyendo ítems en sentido directo e invertido para mitigar el sesgo de aquiescencia) y 2 preguntas abiertas cualitativas (total: 15 ítems). La opción NS/NC se procesa como porcentaje independiente de no respuesta y se excluye del cálculo de medias.
 
 *Preguntas Abiertas para Docentes y Autoridades:*
 
@@ -85,20 +83,18 @@
 
 | N° | Reactivo Adaptado para Estudiantes | 1 | 2 | 3 | 4 | 5 | NS/NC |
 |:----:|:----------------------------------------------------------|:---:|:---:|:---:|:---:|:---:|:--------:|
-| 1 | La evaluación docente debería orientarse a la mejora de la enseñanza y no a un control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 2 | Las plataformas institucionales (Moodle/SIU) son adecuadas para responder encuestas académicas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 1 | La evaluación docente debería orientarse a la mejora de la enseñanza y no a un mero control formal. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 2 | Las plataformas institucionales (Moodle/SIU) son adecuadas para responder consultas pedagógicas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 3 | Confío en que el sistema informático de la universidad garantiza el anonimato técnico de mis respuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 4 | Un cuestionario breve (hasta 15 preguntas) favorece una mayor participación estudiantil. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 5 | Los estudiantes contamos con criterio y seriedad suficientes para opinar sobre la enseñanza recibida. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 4 | Los cuestionarios evaluativos habituales resultan extensos y desmotivan la participación del estudiantado. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 5 | Los estudiantes contamos con criterio y seriedad para opinar sobre el acompañamiento pedagógico recibido. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 6 | Considero valioso que los docentes realicen una autoevaluación reflexiva sobre sus prácticas de enseñanza. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 7 | Considero positivo que los docentes reciban miradas constructivas de sus colegas de cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 7 | La opinión del estudiantado suele ser desestimada o carece de impacto real en la mejora de las cátedras. *(Ítem con sentido invertido)* | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 8 | En la carrera existe un clima de confianza que permite dialogar con los profesores sobre dificultades didácticas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 9 | En los Nodos Territoriales deben evaluarse aspectos específicos de tutoría y comunicación virtual. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 10 | Sería positivo que el Departamento comparta con los estudiantes devoluciones globales sobre las encuestas. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 11 | Las opiniones estudiantiles deberían orientar cursos de capacitación pedagógica para los profesores. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 12 | Estaría dispuesto/a a responder con compromiso una encuesta formativa sobre el desempeño de la cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 10 | Estaría dispuesto/a a responder con compromiso una consulta formativa sobre el desempeño de la cátedra. | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
 
-*Nota.* Formulario adaptado a la posición situada del estudiante. Se preservan reactivos comunes para triangulación y se omiten aspectos estatutarios paritarios ajenos al rol. La opción NS/NC se procesa como porcentaje y se excluye de las medias para preservar la escala métrica de 1 a 5.
+*Nota.* Formulario adaptado a la posición situada del estudiante (10 reactivos Likert directos e invertidos más 2 preguntas abiertas cualitativas, total: 12 ítems). La opción NS/NC se procesa como porcentaje independiente y se excluye del cómputo de medias.
 
 *Preguntas Abiertas para Estudiantes:*
 
@@ -126,7 +122,7 @@ a) Consulta de documentación normativa y programas de capacitación docente vin
 b) Realización de entrevistas semiestructuradas a informantes clave, previa invitación y consentimiento informado de las personas que acepten participar;  
 c) Difusión y administración de un cuestionario digital voluntario a docentes y estudiantes de la sede Viedma y de los Nodos Territoriales, previa autorización institucional y conforme a las condiciones de confidencialidad que resulten aplicables.  
 
-Se garantiza que toda la información se tratará bajo estricto secreto estadístico (Ley N° 25.326) con fines exclusivamente diagnósticos y académicos, sin generar consecuencias laborales ni sumativas.  
+Se garantiza que toda la información se tratará bajo estricta confidencialidad y protección de datos personales conforme a la Ley Nacional N° 25.326, con fines exclusivamente diagnósticos y académicos, sin generar consecuencias laborales ni sumativas.  
 
 Agradeciendo su atención, saludo a Usted atentamente.
 
@@ -166,8 +162,8 @@ Departamento de Administración Pública — CURZAS-UNCo
 4. *Procedimientos:* Cuestionario digital (~15 minutos) y/o entrevista semiestructurada (~30 a 45 minutos; grabación en audio opcional bajo consentimiento expreso).
 5. *Constancia y Declaración del Participante:*
    - Participación libre, voluntaria y no remunerada, pudiendo desistir en cualquier momento.
-   - Anonimato estricto y confidencialidad garantizados (Ley N° 25.326 de Protección de los Datos Personales).
-   - Fines estrictamente diagnósticos y académicos, sin consecuencias laborales estatutarias ni sumativas.
+   - Garantía de anonimato técnico estricto en el cuestionario digital en origen (tokens aleatorios sin registro de IP), y estricta confidencialidad profesional y seudonimización mediante códigos alfanuméricos en las entrevistas cualitativas, conforme a la Ley Nacional N° 25.326 de Protección de los Datos Personales.
+   - Fines estrictamente diagnósticos y académicos para el TFG, sin consecuencias laborales estatutarias ni sumativas.
 
 *Declaración de Consentimiento:*
 

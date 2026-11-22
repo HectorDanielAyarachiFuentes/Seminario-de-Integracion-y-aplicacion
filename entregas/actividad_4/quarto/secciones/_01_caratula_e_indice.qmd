@@ -17,7 +17,7 @@
 
   #text(weight: "bold", size: 12pt)[Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)] \
   #v(0.4em)
-  #text(style: "italic", size: 10.5pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZAS N° 266/23]
+  #text(style: "italic", size: 10.5pt)[Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación (TFG) — Res. CD-CURZA N° 266/23]
 ]
 
 #v(1.2em)
@@ -62,7 +62,7 @@ Ciclo de Complementación Curricular de la Licenciatura en Gestión de Recursos 
 <br>
 
 **Evaluación del Desempeño Docente y Factibilidad de Implementación de un Modelo de Retroalimentación 360° en el Departamento de Administración Pública del CURZAS-UNCo (2027)**  
-*(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación — Res. CD-CURZAS N° 266/23)*
+*(Trabajo Práctico N° 4: Proyecto Integral de Trabajo Final de Graduación — Res. CD-CURZA N° 266/23)*
 :::
 
 <br>

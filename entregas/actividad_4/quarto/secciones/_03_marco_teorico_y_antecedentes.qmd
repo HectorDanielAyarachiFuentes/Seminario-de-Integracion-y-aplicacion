@@ -16,11 +16,12 @@ Esta perspectiva resulta fértil para el estudio de la factibilidad organizacion
 
 La columna analítica de la investigación adopta el modelo de gestión estratégica de recursos humanos en organizaciones públicas desarrollado por Francisco @longo2006. El autor propone superar el modelo burocrático-weberiano tradicional —enfocado en el apego formal a la norma procedimental sin atención a los resultados— mediante una administración orientada al mérito, el valor público y la flexibilidad directiva.
 
-El modelo se articula en torno al subsistema de *gestión del rendimiento* en estrecha interdependencia con otros tres subsistemas:
+El modelo se articula en torno al subsistema de *gestión del rendimiento* en estrecha interdependencia con cuatro subsistemas complementarios:
 
 * *Gestión del Rendimiento:* Constituye el eje estructurante del estudio. Comprende los instrumentos dirigidos a valorar la contribución de los agentes a los fines institucionales. Según @longo2006, este subsistema adquiere legitimidad en el sector público cuando trasciende la fiscalización burocrática y se consolida como un proceso reflexivo de evaluación y perfeccionamiento laboral.
 * *Organización del Trabajo:* Articula los perfiles y funciones académicas de las cátedras con las demandas pedagógicas contemporáneas. En el CURZAS-UNCo, esto implica contrastar los criterios estatutarios formales con las exigencias docentes que demanda la enseñanza en aulas híbridas y el acompañamiento tutorial en los Nodos Universitarios [@curza2022].
 * *Gestión del Desarrollo:* Vincula la evaluación con oportunidades de formación continua y actualización docente (Art. 76 del Estatuto UNCo). Evaluar sin ofrecer vías de perfeccionamiento pedagógico despoja al proceso de sentido formativo y lo reduce a un trámite administrativo estéril [@longo2006].
+* *Gestión del Empleo:* Comprende las condiciones de acceso, permanencia y estabilidad laboral regidas por el Estatuto y el Convenio Colectivo de Trabajo (Decreto N° 1246/2015). En este estudio, resulta fundamental para asegurar que los dispositivos formativos no vulneren la estabilidad docente ni introduzcan causales arbitrarias de desvinculación.
 * *Gestión de las Relaciones Humanas y Sociales:* Analiza el clima institucional, la confianza intersubjetiva y los canales de diálogo paritario docente. En instituciones cogobernadas, la evaluación incide en la percepción de estabilidad en el empleo; por ende, los acuerdos paritarios y los resguardos éticos de confidencialidad resultan indispensables para habilitar una disposición favorable hacia la coevaluación formativa.
 
 ### El Modelo de Retroalimentación 360° en la Educación Superior
@@ -49,11 +50,11 @@ Partiendo del concepto clásico de gobernanza como *dirección social compartida
 
 #### La Poligobernanza Universitaria en Cuatro Planos Decisionales
 
-A partir de los marcos de @aguilar2006 y @cao2023, la gobernanza institucional del CURZAS-UNCo se estructura en cuatro planos interdependientes:
+A partir de una propuesta analítica propia fundamentada en los aportes de @aguilar2006 y @cao2023, la gobernanza institucional del CURZAS-UNCo se analiza en cuatro planos decisionales interdependientes propuestos para este estudio:
 
 1. *Nivel Macro (Central):* El Consejo Superior y el Rectorado de la UNCo (Neuquén), donde se regulan los marcos estatutarios generales y el régimen de Carrera Docente (Ord. CS N° 0988/2025 y Ord. CS N° 0910/1997).
 2. *Nivel Meso (Regional):* El Consejo Directivo del CURZAS y la Dirección del Departamento de Administración Pública (Viedma), responsables de la coordinación operativa de las carreras y la definición de planes anuales de capacitación docente (Art. 76).
-3. *Nivel Micro (Territorial):* La Red Territorial de Nodos Universitarios (10 localidades distribuidas en la Línea Sur, Valle Medio y Costa Atlántica), donde las prácticas híbridas demandan acompañamiento tutorial virtual específico [@curza2022].
+3. *Nivel Micro (Territorial):* La Red Territorial de Nodos Universitarios (los 10 Nodos distribuidos en la Línea Sur, Valle Medio y Costa Atlántica rionegrina), donde las prácticas híbridas demandan acompañamiento tutorial virtual específico [@curza2022].
 4. *Dimensión Transversal Sociolaboral:* La representación paritaria docente (ADUNC), encargada de salvaguardar las condiciones laborales y la estabilidad en el marco del Convenio Colectivo de Trabajo (Decreto N° 1246/2015).
 
 #### Poder Compartido y Capacidades Estatales: Matus y Oszlak
@@ -78,25 +79,27 @@ La investigación evita postular deductivamente las condiciones definitivas de v
 
 Conforme a las pautas metodológicas de @torraco2016 y @jimenez2008, el relevamiento de antecedentes sistematiza la evidencia empírica acumulada y delimita la vacancia de conocimiento que justifica el proyecto, organizándose en estudios internacionales, investigaciones nacionales en universidades públicas y el encuadre normativo situado:
 
-### Antecedentes Internacionales de Investigación Empírica
+### Antecedentes Internacionales y Regionales de Investigación Empírica
 
-* @sifuentes2016 evaluaron en México la aceptación de un instrumento 360° en docentes de educación superior mediante encuestas a profesores, directivos y alumnos. Concluyeron que el modelo alcanza una aceptación docente superior al 85% siempre que se asegure el estricto anonimato, la entrega de reportes individuales y la ausencia de sanciones administrativas.
+* @sifuentes2016 evaluaron en México la aceptación de un instrumento 360° en docentes de educación superior mediante encuestas a profesores, directivos y alumnos. Concluyeron que el modelo alcanza una amplia aceptación mayoritaria entre el profesorado y los equipos directivos (superior al 80%), siempre que se asegure el estricto anonimato, la entrega de reportes individuales y la ausencia de sanciones administrativas.
 * @obando2014 investigaron en Cuba un sistema de evaluación 360° articulado con portafolios electrónicos. Demostraron que la triangulación multiactoral mitiga sesgos de complacencia o desquite propios de las encuestas estudiantiles aisladas y estimula la autorreflexión docente, evidenciando la viabilidad técnica de procesar evaluaciones multidireccionales en entornos virtuales.
 * @reyes2020 examinaron mediante metodología mixta el sistema de evaluación docente de una universidad pública mexicana. Constataron que las evaluaciones sumativas generan un cumplimiento meramente formal y desconfianza en el profesorado, advirtiendo que toda innovación evaluativa en la universidad pública requiere legitimación gremial y orientación explícita a la mejora formativa.
 * @alvarado2019 desarrollaron en la UNAM una propuesta 360° que pondera docencia, tutoría y gestión institucional, aportando criterios para operacionalizar cuestionarios estructurados y articularlos con planes de actualización pedagógica.
+* @perez2021 evaluaron en Colombia la aplicación de la metodología 360° en tutorías presenciales y virtuales de educación superior (*Revista Unaciencia*). Concluyeron que el modelo multidireccional capta competencias pedagógicas y tutoriales (comunicación asertiva, acompañamiento digital) con mayor precisión que las rúbricas estandarizadas, aportando un antecedente relevante para entornos de enseñanza híbridos.
 
 ### Antecedentes Nacionales sobre Evaluación Docente Universitaria
 
-* @marquina2012 analizó cualitativamente las tensiones de la profesión académica en universidades públicas argentinas, constatando que los mecanismos tradicionales de permanencia y concursos periódicos suelen privilegiar la acreditación de posgrados y la producción científica en detrimento de la calidad didáctica en las aulas de grado. Asimismo, constata que los regímenes estables garantizan solvencia jurídica pero carecen de canales formativos sistemáticos que orienten el perfeccionamiento pedagógico continuo de los docentes en ejercicio. Este diagnóstico fundamenta la necesidad de dispositivos orientados específicamente a la retroalimentación formativa de la enseñanza.
-* @perez2021 evaluaron la aplicación de la metodología 360° en tutorías presenciales y virtuales de universidades públicas. Concluyeron que el modelo multidireccional capta competencias pedagógicas y tutoriales (comunicación asertiva, acompañamiento digital) con mayor precisión que las rúbricas estandarizadas, aportando un antecedente relevante para entornos de enseñanza híbridos.
+* @marquina2007 y @marquina2012 analizaron las tensiones de la profesión académica y de los dispositivos evaluativos en universidades públicas argentinas. Constatan que los mecanismos tradicionales de permanencia y concursos periódicos suelen priorizar la acreditación formal de posgrados y la producción científica por sobre la calidad didáctica en las aulas de grado, y advierten que los regímenes burocrático-sumativos garantizan solvencia jurídica pero carecen de canales formativos que orienten el perfeccionamiento pedagógico continuo de los docentes en ejercicio. Este diagnóstico fundamenta la necesidad de dispositivos orientados específicamente a la retroalimentación formativa de la enseñanza.
+* @chiroleu2003 examinó las políticas de regulación y evaluación del trabajo académico en las universidades nacionales argentinas, subrayando cómo las exigencias evaluativas externas e internas reconfiguran la autonomía docente y demandan resguardos institucionales para no desvirtuar el sentido colegiado de la labor universitaria.
+* @rinesi2015 reflexionó sobre la universidad pública argentina concebida como un derecho individual y colectivo, planteando que la democratización de la enseñanza superior exige superar la evaluación entendida como mero control punitivo o fiscalización administrativa, para transformarla en una práctica reflexiva y compartida de fortalecimiento pedagógico ante la comunidad.
 
 ### Marco Normativo e Institucional Situado (UNCo y CURZAS)
 
 A diferencia de las investigaciones empíricas precedentes, la dimensión situada del problema se sustenta en tres antecedentes normativo-institucionales de la propia universidad:
 
 * *Estatuto UNCo (Ordenanza CS N° 0988/2025):* Define al CURZAS como Complejo Universitario Regional y consolida en su Título X la Carrera Docente mediante informes anuales (Art. 74) y evaluaciones cuatrienales de permanencia ante jurados externos (Art. 75), instituyendo en el Art. 76 la formulación de programas anuales de capacitación departamental [@unco2025].
-* *Reglamento de Carrera Docente (Ordenanza CS N° 0910/1997 y modif.):* Norma los procedimientos de presentación de informes docentes y encuestas estudiantiles en armonía con el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015) [@unco1997; @pen2015]. Si bien asegura solvencia jurídica en la acreditación de permanencia, los registros evidencian la ausencia de circuitos sistemáticos de retroalimentación formativa y confidencial.
-* *Red de Nodos y Docencia Híbrida (Resolución CD-CURZA N° 196/2022):* Valida las mediaciones pedagógicas híbridas en las 10 localidades que integran la red territorial en la Línea Sur, Valle Medio y Costa Atlántica rionegrina [@curza2022], demandando competencias de tutoría virtual que actualmente no son ponderadas formativamente por los instrumentos evaluativos vigentes.
+* *Reglamento de Carrera Docente (Ordenanza CS N° 0910/1997 y modif.):* Norma los procedimientos de presentación de informes docentes y encuestas estudiantiles en armonía con el Convenio Colectivo de Trabajo Docente (Decreto N° 1246/2015) [@unco1997; @pen2015]. Si bien asegura solvencia jurídica en la acreditación de permanencia, no se identifican, en los cuerpos normativos y reglamentarios analizados preliminarmente, circuitos sistemáticos de retroalimentación formativa y confidencial, aspecto que el trabajo de campo empírico indagará en profundidad.
+* *Red de Nodos y Docencia Híbrida (Resolución CD-CURZA N° 196/2022):* Valida las mediaciones pedagógicas híbridas en la red de 10 Nodos Territoriales de la provincia de Río Negro [@curza2022], demandando competencias de tutoría virtual que actualmente no son ponderadas formativamente por los instrumentos evaluativos vigentes.
 
 ## Síntesis Integradora y Vacancia de la Investigación
 
