@@ -1,0 +1,79 @@
+---
+lang: es
+format:
+  typst:
+    paper: a4
+    margin:
+      top: 2.54cm
+      bottom: 2.54cm
+      left: 2.54cm
+      right: 2.54cm
+    mainfont: "Arial"
+    fontsize: 12pt
+---
+
+#set page(numbering: none)
+#show outline.entry: set text(size: 11pt)
+#show outline.entry: set block(spacing: 0.75em)
+#show outline.entry.where(level: 1): set text(weight: "bold")
+#outline(title: [Índice de Contenidos], indent: 1.5em, depth: 2)
+
+{{< pagebreak >}}
+
+# Cuerpo del documento (Página 1 del texto)
+Texto de prueba.
+# Primera parte de la estructura
+## Tema de Investigación
+### Encuadre Conceptual
+### Contexto Institucional
+## Delimitación del Objeto Problema
+### Problematización
+### Delimitaciones Metodológicas
+## Justificación y Relevancia
+## Definición de Objetivos
+### Objetivo General
+### Objetivos Específicos
+## Matriz de Consistencia
+
+# Segunda parte de la estructura
+## Marco Teórico: Posicionamiento Teórico
+### Posicionamiento Epistemológico
+### El Enfoque Sistémico de Longo
+### El Modelo de Retroalimentación 360
+### Gobernanza Universitaria Multinivel
+### Precisión Categorial
+### Las Condiciones de Viabilidad
+## Antecedentes de Investigación Empírica
+### Antecedentes Internacionales
+### Antecedentes Nacionales
+### Marco Normativo e Institucional Situado
+## Síntesis Integradora y Vacancia
+
+# Tercera parte de la estructura
+## Metodología / Materiales, Técnicas y Métodos
+### Enfoque y Diseño
+### Población y Muestra
+### Técnicas e Instrumentos
+### Matriz de Operacionalización
+### Procedimiento y Fases
+### Procesamiento y Análisis
+### Consideraciones Éticas
+## Cronograma de Actividades
+## Viabilidad del Proyecto
+### Recursos Económicos
+### Recursos Humanos
+### Recursos Técnicos
+### Viabilidad Institucional
+
+# Referencias Bibliográficas
+
+# Anexos Metodológicos
+## Anexo I: Guía de Entrevista
+### Bloque A
+### Bloque B
+### Bloque C
+## Anexo II: Cuestionarios Exploratorios
+### Formulario A
+### Formulario B
+## Anexo III: Solicitud de Aval
+## Anexo IV: Consentimiento Informado
